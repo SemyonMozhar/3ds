@@ -1,22 +1,22 @@
 # main links links
 main:
   - title: "Начнем"
-    url: /Get-Started
+    url: /get-started
     
-  - title: "Homebrew Launcher (Браузер есть)"
-    url: /Homebrew-Launcher-(Browser)
+  - title: "HBL (Браузер)"
+    url: /homebrew-launcher-(browser)
 
-  - title: "Homebrew Launcher (Браузера нет)"
-    url: /Homebrew-Launcher-(No-Browser)
+  - title: "HBL (Браузера нет)"
+    url: /homebrew-launcher-(no-browser)
     
-  - title: "Понижение прошивки до 9.2.0"
-    url: /9.2.0-Downgrade
+  - title: "Даунгрейд до 9.2.0"
+    url: /9.2.0-downgrade
     
   - title: "Понижение прошивки"
-    url: /NFIRM-Downgrade
+    url: /nfirm-downgrade
     
-  - title: "Установка arm9loaderhax"
-    url: /Installing-arm9loaderhax   
+  - title: "Установка a9lh"
+    url: /installing-arm9loaderhax   
 
   - title: "FAQ"
     url: /faq
@@ -39,7 +39,7 @@ main:
   - title: "Размеры NAND"
     url: /nand-size
 
-  - title: "Информация об OTP"
+  - title: "OTP"
     url: /otp-info
     
   - title: "Пожертвования"
