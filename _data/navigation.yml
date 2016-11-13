@@ -1,26 +1,49 @@
 # main links links
 main:
+  - title: "Начнем"
+    url: /Get-Started
+    
+  - title: "Homebrew Launcher (Браузер есть)"
+    url: /Homebrew-Launcher-(Browser)
+
+  - title: "Homebrew Launcher (Браузера нет)"
+    url: /Homebrew-Launcher-(No-Browser)
+    
+  - title: "Понижение прошивки до 9.2.0"
+    url: /9.2.0-Downgrade
+    
+  - title: "Понижение прошивки"
+    url: /NFIRM-Downgrade
+    
+  - title: "Установка arm9loaderhax"
+    url: /Installing-arm9loaderhax   
+
   - title: "FAQ"
     url: /faq
 
-  - title: "Troubleshooting"
+  - title: "Проблемы и их решения"
     url: /troubleshooting
 
-  - title: "Donations"
+  - title: "Обновление A9LH"
+    url: /updating-a9lh
+
+  - title: "Смена региона"
+    url: /region-changing
+  
+  - title: "2.1.0 ctrtransfer"
+    url: /2.1.0-ctrtransfer
+
+  - title: "9.2.0 ctrtransfer"
+    url: /9.2.0-ctrtransfer
+     
+  - title: "Размеры NAND"
+    url: /nand-size
+
+  - title: "Информация об OTP"
+    url: /otp-info
+    
+  - title: "Пожертвования"
     url: /donations
 
   - title: "Credits"
     url: /credits
-
-  - title: "Updating A9LH"
-    url: /updating-a9lh
-
-  - title: "Region Changing"
-    url: /region-changing
-
-  - title: "NAND Size"
-    url: /nand-size
-
-  - title: "OTP Info"
-    url: /otp-info
-  

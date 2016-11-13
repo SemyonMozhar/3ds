@@ -47,6 +47,55 @@ en-GB:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
+  
+# Русский (default)
+# -----------------
+ru: &DEFAULT_RU
+  page                       : "Страница"
+  pagination_previous        : "Назад"
+  pagination_next            : "Вперед"
+  breadcrumb_home_label      : "Домой"
+  breadcrumb_separator       : "/"
+  toc_label                  : "На этой странице"
+  ext_link_label             : "Прямая ссылка"
+  less_than                  : "меньше, чем"
+  minute_read                : "минут на чтение"
+  share_on_label             : "Поделиться"
+  meta_label                 :
+  tags_label                 : "Теги:"
+  categories_label           : "Категории:"
+  date_label                 : "Обновлено:"
+  comments_label             : "Оставить коментарий"
+  comments_title             : "Коментарии"
+  more_label                 : "Узнать больше"
+  related_label              : "Вас может заинтересовать"
+  follow_label               : "Подписаться:"
+  feed_label                 : "Лента"
+  powered_by                 : "Powered by"
+  website_label              : "Сайт"
+  email_label                : "Почта"
+  recent_posts               : "Свежие публикации"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comment_form_info          : "Ваш почтовый адрес не будет опубликован. Боле должно быть отмечено."
+  comment_form_comment_label : "Коментарий"
+  comment_form_md_info       : "Разметка поддерживается."
+  comment_form_name_label    : "Имя"
+  comment_form_email_label   : "Почтовый адрес"
+  comment_form_website_label : "Сайт (опционально)"
+  comment_btn_submit         : "Отправить"
+  comment_btn_submitted      : "Отправлено"
+  comment_success_msg        : "Спасибо за коментарий! Он будет показан после модерации.."
+  comment_error_msg          : "Извините, произошла ошибка при отправке коментария. Убедитесь, что заполнили все необходимые поля и попробуйте еще раз."
+  loading_label              : "Загрузка..."
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
 
 # Spanish
 # --------------
