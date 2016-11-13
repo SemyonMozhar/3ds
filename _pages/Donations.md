@@ -3,7 +3,7 @@ title: "Пожертвования"
 permalink: /donations.html
 ---
 
-<h4 align="center">Если вам помог или просто понравился этот гайд, то милости прошу донатить.<br>Донатим в первую очередь создателю гайда - <a href="https://github.com/Plailect">Plailect</a></h4>:
+<h4 align="center">Если вам помог или просто понравился этот гайд, то милости прошу донатить.<br>Донатим в первую очередь создателю гайда - <a href="https://github.com/Plailect">Plailect:</a></h4>
 
 {: .text-center}
 {: .notice--success}
