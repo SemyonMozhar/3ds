@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ru-RU"
 title                    : "Guide"
 title_separator          : "-"
-name                     : "Plailect"
-description              : "Full arm9loaderhax CFW Guide"
+name                     : "xHR"
+description              : "Инструкция по установке arm9loaderhax и кастомной прошивки на 3DS"
 url                      : "https://rashevskyv.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "rashevskyv/rashevskyv.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
