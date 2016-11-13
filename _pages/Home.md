@@ -5,26 +5,26 @@ header:
   overlay_color: "#5e616c"
   overlay_image: home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Get Started"
+  cta_label: "Начнем!"
   cta_url: "/get-started"
   caption:
-excerpt: '123ZzA complete guide to 3DS custom firmware, <br /> from stock to arm9loaderhax.<br />'
+excerpt: 'Пошаговая инструкция по установке arm9loaderhax и кастомной прошивки <br /> для 3DS от А до Я.<br />'
 ---
 
-**This guide needs *your* help to seed [these](https://github.com/Plailect/Guide/archive/master.zip) ([rss](https://plailect.github.io/Guide/rss.xml)) torrents!**
+**Гайду необходима *ваша* помощь. Пожалуйста помогите просидировать [эти](https://github.com/Plailect/Guide/archive/master.zip) ([rss](https://plailect.github.io/Guide/rss.xml)) файлы!**
 {: .notice--info}
 
-**To use the [torrent](https://en.wikipedia.org/wiki/Torrent_file) files in this guide, you will need a torrent client like [Transmission](https://sourceforge.net/projects/trqtw/files/latest/download)**
+**Для этого нужен [торрент](https://ru.wikipedia.org/wiki/.torrent)-клиент. Рекомендуемый клиент - [Transmission](https://sourceforge.net/projects/trqtw/files/latest/download) (*[uTorrent](http://www.utorrent.com/intl/uk/downloads/win) тоже ничего - прим. пер.*). **
 {: .notice--info}
 
-**Read all of the introductory pages before proceeding.**
+**Настоятельно рекомендуем прочитать инструкции, затем прочитать еще раз, а затем уже делать.**
 {: .notice--warning}
 
-## What is Homebrew?
+## Что такое Hombrew? 
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+Под словом [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) обычно подразумевают ПО не авторизованное Nintendo. В качестве примера можно привести эмуляторы консолей предыдущих поколений, различные программы для бекапа и редактирования сохранений, разные самописные игры.
 
-In most cases, running homebrew on your console is 100% free using just the Internet Browser. There are also various other exploits in commercial games to get homebrew running.
+В большинстве случаев, запуск хомбрю легален и не требует денежных вложений. Часто достаточно лишь браузера консоли. Однако, существуют эксплойты, требующие наличия купленной коммерческой игры. 
 
 ## What is Custom Firmware?
 
