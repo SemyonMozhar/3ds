@@ -1,15 +1,18 @@
 ---
-title: "Why Ads?"
+title: "Зачем реклама?"
 permalink: /why-ads.html
 ---
 
-This project is the culmination of hundreds upon hundreds of hours of constant work.
+Этот проэкт - результат сотен и сотен часов работы по сбору и компиляции информации. 
 
-I maintain this guide, for free, and ensure it is always up to date. Because of this effort, I feel that it is fair for me to attempt to gain a meager income from my work (I receive next to no donations anymore).
+Я бесплатно написал этот гайд и бесплатно поддерживаю его в актуальном состоянии. Я считаю, что справедливо ожидать дохода от своего труда. 
 
-This site costs you nothing to use, and all that I display are non-intrusive ads. If you still have a problem with this, feel free to block these ads.
+Использование этого сайта бесплатно и таковым останется. Я решил использовать ненавязчивую рекламу. Если она вас напрягает - блокируйте ее. 
 
-If you do block ads, I would like to also remind you of the [Donations](donations) page, but once again that is optional too.
+Если вы решили блокировать рекламу, можете [задонатить](donations). Впрочем, это не обязательно.
 
-Thanks,<br>
+С уважением,<br>
 Plailect
+
+Я решил не убирать рекламу, которую вставил автор гайда. Это не моя реклама. Все деньги - Плаилекта. - **_прим. пер._**
+{: .notice--primary}

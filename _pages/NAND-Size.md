@@ -1,21 +1,21 @@
 ---
-title: "NAND Size"
+title: "Размеры NAND"
 permalink: /nand-size.html
 ---
 
-A valid NAND backup should be one of the following sizes in most situations.
+Для большинства случаев, NAND должен быть одного из нижеуказанных размеров. 
 {: .notice--primary}
 
-Occasionally, you will get a backup with a different size than one of these listed. It is fine for a backup to be larger than expected, just ensure that it is never *smaller* than the sizes listed.
+Иногда можно получить бекап большего размера, но он должен быть **не меньше**, чем указанные в таблице. 
 {: .notice--info}
 
-Note that a *min size* NAND will always be the smallest possible size for the purpose of saving space, and may not match the size of other NAND backups from your device. This is fine, just make sure that it matches one of the sizes on this page.
+Помните, что создавая NAND минимального размера (**NAND (min size)**), на выходе гарантированно получится файл меньшего размера, нежели указан в таблице.  
 {: .notice--info}
 
-The brand name refers to the manufacturer of the NAND chip in your device, **not** your SD card.
+Названия в таблице - это **не** названия, написанные на SD-карте. Это название фирмы производителя NAND-чипа. 
 {: .notice--warning}
 
-**Your backup should match one of the sizes on this page; if it does not, you should delete it and make a new one!**
+**Ваш бекап должен соответствовать указанным размерам. Если это не так, то удалите его и сделайте по новой** (*что явно противоречит сказанному в предыдущем предложении :) по-факту конечно, лучше сделать парочку раз, если размер отличен от ожидаемого, и сравнить. - прим. пер.*)
 {: .notice--danger}
 
 ## 2DS:    

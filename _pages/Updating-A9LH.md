@@ -1,89 +1,89 @@
 ---
-title: "Updating A9LH"
+title: "Обновление A9LH "
 permalink: /updating-a9lh.html
 ---
 
-### Last Update: 3 Nov 2016
+### Крайняя версия: 3 ноября 2016
 
-The actual installation of arm9loaderhax itself consists of payload files installed into the NFIRM partitions on your device's NAND chip, which is soldered to the motherboard itself. These payloads are updated rarely and only really serve the purpose of launching `arm9loaderhax.bin` from the SD Card, which is, in our case, Luma3DS.
+Собственно процесс установки arm9loaderhax подразумевает установку загрузчика, который на лету изменяет файлы, расположенные в системном разделе на NAND-чипе приставки, который припаян к самой материнской плате. Эти загрузчики обновляются редко и нужны только для запуска `arm9loaderhax.bin` с SD-карты, которая, в нашем случае, есть ни что иное как Luma3DS.
 {: .notice}
 
-If you do not know what version of arm9loaderhax you are running, just install the latest version with these steps. Installing the latest version while already on the latest version will have no effect.
+Если вы не знаете какая конкретно версия arm9loaderhax установлена на вашей приставке, просто обновите текущую на самую новую. Хуже не будет.
 {: .notice--info}
 
-If you have a PIN set on Luma, you must temporarily turn it off to do these steps. You can re-enable the PIN after the update.
+Если вы пользуетесь PIN-кодом на Luma, временно отключите его. Сможете снова включить после обновления. 
 {: .notice--info}
 
-If you are using a payload that does not init the screen on its own (such as Bootanim9), you will need to rename it to `arm9loaderhax_si.bin` instead of `arm9loaderhax.bin`
+Если вы используете загрузчик, не инициализирующий экран (например Bootanim9), следует переименовать его в `arm9loaderhax_si.bin` вместо `arm9loaderhax.bin`.
 {: .notice--info}
 
-These steps will also update your various payloads and the AES key database.
+Нижеследующая инструкция так же обновляет разные полезные пейлоадеры и базу ключей AES. 
 {: .notice--success}
 
-#### What you need
+#### Что нужно:
 
 * [`aeskeydb.bin`](torrents/aeskeydb.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:18b3a17f78e2376e05feaa150749d9fd689b25dc"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
 * [`data_input_v3.zip`](torrents/data_input_v3.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:a1195c9f7ab650fa7c7bf020b51fc19ea8d9440c"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest)
-* The latest release of [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases/latest)
-* The latest release of [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases/latest)
-* The latest release of [Hourglass9](https://github.com/d0k3/Hourglass9/releases/latest)
+* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest)
+* Свежая версия [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases/latest)
+* Свежая версия [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases/latest)
+* Свежая версия [Hourglass9](https://github.com/d0k3/Hourglass9/releases/latest)
 
-#### Instructions
+#### Что делать: 
 
-**For all of these instructions, OVERWRITE any existing files on your SD card.**
+**Все нижеследующие действия обычно перезаписывают старые версии заменяемых файлов. Логично, что нужно соглашаться на замену.**
 
-##### Section I - Prep work
+##### Часть I - Подготовка
 
-1. Delete any existing `aeskeydb.bin` from the root of your SD card
-4. Delete the `a9lh` folder from the root of your SD card if it exists
-2. Copy `aeskeydb.bin` to the `/files9/` folder on your SD card
-3. Copy `Hourglass9.bin` from the Hourglass9 zip to the `/luma/payloads/` folder on your SD card and rename `Hourglass9.bin` to `start_Hourglass9.bin`
-5. Copy `arm9loaderhax.bin` from the SafeA9LHInstaller zip to the `/luma/payloads` folder on your SD card
-6. Rename `arm9loaderhax.bin` in `/luma/payloads` to `down_safea9lhinstaller.bin`
-7. Copy the `a9lh` folder from `data_input_v3.zip` to the root of your SD Card
-7. Copy _the contents of_ the arm9loaderhax zip to `a9lh` folder on your SD card
-8. Copy `arm9loaderhax.bin` from the Luma3DS zip to the root of your SD card, overwrite existing files
-9. Reinsert your SD card into your 3DS
+1. Удалите `aeskeydb.bin` из корня карты памяти, если таковой файл есть.
+13. Удалите папку `a9lh` из корня карты памяти.
+2. Скопируйте скачанный `aeskeydb.bin` в папку `/files9/` в корне КП.
+3. Скопируйте `Hourglass9.bin` из архива Hourglass9 в папку `/luma/payloads/`, а затем переименуйте `Hourglass9.bin` в `start_Hourglass9.bin`.
+5. Скопируйте `arm9loaderhax.bin` из архива SafeA9LHInstaller  в папку `/luma/payloads`
+9. Переименуйте `arm9loaderhax.bin` в `down_safea9lhinstaller.bin`.
+7. Скопируйте папку`a9lh` из архива `data_input_v3.zip` в корень карты памяти.
+8. Скопируйте содержимое архива arm9loaderhax (release.7z) в папку `a9lh` в корне КП.
+8. Скопируйте  `arm9loaderhax.bin` из архива Luma3DS в корень карты памяти с заменой. 
+9. Вставьте карту обратно в 3DS.
 
-##### Section II - Payload update
+##### Часть II - Обновление загрузчика
 
-10. Boot the device while holding D-Pad down
-11. Press (Select) to update arm9loaderhax
-12. Power off the device and put your SD card back in your computer
-13. Delete the `a9lh` folder from the root of your SD card
-14. Delete `down_safea9lhinstaller.bin` from `/luma/payloads`
+10. Отключите питание, зажмите кнопку (ВНИЗ) и, не отпуская кнопку, включите приставку.
+11. Нажмите (SELECT), чтобы обновить arm9loaderhax.
+12. Отключите приставку и вновь вставьте КП в компьютер.
+13. Удалите папку `a9lh` из корня карты памяти.
+14. Удалите `down_safea9lhinstaller.bin` из папки `/luma/payloads`
 
-##### Section III - Configuring Luma3DS
+##### Часть III - Настройка Luma3DS
 
-15. Reinsert your SD card into your 3DS and boot holding (Select)
-16. Use the (A) button and the D-Pad to turn on the following:    
+15. Вставьте карту обратно в 3DS.
+2. С помощью кнопки (А) отметьте следующие пункты:     
   + **"Autoboot SysNAND"**
   + **"Use SysNAND FIRM if booting with R (A9LH)"**
   + **"Show NAND or user string in System Settings"**
-3. If you are using a **New 3DS**, you should *also* enable the following:
+3. Если у вас **New 3DS**, так же отметьте следующие пункты: 
   + **"New 3DS CPU" to "Clock+L2(x)"**
-    + This will increase the framerate of many games, but may cause instability in others
-    + If some games do not work properly, disable this option and try again
-4. Press Start to save and reboot
+    + Это увеличит частоту кадров в некоторых играх.
+    + Если какие-то игры работают некорректно, отключите эту опцию.
+4. Нажмите (START), чтобы сохранить настройки и перезагрузиться. 
 
-##### Section IV - CTRNAND Luma3DS
+##### Часть IV - CTRNAND Luma3DS
 
-16. Open FBI
-17. Select "SD"
-18. Navigate to `arm9loaderhax.bin`, then press (A) on it and select the "Copy" option
-9. Return to the FBI main menu with (B)
-10. Select "CTR NAND"
-11. Select "\<current directory>"
-12. Select the "Paste" option, then press (A) to confirm
-8. Exit with the home button
-9. Power off your 3DS and remove the SD card
-10. Boot with the SD card removed while holding (Select)
-  + Booting the device at least once with the SD card removed will allow you to configure the CTRNAND based luma installation
-16. Use the (A) button and the D-Pad to turn on the following:    
+16. Запустите FBI.
+17. Выберите "SD".
+4. Выберите arm9loaderhax.bin, нажмите (A) и выберите “Copy”.
+9. Нажмите (B), чтобы вернуться в главное меню FBI.
+10. Выберите "CTR NAND".
+11. Выберите "\<current directory>".
+12. Нажмите "Paste", затем нажмите (A) для подтверждения.
+8. Выйдите из программы, нажатием кнопки (HOME).
+9. Выключите 3DS и извлеките карту памяти. 
+10. Включите устройство с зажатой кнопкой (SELECT).
+  + Необходимо хотя бы раз загрузиться без карты памяти, чтобы настроить прошивку, расположенную в CTRNAND.
+16. Нажимая (A) выберите следующие пункты: 
   + **"Show NAND or user string in System Settings"**
-3. If you are using a **New 3DS**, you should *also* enable the following:
+3. Если у вас **New 3DS**, так же отметьте следующие пункты: 
   + **"New 3DS CPU" to "Clock+L2(x)"**
-    + This will increase the framerate of many games, but may cause instability in others
-    + If some games do not work properly, disable this option and try again
-14. Reinsert your SD card, then press Start to save and reboot!
+    + Это увеличит частоту кадров в некоторых играх.
+    + Если какие-то игры работают некорректно, отключите эту опцию.
+14. Вставьте карту памяти в приставку и нажмите (START) для того, чтобы сохранить настройки и перезагрузить приставку. 

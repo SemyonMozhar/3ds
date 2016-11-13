@@ -34,6 +34,21 @@ permalink: /homebrew-launcher-(no-browser).html
 | <sub>[stickerhax](https://github.com/yellows8/stickerhax) | <sub>[*Paper Mario: Sticker Star*](https://amzn.to/2f6aDx8), <br> Вторая 3DS с доступом к Homebrew Launcher | <sub>eShop, Картридж | <sub>New, Old, 2DS | <sub>EUR, JPN, KOR, USA | <sub>Все | <sub>9.0.0-X и выше, включая 11.2.0-X |
 | <sub>[Ninjhax 2](http://smealum.github.io/ninjhax2/) | <sub>[*Cubic Ninja*](https://amzn.to/2eRI1by) | <sub>eShop, Картридж | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>Все| <sub>9.0.0-X и выше, включая 11.2.0-X | <br>
 
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_tracking_id = "plailect-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "3DS Homebrew Launcher";
+amzn_assoc_linkid = "718ad647bc3d1b8f8c44b3a1f34bc235";
+amzn_assoc_search_bar = "false";
+amzn_assoc_asins = "B01AC3ZDCE,B00DD0B1R0,B00YC7DZP4,B00IVJ1M7M,B008YYSBR8,B004SG211I,B00KI2OZ9M,B00K848IH0";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+
+
 Для всех приставок с версией прошивки выше, чем 9.2.0 для начала нужно сделать [понижение прошивки до 9.2.0](9.2.0-Downgrade).
 {: .notice--primary}
 
