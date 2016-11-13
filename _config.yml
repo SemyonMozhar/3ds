@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Plailect"
+  name             : "xHR"
   avatar           : "bio-photo.png"
   bio              : "3DS Hacker"
-  location         : "Nullsec"
-  email            : "Plailect@gmail.com"
+  location         : "Кривой рог, Украина"
+  email            : "rashevsky.v@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,18 +89,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Plailect"
+  github           : "rashevskyv"
   google_plus      :
   keybase          :
   instagram        :
-  lastfm           : "Plailect"
+  lastfm           : 
   linkedin         :
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "Plailect"
+  twitter          : "xHR_"
   vine             :
   weibo            :
   xing             :
