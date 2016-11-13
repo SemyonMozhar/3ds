@@ -62,7 +62,7 @@ permalink: /homebrew-launcher-(browser).html
 8. Перейдите по ссылке `http://plail.ueuo.com/3dsbrowserhax_auto.php` (либо его сокращенной  версии - `https://goo.gl/VuK851`)
     + Либо можно просто сосканировать QR с помощью камеры. Нажмите одновременно (L)+(R), находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране. Наведите камеру на это изображение:
 ![browserhax_auto](http://plail.ueuo.com/3dsbrowserhax_auto_qrcode.png)
-    + Если выскочит ошибка, перейдите в раздел [проблемы и их решения](Troubleshooting#ts_browser).
+    + Если выскочит ошибка, перейдите в раздел [проблемы и их решения](troubleshooting#ts_browser).
 9. Приставка должна загрузиться в Homebrew Launcher.
 
 ##### Часть V -  menuhax
@@ -79,7 +79,7 @@ permalink: /homebrew-launcher-(browser).html
 Теперь, если зажать (ВНИЗ) и, не отпуская кнопку, включить приставку, вы попадете сразу в Homebrew Launcher.
 {: .notice--info}
 
-Для всех приставок с версией прошивки выше, чем 9.2.0 для начала нужно сделать [понижение прошивки до 9.2.0](9.2.0-Downgrade).
+Для всех приставок с версией прошивки выше, чем 9.2.0 для начала нужно сделать [понижение прошивки до 9.2.0](9.2.0-downgrade).
 {: .notice--primary}
 
-Если у вас прошивка ниже, или равно 9.2.0, переходите сразу к [Decrypt9 (Homebrew Launcher)](Decrypt9-(Homebrew-Launcher)).{: .notice--primary}
+Если у вас прошивка ниже, или равно 9.2.0, переходите сразу к [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher)).{: .notice--primary}

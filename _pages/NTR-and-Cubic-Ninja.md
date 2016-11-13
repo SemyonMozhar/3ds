@@ -61,4 +61,4 @@ permalink: /ntr-and-cubic-ninja.html
 
 ___
 
-Продолжайте [установку arm9loaderhax](Installing-arm9loaderhax).
+Продолжайте [установку arm9loaderhax](installing-arm9loaderhax).

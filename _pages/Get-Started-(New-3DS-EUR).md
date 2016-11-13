@@ -21,7 +21,7 @@ permalink: /get-started-(new-3ds-eur).html
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-**Поднять прошивку можно с помощью [картриджа](Cart-Update). Рекомендую поднимать сразу до 9.2.**
+**Поднять прошивку можно с помощью [картриджа](cart-update). Рекомендую поднимать сразу до 9.2.**
 {: .notice--warning}
 
 Если вы обновляетесь с помощью картриджа, содержащего прошивку 9.9.0, или выше *(то есть, если версия 9.9.0, или выше, но версия браузера -25, или ниже, например 10.2.0-24)*, то браузер из прошивки будет удален. Соответственно, нужно будет использовать колонку "Браузера нет".
@@ -32,5 +32,5 @@ permalink: /get-started-(new-3ds-eur).html
 
 | От | До | Браузера нет | Браузер есть |
 |:-:|:-:|:-:|:-:|
-| 9.0.0 | 10.7.0 | [Homebrew Launcher (Браузера нет)](Homebrew-Launcher-(No-Browser)) | [Homebrew Launcher (Браузер есть)](Homebrew-Launcher-(Browser)) |
+| 9.0.0 | 10.7.0 | [Homebrew Launcher (Браузера нет)](homebrew-launcher-(no-browser)) | [Homebrew Launcher (Браузер есть)](homebrew-launcher-(browser)) |
 | 11.0.0 | 11.2.0 | [Понижение прошивки](nfirm-Downgrade/) | [Понижение прошивки](nfirm-Downgrade/) |
