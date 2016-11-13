@@ -1,86 +1,85 @@
 ---
-title: "Homebrew Launcher (Browser)"
+title: "Homebrew Launcher (Браузер есть)"
 permalink: /homebrew-launcher-(browser).html
 ---
 
-The Homebrew Launcher has many different entrypoints, or methods of launching. The most common is browserhax, which launches the Homebrew Launcher using nothing more than the included browser.
+Для запуска Homebrew Launcher существует несколько точек входа (проще говоря, методов запуска). Чаще всего используется browserhax, для работы которого не нужно ничего, кроме браузера приставки. Из под него уже можно установить menuhax, который позволит запускать Homebrew Launcher, просто зажав кнопку ДО запуска системы. 
 {: .notice--info}
 
-**Browserhax will work for EUR / JPN / USA / KOR regions ONLY!**
+**Browserhax работает для приставок следующих регионов:  EUR / JPN / USA / KOR.**
 {: .notice--warning}
 
-#### What you need
+#### Что нужно:
 
 + [`config.zip`](images/config.zip)
-+ The [ropbin](https://smealum.github.io/3ds/#otherapp) matching your 3DS's version
++ The [ropbin](https://smealum.github.io/3ds/#otherapp), соответствующий версии прошивки вашей 3DS.
 + The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
-+ An internet connection setup on your 3DS
++ Настроенное и рабочее интернет-соединение. 
 
-#### Instructions
+#### Что делать: 
 
-##### Section I -  Prep work
+##### Часть I -  Подготовка
 
-1. Copy the contents of `starter.zip` to the root of your SD card
-2. Copy the contents of `config.zip` to the `/3ds/menuhax_manager/` folder on your SD card
-3. Create a folder named `menuhax` on the root of your SD card if it does not already exist
-4. Rename the ropbin to `menuhaxmanager_input_payload.bin`
-5. Copy `menuhaxmanager_input_payload.bin` to the `/menuhax/` folder on your SD card
-4. Reinsert your SD card into your 3DS
+1. Скопируйте _содержимое_ архива `starter.zip` в корень вашей карты памяти.
+2. Скопируйте _содержимое_ архива `config.zip` в папку `/3ds/menuhax_manager/` на вашей карте памяти.
+3. Создайте папку `menuhax` в корне карты памяти.
+4. Переименуйте ropbin в `menuhaxmanager_input_payload.bin`.
+5. Скопируйте `menuhaxmanager_input_payload.bin` в папку `/menuhax/` на вашей карте памяти.
+4. Вставьте карту памяти в приставку.
 
-##### Section II -  Version check bypass
+##### Часть II -  Обход проверки версии
 
-**This section is only needed for versions from 9.9.0 to 10.6.0**
+**Эта часть нужна только для приставок с версией прошивки от 9.9.0 до 10.6.0 включительно**
 
-2. Open the theme menu, change your theme to any other theme, then switch back. This will initialize the theme data and is required
-3. Launch the Settings application
-4. Change the date to `January 1, 2000`
-5. Change the time to `00:00`
-6. Launch the browser, then open the browser settings as fast as possible
-7. Scroll to the bottom and Initialize Savedata (it also may be called Clear All Save Data) as fast as possible
+2. Откройте меню выбора тем (домик в верхнем левом углу, Изменить тему), выберите любую тему, затем вернитесь на домашний экран. Таким образом вы инициализируете необходимые данные на карте памяти. 
+3. ЗапуститеСистемные настройки.
+4. Измените дату на `1 января 2000`.
+5. Измените время на `00:00`.
+6. Откройте браузер, а затем, как можно скорее, откройте настройки браузера.
+7. Листайте вниз и нажмите Удалить сохр. данные (Initialize Savedata / All Save Data) как можно скорее. 
 
-##### Section III -  Bookmark browserhax
+##### Часть III -  Делаем закладку для browserhaxx
 
-**This section is only needed for New 3DS on version 10.7.0**
+**Эта часть нужна только для New 3DS с версией прошивки 10.7.0**
 
-1. Launch the browser
-2. Select the bookmarks menu star at the bottom left of the bottom screen
-3. Edit the first bookmark to instead be the URL `http://plail.ueuo.com/3dsbrowserhax_auto.php`
-4. Press "Done", then go back to the home menu
-5. Select the home menu options at the top left of the bottom screen
-6. Scroll down and turn off "Wireless Communication / NFC"
-7. Use the power button to turn off your 3DS
-8. Turn on your 3DS
-9. Use the home menu options to turn back on "Wireless Communication / NFC"
-10. Launch the browser as fast as possible, then launch your bookmark
-11. This may take several tries; if you get the prompt to update your 3DS, restart at the step to turn off "Wireless Communication / NFC"
-12. Your console should load the homebrew menu
-13. Skip Section IV -  browserhax
+1. Запустите браузер.
+2. Выберите меню закладок, нажав на звездочку в нижнем левом углу нижнего экрана.
+3. Измените первую закладку, вписав туда этот адрес -  `http://plail.ueuo.com/3dsbrowserhax_auto.php` (либо его сокращенную версию - `https://goo.gl/VuK851`).
+4. Нажмите "Готово" и вернитесь на домашний экран.
+5. Зайдите в настройки домашнего экрана, нажав на домик сверху слева нижнего экрана. 
+6. Пролистайте вниз и отключите передачу данных (Беспроводной режим/NFC / Wireless Communication/NFC).
+7. Отключите 3DS кнопкой питания. 
+8. Включите 3DS.
+9. Зайдите в настройки домашнего экрана, нажав на домик сверху слева нижнего экрана. 
+9. Пролистайте вниз и включите передачу данных (Беспроводной режим/NFC / Wireless Communication/NFC).
+10. Как можно быстрее запустите браузер и перейдите по первой закладке. 
+11. С первой попытки может не получится. Если выскакивает окошко с предложением обновить систему, повторите все действия с пункта 5.
+12. По итогу консоль должна зайти в hombrew menu. 
+13. Пропустите часть IV -  browserhax.
 
-##### Section IV -  browserhax
+##### часть IV -  browserhax
 
-8. Navigate to `http://plail.ueuo.com/3dsbrowserhax_auto.php`
-    + You can also load the page by scanning the following QR code (press (L + R) on the home menu, then tap the QR icon on the bottom screen)     
+8. Перейдите по ссылке `http://plail.ueuo.com/3dsbrowserhax_auto.php` (либо его сокращенной  версии - `https://goo.gl/VuK851`)
+    + Либо можно просто сосканировать QR с помощью камеры. Нажмите одновременно (L)+(R), находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране. Наведите камеру на это изображение:
 ![browserhax_auto](http://plail.ueuo.com/3dsbrowserhax_auto_qrcode.png)
-    + If you get an error, [follow this troubleshooting guide](troubleshooting#ts_browser)
-9. Your console should load the homebrew menu
+    + Если выскочит ошибка, перейдите в раздел [проблемы и их решения](Troubleshooting#ts_browser).
+9. Приставка должна загрузиться в Homebrew Launcher.
 
-##### Section V -  menuhax
+##### Часть V -  menuhax
 
-10. Open the menuhax_manager application
-11. Press (A) to install, it may show some errors but that's fine as long as it shows "Install finished successfully" towards the end
-    + If you are prompted to "override the detected system version," press (B) to decline
-12. Go back to the main menuhax_manager menu, then select "Configure menuhax"
-13. Press (A) to continue, then select "Type1"
-14. Hold (Down) on the D-Pad, then tap the touch screen; this is the recommended button to use for launching menuhax in this guide because it does not interfere with any other functions of tools we will be using
-15. Go back to the main menuhax_manager menu, press (B), then press (Start) to exit back into the Homebrew Launcher
-16. Press the (Start) button then press (A) to reboot
-17. You can now hold D-Pad (Down) while the system is booting to launch the Homebrew Launcher
+10. Запустите menuhax_manager.
+11. Нажмите (A), чтобы запустить установщик эксплойта. В логе могут быть ошибки, однако, это не страшно. Важно, чтобы в конце было написано "Install finished successfully".
+    + При появлении надписи "override the detected system version," нажмите (B) для отмены.
+12. Вернитесь в главное меню menuhax_manager, и выберите "Configure menuhax".
+13. Нажмите (A), чтобы продолжить, затем выберите "Type1".
+14. Зажмите (ВНИЗ) и, не отпуская кнопку, нажмите на нижний экран. 
+15. Вернитесь в главное меню menuhax_manager, нажмите (B) и нажмите (START) для того, чтобы вернуться в Homebrew Launcher.
+16. Нажмите (START), а затем (A) для перезагрузки. 
 
-You can now launch the Homebrew Launcher by holding D-Pad (Down) while the system is booting
+Теперь, если зажать (ВНИЗ) и, не отпуская кнопку, включить приставку, вы попадете сразу в Homebrew Launcher.
 {: .notice--info}
 
-If you are above the version 9.2.0, continue to [9.2.0 Downgrade](9.2.0-downgrade)
+Для всех приставок с версией прошивки выше, чем 9.2.0 для начала нужно сделать [понижение прошивки до 9.2.0](9.2.0-Downgrade).
 {: .notice--primary}
 
-If you are on the version 9.2.0 or below, continue to [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
-{: .notice--primary}
+Если у вас прошивка ниже, или равно 9.2.0, переходите сразу к [Decrypt9 (Homebrew Launcher)](Decrypt9-(Homebrew-Launcher)).{: .notice--primary}

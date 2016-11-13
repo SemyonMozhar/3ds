@@ -1,29 +1,29 @@
 ---
-title: "Hardmod Downgrade"
+title: "Понижение прошивки с помощью хардмода"
 permalink: /hardmod-downgrade.html
 ---
 
-**If you are on 11.0.0 or 11.1.0, do NOT update to 11.2.0. A new update will be coming soon that allows for DSiWare NFIRM Downgrading _without_ a second 3DS or hardmod for versions under 11.2.0.**
+**Если ваша прошивка 11.0.0 или 11.1.0, НЕ ОБНОВЛЯЙТЕСЬ до 11.2.0. Скоро сообщество обновит способ даунгрейда NFIRM с помощью DSiWare _без_ необходимости второй 3DS или хардмода!**
 {: .notice--primary}
 
-The version of autofirm used in this guide was modified from [Reboot.ms](https://www.reboot.ms/forum/threads/2403/)'s autofirm which was modified from '[Raugo](https://gbatemp.net/members/356694/)'s original autofirm ([with permission](http://archive.is/KOrWp)).
+Версия autofirm, используемая в инструкции - модифицированная версия с форума [Reboot.ms](https://www.reboot.ms/forum/threads/2403/), которую изменил [Raugo](https://gbatemp.net/members/356694/). Оригинальная версия выкладывается ([с разрешения автора](http://archive.is/KOrWp)).
 {: .notice}  
 
-An excellent guide to getting a hardmod can be found [here](https://gbatemp.net/threads/414498/). If you are on a New 3DS, read [this](https://github.com/Plailect/Guide/issues/681) before hardmodding.
+Лучшая инструкция по пайке хардмода находится [здесь](https://gbatemp.net/threads/414498/). Если у вас New 3DS, прочтите [это](https://github.com/Plailect/Guide/issues/681) перед тем, как хардмодить.
 {: .notice--info}
 
-This is a currently working implementation of the "FIRM partitions known-plaintext" exploit detailed [here](https://www.3dbrew.org/wiki/3DS_System_Flaws).
+Это рабочая реализация "FIRM partitions known-plaintext"-эксплойта. Подробнее о нем [здесь](https://www.3dbrew.org/wiki/3DS_System_Flaws).
 {: .notice--info}
 
-This will work on New 3DS, Old 3DS, and 2DS.
+Будет работать на всех версиях 3DS - New 3DS, Old 3DS, и 2DS.
 {: .notice--success}
 
-#### What you need
+#### Что нужно:
 
-* Your NAND image extracted using your [hardmod](https://gbatemp.net/threads/414498/)
-* The latest version of [autofirm](https://github.com/Plailect/autofirm/archive/master.zip)
-* The latest release of [3DSident](https://github.com/joel16/3DSident/releases/latest)
-* The NFIRM zip corresponding to your device and version:
+* Слитый с помощью [хардмода](https://gbatemp.net/threads/414498/) образ NAND.
+* Свежая версия [autofirm](https://github.com/Plailect/autofirm/archive/master.zip)
+* Свежая версия [3DSident](https://github.com/joel16/3DSident/releases/latest)
+* Архив с файлами прошивки, соответствующий версии вашей приставки и ее региону:
     + [New 3DS 11.0.0 to 10.4.0](torrents/11.0.0_to_10.4.0_n3ds.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:2d13a5ea1570f911bd5c6423e0c30e51d548837a"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
     + [Old 3DS 11.0.0 to 10.4.0](torrents/11.0.0_to_10.4.0_o3ds.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:72393bbd99bc285db84a9cabf39d9b3200058d6a"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>     
     ~    
@@ -33,31 +33,31 @@ This will work on New 3DS, Old 3DS, and 2DS.
     + [New 3DS 11.2.0 to 10.4.0](torrents/11.2.0_to_10.4.0_n3ds.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:881388a552a1ce9a963d391bf1a023642270991c"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>     
     + [Old 3DS 11.2.0 to 10.4.0](torrents/11.2.0_to_10.4.0_o3ds.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:a479e4ee55efbc18c181d426cd77a34815388151"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>     
 
-#### Instructions_
+#### Что делать:
 
-##### Section I - NAND modification
+##### Часть I - модификация NAND 
 
-1. Extract the autofirm zip to a folder called `autofirm`
-2. Place a copy of your NAND backup (named `nand.bin`) in `/autofirm/` folder
-3. Copy the contents of the NFIRM zip to the `/autofirm/source/firmwares/` folder
-4. Run `autofirm.bat` and select which device and version the NAND backup is for
-5. Wait while the script runs
-6. If everything worked, then your original NAND will have been renamed to `backup_nand.bin` and you will have a modified `nand.bin` containing the 10.4.0 NATIVE_FIRM
-7. Flash this `nand.bin` to your device with your hardmod
+1. Извлеките архив с autofirm в папку `autofirm`.
+2. Переименуйте бекап вашего NAND в `nand.bin` и положите его в папку `/autofirm/`.
+3. Извлеките файлы из архива с файлами прошивки в папку `/autofirm/source/firmwares/`.
+4. Запустите `autofirm.bat` и выберите версию прошивки, соответствующую версии NAND. 
+5. Дождитесь окончания процесса. 
+6. Если все пройдет хорошо, ваш не измененный NAND будет находиться в файле `nand.bin`, а модифицированная версия будет называться `nand_patched.bin`. Именно этот файл будет содержать NATIVE_FIRM от 10.4.0.
+7. Прошейте `nand_patched.bin` обратно в ваше устройство, используя hardmod. 
 
-##### Section II - Exploit verification
+##### Часть II - Проверка эксплойта
 
-1. Copy and merge the `3ds` folder from the 3DSident zip to your device's SD card
-2. Reinsert your SD card into your 3DS
-3. Use [Homebrew Launcher (No Browser)](homebrew-launcher-(no-browser)) to launch the homebrew launcher on the device
-4. Launch 3DSident
-5. Verify that the following:
+1. Скопируйте и объедините папку `3ds` из архива с 3DSident с папкой `3ds` в корне карты памяти.
+2. Вставьте КП в консоль.
+3. Запустите homebrew launcher используя способы, описанные в [Homebrew Launcher (Браузера нет)](Homebrew-Launcher-(No-Browser)).
+4. Запустите 3DSident.
+5. Убедитесь, что в программе следующие значения совпадают:
   + **Kernel version**: 2.50-11
   + **FIRM version**: 2.50-11
-  + If either of these do not display the versions above, something has gone wrong and you should try again from the beginning
+  + Если у вас отображаются другие значения, значит вы где-то допустили ошибку. Проделайте все с самого начала. 
 
-Your version number will *not* have changed in the settings.
+Версия прошивки, указанная в настройках 3DS **не изменится**.
 {: .notice--info}
 
-Continue to [Homebrew Launcher (No Browser)](homebrew-launcher-(no-browser)).
+Продолжайте выполнять инструкцию с этого места - [Homebrew Launcher (Браузера нет)](Homebrew-Launcher-(No-Browser)).
 {: .notice--primary}
