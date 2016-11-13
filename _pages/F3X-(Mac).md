@@ -3,33 +3,34 @@ title: "F3X (Mac)"
 permalink: /f3x-(mac).html
 ---
 
-This page will walk you through the process of checking your SD card for errors using F3X.
+В этом разделе рассказывается о том, как проверить карту памяти на ошибки под MacOS с помощью F3X.
 {: .notice}
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Процесс может занять до нескольких часов, в зависимости от скорости КП и мощности компьютера!
 {: .notice--info}
 
-This page is for Mac users only. If you are not on Mac, check out the [H2testw (windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
+
+Этот раздел предназначен для пользователей MacOS. Если у вас не MacOS, воспользуйтесь [H2testw (windows)](h2testw-(windows)) или [F3 (Linux)](f3-(linux)).
 {: .notice--info}
 
-#### What you need
+#### Что нужно:
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases)
+* Свежая версия [F3X](https://github.com/insidegui/F3X/releases)
 
-#### Instructions
+#### Что делать:
 
-1. Unzip the F3X zip file
-2. Insert your SD card into your computer
-2. Run the F3X app
-4. Select your SD card
-5. Press "Start Test"
-5. Wait until the process is complete.
+1. Разархивируйте архив с F3X.
+4. Вставьте карту памяти в ПК.
+2. Запустите F3X.
+4. Выберите карту памяти.
+5. Нажмите "Start Test".
+5. Дождитесь окончания проверки.
 
-If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on the SD card
+Если в результате тестирования вы видите `Success! Your card is ok!`, ваша карта в порядке. Можете удалить все файлы с расширением `.h2w`.
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+При любых других выходных данных знайте, что ваша карта повреждена и мы строго рекомендуем ее заменить!
 {: .notice--danger}
 
-Return to [Get Started](Get-Started)
+Вернитесь к [началу](Get-Started).
 {: .notice--primary}

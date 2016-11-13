@@ -3,53 +3,56 @@ title: "FAQ"
 permalink: /faq.html
 ---
 
-<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** Yes, but only by [downgrading its NFIRM](nfirm-downgrade) (see [this](https://www.reddit.com/r/3dshacks/comments/4iry4s/)).
++ <a name="faq_latestfw" />**В:** *У меня самая последняя прошивка, мое устройство можно взломать?*    
+  **О:** Да, следует [понизить прошивку](Firmware-Downgrade/) (подробнее [здесь](https://www.reddit.com/r/3dshacks/comments/4iry4s/)).
 
-<a name="faq_updatecfw" />**Q:** *How do I update Luma3DS?*    
-**A:** Use Luma3DS Updater
++ <a name="faq_updatecfw" />**В:** *Как обновлять Luma3DS?*    
+  **О:** Используйте [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases) (*или [Star Updater](https://github.com/astronautlevel2/StarUpdater/releases) - прим. пер.*).
 
-<a name="faq_gatewaysky" />**Q:** *I heard about this thing I have to pay for (Gateway, Sky3DS, etc), is that something I need?*    
-**A:** No. arm9loaderhax is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware.
++ <a name="faq_RedNAND" />**В:** *В чем различие между EmuNAND и RedNAND?*    
+  **О:** EmuNAND и RedNAND - всего лишь разные методы [NAND-перенаправления](http://3dbrew.org/wiki/NAND_Redirection) с небольшими различиями в способах работы. Единственное преимущество RedNAND в том, что его размер *всегда* меньше, чем [размер NAND](NAND-Size), полученный при копировании NAND-чипа консоли. Например, пользователь New 3DS имеет в своей консоли чип емкостью 1,8 Гб, однако, при использовании RedNAND ему понадобится не 1,8 Гб на карте памяти, а всего 1,2 Гб. 
 
-<a name="faq_gatewaysaves" />**Q:** *How do I move saves from an existing Gateway setup to device installed games?*    
-**A:** See [this](https://gbatemp.net/threads/425743/)
++ <a name="faq_gatewaysky" />**В:** *А сколько все это стоит? Я слышал, что пиратство на 3DS требует покупки картриджей (Gateway, Sky3DS, итп). Так ли это?*     
+  **О:** Нет. arm9loaderhax - прогрессивный метод взлома, который запускается ДО запуска прошивки приставки, благодаря чему стало возможно запускать настоящую кастомную прошивку, позволяющую запускать неподписанный код на консоли, в том числе и игры. 
 
-<a name="faq_need" />**Q:** *What do I need to do this guide?*    
-**A:** This guide can be completely done with free software and (if you have no browser) a compatible game   
++ <a name="faq_gatewaysaves" />**В:** *Как мне перенести сейвы из моего Gateway в прошитую консоль? *    
+  **О:** Вот [тут](https://gbatemp.net/threads/425743/) читаем. 
 
-<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-**A:** Bricks are now *basically* impossible unless you ignore/circumvent all safety checks.
++ <a name="faq_need" />**В:** *Что мне необходимо, чтобы использовать гайд?*    
+  **О:** Пройти по этому гайду можно лишь умея внимательно читать. Весь нужный софт свободный и бесплатный. Лишь **в случае отсутствия браузера в приставке** нужно заиметь некоторые необходимые картриджи. Если у Вас уже есть Sky3ds, то все еще проще. 
 
-<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
-**A:** Yes! Custom Firmware not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
++ <a name="faq_risky" />**В:** *Насколько все это рискованно?*    
+  **О:** Если быть внимательным, то брик практически невозможно получить (*но если вы не знаете, что делаете - обратитесь к специалистам; помните, скупой платит дважды - прим. пер.*).
 
-<a name="faq_regionfree" />**Q:** *Can I use this to play games from other regions?*    
-**A:** Luma3DS supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
++ <a name="faq_homebrew" />**В:** *Будут ли работать эмуляторы и прочие ништяки?*    
+  **О:** А-то! Кастомная прошивка не только открывает доступ к ПО, написанному для Homebrew Launcher, но и позволяет устанавливать ПО прямо в систему. Более того, хак перманентен и никуда не денется даже, если Вы обновите систему (а еще бутрейт около 100% и загрузки быстрые, и много чего еще, хорошая штука - прим. пер.*).
 
-<a name="faq_updates" />**Q:** *Is it safe to update CFW SysNAND?*    
-**A:** Yes, but if you are feeling apprehensive you can wait until there is confirmation it works.
++ <a name="faq_regionfree" />**В:** *Будут ли работать игры другого региона?*    
+  **О:** Luma3DS запускает игры всех регионов и позволяет устанавливать таковые без дополнительных модификаций игр и системы.
 
-<a name="faq_support" />**Q:** *Where should I go for support?*    
-**A:** For support, ask for help at [#3dshacks on Rizon IRC](https://gate.omicron.pw) or [3DS Hacking on Discord](https://discord.gg/MWxPgEp).  
++ <a name="faq_updates" />**В:** *Безопасно ли обновлять SysNAND на прошитой консоли с кастомом?*    
+  **О:** Да, но если переживаете, то подождите пока обновятся другие и подтвердят, что все работает.
 
-<a name="faq_le4gbsd" />**Q:** *Can I do this with a 4GB (or smaller) SD card?*    
-**A:** Thanks to the new CTRNAND method, yes!
++ <a name="faq_support" />**В:** *Где я смогу получить помощь?*    
+  **О:** Для помощи можете смело обращаться в [#3dshacks в Rizon IRC](https://gate.omicron.pw) (*либо в сообщество [3ds_cfw](http://vk.com/3ds_cfw), если Ваш родной язык не английский - прим. пер.*).
 
-<a name="faq_ge128gbsd" />**Q:** *Can I use a 128 GB (or larger) SD card?*    
-**A:** Yes, but some users have reported slowdowns when using such large sizes. Note that you cannot format the card with exFAT; you need to format it with FAT32.
++ <a name="faq_le4gbsd" />**В:** *Можно ли все сделать с картой памяти 4Гб, или меньше?*    
+  **О:** С некоторых пор - да! Все благодаря новому методы CTRNAND-переноса.
 
-<a name="faq_movesd" />**Q:** *How do I move to a new SD card at the end of this?*    
-**A:** Just copy all the files to the new SD card.
++ <a name="faq_ge128gbsd" />**В:** *Будет ли работать карта памяти 64 Гб и больше?*    
+  **О:** Да, но некоторые пользователи жалуются на замедление работы на больших КП. Помните, что будет работать только карта, отформатированная в FAT32. 
 
-<a name="faq_NNID" />**Q:** *Can I keep my NNID?*    
-**A:** If you start with an NNID and follow every step, you will end up keeping your NNID at the end.
++ <a name="faq_movesd" />**В:** *Будут ли проблемы с заменой карты памяти на новую?*    
+  **О:** Нужно просто скопировать все файлы со старой КП в новую. Все очень просто.
 
-<a name="faq_systransfer" />**Q:** *What about System Transfers?*    
-**A:** Once you have completed the guide, you can system transfer to and from an arm9loaderhax'd 3DS or 2DS exactly like you would a regular stock console or EmuNAND (you will lose any non-legitimate games/themes/DLC in the transfer; saves will stay even for games that are lost).
++ <a name="faq_NNID" />**В:** *Можно ли сохранить NNID?*    
+  **О:** Если в начале гайда у Вас есть NNID, то внимательно следуя всем указаниям, Вы сохраните его без особых проблем. 
 
-<a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
-**A:** All you need is the ability to put files on an SD card!
++ <a name="faq_systransfer" />**В:** *Что на счет Передачи данных?*    
+  **О:** После прохождения гайда можно будет делать все то же самое, что и на не прошитой консоли. Однако, если Вы будете перемещать данные с a9lh консоли на официальную, то потеряете все не купленные приложения.
 
-<a name="faq_problem" />**Q:** *Help! Something bad happened and now I cannot boot...*    
-**A:** Please look at the [troubleshooting guide](troubleshooting).
++ <a name="faq_nopc" />**В:** *Смогу я закончить без компьютера (например, с телефона на Andoid)?*    
+  **О:** Безусловно, если сможете скачивать и переносить на SD нужные файлы. 
+
++ <a name="faq_problem" />**В:** *Помогите! Что-то пошло не так и я не могу загрузить приставку...*    
+  **О:** Посмотрите в разделе [[Проблемы и их решения|Troubleshooting]].

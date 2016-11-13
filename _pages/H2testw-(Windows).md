@@ -3,36 +3,36 @@ title: "H2testw (Windows)"
 permalink: /h2testw-(windows).html
 ---
 
-This page will walk you through the process of checking your SD card for errors using h2testw.
+В этом разделе рассказывается о том, как проверить карту памяти на ошибки под ОС Linux с помощью h2testw.
 {: .notice}
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Процесс может занять до нескольких часов, в зависимости от скорости КП и мощности компьютера!
 {: .notice--info}
 
-This page is for Windows users only. If you are not on windows, check out the [F3 (linux)](f3-(linux)) or [F3X (mac)](f3x-(mac)) pages.
+Этот раздел предназначен для пользователей Windows. Если у вас не Windows, воспользуйтесь F3 (linux)](f3-(linux)) или [F3X (mac)](f3x-(mac)).
 {: .notice--info}
 
-#### What you need
+#### Что нужно:
 
-* The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+* Свежая версия [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-#### Instructions
+#### Что делать:
 
-1. Copy `h2tsetw.exe` from the h2testw zip to your desktop
-2. Insert your SD card into your computer
-3. Run `h2tsetw.exe`
-4. Select "English"
-5. Click "Select target"
-6. Select your SD card's drive letter
-7. Ensure "all available space" is selected
-8. Click "Write + Verify"
-9. Wait until the process is completed
+1. Скопируйте `h2tsetw.exe` из архива с h2testw на рабочий стол.
+4. Вставьте карту памяти в ПК.
+3. Запустите `h2tsetw.exe`.
+4. Выберите "English".
+5. Нажмите "Select target".
+6. Выберите букву, соответствующую букве вашего устройства. 
+7. Убедитесь, что выбран пункт "all available space".
+8. Нажмите "Write + Verify"
+9. Дождитесь окончания проверки.
 
-If the test shows the result `Test finished without errors`, your SD card is good and you can delete all `.h2w` files on the SD card
+Если в результате тестирования вы видите `Test finished without errors`, ваша карта в порядке. Можете удалить все файлы с расширением `.h2w`.
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+При любых других выходных данных знайте, что ваша карта повреждена и мы строго рекомендуем ее заменить!
 {: .notice--danger}
 
-Return to [Get Started](Get-Started)
+Вернитесь к [началу](Get-Started).
 {: .notice--primary}

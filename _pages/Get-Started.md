@@ -1,21 +1,20 @@
 ---
-title: "Get Started"
+title: "Начнем"
 permalink: /get-started.html
 ---
 
-The colors of the devices in the image may vary, but note the button placement and features of each device carefully to ensure you select the correct one.
+Помните, что цвет не имеет значения. Обращайте внимание на кнопки консоли. 
 {: .notice}
 
-Click the image of your device to take you to the appropriate page.
-{: .notice--primary}
+Нажмите на изображение вашего типа устройства, чтобы перейти на нужную страницу.{: .notice--primary}
 
-Different device models, versions, and regions will require different steps to achieve the end goal of arm9loaderhax Custom Firmware. The following series of pages will help you find where to start for your device.
+Устройства различных версий, моделей и регионов требуют различных шагов для установки arm9loaderhax и кастомной прошивки. Последующие страницы помогут вам быстро разобраться с чего же начать в вашем конкретном случае. 
 {: .notice--info}
 
-If you have already hacked your 3DS before and have an EmuNAND based CFW setup, just follow all instructions while on SysNAND. Your data will be transfered from EmuNAND to your new A9LH install at the end.
+Если ваша 3DS уже взломана и у нее есть рабочий и настроенный EmuNAND, помните, что этот гайд имеет дело исключительно с SysNAND, поэтому все действия применяются именно к этому разделу и только к нему. Чуть позже мы [перенесем EmuNAND](Move-EmuNAND) в SysNAND. 
 {: .notice--info}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Перед тем, как переходить к следующим шагам, рекомендуем проверить вашу карту памяти на ошибки, используя [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), или [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
 | New 3DS | Old 3DS or 2DS |
