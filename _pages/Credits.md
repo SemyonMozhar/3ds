@@ -3,10 +3,10 @@ title: "Credits"
 permalink: /credits.html
 ---
 
-**Special thanks to all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome!**
+**Спасибо всем из [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) за то, что они невероятные крутоны!**
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
+*Если я кого-то забыл, прошу написать об этом в ЛС и я обязательно вас добавлю!*
 {: .notice}
 
 + AHP_Person
@@ -65,3 +65,8 @@ If I forgot you here, contact me and I'll add your name.
 + xy2_
 + yellows8
 + yifan_lu
+
+----
+
+### Перевод сделал xHR для проекта [3ds_CFW](http://vk.com/3ds_cfw).
+
