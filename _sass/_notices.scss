@@ -84,6 +84,8 @@
 
 .notice--warning {
   @include notice($warning-color);
+  font-size: $type-size-9 !important;
+
 }
 
 /* Success notice */
