@@ -3,27 +3,26 @@ title: "Decrypt9 (Homebrew Launcher)"
 permalink: /decrypt9-(homebrew-launcher).html
 ---
 
-If you have already hacked your 3DS before and have a EmuNAND based CFW setup, this guide deals exclusively with SysNAND and you should follow all instructions from within or applying to SysNAND. Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
+Если ваша 3DS уже взломана и у нее есть рабочий и настроенный EmuNAND, помните, что этот гайд имеет дело исключительно с SysNAND, поэтому все действия применяются именно к этому раздело и только к нему. Не забывайте, что EmuNAND и RedNAND - всего лишь разные методы [NAND-перенаправления](http://3dbrew.org/wiki/NAND_Redirection) с едва различимыми различиями в способах работы. Чуть позже мы [перенесем EmuNAND](Move-EmuNAND) в SysNAND. 
 {: .notice--info}
 
-#### What you need
+#### Что нужно:
 
-* The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/)
+* Свежая версия [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/)
 
-#### Instructions
+#### Что делать:
 
-2. Create a folder named `files9` on the root of your SD card if it does not already exist
-3. Copy the `Decrypt9WIP` folder from the Decrypt9WIP zip to `/3ds/` on your SD card
-3. Reinsert your SD card into your 3DS
-4. Enter the homebrew launcher
-4. Open Decrypt9WIP **(This can sometimes take a few tries)**
-    + If you cannot launch Decrypt9WIP after many tries, you most likely have a partial downgrade and should refer to the [9.2.0 Downgrade](9.2.0-downgrade) page
-4. Go to "SysNAND Options", then "SysNAND Backup/Restore"
-5. Perform a "NAND Backup (min size)" and backup your NAND to `NANDmin.bin`
-6. Return to the Main Menu
+2. Создайте папку files9 в корне карты памяти.
+3. Скопируйте папку Decrypt9WIP из архива с Decrypt9WIP в папку /3ds/ на вашей карте памяти.
+4. Вставьте карту памяти в приставку.
+4. Запустите homebrew launcher.
+4. Запустите Decrypt9WIP **(Часто запускается не с первого раза)**
+    + Если после множества попыток, Decrypt9WIP так и не запустился, скорее всего, у вас частично пониженная прошивка. Вернитесь на страницу с [даунгрейдом до 9.2.0](9.2.0-Downgrade).
+4. Выберите "SysNAND Options", а затем "SysNAND Backup/Restore".
+5. Выберите "NAND Backup (min size)" и сделайте бекап в файл `NANDmin.bin`.
+6. Вернитесь в главное меню. 
 
-If you are on Old 3DS, continue to [2.1.0 ctrtransfer](2.1.0-ctrtransfer)    
-{: .notice--primary}
+Если у вас Old 3DS, вам сюда: [2.1.0 ctrtransfer](2.1.0-ctrtransfer).    
 
-If you are on New 3DS, reboot with (Start) and continue to [Installing arm9loaderhax](installing-arm9loaderhax)
+Если у вас New 3DS, перезагрузите приставку нажатием кнопки (START) и переходите к [установке arm9loaderhax](Installing-arm9loaderhax).
 {: .notice--primary}
