@@ -3,7 +3,7 @@ main:
   - title: "Начнем"
     url: /get-started
     
-  - title: "Понижение прошивки"
+  - title: "Даунгрейд с 11"
     url: /nfirm-downgrade
     
   - title: "HBL (Браузер)"
