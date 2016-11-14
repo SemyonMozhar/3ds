@@ -34,4 +34,4 @@ permalink: /get-started-(new-3ds-jpn).html
 |:-:|:-:|:-:|:-:|
 | 8.1.0 | 8.1.0 | [NTR и Cubic Ninja](ntr-and-cubic-ninja) | [Homebrew Launcher<br>(Браузер есть)](Homebrew-launcher-(browser)) |
 | 9.0.0 | 10.7.0 | [Homebrew Launcher<br>(Браузера нет)](Homebrew-launcher-(no-browser)) | [Homebrew Launcher<br>(Браузер есть)](Homebrew-launcher-(browser)) |
-| 11.0.0 | 11.2.0 | [Понижение прошивки](nfirm-downgrade/) | [Понижение прошивки](nfirm-downgrade/) |
+| 11.0.0 | 11.2.0 | [Понижение прошивки](nfirm-downgrade) | [Понижение прошивки](nfirm-downgrade) |
