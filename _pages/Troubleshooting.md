@@ -196,7 +196,7 @@ permalink: /troubleshooting.html
     + Скачайте [Luma 3DS v6.3.1](https://github.com/AuroraWright/Luma3DS/releases/tag/v6.3.1)
     + Скопируйте `arm9loaderhax.bin` из архива Luma3DS v6.3.1 в корень вашей КП с заменой.
     + Скачайте [этот файл](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) и переименуйте в `firmware.bin`.
-    + Скачайте [этот файл](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
+    + Скачайте [этот файл](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk).
     + Скопируйте `firmware.bin` и `cetk` в папку `/luma/` на карте памяти. 
     + После обновления системы удалите эти файлы. 
     + Обновите Luma3DS заменив `arm9loaderhax.bin` на карте памяти на файл от свежей версии прошивки.
