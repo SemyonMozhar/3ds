@@ -4,10 +4,10 @@ main:
     url: /get-started
     
   - title: "HBL (Браузер)"
-    url: /homebrew-launcher-(browser)
+    url: /Homebrew-launcher-(browser)
 
   - title: "HBL (Браузера нет)"
-    url: /homebrew-launcher-(no-browser)
+    url: /Homebrew-launcher-(no-browser)
     
   - title: "Даунгрейд до 9.2.0"
     url: /9.2.0-downgrade
