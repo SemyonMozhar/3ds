@@ -1,6 +1,6 @@
 ---
 title: "Homebrew Launcher (Браузера нет)"
-permalink: /homebrew-launcher-(no-browser).html
+permalink: /Homebrew-launcher-(no-browser).html
 ---
 
 Существует много различных точек входа в Homebrew Launcher. Наиболее распространенная - browserhax, но он работает далеко не на всех устройствах. Для таких консолей существуют альтернативные методы запуска, о которых ниже. 
@@ -20,7 +20,7 @@ permalink: /homebrew-launcher-(no-browser).html
 
 1. Скопируйте _содержимое_ архива `starter.zip` в корень вашей карты памяти.
 4. Вставьте карту памяти в приставку.
-5. Используйте любую из альтернативных точек входа, чтобы попасть в homebrew launcher:
+5. Используйте любую из альтернативных точек входа, чтобы попасть в Homebrew launcher:
 
  | <sub> | <sub>Что нужно| <sub>Издание | <sub>Устройство | <sub>Регионы | <sub>Версия игры | <sub>Версия<br>системного ПО приставки |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -52,4 +52,4 @@ amzn_assoc_asins = "B01AC3ZDCE,B00DD0B1R0,B00YC7DZP4,B00IVJ1M7M,B008YYSBR8,B004S
 Для всех приставок с версией прошивки выше, чем 9.2.0 для начала нужно сделать [понижение прошивки до 9.2.0](9.2.0-downgrade).
 {: .notice--primary}
 
-Если у вас прошивка ниже, или равна 9.2.0, переходите сразу к [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher)).{: .notice--primary}
+Если у вас прошивка ниже, или равна 9.2.0, переходите сразу к [Decrypt9 (Homebrew Launcher)](decrypt9-(Homebrew-launcher)).{: .notice--primary}

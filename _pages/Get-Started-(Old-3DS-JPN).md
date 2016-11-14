@@ -39,7 +39,7 @@ permalink: /get-started-(old-3ds-jpn).html
 | 5.0.0 | 5.1.0 | [Обновление картриджем](cart-update) | [Decrypt9<br>(Браузер есть)](decrypt9-(browser)) |
 | 6.0.0 | 6.3.0 | [Decrypt9 (MSET)](decrypt9-(mset)) | [Decrypt9<br>(Браузер есть)](decrypt9-(browser)) |
 | 7.0.0 | 8.1.0 | [Обновление картриджем](cart-update) | [Decrypt9<br>(Браузер есть)](decrypt9-(browser)) |
-| 9.0.0 | 9.2.0 | [Homebrew Launcher<br>(Браузера нет)](homebrew-launcher-(no-browser)) | [Decrypt9<br>(Браузер есть)](decrypt9-(browser)) |
-| 9.3.0 | 10.6.0 | [Homebrew Launcher<br>(Браузера нет)](homebrew-launcher-(no-browser)) | [Homebrew Launcher<br>(Браузер есть)](homebrew-launcher-(browser)) |
-| 10.7.0 | 10.7.0 | [Homebrew Launcher<br>(Браузера нет)](homebrew-launcher-(no-browser))| [Homebrew Launcher<br>(Браузера нет)](homebrew-launcher-(no-browser))|
-| 11.0.0 | 11.2.0 | [Понижение прошивки](nfirm-Downgrade/) | [Понижение прошивки](nfirm-Downgrade/) |
+| 9.0.0 | 9.2.0 | [Homebrew Launcher<br>(Браузера нет)](Homebrew-launcher-(no-browser)) | [Decrypt9<br>(Браузер есть)](decrypt9-(browser)) |
+| 9.3.0 | 10.6.0 | [Homebrew Launcher<br>(Браузера нет)](Homebrew-launcher-(no-browser)) | [Homebrew Launcher<br>(Браузер есть)](Homebrew-launcher-(browser)) |
+| 10.7.0 | 10.7.0 | [Homebrew Launcher<br>(Браузера нет)](Homebrew-launcher-(no-browser))| [Homebrew Launcher<br>(Браузера нет)](Homebrew-launcher-(no-browser))|
+| 11.0.0 | 11.2.0 | [Понижение прошивки](nfirm-downgrade/) | [Понижение прошивки](nfirm-downgrade/) |

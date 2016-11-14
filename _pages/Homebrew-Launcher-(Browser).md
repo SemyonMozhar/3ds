@@ -1,6 +1,6 @@
 ---
 title: "Homebrew Launcher (Браузер есть)"
-permalink: /homebrew-launcher-(browser).html
+permalink: /Homebrew-launcher-(browser).html
 ---
 
 Для запуска Homebrew Launcher существует несколько точек входа (проще говоря, методов запуска). Чаще всего используется browserhax, для работы которого не нужно ничего, кроме браузера приставки. Из под него уже можно установить menuhax, который позволит запускать Homebrew Launcher, просто зажав кнопку ДО запуска системы. 
@@ -82,4 +82,4 @@ permalink: /homebrew-launcher-(browser).html
 Для всех приставок с версией прошивки выше, чем 9.2.0 для начала нужно сделать [понижение прошивки до 9.2.0](9.2.0-downgrade).
 {: .notice--primary}
 
-Если у вас прошивка ниже, или равно 9.2.0, переходите сразу к [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher)).{: .notice--primary}
+Если у вас прошивка ниже, или равно 9.2.0, переходите сразу к [Decrypt9 (Homebrew Launcher)](decrypt9-(Homebrew-launcher)).{: .notice--primary}

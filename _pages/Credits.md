@@ -1,5 +1,5 @@
 ---
-title: "Credits"
+title: "credits"
 permalink: /credits.html
 ---
 

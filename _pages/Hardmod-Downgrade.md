@@ -49,7 +49,7 @@ permalink: /hardmod-downgrade.html
 
 1. Скопируйте и объедините папку `3ds` из архива с 3DSident с папкой `3ds` в корне карты памяти.
 2. Вставьте КП в консоль.
-3. Запустите homebrew launcher используя способы, описанные в [Homebrew Launcher (Браузера нет)](homebrew-launcher-(no-browser)).
+3. Запустите Homebrew launcher используя способы, описанные в [Homebrew Launcher (Браузера нет)](Homebrew-launcher-(no-browser)).
 4. Запустите 3DSident.
 5. Убедитесь, что в программе следующие значения совпадают:
   + **Kernel version**: 2.50-11
@@ -59,5 +59,5 @@ permalink: /hardmod-downgrade.html
 Версия прошивки, указанная в настройках 3DS **не изменится**.
 {: .notice--info}
 
-Продолжайте выполнять инструкцию с этого места - [Homebrew Launcher (Браузера нет)](homebrew-launcher-(no-browser)).
+Продолжайте выполнять инструкцию с этого места - [Homebrew Launcher (Браузера нет)](Homebrew-launcher-(no-browser)).
 {: .notice--primary}
