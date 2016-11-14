@@ -29,7 +29,10 @@ main:
 
   - title: "Смена региона"
     url: /region-changing
-  
+    
+  - title: "Перенос EmuNAND"
+    url: /move-emunand
+    
   - title: "2.1.0 ctrtransfer"
     url: /2.1.0-ctrtransfer
 

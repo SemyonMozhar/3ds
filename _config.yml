@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "ru-RU"
-title                    : "Guide"
+title                    : "Руководство"
 title_separator          : "-"
 name                     : "xHR"
 description              : "Инструкция по установке arm9loaderhax и кастомной прошивки на 3DS"
