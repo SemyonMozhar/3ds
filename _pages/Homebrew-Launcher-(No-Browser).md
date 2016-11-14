@@ -52,4 +52,5 @@ amzn_assoc_asins = "B01AC3ZDCE,B00DD0B1R0,B00YC7DZP4,B00IVJ1M7M,B008YYSBR8,B004S
 Для всех приставок с версией прошивки выше, чем 9.2.0 для начала нужно сделать [понижение прошивки до 9.2.0](9.2.0-downgrade).
 {: .notice--primary}
 
-Если у вас прошивка ниже, или равна 9.2.0, переходите сразу к [Decrypt9 (Homebrew Launcher)](decrypt9-(Homebrew-launcher)).{: .notice--primary}
+Если у вас прошивка ниже, или равна 9.2.0, переходите сразу к [Decrypt9 (Homebrew Launcher)](decrypt9-(Homebrew-launcher)).
+{: .notice--primary}
