@@ -3,6 +3,9 @@ main:
   - title: "Начнем"
     url: /get-started
     
+  - title: "Понижение прошивки"
+    url: /nfirm-downgrade
+    
   - title: "HBL (Браузер)"
     url: /Homebrew-launcher-(browser)
 
@@ -12,11 +15,17 @@ main:
   - title: "Даунгрейд до 9.2.0"
     url: /9.2.0-downgrade
     
-  - title: "Понижение прошивки"
-    url: /nfirm-downgrade
-    
+  - title: "2.1.0 ctrtransfer"
+    url: /2.1.0-ctrtransfer
+
+  - title: "9.2.0 ctrtransfer"
+    url: /9.2.0-ctrtransfer
+         
   - title: "Установка a9lh"
     url: /installing-arm9loaderhax   
+    
+  - title: "Обновление картриджем"
+    url: /cart-update
 
   - title: "FAQ"
     url: /faq
@@ -32,14 +41,8 @@ main:
     
   - title: "Перенос EmuNAND"
     url: /move-emunand
-    
-  - title: "2.1.0 ctrtransfer"
-    url: /2.1.0-ctrtransfer
 
-  - title: "9.2.0 ctrtransfer"
-    url: /9.2.0-ctrtransfer
-     
-  - title: "Размеры NAND"
+    - title: "Размеры NAND"
     url: /nand-size
 
   - title: "OTP"
@@ -50,3 +53,6 @@ main:
 
   - title: "Credits"
     url: /credits
+
+    
+    
