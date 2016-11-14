@@ -151,7 +151,6 @@ NNID из исходной 3DS будет находится в целевой 3
 4. Покиньте игру.
 2. Запустите Homebrew launcher на **исходной 3DS**.
   + Если у вас на приставке arm9loaderhax, то это можно сделать через [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases).
-  + Если у вас на приставке arm9loaderhax, то это можно сделать через [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases).
 4. Нажмите (A) для продолжения.
 5. Нажмите (A) для подтверждения версии **Steel Diver: Sub Wars**.
 6. Нажмите (A) для подтверждения версии системного ПО **исходной 3DS**.

@@ -4,7 +4,7 @@ permalink: /faq.html
 ---
 
 + <a name="faq_latestfw" />**В:** *У меня самая последняя прошивка, мое устройство можно взломать?*    
-  **О:** Да, следует [понизить прошивку](firmware-downgrade/) (подробнее [здесь](https://www.reddit.com/r/3dshacks/comments/4iry4s/)).
+  **О:** Да, следует [понизить прошивку](nfirm-downgrade) (подробнее [здесь](https://www.reddit.com/r/3dshacks/comments/4iry4s/)).
 
 + <a name="faq_updatecfw" />**В:** *Как обновлять Luma3DS?*    
   **О:** Используйте [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases) (*или [Star Updater](https://github.com/astronautlevel2/StarUpdater/releases) - прим. пер.*).
