@@ -42,7 +42,7 @@ main:
   - title: "Перенос EmuNAND"
     url: /move-emunand
 
-    - title: "Размеры NAND"
+  - title: "Размеры NAND"
     url: /nand-size
 
   - title: "OTP"
