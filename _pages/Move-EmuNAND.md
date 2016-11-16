@@ -18,14 +18,6 @@ permalink: /move-emunand.html
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/).
 * Свежая версия [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/latest).
 
-
-Перейдите в меню “Ticket/Titlekey Options”, затем выберите “Ticket Dump (SysNAND)”.
-Нажмите (SELECT), чтобы извлечь карту памяти и вставьте ее в ПК.
-Удалите все файлы с расширением .tik в папке /files9/, которые НЕ начинаются с “00-“.
-В папке должны остаться лишь те .tik-файлы, что начинаются с “00-“.
-Вставьте карту памяти назад в 3DS и нажмите (B).
-
-
 #### Что делать: 
 
 ##### Часть I - Подготовка
