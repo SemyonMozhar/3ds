@@ -1,1 +1,1 @@
-### See https://plailect.github.io/Guide/
+###https://rashevskyv.github.io/
