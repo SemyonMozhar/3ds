@@ -82,4 +82,4 @@ permalink: /move-emunand.html
 9. Выйдите из FBI нажатием кнопки (home).
 
 
-Вернитесь в раздел [установку arm9loaderhax](installing-arm9loaderhax).
+Вернитесь в раздел [установку arm9loaderhax](installing-arm9loaderhax) к **части V**.
