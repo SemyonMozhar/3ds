@@ -48,10 +48,10 @@ NNID из исходной 3DS будет находится в целевой 3
   + **Исходная 3DS**: 3DS с кастомной прошивкой (arm9loaderhax or some form of EmuNAND/EmuNAND) *с последней версией системного ПО*.
   + **Целевая 3DS**: 3DS с официальной прошивкой в диапазоне *между 11.0.0 и 11.2.0*.
 * Купленная DSiWare игра из списка ниже (пиратская копия **не** будет работать) на **исходной 3DS**
-  + **Fieldrunners**: работает для **USA + EUR** (никогда не выходила для JPN-региона);
+  + **Fieldrunners**: работает для **USA + EUR** (удалена из eshop; никогда не выходила для JPN-региона);
   + **Legends of Exidia**: работает для **USA + EUR** (JPN-версия удалена из eShop);
-  + **Guitar Rock Tour**: работает **только для EUR** (игра уже удалена из eShop, но если она у вас уже есть, то все сработает); 
-  + **The Legend of Zelda: Four Swords**: работает для **USA + EUR** (игра уже удалена из eShop, но если она у вас уже есть, то все сработает).
+  + **Guitar Rock Tour**: работает **только для EUR** (удалена из eshop); 
+  + **The Legend of Zelda: Four Swords**: работает для **USA + EUR** (удалена из eshop).
 * Свежая версия [3ds_dsiwarehax_installer](https://github.com/yellows8/3ds_dsiwarehax_installer/releases)
 * Свежая версия [3DSident](https://github.com/joel16/3DSident/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
