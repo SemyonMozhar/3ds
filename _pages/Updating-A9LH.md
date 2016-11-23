@@ -17,13 +17,16 @@ permalink: /updating-a9lh.html
 Если вы используете загрузчик, не инициализирующий экран (например Bootanim9), следует переименовать его в `arm9loaderhax_si.bin` вместо `arm9loaderhax.bin`.
 {: .notice--info}
 
+Лишь после установки arm9loaderhax на o3ds можно использовать `data_input_v4`. Первоначальная установка a9lh на old3ds требует `data_input_v3` для совместимости со старой версией SafeA9LHInstaller, которую можно запустить через браузер. Версия в названии архива относится лишь к версии самого архива и не кореллирует с версий загрузчика. 
+{: .notice--info}
+
 Нижеследующая инструкция так же обновляет некоторые полезные загрузчики и базу ключей AES. 
 {: .notice--success}
 
 #### Что нужно:
 
 * [`aeskeydb.bin`](torrents/aeskeydb.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:18b3a17f78e2376e05feaa150749d9fd689b25dc"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
-* [`data_input_v3.zip`](torrents/data_input_v3.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:a1195c9f7ab650fa7c7bf020b51fc19ea8d9440c"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
+* [`data_input_v4.zip`](torrents/data_input_v4.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:00f03ff69b5961307303d5e4778a2f65a528bf2d"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest)
 * Свежая версия [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases/latest)
 * Свежая версия [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases/latest)
