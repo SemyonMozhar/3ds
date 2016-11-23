@@ -3,7 +3,8 @@ title: "Начнем (Old 3DS - EUR)"
 permalink: /get-started-(old-3ds-eur).html
 ---
 
-Выберите вашу версию прошивки из таблице внизу страницы. {: .notice--primary}
+Выберите вашу версию прошивки из таблице внизу страницы. 
+{: .notice--primary}
 
 {% capture notice-1 %}
 Таблица условно состоит из двух частей.      

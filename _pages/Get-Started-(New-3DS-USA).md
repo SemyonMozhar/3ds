@@ -3,7 +3,8 @@ title: "Начнем (New 3DS - USA)"
 permalink: /get-started-(new-3ds-usa).html
 ---
 
-Выберите вашу версию прошивки из таблице внизу страницы. {: .notice--primary}
+Выберите вашу версию прошивки из таблице внизу страницы. 
+{: .notice--primary}
 
 {% capture notice-1 %}
 Таблица условно состоит из двух частей.      
