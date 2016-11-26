@@ -18,14 +18,20 @@ permalink: /decrypt9-(browser).html
 1. Создайте папку `files9` в корне карты памяти.
 2. Скопируйте `Launcher.dat` и `Decrypt9WIP.dat` из архива Decrypt9WIP в корень карты памяти.
 3. Вставьте карту памяти в 3DS.
-4. Откройте браузер и перейдите по одно из этих ссылок или сосканируйте камерой QR, если QR-сканер есть в вашей версии прошивки:
+4. Откройте браузер и перейдите по одно из этих ссылок:
+
+  + `https://goo.gl/XGez65` или `https://dukesrg.github.io/?Decrypt9WIP.dat`
+  + `https://goo.gl/f8GbSf` или `http://go.gateway-3ds.com/`
+  + `https://goo.gl/ASCLSV` или `http://www.reboot.ms/3ds/load.html?Launcher.dat`
+  + `https://goo.gl/etmY59` или `http://dukesrg.dynu.net/3ds/rop?GW17567.dat&Launcher.dat`
+ 
+* Или сосканируйте камерой QR, если QR-сканер есть в вашей версии прошивки:
 
 Для того, чтобы попасть в QR-scanner, нажмите одновременно (L)+(R), находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране.
 {: .notice--info}
-  + `https://goo.gl/XGez65` или `https://dukesrg.github.io/?Decrypt9WIP.dat`<br>![dukesrg.github.io](images/QR/dukeGithub.png)<br>
-  + `https://goo.gl/f8GbSf` или `http://go.gateway-3ds.com/`<br>![go.gateway-3ds.com](images/QR/gateway.gif)<br>
-  + `https://goo.gl/ASCLSV` или `http://www.reboot.ms/3ds/load.html?Launcher.dat`<br>![reboot.ms](images/QR/goReboot.png)<br>
-  + `https://goo.gl/etmY59` или `http://dukesrg.dynu.net/3ds/rop?GW17567.dat&Launcher.dat`<br>![dukesrg.dynu.net](images/QR/dukeDynu.png)<br>
+
+![dukesrg.github.io](images/QR/dukeGithub.png)&nbps![go.gateway-3ds.com](images/QR/gateway.gif)<br>![reboot.ms](images/QR/goReboot.png)&nbps![dukesrg.dynu.net](images/QR/dukeDynu.png) 
+  
   + Если не работает первая ссылка, пробуйте следующую, и т.п. На некоторых консолях первая может не сработать, зато сработать одна из трех последних, либо наоборот.
   + Если выскакивает ошибка, обратитесь к разделу с [проблемами и их решениями](troubleshooting#ts_browser).
 9. Если все прошло хорошо, то вы загрузитесь прямо в Decrypt9.
