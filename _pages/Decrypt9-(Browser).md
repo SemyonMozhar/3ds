@@ -30,7 +30,7 @@ permalink: /decrypt9-(browser).html
 Для того, чтобы попасть в QR-scanner, нажмите одновременно (L)+(R), находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране.
 {: .notice--info}
 
-![dukesrg.github.io](images/QR/dukeGithub.png)  ![go.gateway-3ds.com](images/QR/gateway.png)<br><br>![reboot.ms](images/QR/goReboot.png)  ![dukesrg.dynu.net](images/QR/dukeDynu.png) 
+![dukesrg.github.io](images/QR/dukeGithub.png)        ![go.gateway-3ds.com](images/QR/gateway.png)<br><br>![reboot.ms](images/QR/goReboot.png)        ![dukesrg.dynu.net](images/QR/dukeDynu.png) 
   
   + Если не работает первая ссылка, пробуйте следующую, и т.п. На некоторых консолях первая может не сработать, зато сработать одна из трех последних, либо наоборот.
   + Если выскакивает ошибка, обратитесь к разделу с [проблемами и их решениями](troubleshooting#ts_browser).
