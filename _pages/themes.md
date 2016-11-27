@@ -4,6 +4,7 @@ permalink: /themes.html
 ---
 #### Что нужно:
 
++ Установленный a9lh с luma3ds и FBI. 
 + Свежая версия [CHMM2](http://rinnegatamante.it/site/3ds_hbs.php).
 + Скачиваем необходимые темы с этого [сайта](https://3dsthem.es/).
 
