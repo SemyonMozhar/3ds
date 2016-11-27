@@ -176,7 +176,7 @@ permalink: /installing-arm9loaderhax.html
 2. Запустите Информация о здоровье и безопасности (Health and Safety) (это теперь FBI).
 3. Выберите "SD".
 4. Выберите "cias".
-5. Наведите курсор на <current directory>, нажмите (А) и выберите Install all CIAs.
+5. Наведите курсор на `<current directory>`, нажмите (А) и выберите Install all CIAs.
 6. Установятся все приложения, находящиеся в этой папке. 
 9. Нажмите (B), чтобы вернуться в папку "SD".
 4. Выберите arm9loaderhax.bin, нажмите (A) и выберите “Copy”.
@@ -211,7 +211,7 @@ permalink: /installing-arm9loaderhax.html
 1. Запустите FBI.
 2. Выберите "SD".
 3. Выберите "files9".
-4. Выберите "\<current directory>".
+4. Выберите "`\<current directory>`".
 5. Выберите "Install and delete all tickets".
 6. Подождите. Будет казаться, что приставка зависла, но это не так. Дайте ей немного подумать.
 7. Нажмите (A) для подтверждения.
