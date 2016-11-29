@@ -69,7 +69,7 @@ NNID из исходной 3DS будет находится в целевой 3
 * Скачанная на **3DS #1** официальная версия **Steel Diver: Sub Wars** (игра бесплатная, но работать будет только версия, скачанная из eShop).
 * Предыдущая версия [steelhax](https://vegaroxas.github.io/files/steelhax-installer.zip)
 * Если версия системного ПО на **целевой 3DS** ниже, чем 11.2.0, вам так же придется воспользоваться
-  + свежей версией [ctr-httpwn](https://github.com/yellows8/ctr-httpwn/releases).
+  + свежей версией [ctr-httpwn](https://github.com/yellows8/ctr-httpwn/releases/latest).
   *(хотя, куда проще просто обновиться до 11.2, разницы в процессе даунгрейда вы не заметите - прим.пер.)*.
 
 #### Что делать:
