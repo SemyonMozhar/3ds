@@ -1,4 +1,4 @@
-	---
+---
 title: "Homebrew Launcher (Браузер есть)"
 permalink: /Homebrew-launcher-(browser).html
 ---
