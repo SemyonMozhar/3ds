@@ -8,13 +8,13 @@ header:
   cta_label: "Начнем!"
   cta_url: "/get-started"
   caption:
-excerpt: 'Пошаговая инструкция по установке arm9loaderhax и <br /> кастомной прошивки для 3DS от А до Я.<br /><br />**Актуализировал к версии гайда от Plailect 30.11.2016**'
+excerpt: 'Пошаговая инструкция по установке arm9loaderhax и <br /> кастомной прошивки для 3DS от А до Я.<br /><br />**Актуализировал к версии гайда от Plailect 1.12.2016**'
 ---
 
 **Об ошибках и неточностях просьба рапортовать сюда - http://vk.com/3ds_cfw**
 {: .notice--warning}
 
-**Гайду необходима *ваша* помощь. Пожалуйста помогите просидировать [эти](https://github.com/Plailect/Guide/archive/master.zip) ([rss](https://plailect.github.io/Guide/rss.xml)) файлы!**<br><br>**Для работы с файлами [*.torrent](https://ru.wikipedia.org/wiki/.torrent) нужен torrent-клиент. Рекомендуемый клиент - [Transmission](https://sourceforge.net/projects/trqtw/files/latest/download)**
+**Гайду необходима *ваша* помощь. Пожалуйста помогите просидировать [эти](https://github.com/Plailect/Guide/archive/master.zip) ([rss](https://plailect.github.io/Guide/rss.xml)) файлы!**<br><br>**Для работы с файлами [*.torrent](https://ru.wikipedia.org/wiki/.torrent) нужен torrent-клиент. Рекомендуемый клиент - [Deluge](http://dev.deluge-torrent.org/wiki/Download)****
 {: .notice--info}
 
 **Перед началом работ следует прочитать инструкцию полностью, чтобы осознать весь фронт работ.**
