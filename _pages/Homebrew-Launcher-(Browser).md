@@ -59,14 +59,16 @@ permalink: /Homebrew-launcher-(browser).html
 
 ##### часть IV -  browserhax
 
-8. Перейдите по ссылке `http://yls8.mtheall.com/3dsbrowserhax_auto.php` либо его сокращенной  версии - `https://goo.gl/d0YhK9`) 
+8. Перейдите по ссылке `http://yls8.mtheall.com/3dsbrowserhax_auto.php`, либо его сокращенной  версии - `https://goo.gl/d0YhK9`.
 
-Зеркало: `http://plail.ueuo.com/3dsbrowserhax_auto.php` (либо его сокращенная  версия - `https://goo.gl/VuK851`).
+Зеркало: `http://plail.ueuo.com/3dsbrowserhax_auto.php`, либо его сокращенная  версия - `https://goo.gl/VuK851`.
 {: .notice--info}
 
-    + Либо можно просто сосканировать QR с помощью камеры. Нажмите одновременно (L)+(R), находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране. Наведите камеру на это изображение:<br>
+  + Либо можно просто сосканировать QR с помощью камеры. Нажмите одновременно (L)+(R), находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране. Наведите камеру на это изображение:<br>
+  
 ![browserhax_auto](http://yls8.mtheall.com/3dsbrowserhax_auto_qrcode.png)
-    + Если выскочит ошибка, перейдите в раздел [проблемы и их решения](troubleshooting#ts_browser).
+
+  + Если выскочит ошибка, перейдите в раздел [проблемы и их решения](troubleshooting#ts_browser).
 9. Приставка должна загрузиться в Homebrew Launcher.
 
 ##### Часть V -  menuhax
