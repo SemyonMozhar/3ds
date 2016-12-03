@@ -166,7 +166,7 @@ permalink: /troubleshooting.html
     2. Удерживайте L+R+A+Up.
     3. Включите 3DS.
     4. Зайдя в режим восстановления, обновите свою 3DS. **Помните, что только имея точки входа и хардмод для 11.1, можно будет продолжить даунгрейд и взлом!**
-4. Может быть брик. Для поддержки обращайтесь на [#3dshacks on Rizon IRC](https://www.reddit.com/r/3dshacks/wiki/irc) или в [3DS Hacking on Discord](https://discord.gg/MWxPgEp) (*для русскоязычных - группа [3DS_cfw](http://vk.vom/3ds_cfw) - прим. пер.*).
+4. Может быть брик. Для поддержки обращайтесь на [#3dshacks on Rizon IRC](https://www.reddit.com/r/3dshacks/wiki/irc) или в [3DS Hacking on Discord](https://discord.gg/MWxPgEp) (*для русскоязычных - группа [3DS_cfw](http://vk.com/3ds_cfw) - прим. пер.*).
 
 ## <a name="ts_sys_a9lh" />Black screen on SysNAND boot after installing arm9loaderhax
 
@@ -201,7 +201,7 @@ permalink: /troubleshooting.html
     + После обновления системы удалите эти файлы. 
     + Обновите Luma3DS заменив `arm9loaderhax.bin` на карте памяти на файл от свежей версии прошивки.
 9. Попробуйте выполнить [9.2.0 ctrtransfer](9.2.0-ctrtransfer) с шага 4.
-10. Попросите помощи на [#3dshacks on Rizon IRC](https://www.reddit.com/r/3dshacks/wiki/irc) или в [3DS Hacking on Discord](https://discord.gg/MWxPgEp) (*для русскоязычных - группа [3DS_cfw](http://vk.vom/3ds_cfw) - прим. пер.*).
+10. Попросите помощи на [#3dshacks on Rizon IRC](https://www.reddit.com/r/3dshacks/wiki/irc) или в [3DS Hacking on Discord](https://discord.gg/MWxPgEp) (*для русскоязычных - группа [3DS_cfw](http://vk.com/3ds_cfw) - прим. пер.*).
 
 ## <a name="ts_sys_blue" />Голубой экран при загрузке (bootrom error).
 
