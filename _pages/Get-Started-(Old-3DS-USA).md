@@ -35,7 +35,7 @@ permalink: /get-started-(old-3ds-usa).html
 |:-:|:-:|:-:|:-:|
 | 1.0.0 | 1.1.0 | [Обновление картриджем](cart-update) | [Обновление картриджем](cart-update) |
 | 2.1.0 | 2.1.0 | [Обновление картриджем](cart-update) | [Установка arm9loaderhax](installing-arm9loaderhax)|
-| 2.2.0 | 3.0.0 | [Обновление картриджем](cart-update)  | [Обновление картриджем](cart-update) |
+| 2.2.0 | 3.1.0 | [Обновление картриджем](cart-update)  | [Обновление картриджем](cart-update) |
 | 4.0.0 | 4.5.0 | [Decrypt9 (MSET)](decrypt9-(mset)) | [Decrypt9<br>(Браузер есть)](decrypt9-(browser)) |
 | 5.0.0 | 5.1.0 | [Обновление картриджем](cart-update) | [Decrypt9<br>(Браузер есть)](decrypt9-(browser)) |
 | 6.0.0 | 6.3.0 | [Decrypt9 (MSET)](decrypt9-(mset)) | [Decrypt9<br>(Браузер есть)](decrypt9-(browser)) |
