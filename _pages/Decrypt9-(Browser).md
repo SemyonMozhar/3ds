@@ -37,3 +37,4 @@ permalink: /decrypt9-(browser).html
 9. Если все прошло хорошо, то вы загрузитесь прямо в Decrypt9.
 
 Теперь переходим к [2.1.0 ctrtransfer](2.1.0-ctrtransfer).
+{: .notice--primary}

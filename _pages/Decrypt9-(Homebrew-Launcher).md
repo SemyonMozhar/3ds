@@ -3,7 +3,7 @@ title: "Decrypt9 (Homebrew Launcher)"
 permalink: /decrypt9-(Homebrew-launcher).html
 ---
 
-Если ваша 3DS уже взломана и у нее есть рабочий и настроенный EmuNAND, помните, что этот гайд имеет дело исключительно с SysNAND, поэтому все действия применяются именно к этому раздело и только к нему. Не забывайте, что EmuNAND и RedNAND - всего лишь разные методы [NAND-перенаправления](http://3dbrew.org/wiki/NAND_Redirection) с едва различимыми различиями в способах работы. Чуть позже мы [перенесем EmuNAND](move-emunand) в SysNAND. 
+Если ваша 3DS уже взломана и у нее есть рабочий и настроенный EmuNAND, помните, что этот гайд имеет дело исключительно с SysNAND, поэтому все действия применяются именно к этому разделу и только к нему. Не забывайте, что EmuNAND и RedNAND - всего лишь разные методы [NAND-перенаправления](http://3dbrew.org/wiki/NAND_Redirection) с едва различимыми различиями в способах работы. Чуть позже мы [перенесем EmuNAND](move-emunand) в SysNAND. 
 {: .notice--info}
 
 #### Что нужно:
@@ -12,8 +12,8 @@ permalink: /decrypt9-(Homebrew-launcher).html
 
 #### Что делать:
 
-2. Создайте папку files9 в корне карты памяти.
-3. Скопируйте папку Decrypt9WIP из архива с Decrypt9WIP в папку /3ds/ на вашей карте памяти.
+2. Создайте папку `files9` в корне карты памяти, если папки нет - создайте ее. 
+3. Скопируйте папку `Decrypt9WIP` из архива с Decrypt9WIP в папку `/3ds/` на вашей карте памяти.
 4. Вставьте карту памяти в приставку.
 4. Запустите Homebrew launcher.
 4. Запустите Decrypt9WIP **(Часто запускается не с первого раза)**
@@ -22,7 +22,5 @@ permalink: /decrypt9-(Homebrew-launcher).html
 5. Выберите "NAND Backup (min size)" и сделайте бекап в файл `NANDmin.bin`.
 6. Вернитесь в главное меню. 
 
-Если у вас Old 3DS, вам сюда: [2.1.0 ctrtransfer](2.1.0-ctrtransfer).    
-
-Если у вас New 3DS, перезагрузите приставку нажатием кнопки (START) и переходите к [установке arm9loaderhax](installing-arm9loaderhax).
+Переходите к [2.1.0 ctrtransfer](2.1.0-ctrtransfer).    
 {: .notice--primary}
