@@ -3,12 +3,12 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: home-page-feature.jpg
+  overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   cta_label: "Начнем!"
   cta_url: "/get-started"
   caption:
-excerpt: 'Пошаговая инструкция по установке arm9loaderhax и <br /> кастомной прошивки для 3DS от А до Я.<br /><br />**Актуализировал к версии гайда от Plailect<br />08.12.2016**'
+excerpt: 'Пошаговая инструкция по установке arm9loaderhax и <br /> кастомной прошивки для 3DS от А до Я.<br />**Актуализировал к версии гайда от Plailect<br />08.12.2016**'
 ---
 
 {% capture notice-home %}

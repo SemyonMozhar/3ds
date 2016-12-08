@@ -7,7 +7,7 @@ permalink: /dsiware-downgrade.html
 *Этому замечанию уже несколько месяцев, а метода все нет. Суть в том, что если таковой метод и будет, то точно не на 11.2.0, поскольку на этой прошивке нинтенда закрыла найденную уязвимость - прим. пер. *
 {: .notice--primary}
 
-Если у вас уже есть **Fieldrunners**, **Legends of Exidia**, **Guitar Rock Tour**, либо **The Legend of Zelda: Four Swords** на **исходной 3DS**, обратитесь к [the старой вверсии инструкции](dsiware-downgrade-(old)).
+Если у вас уже есть **Fieldrunners**, **Legends of Exidia**, **Guitar Rock Tour**, либо **The Legend of Zelda: Four Swords** на **исходной 3DS**, обратитесь к [старой вверсии инструкции](dsiware-downgrade-(old)).
 {: .notice--primary}
 
 Если ваша прошивка 11.0.0, 11.1.0, или 11.2.0, то вы можете понизить версию NATIVE_FIRM, используя DSiWare и вторую 3DS с установленной кастомной прошивкой.
