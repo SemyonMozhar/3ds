@@ -43,7 +43,7 @@ permalink: /region-changing.html
 
 ##### Часть I - Подготовка
 
-1. Скопируйте `GodMode9.bin` из архива Hourglass9 в папку `/luma/payloads` в корне КП и переименуйте `GodMode9.bin` в `up_GodMode9.bin`.
+1. Скопируйте `GodMode9.bin` из архива GodMode9 в папку `/luma/payloads` в корне КП и переименуйте `GodMode9.bin` в `up_GodMode9.bin`.
 2. Скопируйте `Decrypt9WIP.bin` из архива Decrypt9WIP в папку `/luma/payloads` в корне КП и переименуйте `Decrypt9WIP.bin` в `x_Decrypt9WIP.bin`.
 3. Скопируйте файлы .bin` и `.bin.sha` образа 9.2.0 ctrtransfer из архива с 9.2.0 ctrtransfer в папку /files9/` в корне карты памяти. 
 4. Вставьте карту памяти в консоль. 

@@ -1,13 +1,9 @@
 ---
-title: "Понижение прошивки при помощи DSiWare "
-permalink: /dsiware-downgrade.html
+title: "Понижение прошивки при помощи DSiWare (старая версия)"
+permalink: /dsiware-downgrade-(old).html
 ---
 
-**Если ваша прошивка 11.0.0 или 11.1.0, НЕ ОБНОВЛЯЙТЕСЬ до 11.2.0, если не планируете сейчас следовать этой инструкции. Есть возможность, что сообщество вскоре выпустит новый способ даунгрейда NFIRM с помощью DSiWare _без_ необходимости второй 3DS или хардмода!** 
-*Этому замечанию уже несколько месяцев, а метода все нет. Суть в том, что если таковой метод и будет, то точно не на 11.2.0, поскольку на этой прошивке нинтенда закрыла найденную уязвимость - прим. пер. *
-{: .notice--primary}
-
-Если у вас уже есть **Fieldrunners**, **Legends of Exidia**, **Guitar Rock Tour**, либо **The Legend of Zelda: Four Swords** на **исходной 3DS**, обратитесь к [the старой вверсии инструкции](dsiware-downgrade-(old)).
+**Это старая версия инструкции для тех, у кого есть купленные "Fieldrunners", "Legends of Exidia", "Guitar Rock Tour", или "The Legend of Zelda: Four Swords" на исходной 3DS**
 {: .notice--primary}
 
 Если ваша прошивка 11.0.0, 11.1.0, или 11.2.0, то вы можете понизить версию NATIVE_FIRM, используя DSiWare и вторую 3DS с установленной кастомной прошивкой.
@@ -47,25 +43,21 @@ NNID из исходной 3DS будет находится в целевой 3
 {: .notice--danger}
 
 #### Что нужно:
+
 * Две приставки
   + **Исходная 3DS**: 3DS с кастомной прошивкой (arm9loaderhax, либо прошивка с EmuNAND/EmuNAND) *с последней версией системного ПО*. Убедитесь, что помните пароль от Nintendo Network, без него вы не сможете сделать перенос данных. 
   + **Целевая 3DS**: 3DS с официальной прошивкой в диапазоне *между 11.0.0 и 11.2.0*.
-* Купленная в eShop DSiWare-игра на **исходной 3DS**.
-  + Пиратская копия игры **НЕ** будет работать. 
-  + Размер исполняемого файла игры (`.app`) должен быть больше или равен, `3,457,024 байт`.
-  + Размер файла сохранения игры (`public.sav`), должен быть больше или равен `67,584 байт` *(это гарантирует, что `public.sav` достаточно велик, чтобы содержать `savedata.bin` нужного размера)*.
-  + Перенос данных подхватить хакнутую игру и сейв только в том случае, если их суммарный размер не увеличится. 
-  + Для списка совместимых игр, составленных сообществом, смотрите [список совместимых DSiWare-игр](dsiware-list).
-* Архив с необходимыми файлами для sudokuhax injection вашего региона
-  + [`DSiWare_USA_sudokuhax_v0_injection.zip`](torrents/DSiWare_usa_sudokuhax_v0_injection.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:43a52b6c2b0536203e3415fa7c5ac9a3a2925bd9&dn=DSiWare_usa_sudokuhax_v0_injection.zip&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
-  + EUR - Скоро будет
-  + JPN - Скоро будет
+* Купленная DSiWare игра из списка ниже (пиратская копия **не** будет работать) на **исходной 3DS**
+  + **Fieldrunners**;
+  + **Legends of Exidia**;
+  + **Guitar Rock Tour**; 
+  + **The Legend of Zelda: Four Swords**.
+* Свежая версия [3ds_dsiwarehax_installer](https://github.com/yellows8/3ds_dsiwarehax_installer/releases)
 * Свежая версия [3DSident](https://github.com/joel16/3DSident/releases/latest)
-* Свежий коммит [GodMode9](images/GodMode9-20161207-130503.zip) *(68b81ad)*
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
 * Свежая версия [dgTool](https://github.com/Plailect/dgTool/releases/latest)
 * The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
-* Архив с NFIRM, соответствующей версии **целевой 3DS**:
+* Архив с прошивкой, соответствующей версии **целевой 3DS**:
   + [New 3DS 11.0.0 to 10.4.0](torrents/11.0.0_to_10.4.0_n3ds.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:2d13a5ea1570f911bd5c6423e0c30e51d548837a&dn=11.0.0%5Fto%5F10.4.0%5Fn3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
   + [Old 3DS 11.0.0 to 10.4.0](torrents/11.0.0_to_10.4.0_o3ds.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:72393bbd99bc285db84a9cabf39d9b3200058d6a&dn=11.0.0%5Fto%5F10.4.0%5Fo3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce"><i class="fa fa-magnet" aria-hidden="true"></i></a></code><br>
   ~<br>
@@ -87,65 +79,60 @@ NNID из исходной 3DS будет находится в целевой 3
 
 ##### Часть I - Подготовка
 
-1. **Используйте [save manager](https://github.com/J-D-K/JKSM/releases/latest) для того, чтобы сделать резервные копии всех важных сейвов на целевой 3DS (приставка будет отформатирована!)**
-2. Создайте папку `files9` в корне карты памяти **исходной 3DS**, если таковой не имеется. 
-3. Скопируйте `GodMode9.bin` из архива GodMode9 в папку `/luma/payloads` в корне КП **исходной 3DS** и переименуйте `GodMode9.bin` в `up_GodMode9.bin`.
-4. Скопируйте `sudoku_v0.app` из архива `DSiWare_sudokuhax_v0_injection.zip` в корне КП **исходной 3DS**.
-5. Скопируйте `savedata.bin` из архива `DSiWare_sudokuhax_v0_injection.zip` в корне КП **исходной 3DS**.
-6. Вставьте карту памяти в **исходную 3DS**. 
-7. На **исходной 3DS** удерживайте (START) во время загрузки приставки, чтобы попасть в Hourglass9.
-8. Перейдите в SysNAND Options, SysNAND Backup/Restore, затем сделайте бекап **(min size)** SysNAND в `NANDmin.bin`.
-9. Нажмите (SELECT) в главном меню, чтобы извлечь КП из **исходной 3DS**, а затем вставьте ее в ПК. 
-10. Скопируйте `NANDmin.bin` и  `NANDmin.bin.sha` из папки `/files9/` на карте памяти в надежное место; можете сделать копии в нескольких местах или в облачном хранилище. Этот бекап может спасти вам консоль, если что-то пойдет не так. **(Убедитесь, что размер вашего бекапа соответствует размеру указанному в [этом](nand-size) разделе; если это не так, удалите бекап и создайте его заново!)**
-11. Вставьте карту памяти из **целевой 3DS** в компьютер. 
-12. **Сохраните файлы с обеих карт памяти в разные папки на компьютере (назовите папки таким образом, чтобы понимать какие файлы откуда)!**
-13. Верните обе карты памяти на места (не перепутайте).
-14. Нажмите (START) для перезагрузки. 
-15. Купите любую игру в eShop (нет, пиратская копия не пройдет, нужно именно купить) на **исходной 3DS**.
-16. Перейдите в системные настройки (System Settings), "Управление данными" (Data Management), "DSiWare" на **исходной 3DS**.
-17. Скопируйте все DSiWare-игры которые уже есть на карте памяти в Память системы (System Memory).
-18. Скопируйте DSiWare-игру, которую вы собираетесь использовать, на карту памяти. 
-19. Отключите **исходную 3DS** и вставьте карту памяти в ПК. 
-20. Перейдите по адресу `/Nintendo 3DS/(32-х значный ID)/(32-х значный ID)/Nintendo DSiWare/`
-21. Запишите 8-ми значный ID, содержащийся в имени `.bin`-файла в этой папке. 
-  + Например, если вы видите файл `4B4C4545.bin`, запишите `4B4C4545`. 
-22. Верните карту памяти в **исходную 3DS** и включите приставку.
-23. Перейдите в системные настройки (System Settings), "Управление данными" (Data Management), "DSiWare" на **исходной 3DS**.
-24. Удалите DSiWare-игру из карты памяти *(не удаляйте из памяти системы)*.
+1. Создайте папку `files9` в корне карты памяти **исходной 3DS**, если таковой не имеется. 
+2. **Используйте [save manager](https://github.com/J-D-K/JKSM/releases/latest) для того, чтобы сделать резервные копии всех важных сейвов на целевой 3DS (приставка будет отформатирована!)**
+3. Скопируйте `public.sav` из папки `/dsiware/(8-значный ID)/` из архива `3ds_dsiwarehax_installer`, в корень карты памяти **исходной 3DS** (8-значный ID, соответствующий каждой игре и региону описан ниже)      
+  + **Fieldrunners USA Region**: `4b464445`
+  + **Fieldrunners EUR Region**: `4b464456`
+  + **Legends of Exidia USA Region**: `4b4c4545`
+  + **Legends of Exidia EUR Region**: `4b4c4556`
+  + **Legends of Exidia JPN Region**: `4b4c454a`
+  + **Guitar Rock Tour EUR Region**: `4b475256`
+  + **Guitar Rock Tour USA Region**: `4b475245`
+  + **The Legend of Zelda: Four Swords EUR Region**: `4b513956`   
+  + **The Legend of Zelda: Four Swords USA Region**: `4b513945`    
+7. Вставьте карту памяти в **исходную 3DS**. 
+4. На **исходной 3DS** удерживайте (START) во время загрузки приставки, чтобы попасть в Hourglass9.
+5. Перейдите в SysNAND Options, SysNAND Backup/Restore, затем сделайте бекап **(min size)** SysNAND в `NANDmin.bin`.
+6. Нажмите (SELECT) в главном меню, чтобы извлечь КП из **исходной 3DS**, а затем вставьте ее в ПК. 
+7. Скопируйте `NANDmin.bin` и  `NANDmin.bin.sha` из папки `/files9/` на карте памяти в надежное место; можете сделать копии в нескольких местах или в облачном хранилище. Этот бекап может спасти вам консоль, если что-то пойдет не так. **(Убедитесь, что размер вашего бекапа соответствует размеру указанному в [этом](nand-size) разделе; если это не так, удалите бекап и создайте его заново!)**
+7. Вставьте карту памяти из **целевой 3DS** в компьютер. 
+8. **Сохраните файлы с обеих карт памяти в разные папки на компьютере (назовите папки таким образом, чтобы понимать какие файлы откуда)!**
+9. Верните обе карты памяти на места (не перепутайте).
+10. Нажмите (START) для перезагрузки. 
 
 ##### Часть II - Установка сохранения
 
-1. Запустите GodMode9 из под arm9loaderhax, удерживая (ВВЕРХ) во время загрузки.
-6. Перейдите в `SDCARD`.
-3. Нажмите (Y) на `sudoku_v0.app`, чтобы скопировать его.
-4. Нажмите (B), чтобы вернуться в главное меню программы.
-5. Перейдите в `SYSNAND TWNLN` -> `title` -> `00030004` -> `(8-ми значный ID)`
-  + 8-ми значный ID - тот самый, который вы записали в пункте 21 части I.
-3. Перейдите в папку `content`.
-4. Нажмите (A) на `.app`-файле, находящемся в  этой папке.
-8. Выберите "Inject data \@offset".
-9. Нажмите (A), чтобы выбрать смещение `00000000`.
-10. Нажмите (A), чтобы разрешить запись в SysNAND и введите указанную комбинацию кнопок.
-4. Нажмите (B), чтобы вернуться в главное меню программы.
-5. Перейдите в `SYSNAND TWNLN` -> `title` -> `00030004` -> `(8-ми значный ID)`
-  + 8-ми значный ID - тот самый, который вы записали в пункте 21 части I.
-13. Перейдите в `data`.
-14. Нажмите (A) на `public.sav`.
-15. Выберите "Mount as FAT image"
-  + Если вы не видите такого пункта, убедитесь, что вы запускаете крайний коммит программы [GodMode9](images/GodMode9-20161207-130503.zip), а не свежий релиз. 
-  + Если вы не видите этой опции даже на крайнем коммите, [напишите об этом](https://github.com/d0k3/GodMode9/issues).
-19. Вы перейдете назад в главное меню.
-20. Перейдите в `SDCARD`.
-13. Нажмите (Y) на файле `savedata.bin`, чтобы скопировать его.
-4. Нажмите (B), чтобы вернуться в главное меню программы.
-15. Перейдите в `FAT IMAGE`.
-16. Нажмите (Y), чтобы вставить `savedata.bin`.
-17. Выберите "Copy path(s)".
-10. Нажмите (A), чтобы разрешить запись в SysNAND и введите указанную комбинацию кнопок.
-  + Если `savedata.bin` уже есть в образе, то выберите "Overwrite file(s)".
-19. Нажмите (Start) для перезагрузки.
-20. Запустите DSiWare-игру на **исходной 3DS**.
-4. Проверьте, работает ли импортированное сохранение, нажав на экран, либо на какую-либо кнопку.
+1. Купленная любая из нижеуказанных DSiWare-игр (пиратская копия **не** будет работать):
+  + **Fieldrunners**: работает с **USA + EUR**, удалена из eShop для всех регионов; должна быть уже куплена.
+  + **Legends of Exidia**: работает с **USA + EUR**;
+  + **Guitar Rock Tour**: работает с **EUR**, нет в eShop; должна быть уже куплена.
+2. Запустите FBI на **исходной 3DS**.
+3. Перейдите в `SD`.
+4. Нажмите (A) на `public.sav` и скопируйте его. 
+5. Нажмите (B), чтобы вернуться в меню.
+6. Перейдите к `TWL NAND` -> `title` -> `00030004`.
+7. Перейдите в папку, соответствующую вашей игре и региону:
+  + **Fieldrunners USA Region**: `4b464445`
+  + **Fieldrunners EUR Region**: `4b464456`
+  + **Legends of Exidia USA Region**: `4b4c4545`
+  + **Legends of Exidia EUR Region**: `4b4c4556`
+  + **Legends of Exidia JPN Region**: `4b4c454a`
+  + **Guitar Rock Tour EUR Region**: `4b475256`
+  + **Guitar Rock Tour USA Region**: `4b475245`    
+  + **The Legend of Zelda: Four Swords EUR Region**: `4b513956`   
+  + **The Legend of Zelda: Four Swords USA Region**: `4b513945`    
+9. Перейдите в папку `data`.
+8. Нажмите (A) на существующем `public.sav` и удалите его.
+9. Нажмите (A) на строке `<current directory>` и вставьте `public.sav`.
+5. Нажимайте (B), пока не вернетесь в меню программы.
+11. Нажмите (START) для выхода. 
+3. Запустите купленную DSiWare игру на **исходной 3DS**.
+4. Проверьте, работает ли импортированное сохранение.
+  + **Fieldrunners**: нажмите кнопку 'Scores' на главном экране;
+  + **Legends of Exidia**: после того, как нажмете (START) и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue).
+  + **Guitar Rock Tour**: листайте вниз и перейдите в High-Scores -> Drums -> Easy.
+  + **The Legend of Zelda: Four Swords**: Просто начните игру.
   + Если игра падает с ошибкой, касающейся `boot.nds`, либо просто выскакиевает белый экран, **значит эксплойт работает и все в порядке!**
   + Если игра работает нормально безо всяких ошибок, значит вы где-то допустили оплошность и неверно установили файл сохранения. 
   + Если выскакивает черный экран, обратитесь к разделу с [проблемами и их решениями](troubleshooting#twl_broken).
@@ -260,6 +247,10 @@ NNID из исходной 3DS будет находится в целевой 3
 3. Верните карту памяти в **целевую 3DS**.
 3. Запустите установленную DSiWare игру на **целевой 3DS**.
 4. Запустите dgTool, используя установленную DSiWare-игру. 
+  + **Fieldrunners**: коснитесь кнопки 'Scores' в главном меню;
+  + **Legends of Exidia**: после того, как нажмете (A) или (Start) и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue).
+  + **Guitar Rock Tour**: листайте вниз и перейдите в High-Scores -> Drums -> Easy.
+  + **The Legend of Zelda: Four Swords**: Просто начните игру.
   + Если у игры нет установленного хакнутого сохранения обратитесь к разделу с [проблемами и их решениями](troubleshooting#ts_dsiware).
 5. Выберите "Dump f0f1", чтобы сделать бекап NFIRM **целевой 3DS**.
 6. Запомните путь, по которому сохраняется результат. 
@@ -273,6 +264,10 @@ NNID из исходной 3DS будет находится в целевой 3
 
 3. Запустите установленную DSiWare игру на **целевой 3DS**.
 4. Запустите dgTool, используя установленную DSiWare-игру. 
+  + **Fieldrunners**: коснитесь кнопки 'Scores' в главном меню;
+  + **Legends of Exidia**: после того, как нажмете (A) или (Start) и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue).
+  + **Guitar Rock Tour**: листайте вниз и перейдите в High-Scores -> Drums -> Easy.
+  + **The Legend of Zelda: Four Swords**: Просто начните игру.
 3. Выберите "Downgrade FIRM to 10.4" и подтвердите установку файлов прошивки 10.4.0 в **целевую 3DS**.
 4. Закройте dgTool.
   + Для этого зажмите кнопку питания и держите до тех пор, пока приставка не выключится.

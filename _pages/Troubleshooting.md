@@ -193,13 +193,11 @@ permalink: /troubleshooting.html
     4. Нажмите (A). Приставка должна выключиться. Если это так, то arm9loaderhax точно работает и приставка **не** брикнулась.
 8. Если вы даунгрейдились через Gateway, то убедитесь, что у вас установлена самая последняя версия Luma3DS (не ниже, чем 6.2.3).
 9. Если версия вашего NAND между 3.0.0 и 4.5.0, проделайте следующие действия:
-    + Скачайте [Luma 3DS v6.3.1](https://github.com/AuroraWright/Luma3DS/releases/tag/v6.3.1)
-    + Скопируйте `arm9loaderhax.bin` из архива Luma3DS v6.3.1 в корень вашей КП с заменой.
+    + Убедитесь, что используете самую свежую версию [Luma 3DS](https://github.com/AuroraWright/Luma3DS/releases)
     + Скачайте [этот файл](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) и переименуйте в `firmware.bin`.
     + Скачайте [этот файл](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk).
     + Скопируйте `firmware.bin` и `cetk` в папку `/luma/` на карте памяти. 
     + После обновления системы удалите эти файлы. 
-    + Обновите Luma3DS заменив `arm9loaderhax.bin` на карте памяти на файл от свежей версии прошивки.
 9. Попробуйте выполнить [9.2.0 ctrtransfer](9.2.0-ctrtransfer) с шага 4.
 10. Попросите помощи на [#3dshacks on Rizon IRC](https://www.reddit.com/r/3dshacks/wiki/irc) или в [3DS Hacking on Discord](https://discord.gg/MWxPgEp) (*для русскоязычных - группа [3DS_cfw](http://vk.com/3ds_cfw) - прим. пер.*).
 

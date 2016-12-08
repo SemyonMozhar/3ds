@@ -59,8 +59,8 @@ permalink: /hardmod-downgrade.html
 Версия прошивки, указанная в настройках 3DS **не изменится**.
 {: .notice--info}
 
-Если версия вышей прошивки выше, чем 11.0.0, переходите к запуску [Homebrew Launcher без браузера](homebrew-launcher-(no-browser)).
+Если версия вашей прошивки - 11.0.0 (и ваша приставка не японского региона), переходите к запуску [Homebrew Launcher с помощью браузера](homebrew-launcher-(browser)).
 {: .notice--primary}
 
-Если версия вышей прошивки 11.0.0, переходите к запуску [Homebrew Launcher с помощью браузера](homebrew-launcher-(browser)).
+В любых иных случаях, запускайте [Homebrew Launcher без браузера](homebrew-launcher-(no-browser)).
 {: .notice--primary}
