@@ -3,14 +3,8 @@ main:
   - title: "Начнем"
     url: /get-started
     
-  - title: "Понижение прошивки при помощи DSiWare"
-    url: /dsiware-downgrade
-    
-  - title: "Список совместимых DSiWare-игр"
-    url: /dsiware-list
-    
-  - title: "Понижение прошивки с помощью хардмода"
-    url: /hardmod-downgrade
+  - title: "Даунгрейд с 11"
+    url: /nfirm-downgrade
     
   - title: "HBL (Браузер)"
     url: /Homebrew-launcher-(browser)
@@ -32,6 +26,15 @@ main:
     
   - title: "Обновление картриджем"
     url: /cart-update
+    
+  - title: "Понижение прошивки при помощи DSiWare"
+    url: /dsiware-downgrade
+    
+  - title: "Список совместимых DSiWare-игр"
+    url: /dsiware-list
+    
+  - title: "Понижение прошивки с помощью хардмода"
+    url: /hardmod-downgrade
 
   - title: "FAQ"
     url: /faq
