@@ -7,7 +7,7 @@ permalink: /dsiware-list.html
 {: .notice--primary}
 
 {% capture notice-old %}
-Если у вас уже есть одна из игр из списка на **исходной 3DS**, купленная в eShop, обратитесь к [старой вверсии инструкции](dsiware-downgrade-(old)):
+Если у вас уже есть одна из игр из списка на **исходной 3DS**, купленная в eShop, обратитесь к [старой вверсии инструкции](dsiware-downgrade-(old)):           
   + **Fieldrunners**    
   + **Legends of Exidia**    
   + **Guitar Rock Tour**    
