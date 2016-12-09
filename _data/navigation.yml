@@ -9,7 +9,7 @@ main:
   - title: "Список совместимых DSiWare-игр"
     url: /dsiware-list
     
-    - title: "Понижение прошивки с помощью хардмода"
+  - title: "Понижение прошивки с помощью хардмода"
     url: /hardmod-downgrade
     
   - title: "HBL (Браузер)"
