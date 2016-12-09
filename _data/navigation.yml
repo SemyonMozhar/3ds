@@ -3,8 +3,14 @@ main:
   - title: "Начнем"
     url: /get-started
     
-  - title: "Даунгрейд с 11"
-    url: /nfirm-downgrade
+  - title: "Понижение прошивки при помощи DSiWare"
+    url: /dsiware-downgrade
+    
+  - title: "Список совместимых DSiWare-игр"
+    url: /dsiware-list
+    
+    - title: "Понижение прошивки с помощью хардмода"
+    url: /hardmod-downgrade
     
   - title: "HBL (Браузер)"
     url: /Homebrew-launcher-(browser)
