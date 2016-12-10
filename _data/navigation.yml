@@ -3,7 +3,7 @@ main:
   - title: "Начнем"
     url: /get-started
     
-  - title: "Даунгрейд<br>с 11.x.x"
+  - title: "<center>Даунгрейд<br>с 11.x.x</center>"
     url: /nfirm-downgrade
     
   - title: "Hombrew Launcher<br>(браузер есть)"
