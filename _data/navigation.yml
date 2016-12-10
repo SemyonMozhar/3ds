@@ -6,10 +6,10 @@ main:
   - title: "Даунгрейд<br>с 11.x.x"
     url: /nfirm-downgrade
     
-  - title: "HmbrwLnchr<br>(браузер есть)"
+  - title: "Hombrew Launcher<br>(браузер есть)"
     url: /Homebrew-launcher-(browser)
 
-  - title: "HmbrwLnchr<br>(без браузера)"
+  - title: "Hombrew Launcher<br>(без браузера)"
     url: /Homebrew-launcher-(no-browser)
     
   - title: "Даунгрейд<br>до 9.2.0"
