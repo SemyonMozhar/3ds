@@ -3,13 +3,13 @@ main:
   - title: "Начнем"
     url: /get-started
     
-  - title: "Даунгрейд<br>с 11"
+  - title: "Даунгрейд<br>с 11.x.x"
     url: /nfirm-downgrade
     
-  - title: "HBL<br>(Браузер)"
+  - title: "HmbrwLnchr<br>(браузер есть)"
     url: /Homebrew-launcher-(browser)
 
-  - title: "HBL<br>(Браузера нет)"
+  - title: "HmbrwLnchr<br>(без браузера)"
     url: /Homebrew-launcher-(no-browser)
     
   - title: "Даунгрейд<br>до 9.2.0"
@@ -21,7 +21,7 @@ main:
   - title: "9.2.0<br>ctrtransfer"
     url: /9.2.0-ctrtransfer
          
-  - title: "Установка<br>a9lh"
+  - title: "Установка<br>arm9loaderhax"
     url: /installing-arm9loaderhax   
     
   - title: "Обновление<br>картриджем"
@@ -39,19 +39,19 @@ main:
   - title: "FAQ"
     url: /faq
 
-  - title: "Проблемы<br>и их решения"
+  - title: "Проблемы и их<br>решения"
     url: /troubleshooting
 
-  - title: "Обновление<br>A9LH"
+  - title: "Обновление A9LH"
     url: /updating-a9lh
 
-  - title: "Смена<br>региона"
+  - title: "Смена региона"
     url: /region-changing
     
-  - title: "Перенос<br>EmuNAND"
+  - title: "Перенос EmuNAND"
     url: /move-emunand
 
-  - title: "Размеры<br>NAND"
+  - title: "Размеры NAND"
     url: /nand-size
 
   - title: "OTP"
