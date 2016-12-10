@@ -3,7 +3,7 @@ main:
   - title: "Начнем"
     url: /get-started
     
-  - title: "Даунгрейд с 11"
+  - title: "Даунгрейд<br>с 11"
     url: /nfirm-downgrade
     
   - title: "HBL (Браузер)"
