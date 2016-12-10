@@ -6,52 +6,52 @@ main:
   - title: "Даунгрейд<br>с 11"
     url: /nfirm-downgrade
     
-  - title: "HBL (Браузер)"
+  - title: "HBL<br>(Браузер)"
     url: /Homebrew-launcher-(browser)
 
-  - title: "HBL (Браузера нет)"
+  - title: "HBL<br>(Браузера нет)"
     url: /Homebrew-launcher-(no-browser)
     
-  - title: "Даунгрейд до 9.2.0"
+  - title: "Даунгрейд<br>до 9.2.0"
     url: /9.2.0-downgrade
     
-  - title: "2.1.0 ctrtransfer"
+  - title: "2.1.0<br>ctrtransfer"
     url: /2.1.0-ctrtransfer
 
-  - title: "9.2.0 ctrtransfer"
+  - title: "9.2.0<br>ctrtransfer"
     url: /9.2.0-ctrtransfer
          
-  - title: "Установка a9lh"
+  - title: "Установка<br>a9lh"
     url: /installing-arm9loaderhax   
     
-  - title: "Обновление картриджем"
+  - title: "Обновление<br>картриджем"
     url: /cart-update
     
-  - title: "Понижение прошивки при помощи DSiWare"
+  - title: "Понижение прошивки<br>при помощи DSiWare"
     url: /dsiware-downgrade
     
-  - title: "Список совместимых DSiWare-игр"
+  - title: "Список совместимых<br>DSiWare-игр"
     url: /dsiware-list
     
-  - title: "Понижение прошивки с помощью хардмода"
+  - title: "Понижение прошивки<br>с помощью хардмода"
     url: /hardmod-downgrade
 
   - title: "FAQ"
     url: /faq
 
-  - title: "Проблемы и их решения"
+  - title: "Проблемы<br>и их решения"
     url: /troubleshooting
 
-  - title: "Обновление A9LH"
+  - title: "Обновление<br>A9LH"
     url: /updating-a9lh
 
-  - title: "Смена региона"
+  - title: "Смена<br>региона"
     url: /region-changing
     
-  - title: "Перенос EmuNAND"
+  - title: "Перенос<br>EmuNAND"
     url: /move-emunand
 
-  - title: "Размеры NAND"
+  - title: "Размеры<br>NAND"
     url: /nand-size
 
   - title: "OTP"
