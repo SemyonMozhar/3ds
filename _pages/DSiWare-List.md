@@ -43,9 +43,11 @@ QR-коды можно отсканировать, нажав (L) + (R) на д�
       + Размер `public.sav` >= 113,908 байт.
 
     + JPN DSiWare
-      + При использовании ---
-      + Размер `.app` >= --- байт;
-      + Размер `public.sav` >= --- байт.
+      + При использовании 4swordshax
+      + Размер `.app` >= 14,131,200 байт;
+      + Размер `public.sav` >= 16,384 байт.
+      + Если `public.sav` не равен четко 16KB, 4swords удалит его. 
+
 	  
 {% endcapture %}
 
@@ -116,34 +118,41 @@ QR-коды можно отсканировать, нажав (L) + (R) на д�
 
 | | Цена | 8-ми значный ID | Регион(ы) | QR Code |
 |:-:|:-:|:-:|:-:|:-:|
-| Rytmik World Music | 1,99 € | 4B594856 | EUR | ![qrcode](images/qrcodes/000480044B594856.png)
-| Jagged Alliance | 4,99 € | 4B4A4750 | EUR | ![qrcode](images/qrcodes/000480044B4A4750.png)
-| Let's Create! Pottery | 4,99 € | 4B4C4A56 | EUR | ![qrcode](images/qrcodes/000480044B4C4A56.png)
-| 1001 Crystal Mazes Collection | 4,99 € | 4B4F4B50 | EUR | ![qrcode](images/qrcodes/000480044B4F4B50.png)
-| 101 Dolphin Pets | 4,99 € | 4B345A50 | EUR | ![qrcode](images/qrcodes/000480044B345A50.png)
-| Model Academy | 4,99 € | 4B384D50 | EUR | ![qrcode](images/qrcodes/000480044B384D50.png)
-| Soul of Darkness | 4,99 € | 4B534B56 | EUR | ![qrcode](images/qrcodes/000480044B534B56.png)
-| Super Swap! | 4,99 € | 4B345750 | EUR | ![qrcode](images/qrcodes/000480044B345750.png)
-| 101 Shark Pets | 4,99 € | 4B345950 | EUR | ![qrcode](images/qrcodes/000480044B345950.png)
-| 101 Pinball World | 4,99 € | 4B494950 | EUR | ![qrcode](images/qrcodes/000480044B494950.png)
-| 101 MiniGolf World | 4,99 € | 4B584950 | EUR | ![qrcode](images/qrcodes/000480044B584950.png)
-| Face Pilot™: Fly With Your Nintendo DSi Camera! | 4,99 € | 4B594256 | EUR | ![qrcode](images/qrcodes/000480044B594256.png)
-| Me And My Dogs: Friends Forever | 7,99 € | 4B4D3856 | EUR | ![qrcode](images/qrcodes/000480044B4D3856.png)
-| Miami Nights: Life in the Spotlight | 7,99 € | 4B4D4556 | EUR | ![qrcode](images/qrcodes/000480044B4D4556.png)
-| A Little Bit of... Dr Kawashima’s Brain Training™ Arts Edition | 7,99 € | 4B4E4456 | EUR | ![qrcode](images/qrcodes/000480044B4E4456.png)
-| A Little Bit of...Dr Kawashima’s Brain Training™: Maths Edition | 7,99 € | 4B4E5256 | EUR | ![qrcode](images/qrcodes/000480044B4E5256.png)
-| Zoo Frenzy | 7,99 € | 4B5A4656 | EUR | ![qrcode](images/qrcodes/000480044B5A4656.png)
-| Mario vs. Donkey Kong™: Minis March Again! | 7,99 € | 4B444D56 | EUR | ![qrcode](images/qrcodes/000480044B444D56.png)
-| Rytmik | 7,99 € | 4B524B56 | EUR | ![qrcode](images/qrcodes/000480044B524B56.png)
-| RAYMAN® | 7,99 € | 4B524D56 | EUR | ![qrcode](images/qrcodes/000480044B524D56.png)
-| Foto Face™: The Face Stealer Strikes | 7,99 € | 4B345456 | EUR | ![qrcode](images/qrcodes/000480044B345456.png)
-| Art Academy™ Second Semester | 7,99 € | 4B413256 | EUR | ![qrcode](images/qrcodes/000480044B413256.png)
-| Art Academy™ First Semester | 7,99 € | 4B414956 | EUR | ![qrcode](images/qrcodes/000480044B414956.png)
-| Rytmik Rock Edition | 7,99 € | 4B525156 | EUR | ![qrcode](images/qrcodes/000480044B525156.png)
-| Hip Hop King Rytmik Edition | 7,99 € | 4B525656 | EUR | ![qrcode](images/qrcodes/000480044B525656.png)
-| Rytmik Retrobits | 7,99 € | 4B595256 | EUR | ![qrcode](images/qrcodes/000480044B595256.png)
+| Jagged Alliance | 4,99€ | 4B4A4750 | EUR | ![qrcode](images/qrcodes/000480044B4A4750.png)
+| Let's Create! Pottery | 4,99€ | 4B4C4A56 | EUR | ![qrcode](images/qrcodes/000480044B4C4A56.png)
+| 1001 Crystal Mazes Collection | 4,99€ | 4B4F4B50 | EUR | ![qrcode](images/qrcodes/000480044B4F4B50.png)
+| 101 Dolphin Pets | 4,99€ | 4B345A50 | EUR | ![qrcode](images/qrcodes/000480044B345A50.png)
+| Model Academy | 4,99€ | 4B384D50 | EUR | ![qrcode](images/qrcodes/000480044B384D50.png)
+| Soul of Darkness | 4,99€ | 4B534B56 | EUR | ![qrcode](images/qrcodes/000480044B534B56.png)
+| Super Swap! | 4,99€ | 4B345750 | EUR | ![qrcode](images/qrcodes/000480044B345750.png)
+| 101 Shark Pets | 4,99€ | 4B345950 | EUR | ![qrcode](images/qrcodes/000480044B345950.png)
+| 101 Pinball World | 4,99€ | 4B494950 | EUR | ![qrcode](images/qrcodes/000480044B494950.png)
+| 101 MiniGolf World | 4,99€ | 4B584950 | EUR | ![qrcode](images/qrcodes/000480044B584950.png)
+| Face Pilot™: Fly With Your Nintendo DSi Camera! | 4,99€ | 4B594256 | EUR | ![qrcode](images/qrcodes/000480044B594256.png)
+| Me And My Dogs: Friends Forever | 7,99€ | 4B4D3856 | EUR | ![qrcode](images/qrcodes/000480044B4D3856.png)
+| Miami Nights: Life in the Spotlight | 7,99€ | 4B4D4556 | EUR | ![qrcode](images/qrcodes/000480044B4D4556.png)
+| A Little Bit of... Dr Kawashima’s Brain Training™ Arts Edition | 7,99€ | 4B4E4456 | EUR | ![qrcode](images/qrcodes/000480044B4E4456.png)
+| A Little Bit of...Dr Kawashima’s Brain Training™: Maths Edition | 7,99€ | 4B4E5256 | EUR | ![qrcode](images/qrcodes/000480044B4E5256.png)
+| Zoo Frenzy | 7,99€ | 4B5A4656 | EUR | ![qrcode](images/qrcodes/000480044B5A4656.png)
+| Mario vs. Donkey Kong™: Minis March Again! | 7,99€ | 4B444D56 | EUR | ![qrcode](images/qrcodes/000480044B444D56.png)
+| Rytmik | 7,99€ | 4B524B56 | EUR | ![qrcode](images/qrcodes/000480044B524B56.png)
+| RAYMAN® | 7,99€ | 4B524D56 | EUR | ![qrcode](images/qrcodes/000480044B524D56.png)
+| Foto Face™: The Face Stealer Strikes | 7,99€ | 4B345456 | EUR | ![qrcode](images/qrcodes/000480044B345456.png)
+| Art Academy™ Second Semester | 7,99€ | 4B413256 | EUR | ![qrcode](images/qrcodes/000480044B413256.png)
+| Art Academy™ First Semester | 7,99€ | 4B414956 | EUR | ![qrcode](images/qrcodes/000480044B414956.png)
+| Rytmik Rock Edition | 7,99€ | 4B525156 | EUR | ![qrcode](images/qrcodes/000480044B525156.png)
+| Hip Hop King Rytmik Edition | 7,99€ | 4B525656 | EUR | ![qrcode](images/qrcodes/000480044B525656.png)
+| Rytmik Retrobits | 7,99€ | 4B595256 | EUR | ![qrcode](images/qrcodes/000480044B595256.png)
 
 | | Цена | 8-ми значный ID | Регион(ы) | QR Code |
 |:-:|:-:|:-:|:-:|:-:|
-| ? | ? | ? | ? | ? |
+| タッチで漫才! メガミの笑壺DL | 500円 | 4B394C4A | JPN | ![qrcode](images/qrcodes/000480044B394C4A.png)
+| 練熟漢字中学生 | 800円 | 4B4A384A | JPN | ![qrcode](images/qrcodes/000480044B4A384A.png)
+| 教えてダーリン | 800円 | 4B4F534A | JPN | ![qrcode](images/qrcodes/000480044B4F534A.png)
+| 高校英単語基本400語マスター | 800円 | 4B454B4A | JPN | ![qrcode](images/qrcodes/000480044B454B4A.png)
+| 中学英単語基本400語マスター | 800円 | 4B45544A | JPN | ![qrcode](images/qrcodes/000480044B45544A.png)
+| 愛してイルカ ～愛されてイルカ～ | 800円 | 4B49524A | JPN | ![qrcode](images/qrcodes/000480044B49524A.png)
+| ARC STYLE: ジュラシックワールド | 820円 | 4B4C444A | JPN | ![qrcode](images/qrcodes/000480044B4C444A.png)
+| ゴー!ゴー!ココポロ | 820円 | 4B33474A | JPN | ![qrcode](images/qrcodes/000480044B33474A.png)
+| X-RETURNS | 823円 | 4B44584A | JPN | ![qrcode](images/qrcodes/000480044B44584A.png)
 
