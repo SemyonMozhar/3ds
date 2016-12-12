@@ -20,6 +20,16 @@ main:
 
   - title: "9.2.0<br>ctrtransfer"
     url: /9.2.0-ctrtransfer
+    
+  - title: "Decrypt9 (MSET)"
+    url: /decrypt9-(mset)
+    
+  - title: "Decrypt9<br>(Homebrew Launcher)"
+    url: /decrypt9-(Homebrew-launcher)
+
+  - title: "Decrypt9<br>(Браузер есть)"
+    url: /decrypt9-(browser)
+
          
   - title: "Установка<br>arm9loaderhax"
     url: /installing-arm9loaderhax   

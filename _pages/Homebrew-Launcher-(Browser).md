@@ -22,12 +22,12 @@ permalink: /Homebrew-launcher-(browser).html
 ##### Часть I -  Подготовка
 
 1. Скопируйте _содержимое_ архива `starter.zip` в корень вашей карты памяти.
-{::comment}
+<!--
 2. Скопируйте _содержимое_ архива `config.zip` в папку `/3ds/menuhax_manager/` на вашей карте памяти.
 3. Создайте папку `menuhax` в корне карты памяти.
 4. Переименуйте ropbin в `menuhaxmanager_input_payload.bin`.
 5. Скопируйте `menuhaxmanager_input_payload.bin` в папку `/menuhax/` на вашей карте памяти.
-{:/comment}
+-->
 4. Вставьте карту памяти в приставку.
 
 ##### Часть II -  Обход проверки версии
@@ -84,7 +84,7 @@ permalink: /Homebrew-launcher-(browser).html
 
   + Если выскочит ошибка, перейдите в раздел [проблемы и их решения](troubleshooting#ts_browser).
 9. Приставка должна загрузиться в Homebrew Launcher.
-    + Если вы воспользовались способом из части III и заблокировали conntest.nintendowifi.net (или его IP)? снимите блокировки сразу, как войдете в homebrew launcher.
+    + Если вы воспользовались способом из части III и заблокировали conntest.nintendowifi.net (или его IP), снимите блокировки сразу, как войдете в homebrew launcher.
 
 
 ##### Часть V -  menuhax
