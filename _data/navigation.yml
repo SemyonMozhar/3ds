@@ -29,22 +29,15 @@ main:
 
   - title: "Decrypt9<br>(Браузер есть)"
     url: /decrypt9-(browser)
-
          
   - title: "Установка<br>arm9loaderhax"
     url: /installing-arm9loaderhax   
     
   - title: "Обновление<br>картриджем"
     url: /cart-update
-    
-  - title: "Понижение прошивки<br>при помощи DSiWare"
-    url: /dsiware-downgrade
-    
+       
   - title: "Список совместимых<br>DSiWare-игр"
     url: /dsiware-list
-    
-  - title: "Понижение прошивки<br>с помощью хардмода"
-    url: /hardmod-downgrade
 
   - title: "FAQ"
     url: /faq
