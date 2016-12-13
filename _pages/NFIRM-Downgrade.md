@@ -18,7 +18,6 @@ permalink: /nfirm-downgrade.html
 ---
 
 + Воспользуйтесь [этой ссылкой](hardmod-downgrade), чтобы понизить прошивку с помощью [хардмода](https://gbatemp.net/threads/414498/).    
-
 + Воспользуйтесь [этой ссылкой](dsiware-downgrade-(app-injection-and-second-3ds)), чтобы понизить прошивку с помощью DSiWare и **второй 3DS** с установленной кастомной прошивкой.
 + Воспользуйтесь [этой ссылкой](dsiware-downgrade-(save-injection)), чтобы понизить прошивку с помощью DSiWare из списка и Hombrew Launcher *(только для приставок с прошивкой 11.0.0 и 11.1.0)*. **Вторая 3DS не требуется.**
 + Воспользуйтесь [этой ссылкой](dsiware-downgrade-(save-injection-and-second-3ds)), чтобы понизить прошивку с помощью DSiWare из списка и **второй 3DS**, на которой уже есть кастомная прошивка.
