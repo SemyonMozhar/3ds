@@ -3,16 +3,8 @@ title: "Список совместимых DSiWare-игр"
 permalink: /dsiware-list.html
 ---
 
-Это список совместимых DSiWare-игр для [DSiWare-даунгрейда](dsiware-downgrade) составлен автоматически с помощью скрипта.
+Это список совместимых DSiWare-игр для [Понижения прошивки при помощи DSiWare (Инжект приложения с помощью второй 3DS)](dsiware-downgrade-(app-injection-and-second-3ds)) составлен автоматически с помощью скрипта.
 {: .notice--primary}
-
-{% capture notice-old %}
-Если у вас уже есть одна из игр из списка на **исходной 3DS**, купленная в eShop, обратитесь к [старой вверсии инструкции](dsiware-downgrade-(old)):           
-  + **Fieldrunners**    
-  + **Legends of Exidia**    
-  + **Guitar Rock Tour**    
-  + **The Legend of Zelda: Four Swords**
-{% endcapture %}
 
 <div class="notice">{{ notice-old | markdownify }}</div>
 
@@ -41,9 +33,12 @@ QR-коды можно отсканировать, нажав (L) + (R) на д�
       + При использовании exidiahax (временное решение)
       + Размер `.app` >= 9,628,672 байт;
       + Размер `public.sav` >= 113,908 байт.
+      + Размер `public.sav` <= 131,072 байт.
+      + Если `public.sav` не меньше, или равен 128KB, exidia не загрузит сейв.
+
 
     + JPN DSiWare
-      + При использовании 4swordshax
+      + При использовании 4swordshax (временное решение)
       + Размер `.app` >= 14,131,200 байт;
       + Размер `public.sav` >= 16,384 байт.
       + Если `public.sav` не равен четко 16KB, 4swords удалит его. 
@@ -118,31 +113,14 @@ QR-коды можно отсканировать, нажав (L) + (R) на д�
 
 | | Цена | 8-ми значный ID | Регион(ы) | QR Code |
 |:-:|:-:|:-:|:-:|:-:|
-| Jagged Alliance | 4,99€ | 4B4A4750 | EUR | ![qrcode](images/qrcodes/000480044B4A4750.png)
-| Let's Create! Pottery | 4,99€ | 4B4C4A56 | EUR | ![qrcode](images/qrcodes/000480044B4C4A56.png)
-| 1001 Crystal Mazes Collection | 4,99€ | 4B4F4B50 | EUR | ![qrcode](images/qrcodes/000480044B4F4B50.png)
-| 101 Dolphin Pets | 4,99€ | 4B345A50 | EUR | ![qrcode](images/qrcodes/000480044B345A50.png)
-| Model Academy | 4,99€ | 4B384D50 | EUR | ![qrcode](images/qrcodes/000480044B384D50.png)
-| Soul of Darkness | 4,99€ | 4B534B56 | EUR | ![qrcode](images/qrcodes/000480044B534B56.png)
-| Super Swap! | 4,99€ | 4B345750 | EUR | ![qrcode](images/qrcodes/000480044B345750.png)
-| 101 Shark Pets | 4,99€ | 4B345950 | EUR | ![qrcode](images/qrcodes/000480044B345950.png)
-| 101 Pinball World | 4,99€ | 4B494950 | EUR | ![qrcode](images/qrcodes/000480044B494950.png)
-| 101 MiniGolf World | 4,99€ | 4B584950 | EUR | ![qrcode](images/qrcodes/000480044B584950.png)
-| Face Pilot™: Fly With Your Nintendo DSi Camera! | 4,99€ | 4B594256 | EUR | ![qrcode](images/qrcodes/000480044B594256.png)
-| Me And My Dogs: Friends Forever | 7,99€ | 4B4D3856 | EUR | ![qrcode](images/qrcodes/000480044B4D3856.png)
-| Miami Nights: Life in the Spotlight | 7,99€ | 4B4D4556 | EUR | ![qrcode](images/qrcodes/000480044B4D4556.png)
-| A Little Bit of... Dr Kawashima’s Brain Training™ Arts Edition | 7,99€ | 4B4E4456 | EUR | ![qrcode](images/qrcodes/000480044B4E4456.png)
-| A Little Bit of...Dr Kawashima’s Brain Training™: Maths Edition | 7,99€ | 4B4E5256 | EUR | ![qrcode](images/qrcodes/000480044B4E5256.png)
-| Zoo Frenzy | 7,99€ | 4B5A4656 | EUR | ![qrcode](images/qrcodes/000480044B5A4656.png)
-| Mario vs. Donkey Kong™: Minis March Again! | 7,99€ | 4B444D56 | EUR | ![qrcode](images/qrcodes/000480044B444D56.png)
-| Rytmik | 7,99€ | 4B524B56 | EUR | ![qrcode](images/qrcodes/000480044B524B56.png)
-| RAYMAN® | 7,99€ | 4B524D56 | EUR | ![qrcode](images/qrcodes/000480044B524D56.png)
-| Foto Face™: The Face Stealer Strikes | 7,99€ | 4B345456 | EUR | ![qrcode](images/qrcodes/000480044B345456.png)
-| Art Academy™ Second Semester | 7,99€ | 4B413256 | EUR | ![qrcode](images/qrcodes/000480044B413256.png)
-| Art Academy™ First Semester | 7,99€ | 4B414956 | EUR | ![qrcode](images/qrcodes/000480044B414956.png)
-| Rytmik Rock Edition | 7,99€ | 4B525156 | EUR | ![qrcode](images/qrcodes/000480044B525156.png)
-| Hip Hop King Rytmik Edition | 7,99€ | 4B525656 | EUR | ![qrcode](images/qrcodes/000480044B525656.png)
-| Rytmik Retrobits | 7,99€ | 4B595256 | EUR | ![qrcode](images/qrcodes/000480044B595256.png)
+| Jagged Alliance | 4,99 € | 4B4A4750 | EUR | ![qrcode](images/qrcodes/000480044B4A4750.png)
+| 1001 Crystal Mazes Collection | 4,99 € | 4B4F4B50 | EUR | ![qrcode](images/qrcodes/000480044B4F4B50.png)
+| 101 Dolphin Pets | 4,99 € | 4B345A50 | EUR | ![qrcode](images/qrcodes/000480044B345A50.png)
+| Soul of Darkness | 4,99 € | 4B534B56 | EUR | ![qrcode](images/qrcodes/000480044B534B56.png)
+| Super Swap! | 4,99 € | 4B345750 | EUR | ![qrcode](images/qrcodes/000480044B345750.png)
+| 101 Shark Pets | 4,99 € | 4B345950 | EUR | ![qrcode](images/qrcodes/000480044B345950.png)
+| 101 Pinball World | 4,99 € | 4B494950 | EUR | ![qrcode](images/qrcodes/000480044B494950.png)
+| 101 MiniGolf World | 4,99 € | 4B584950 | EUR | ![qrcode](images/qrcodes/000480044B584950.png)
 
 | | Цена | 8-ми значный ID | Регион(ы) | QR Code |
 |:-:|:-:|:-:|:-:|:-:|

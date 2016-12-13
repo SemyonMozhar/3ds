@@ -1,48 +1,37 @@
 ---
-title: "Понижение прошивки при помощи DSiWare "
-permalink: /dsiware-downgrade.html
+title: "Понижение прошивки при помощи DSiWare (Инжект приложения с помощью второй 3DS)"
+permalink: /dsiware-downgrade-(app-injection-and-second-3ds).html
 ---
-
-**Если ваша прошивка 11.0.0 или 11.1.0, НЕ ОБНОВЛЯЙТЕСЬ до 11.2.0, если не планируете сейчас следовать этой инструкции. Есть возможность, что сообщество вскоре выпустит новый способ даунгрейда NFIRM с помощью DSiWare _без_ необходимости второй 3DS или хардмода!** 
-*Этому замечанию уже несколько месяцев, а метода все нет. Суть в том, что если таковой метод и будет, то точно не на 11.2.0, поскольку на этой прошивке нинтенда закрыла найденную уязвимость - прим. пер. *
-{: .notice--primary}
-
-{: .notice--success}
-
-{% capture notice-old %}
-
-Если у вас уже есть одна из игр из списка на **исходной 3DS**, купленная в eShop, обратитесь к [старой вверсии инструкции](dsiware-downgrade-(old)):           
-  + **Fieldrunners**    
-  + **Legends of Exidia**    
-  + **Guitar Rock Tour**    
-  + **The Legend of Zelda: Four Swords**
-{% endcapture %}
-
-<div class="notice">{{ notice-old | markdownify }}</div>
 
 Если ваша прошивка 11.0.0, 11.1.0, или 11.2.0, то вы можете понизить версию NATIVE_FIRM, используя DSiWare и вторую 3DS с установленной кастомной прошивкой.
 {: .notice}   
 
-Если на любой из консолей у вас прошивка ниже, чем 11.2.0, то следует пройти шаги с ctr-httpwn на каждом девайсе с такой прошивкой, чтобы заработала Передача данных (System Transfer) *(хотя, куда проще просто обновиться до 11.2, разницы в процессе даунгрейда вы не заметите - прим.пер.)*.
+Если на любой из консолей у вас прошивка ниже, чем 11.2.0, то следует пройти шаги с ctr-httpwn на каждом девайсе с такой прошивкой, чтобы заработала Передача данных (System Transfer).
 {: .notice--info}
 
 Этот метод использует уязвимость, которая позволяет DSiWare-приложениям писать и читать в любом месте NAND. 
 {: .notice--info}
 
 Это рабочая реализация "FIRM partitions known-plaintext"-эксплойта. Подробнее о нем [здесь](https://www.3dbrew.org/wiki/3DS_System_Flaws).
-{: .notice--info}
+{: .notice--info}    
 
 Гайд предполагает наличие прошитой arm9loaderhax 3DS с кастомной прошивкой, настроенной по этому же гайду, однако, все нижесказанное заработает и с EmuNAND (правда, с небольшими правками: просто делайте все пункты не в SysNAND, а в EmuNAND). Помните, что RedNAND и EmuNAND - слегка разные реализации одного и того же [концепта](http://3dbrew.org/wiki/NAND_Redirection).
 {: .notice--info}
 
 Если у вас есть возможность использовать свою точку входа (например, OOT3dHax, FreakyHax), то смело пропускайте все пункты со **Steel Diver: Sub Wars**. 
 {: .notice--info}
+            
+Ваше DSiWare-сохранение будет скопировано перед тем, как будет заменено взломанным сохранением.
+{: .notice--info}
+
+По неизвестной причине софт-брик, описанный  в разделе [Понижение прошивки до 9.2.0](9.2.0-downgrade) происходит только у пользователей, использующих [slowhax](dsiware-downgrade-(save-injection)), либо понижение с помощью DSiWare. Поэтому в инструкции на этой странице нет рекомендаций к форматированию.
+{: .notice--info}
 
 {% capture notice-4 %}
-Этот эксплойт потребует от вас Передачи данных системы ([System Transfer](http://en-americas-support.nintendo.com/app/answers/detail/a_id/13996/)) из приставки с кастомной прошивки на приставку со стоковой прошивкой. Перенос данных будет работать *только* в одном из следующих направлений: 
-  + New 3DS -> New 3DS
-  + Old 3DS or 2DS -> Old 3DS or 2DS
-  + Old 3DS or 2DS -> New 3DS 
+This exploit requires you to [System Transfer](http://en-americas-support.nintendo.com/app/answers/detail/a_id/13996/) from a CFW 3DS to a stock 3DS as part of the steps. System Transfers will work in the following directions *only*:    
+  + New 3DS -> New 3DS    
+  + Old 3DS or 2DS -> Old 3DS or 2DS    
+  + Old 3DS or 2DS -> New 3DS    
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-4 | markdownify }}</div>
@@ -57,8 +46,9 @@ NNID из исходной 3DS будет находится в целевой 3
 {: .notice--danger}
 	
 #### Что нужно:
+
 * Две приставки
-  + **Исходная 3DS**: 3DS с кастомной прошивкой (arm9loaderhax, либо прошивка с EmuNAND/EmuNAND) *с последней версией системного ПО*. Убедитесь, что помните пароль от Nintendo Network, без него вы не сможете сделать перенос данных. 
+  + **Исходная 3DS**: 3DS с кастомной прошивкой (arm9loaderhax, либо прошивка с EmuNAND/RedNAND) *с последней версией системного ПО*. Убедитесь, что помните пароль от Nintendo Network, без него вы не сможете сделать перенос данных. 
   + **Целевая 3DS**: 3DS с официальной прошивкой в диапазоне *между 11.0.0 и 11.2.0*.
 * Купленная в eShop DSiWare-игра на **исходной 3DS**.
   + Пиратская копия игры **НЕ** будет работать. 
@@ -67,9 +57,9 @@ NNID из исходной 3DS будет находится в целевой 3
   + [`USA - DSiWare_usa_sudokuhax_injection.zip`](magnet:?xt=urn:btih:7ed7fee15c900ed02b5e2cb3c8e7a0363f4d9354&dn=DSiWare_usa_sudokuhax_injection.zip&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce)
   + [`EUR - DSiWare_eur_exidiahax_injection.zip`](magnet:?xt=urn:btih:046bb8023bc40b9a95a8a339c85a9ef18cf60db6&dn=DSiWare_eur_exidiahax_injection.zip&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce)
   + [`JPN - DSiWare_jpn_4swordshax_injection.zip`](magnet:?xt=urn:btih:1bcc90c93da91c9876671f6218084207def90db9&dn=DSiWare_jpn_4swordshax_injection.zip&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)
+* Свежий коммит [GodMode9](images/GodMode9-20161209-011002.zip) *(4431c46a)*
 * Свежая версия [3DSident](https://github.com/joel16/3DSident/releases/latest)
-* Свежий коммит [GodMode9](images/GodMode9-20161209-011002.zip) *(68b81ad)*
-* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
+* Свежая версия [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
 * Свежая версия [dgTool](https://github.com/Plailect/dgTool/releases/latest)
 * The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Архив с NFIRM, соответствующей версии **целевой 3DS**:
@@ -103,7 +93,10 @@ NNID из исходной 3DS будет находится в целевой 3
 7. На **исходной 3DS** удерживайте (START) во время загрузки приставки, чтобы попасть в Hourglass9.
 8. Перейдите в SysNAND Options, SysNAND Backup/Restore, затем сделайте бекап **(min size)** SysNAND в `NANDmin.bin`.
 9. Нажмите (SELECT) в главном меню, чтобы извлечь КП из **исходной 3DS**, а затем вставьте ее в ПК. 
-10. Скопируйте `NANDmin.bin` и  `NANDmin.bin.sha` из папки `/files9/` на карте памяти в надежное место; можете сделать копии в нескольких местах или в облачном хранилище. Этот бекап может спасти вам консоль, если что-то пойдет не так. **(Убедитесь, что размер вашего бекапа соответствует размеру указанному в [этом](nand-size) разделе; если это не так, удалите бекап и создайте его заново!)**
+10. Скопируйте `NANDmin.bin` и  `NANDmin.bin.sha` из папки `/files9/` на карте памяти в надежное место; 
+  + Сделайте копии в нескольких местах или в облачном хранилище; 
+  + Этот бекап может спасти вам консоль, если что-то пойдет не так.
+  + Убедитесь, что размер вашего бекапа соответствует размеру указанному в [этом](nand-size) разделе; если это не так, удалите бекап и создайте его заново!
 11. Вставьте карту памяти из **целевой 3DS** в компьютер. 
 12. **Сохраните файлы с обеих карт памяти в разные папки на компьютере (назовите папки таким образом, чтобы понимать какие файлы откуда)!**
 13. Верните обе карты памяти на места (не перепутайте).
@@ -120,7 +113,20 @@ NNID из исходной 3DS будет находится в целевой 3
 23. Перейдите в системные настройки (System Settings), "Управление данными" (Data Management), "DSiWare" на **исходной 3DS**.
 24. Удалите DSiWare-игру из карты памяти *(не удаляйте из памяти системы)*.-->
 
-##### Часть II - Установка сохранения
+##### Часть II - Резервное копирование DsiWare
+
+После окончания этого гайда, созданная в этой части резервная копия может быть использована для восстановления сохранения DSiWare-игры с помощью удаления DSiWare из системной памяти и восстановления игры из карты памяти.
+{: .notice--info}
+
+Сделанный бекап может быть использован только на том NAND, на котором был создан. Если вы отформатируете 3DS, или восстановите другой NAND, (особенно если `movable.sed` был изменен), резервная копия станет бесполезной.
+{: .notice--info}
+
+1. Перейдите в Системные настройки (System Settings), Управление данными (Data Management), "DSiWare".
+2. Скопируйте все DSiWare-игры , которые уже есть на КП в системную память.
+3. Скопируйте DSiWare-игру, которую планируете использовать, на карту памяти.
+4. Покиньте системное меню.
+
+##### Часть III - Установка сохранения
 
 1. Запустите GodMode9 из под arm9loaderhax, удерживая (ВВЕРХ) во время загрузки.
 6. Перейдите в `SDCARD`.
@@ -159,9 +165,9 @@ NNID из исходной 3DS будет находится в целевой 3
   + Если игра жалуется на поврежденный или неверный сейв (corrupted or inaccessible), убедитесь, что скопировали именно **содержимое** папки `savedata`, а не саму папку.
   + Если игра работает нормально безо всяких ошибок, значит вы где-то допустили оплошность и неверно установили файл сохранения. 
   + Если выскакивает черный экран, обратитесь к разделу с [проблемами и их решениями](troubleshooting#twl_broken).
-  + \Если игра пропала из **целевой 3DS**, либо выскакивает ошибка сообщающая о повреждении, либюо недоступности файла сохранения, [обратитесь к части с проблемами и их решениями](troubleshooting#ts_dsiware).
+  + Если игра пропала из **целевой 3DS**, либо выскакивает ошибка сообщающая о повреждении, либюо недоступности файла сохранения, [обратитесь к части с проблемами и их решениями](troubleshooting#ts_dsiware).
 
-##### Часть III - steelhax
+##### Часть IV - steelhax
 
 С помощью этой части мы сможем войти в Homebrew launcher после переноса системы.
 {: .notice--info}
@@ -204,7 +210,7 @@ NNID из исходной 3DS будет находится в целевой 3
 12. Скопируйте *содержимое* архива `starter.zip` в корень карты памяти **целевой 3DS**.
 13. Вставьте карту памяти назад в **целевую 3DS**.
 
-##### Часть IV - ctr-httpwn
+##### Часть V - ctr-httpwn
 
 Эта часть нужна только в том случае, если прошивка _целевой 3DS_ ниже, чем 11.2.0.
 {: .notice--info}
@@ -231,7 +237,7 @@ NNID из исходной 3DS будет находится в целевой 3
   + Помните, что выход из Системных настроек перезагружает приставку.
   + Если вы перезагрузили приставку, то следует повторно запустить ctr-httpwn, иначе Перенос системы не будет работать.
 
-##### Часть V - Перенос системы
+##### Часть VI - Перенос системы
 
 8. **Сохраните файлы с обеих карт памяти в разные папки на компьютере (назовите папки таким образом, чтобы понимать какие файлы откуда)!**
 
@@ -253,7 +259,7 @@ NNID из исходной 3DS будет находится в целевой 3
     + Медленный способ: Выберите "Wireless Transfer" (опция 1) для долгого переноса содержимого карты памяти в целевую приставку по воздуху.
 6. Перейдите по [этой ссылке](http://www.nintendo.ru/-/Nintendo-2DS-Nintendo-3DS/-Nintendo-3DS-Nintendo-3DS-XL-/-Nintendo-3DS-Nintendo-3DS-XL/-Nintendo-3DS-Nintendo-3DS-XL-592201.html) ([та же информация, но на английском](http://en-americas-support.nintendo.com/app/answers/detail/a_id/227/)) и следуйте официальным инструкциям от nintendo, держа в голове то, что вы прочитали чуть выше. 
 
-##### Часть VI - Восстановление исходной 3DS
+##### Часть VII - Восстановление исходной 3DS
 
 1. На **исходной 3DS**, завершите первоначальную настройку.
 2. Выполните одно из следующих действий *(или ни одного, если вас не волнует отсутствие NNID на исходной консоли)*.
@@ -263,7 +269,7 @@ NNID из исходной 3DS будет находится в целевой 3
 3. Перезагрузите **исходную 3DS**, удерживайте (START) во время загрузки устройства, чтобы запустить Hourglass9.
 4. Перейдите в SysNAND Backup/Restore восстановите SysNAND из файла `NANDmin.bin`.
 
-##### Часть VII - Резервное копирование прошивки целевой 3DS
+##### Часть VIII - Резервное копирование прошивки целевой 3DS
 
 1. Вставьте карту памяти **целевой 3DS** в ПК.
 1. Скопируйте `boot.nds` в корень карты памяти **целевой 3DS**.
@@ -271,15 +277,18 @@ NNID из исходной 3DS будет находится в целевой 3
 3. Скопируйте содержимое архива с NFIRM (11.y.y_to_10.4.0_x3ds.zip) в папку `dgTool` в корне **целевой 3DS**.
 3. Верните карту памяти в **целевую 3DS**.
 3. Запустите установленную DSiWare игру на **целевой 3DS**.
-4. Запустите dgTool, используя установленную DSiWare-игру. 
-  + Если у игры нет установленного хакнутого сохранения обратитесь к разделу с [проблемами и их решениями](troubleshooting#ts_dsiware).
-5. Выберите "Dump f0f1", чтобы сделать бекап NFIRM **целевой 3DS**.
-6. Запомните путь, по которому сохраняется результат. 
-7. Выйдите из dgTool.
-  + Для этого зажмите кнопку питания и держите до тех пор, пока приставка не выключится.
-8. Вставьте КП в компьютер и скопируйте `F0F1_N3DS.bin` или `F0F1_O3DS.bin` (зависит от устройства) в надежное место; можете сделать копии в нескольких местах или в облачном хранилище. Этот бекап может спасти вам консоль, если что-то пойдет не так.
+  + Если игра не запускает dgTool, [следуйте инструкциям из части с проблемами и их решениями](troubleshooting#ts_dsiware)
+5. Выберите "Dump nand", чтобы сделать резервную копию NAND **целевой 3DS**.
+  + Процесс не быстрый, ожидайте. 
+6. Запомните место положения бекапа NAND.
+7. Закройте dgTool.
+  + При необходимости выключите приставку, удерживая кнопку питания.
+8. Вставьте КП в компьютер, скопируйте `NAND_N3DS.bin` или `NAND_O3DS.bin` (зависит от вашей модели) в надежное место.
+  + Сделайте копии в нескольких местах или в облачном хранилище; 
+  + Этот бекап может спасти вам консоль, если что-то пойдет не так.
+  + **Убедитесь, что размер вашего бекапа соответствует размеру указанному в [этом](nand-size) разделе; если это не так, удалите бекап и создайте его заново!**
 
-##### Часть VIII - Прошивка целевой 3DS.
+##### Часть IX - Прошивка целевой 3DS.
 
 **НЕ понижайте прошивку с помощью dgTool на приставках с установленным arm9loaderhax. Это гарантированно приведет к брику!**
 
@@ -287,24 +296,21 @@ NNID из исходной 3DS будет находится в целевой 3
 4. Запустите dgTool, используя установленную DSiWare-игру. 
 3. Выберите "Downgrade FIRM to 10.4" и подтвердите установку файлов прошивки 10.4.0 в **целевую 3DS**.
 4. Закройте dgTool.
-  + Для этого зажмите кнопку питания и держите до тех пор, пока приставка не выключится.
+  + При необходимости выключите приставку, удерживая кнопку питания.
 5. Перезагрузите приставку.
 
-##### Часть IX - Проверка эксплойта
+##### Часть X - Проверка эксплойта
 
 1. Скопируйте и объедините папку `3ds` из архива с 3DSident с папкой `3ds` в корне карты памяти **целевой 3DS**.
 2. Вставьте КП в **целевую 3DS**.
-3. Запустите Homebrew launcher на **целевой 3DS** используя способы, описанные в [Homebrew Launcher (Браузера нет)](Homebrew-launcher-(no-browser)).
+3. Запустите Homebrew launcher на **целевой 3DS** используя удобную для вас точку входа	.
 4. Запустите 3DSident.
 5. Убедитесь, что в программе следующие значения совпадают:
   + **Kernel version**: 2.50-11
   + **FIRM version**: 2.50-11
   + Если у вас отображаются другие значения, значит вы где-то допустили ошибку. Проделайте все с самого начала. 
 
-Продолжайте выполнять инструкцию с этого места - [Homebrew Launcher (Браузера нет)](Homebrew-launcher-(no-browser)), используя steelhax в качестве точки входа.
-{: .notice--primary}
-
-Можете использовать другую точку входа, если хотите. 
+Можете использовать другую точку входа, если хотите; steelhax рекомендован исключительно из-за своей бесплатности.
 {: .notice--info}
 
 Версия прошивки, указанная в настройках **целевой 3DS** не изменится.
@@ -312,3 +318,6 @@ NNID из исходной 3DS будет находится в целевой 3
 
 Если переноса данных steelhax крашится в черный экран, обратитесь к разделу с [проблемами и их решениями](troubleshooting#ts_steelhax).
 {: .notice--warning}
+  
+Переходите к [понижению прошивки до 9.2.0](9.2.0-downgrade)
+{: .notice--primary}
