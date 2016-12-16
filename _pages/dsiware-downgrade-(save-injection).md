@@ -20,18 +20,18 @@ permalink: /dsiware-downgrade-(save-injection).html
 
 #### Что нужно:
 
-* Купленная игра из списка ниже. *Игра должна быть уже установлена в приставкуу, поскольку каждая из них уже удалена из eShop*.
+* Купленная игра из списка ниже. *Игра должна быть уже установлена в приставку, поскольку каждая из игр в списке уже удалена из eShop*.
   + **Fieldrunners**;
   + **Legends of Exidia**;
   + **Guitar Rock Tour**; 
-  + **The Legend of Zelda: Four Swords**. 
+  + **The Legend of Zelda: Four Swords (Anniversary Edition)**  
 * Точка входа из [этого списка](homebrew-launcher-(no-browser)) или (в случае, если у вас прошивка версии 11.0.0 EUR / USA) [из этого списка](homebrew-launcher-(browser)).    
 * Свежая версия [3ds_dsiwarehax_installer](https://github.com/yellows8/3ds_dsiwarehax_installer/releases)
 * Свежая версия [waithax](https://github.com/Mrrraou/waithax/releases/latest)
 * Свежая версия [3DSident](https://github.com/joel16/3DSident/releases/latest)
 * Свежая версия [dgTool](https://github.com/Plailect/dgTool/releases/latest)
 * Свежая версия [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
-* Свежая версия [the Homebrew Launcher](https://smealum.github.io/ninjhax2/boot.3dsx)
+* The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Архив с прошивкой, соответствующей версии **целевой 3DS**:
   + [New 3DS 11.0.0 to 10.4.0](magnet:?xt=urn:btih:2d13a5ea1570f911bd5c6423e0c30e51d548837a&dn=11.0.0%5Fto%5F10.4.0%5Fn3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
   + [Old 3DS 11.0.0 to 10.4.0](magnet:?xt=urn:btih:72393bbd99bc285db84a9cabf39d9b3200058d6a&dn=11.0.0%5Fto%5F10.4.0%5Fo3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)     
@@ -43,13 +43,13 @@ permalink: /dsiware-downgrade-(save-injection).html
 
 ##### Часть I - Подготовка
 
+1. Скопируйте _содержимое_ архива `starter.zip` в корень карты памяти с заменой.
+  + Таким образом мы актуализируем все необходимые файлы для работы Homebrew Launcher; старые версии HBL приводят к зависанию 3ds_dsiwarehax_installer.
 4. Скопируйте папку `3ds` с заменой из архива 3ds_dsiwarehax_installer в корень КП.
 4. Скопируйте папку `4B51394A` из архива `4B51394A.zip` в папку `/3ds/3ds_dsiwarehax_installer/dsiware/` на карте памяти. 
 5. Скопируйте папку `3ds` с заменой из архива 3DSident в корень КП.
 5. Скопируйте `waithax.3dsx` в папку `/3ds/` на КП.
-6. Скопируйте `boot.nds` в корень КП.
-7. Скопируйте `boot.3dsx` в корень КП, согласившись на перезапись.
-  + Нужно проделать для того, чтобы убедиться, что Homebrew Launcher в актуальном состоянии; старая версия ланчера зависала при попытке запустить 3ds_dsiwarehax_installer.
+6. Скопируйте `boot.nds` от dgTools в корень КП.
 4. Скопируйте папку `3ds` с заменой из архива TinyFormat в корень КП.
 1. Создайте папку `dgTool` в корне карты памяти **целевой 3DS**, если таковой там нет.
 3. Скопируйте содержимое архива с NFIRM (11.y.y_to_10.4.0_x3ds.zip) в папку `dgTool`.
@@ -88,7 +88,7 @@ permalink: /dsiware-downgrade-(save-injection).html
   + **Fieldrunners**: коснитесь кнопки 'Scores' в главном меню;
   + **Legends of Exidia**: после того, как нажмете (A) или (Start) и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue).
   + **Guitar Rock Tour**: листайте вниз и перейдите в High-Scores -> Drums -> Easy.
-  + **The Legend of Zelda: Four Swords**: Просто начните игру.
+  + **The Legend of Zelda: Four Swords (Anniversary Edition)**: Просто начните игру.
   + Если у игры нет установленного хакнутого сохранения, начните инструкцию с начала.
 5. Выберите "Dump nand", чтобы сделать бекап NAND 3DS.
   + Процесс занимает много времени.
@@ -109,7 +109,7 @@ permalink: /dsiware-downgrade-(save-injection).html
   + **Fieldrunners**: коснитесь кнопки 'Scores' в главном меню;
   + **Legends of Exidia**: после того, как нажмете (A) или (Start) и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue).
   + **Guitar Rock Tour**: листайте вниз и перейдите в High-Scores -> Drums -> Easy.
-  + **The Legend of Zelda: Four Swords**: Просто начните игру.
+  + **The Legend of Zelda: Four Swords (Anniversary Edition)**: Просто начните игру.
 3. Выберите "Downgrade FIRM to 10.4" и подтвердите установку файлов прошивки 10.4.0 в **целевую 3DS**.
 4. Закройте dgTool.
   + Для этого зажмите кнопку питания и держите до тех пор, пока приставка не выключится.
