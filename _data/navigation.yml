@@ -109,3 +109,20 @@ home:
         url: /9.2.0-downgrade#part1
       - title: "  - Часть II - Понижение прошивки"
         url: /9.2.0-downgrade#part2
+
+badges:
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /badges#start
+      - title: "• Что нужно?"
+        url: /badges#what_need
+      - title: "• Что делать:"
+        url: /badges#instructions
+      - title: "  - Часть I - Установка freeshop и hblauncher loader"
+        url: /badges#part1
+      - title: "  - Часть II - Установка жетонов"
+        url: /badges#part2
+      - title: "  - Часть III - Завершение работы"
+        url: /badges#part3
+
