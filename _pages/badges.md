@@ -1,6 +1,8 @@
 ---
-title: "Установка и жетонов (badges)"
+title: "Установка и использование жетонов (badges)"
 permalink: /badges.html
+sidebar:
+  nav: "badges"
 ---
 #### <a name="what_need" />Что нужно:
 

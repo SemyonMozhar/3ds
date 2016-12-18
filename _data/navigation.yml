@@ -28,7 +28,7 @@ main:
     url: /dsiware-list
   - title: "FAQ"
     url: /faq
-  - title: "Установка и жетонов (badges)"
+  - title: "Установка и использование жетонов (badges)"
     url: /badges
   - title: "Установка и использование тем"
     url: /themes
