@@ -1,7 +1,9 @@
 ---
-layout: splash
+layout: single-no-ads
 permalink: /
 title: "Руководство"
+sidebar:
+  nav: "site"
 header:
   overlay_color: "#5e616c"
   overlay_image: images/home-page-feature.jpg
@@ -10,9 +12,6 @@ header:
   cta_url: "/get-started"
   caption:
 excerpt: 'Пошаговая инструкция по установке arm9loaderhax и <br /> кастомной прошивки для 3DS от А до Я.<br /><br />**Актуализировал к версии гайда от Plailect<br />18.12.2016**'
-sidebar:
-  title: "Site Navigation"
-  nav: "site"
 ---
 
 {% capture notice-home %}
