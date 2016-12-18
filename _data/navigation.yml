@@ -49,7 +49,7 @@ home:
   - title: "Разделы"
     children:
       - title: "• В начало раздела"
-        url: /
+        url: /#start
       - title: "• Что такое Hombrew?"
         url: /#what_hombrw
       - title: "• Что такое кастомная прошивка (CFW)?"
@@ -65,7 +65,7 @@ home:
   - title: "Разделы"
     children:
       - title: "• В начало раздела"
-        url: /2.1.0-ctrtransfer
+        url: /2.1.0-ctrtransfer#start
       - title: "• Что будем делать?"
         url: /2.1.0-ctrtransfer#steps
       - title: "• Что нужно?"
