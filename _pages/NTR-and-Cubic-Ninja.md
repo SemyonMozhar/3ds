@@ -61,5 +61,5 @@ permalink: /ntr-and-cubic-ninja.html
 
 ___
 
-Продолжайте [установку arm9loaderhax](installing-arm9loaderhax).
+Переходите к [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
 {: .notice--primary}

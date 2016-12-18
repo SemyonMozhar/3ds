@@ -1,6 +1,7 @@
 ---
 title: "Понижение прошивки"
 permalink: /nfirm-downgrade.html
+redirect_from: "/dsiware-downgrade"
 ---
 
 **Если ваша прошивка 11.0.0 или 11.1.0, НЕ ОБНОВЛЯЙТЕСЬ до 11.2.0. Скоро сообщество обновит способ даунгрейда NFIRM с помощью DSiWare _без_ необходимости второй 3DS или хардмода!**
@@ -9,10 +10,10 @@ permalink: /nfirm-downgrade.html
 Если ваша прошивка 11.0.0, 11.1.0, или 11.2.0, то вы можете понизить версию прошивки используя один из способов, приведенных ниже. 
 {: .notice--info}
 
-Оба способа - рабочая реализация "FIRM partitions known-plaintext"-эксплойта. Подробнее о нем [здесь](https://www.3dbrew.org/wiki/3DS_System_Flaws).
+Все способы - рабочая реализация "FIRM partitions known-plaintext"-эксплойта. Подробнее о нем [здесь](https://www.3dbrew.org/wiki/3DS_System_Flaws).
 {: .notice--info}
 
-Все написанное справедливо к New 3DS, Old 3DS и 2DS (хотя в DSiWare-способе есть некоторые оговорки).
+Все написанное справедливо к New 3DS, Old 3DS и 2DS (хотя в DSiWare-способах есть некоторые оговорки).
 {: .notice--success}
 
 ---
