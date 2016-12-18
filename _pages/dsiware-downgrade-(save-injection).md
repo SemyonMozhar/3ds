@@ -1,8 +1,10 @@
 ---
 title: "Понижение прошивки при помощи DSiWare (инжект сохранения)"
 permalink: /dsiware-downgrade-(save-injection).html
+sidebar:
+  nav: "dsiware-downgrade-(save-injection)"
 ---
-
+<a name="start" />
 Если ваша прошивка 11.0.0, 11.1.0, или 11.2.0, то вы можете понизить версию NATIVE_FIRM, используя DSiWare и вторую 3DS с установленной кастомной прошивкой.
 {: .notice}   
 
@@ -18,7 +20,7 @@ permalink: /dsiware-downgrade-(save-injection).html
 Ваше DSiWare-сохранение будет скопировано перед тем, как будет заменено взломанным сохранением.
 {: .notice--info}
 
-#### Что нужно:
+#### <a name="what_need" />Что нужно: 
 
 * Купленная игра из списка ниже. *Игра должна быть уже установлена в приставку, поскольку каждая из игр в списке уже удалена из eShop*.
   + **Fieldrunners**;
@@ -39,9 +41,9 @@ permalink: /dsiware-downgrade-(save-injection).html
   + [New 3DS 11.1.0](magnet:?xt=urn:btih:d7d60c27c18f53bd8508a194656a465f6448bedf&dn=11.1.0%5Fto%5F10.4.0%5Fn3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)     
   + [Old 3DS 11.1.0](magnet:?xt=urn:btih:0caf9a948a2d8bf23606d641f6628e2baeb983bb&dn=11.1.0%5Fto%5F10.4.0%5Fo3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)     
 
-#### Что делать:
+#### <a name="instructions" />Что делать:
 
-##### Часть I - Подготовка
+##### <a name="part1" />Часть I - Подготовка
 
 1. Скопируйте _содержимое_ архива `starter.zip` в корень карты памяти с заменой.
   + Таким образом мы актуализируем все необходимые файлы для работы Homebrew Launcher; старые версии HBL приводят к зависанию 3ds_dsiwarehax_installer.
@@ -55,7 +57,7 @@ permalink: /dsiware-downgrade-(save-injection).html
 3. Скопируйте содержимое архива с NFIRM (11.y.y_to_10.4.0_x3ds.zip) в папку `dgTool`.
 3. Верните карту памяти в 3DS.
 
-##### Часть II - Резервное копирование DsiWare
+##### <a name="part2" /> Часть II - Резервное копирование DsiWare
 
 После окончания этого гайда, созданная в этой части резервная копия может быть использована для восстановления сохранения DSiWare-игры с помощью удаления DSiWare из системной памяти и восстановления игры из карты памяти.
 {: .notice--info}
@@ -67,7 +69,7 @@ permalink: /dsiware-downgrade-(save-injection).html
 2. Скопируйте все DSiWare-игры , которые уже есть на КП в системную память.
 4. Покиньте системное меню.
 
-##### Часть III - waithax
+##### <a name="part3" /> Часть III - waithax
 
 1. Запустите Homebrew Launcher, используя удобную вам точку входа.
 2. Запустите waithax.
@@ -81,7 +83,7 @@ permalink: /dsiware-downgrade-(save-injection).html
 8. Нажмите (START) для входа в меню Hombrew Launcher.
 4. Нажмите (A) для выхода.
 
-##### Часть IV - Резервное копирование NAND
+##### <a name="part4" /> Часть IV - Резервное копирование NAND
 
 3. Запустите установленную DSiWare-игру.
 4. Запустите dgTool, используя установленную DSiWare-игру. 
@@ -100,7 +102,7 @@ permalink: /dsiware-downgrade-(save-injection).html
   + Этот бекап может спасти вам консоль, если что-то пойдет не так.
   + **Убедитесь, что размер вашего бекапа соответствует размеру указанному в [этом](nand-size) разделе; если это не так, удалите бекап и создайте его заново!**
 
-##### Часть V - Прошивка целевой 3DS.
+##### <a name="part5" /> Часть V - Прошивка целевой 3DS.
 
 **НЕ понижайте прошивку с помощью dgTool на приставках с установленным arm9loaderhax. Это гарантированно приведет к брику!**
 
@@ -115,7 +117,7 @@ permalink: /dsiware-downgrade-(save-injection).html
   + Для этого зажмите кнопку питания и держите до тех пор, пока приставка не выключится.
 5. Перезагрузите приставку.
 
-##### Часть VI - Проверка эксплойта
+##### <a name="part6" /> Часть VI - Проверка эксплойта
 
 2. Вставьте КП в 3DS.
 3. Запустите Homebrew launcher, используя удобную для вас точку входа.
@@ -126,7 +128,7 @@ permalink: /dsiware-downgrade-(save-injection).html
   + Если у вас отображаются другие значения, значит вы где-то допустили ошибку. Проделайте все с самого начала. 
 5. Нажмите любую кнопку, чтобы вернуться в Homebrew Launcher.
 
-##### Часть VII - Форматирование устройства
+##### <a name="part7" /> Часть VII - Форматирование устройства
 Форматирование нужно, чтобы избежать софт-брика описанного в разделе [Понижение прошивки до 9.2.0](9.2.0-downgrade). Бекап, сделанный ранее, будет использован для восстановления состояния приставки до форматированияю, когда вы дойдете до [установки arm9loaderhax](installing-arm9loaderhax).
 {: .notice--info}
 
