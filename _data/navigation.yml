@@ -44,7 +44,7 @@ main:
     url: /donations
   - title: "Credits"
     url: /credits
-    
+
 home:
   - title: "Разделы"
     children:
@@ -77,4 +77,23 @@ home:
       - title: "  • Часть II - Резервное копирование тикетов"
         url: /2.1.0-ctrtransfer#part2
       - title: "  • Часть III - ctrtransfer"
-        url: /2.1.0-ctrtransfer#part3
+        url: /2.1.0-ctrtransfer#part3   
+
+
+9.2.0-ctrtransfer:
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /9.2.0-ctrtransfer#start
+      - title: "• Что будем делать?"
+        url: /9.2.0-ctrtransfer#steps
+      - title: "• Что нужно?"
+        url: /9.2.0-ctrtransfer#what_need
+      - title: "• Что делать:"
+        url: /9.2.0-ctrtransfer#instructions
+      - title: "  • Часть I - Подготовка"
+        url: /9.2.0-ctrtransfer#part1
+      - title: "  • Часть II - Резервное копирование тикетов"
+        url: /9.2.0-ctrtransfer#part2
+      - title: "  • Часть III - ctrtransfer"
+        url: /9.2.0-ctrtransfer#part3
