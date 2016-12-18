@@ -28,9 +28,9 @@ main:
     url: /dsiware-list
   - title: "FAQ"
     url: /faq
-  - title: "Установка и использование жетонов (badges)"
+  - title: "Установка и использование<br>жетонов (badges)"
     url: /badges
-  - title: "Установка и использование тем"
+  - title: "Установка и использование<br>тем"
     url: /themes
   - title: "Проблемы и их<br>решения"
     url: /troubleshooting
@@ -131,6 +131,8 @@ badges:
 cart-update:
   - title: "Разделы"
     children:
+      - title: "• В начало раздела"
+        url: /cart-update#start
       - title: "• Что нужно?"
         url: /cart-update#what_need
       - title: "• Что делать:"
@@ -138,12 +140,12 @@ cart-update:
       - title: "• Владельцам Sky3DS"
         url: /cart-update#sky3ds
 
-cart-update:
+decrypt9-(browser):
   - title: "Разделы"
     children:
+      - title: "• В начало раздела"
+        url: /decrypt9-(browser)#start
       - title: "• Что нужно?"
-        url: /cart-update#what_need
+        url: /decrypt9-(browser)#what_need
       - title: "• Что делать:"
-        url: /cart-update#instructions
-      - title: "• Владельцам Sky3DS"
-        url: /cart-update#sky3ds
+        url: /decrypt9-(browser)#instructions
