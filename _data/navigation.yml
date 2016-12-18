@@ -48,6 +48,8 @@ main:
 home:
   - title: "Разделы"
     children:
+      - title: "• В начало раздела"
+        url: /
       - title: "• Что такое Hombrew?"
         url: /#what_hombrw
       - title: "• Что такое кастомная прошивка (CFW)?"
@@ -58,3 +60,21 @@ home:
         url: /#what_can_cfw
       - title: "• Что нужно знать, перед тем, как начать?"
         url: /#what_know
+
+2.1.0-ctrtransfer:
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /2.1.0-ctrtransfer
+      - title: "• Что будем делать?"
+        url: /2.1.0-ctrtransfer#steps
+      - title: "• Что нужно?"
+        url: /2.1.0-ctrtransfer#what_need
+      - title: "• Что делать:"
+        url: /2.1.0-ctrtransfer#instructions
+      - title: "&nbps&nbps• Часть I - Подготовка"
+        url: /2.1.0-ctrtransfer#part1
+      - title: "• Часть II - Резервное копирование тикетов"
+        url: /2.1.0-ctrtransfer#part2
+      - title: "• Часть III - ctrtransfer"
+        url: /2.1.0-ctrtransfer#part3
