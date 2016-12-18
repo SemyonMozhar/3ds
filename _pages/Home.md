@@ -3,7 +3,7 @@ layout: single-no-ads
 permalink: /
 title: "Руководство"
 sidebar:
-  nav: "site"
+  nav: "home"
 header:
   overlay_color: "#5e616c"
   overlay_image: images/home-page-feature.jpg
