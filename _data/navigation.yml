@@ -117,8 +117,6 @@ home:
 badges:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /badges#start
       - title: "• Что нужно?"
         url: /badges#what_need
       - title: "• Что делать:"
@@ -130,3 +128,22 @@ badges:
       - title: "  - Часть III - Завершение работы"
         url: /badges#part3
 
+cart-update:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /cart-update#what_need
+      - title: "• Что делать:"
+        url: /cart-update#instructions
+      - title: "• Владельцам Sky3DS"
+        url: /cart-update#sky3ds
+
+cart-update:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /cart-update#what_need
+      - title: "• Что делать:"
+        url: /cart-update#instructions
+      - title: "• Владельцам Sky3DS"
+        url: /cart-update#sky3ds
