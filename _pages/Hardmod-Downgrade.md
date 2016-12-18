@@ -1,8 +1,10 @@
 ---
 title: "Понижение прошивки с помощью хардмода"
 permalink: /hardmod-downgrade.html
+sidebar:
+  nav: "hardmod-downgrade"
 ---
-
+<a name="start" />
 **Если ваша прошивка 11.0.0 или 11.1.0, НЕ ОБНОВЛЯЙТЕСЬ до 11.2.0. Скоро сообщество обновит способ даунгрейда NFIRM с помощью DSiWare _без_ необходимости второй 3DS или хардмода!**
 {: .notice--primary}
 
@@ -18,7 +20,7 @@ permalink: /hardmod-downgrade.html
 Будет работать на всех версиях 3DS - New 3DS, Old 3DS, и 2DS.
 {: .notice--success}
 
-#### Что нужно:
+#### <a name="what_need" />Что нужно: 
 
 * Слитый с помощью [хардмода](https://gbatemp.net/threads/414498/) образ NAND.
 * Свежая версия [autofirm](https://github.com/Plailect/autofirm/archive/master.zip)
@@ -33,9 +35,9 @@ permalink: /hardmod-downgrade.html
   + [New 3DS 11.2.0](magnet:?xt=urn:btih:881388a552a1ce9a963d391bf1a023642270991c&dn=11.2.0%5Fto%5F10.4.0%5Fn3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)     
   + [Old 3DS 11.2.0](magnet:?xt=urn:btih:a479e4ee55efbc18c181d426cd77a34815388151&dn=11.2.0%5Fto%5F10.4.0%5Fo3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)    
  
-#### Что делать:
+#### <a name="instructions" />Что делать:
 
-##### Часть I - модификация NAND 
+##### <a name="part1" />Часть I - Модификация NAND 
 
 1. Извлеките архив с autofirm в папку `autofirm`.
 2. Переименуйте бекап вашего NAND в `nand.bin` и положите его в папку `/autofirm/`.
@@ -46,7 +48,7 @@ permalink: /hardmod-downgrade.html
   + Не удаляйте `backup_nand.bin`, он еще пригодится.
 7. Прошейте `nand_patched.bin` обратно в ваше устройство, используя hardmod. 
 
-##### Часть II - Проверка эксплойта
+##### <a name="part2" />Часть II - Проверка эксплойта
 
 1. Скопируйте и объедините папку `3ds` из архива с 3DSident с папкой `3ds` в корне карты памяти.
 2. Вставьте КП в консоль.

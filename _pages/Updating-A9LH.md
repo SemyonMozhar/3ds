@@ -1,8 +1,10 @@
 ---
 title: "Обновление A9LH "
 permalink: /updating-a9lh.html
+sidebar:
+  nav: "updating-a9lh"
 ---
-
+<a name="start" />
 ### Крайняя версия: 3 ноября 2016
 
 Собственно процесс установки arm9loaderhax подразумевает установку загрузчика, который на лету изменяет файлы, расположенные в системном разделе на NAND-чипе приставки, который припаян к самой материнской плате. Эти загрузчики обновляются редко и нужны только для запуска `arm9loaderhax.bin` с SD-карты, которая, в нашем случае, есть ни что иное как Luma3DS.
@@ -23,7 +25,7 @@ permalink: /updating-a9lh.html
 Нижеследующая инструкция так же обновляет некоторые полезные загрузчики и базу ключей AES. 
 {: .notice--success}
 
-#### Что нужно:
+#### <a name="what_need" />Что нужно: 
 
 * [`aeskeydb.bin`](magnet:?xt=urn:btih:18b3a17f78e2376e05feaa150749d9fd689b25dc&dn=aeskeydb.bin&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 * [`data_input_v4.zip`](magnet:?xt=urn:btih:00f03ff69b5961307303d5e4778a2f65a528bf2d&dn=data%5Finput%5Fv4.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
@@ -31,11 +33,11 @@ permalink: /updating-a9lh.html
 * Свежая версия [SafeA9LHInstaller](https://github.com/AuroraWright/SafeA9LHInstaller/releases/latest) *(`.7z`-файл)*
 * Свежая версия [Hourglass9](https://github.com/d0k3/Hourglass9/releases/latest) *(`.7z`-файл)*
 
-#### Что делать: 
+#### <a name="instructions" />Что делать:
 
 **Все нижеследующие действия обычно перезаписывают старые версии заменяемых файлов. Логично, что нужно соглашаться на замену.**
 
-##### Часть I - Подготовка
+##### <a name="part1" />Часть I - Подготовка
 
 1. Удалите `aeskeydb.bin` из корня карты памяти, если таковой файл есть.
 13. Удалите папку `a9lh` из корня карты памяти.
@@ -48,7 +50,7 @@ permalink: /updating-a9lh.html
 8. Скопируйте  `arm9loaderhax.bin` из архива Luma3DS в корень карты памяти с заменой. 
 9. Вставьте карту обратно в 3DS.
 
-##### Часть II - Обновление загрузчика
+##### <a name="part2" />Часть II - Обновление загрузчика
 
 10. Отключите питание, зажмите кнопку (ВНИЗ) и, не отпуская кнопку, включите приставку.
 11. Нажмите (SELECT), чтобы обновить arm9loaderhax.
@@ -56,7 +58,7 @@ permalink: /updating-a9lh.html
 13. Удалите папку `a9lh` из корня карты памяти.
 14. Удалите `down_safea9lhinstaller.bin` из папки `/luma/payloads`
 
-##### Часть III - Настройка Luma3DS
+##### <a name="part3" />Часть III - Настройка Luma3DS
 
 15. Вставьте карту обратно в 3DS.
 2. С помощью кнопки (А) отметьте следующие пункты:     
@@ -69,7 +71,7 @@ permalink: /updating-a9lh.html
     + Если какие-то игры работают некорректно, отключите эту опцию.
 4. Нажмите (START), чтобы сохранить настройки и перезагрузиться. 
 
-##### Часть IV - CTRNAND Luma3DS
+##### <a name="part4" />Часть IV - CTRNAND Luma3DS
 
 16. Запустите FBI.
 17. Выберите "SD".

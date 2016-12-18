@@ -1,8 +1,10 @@
 ---
 title: "Смена региона "
 permalink: /region-changing.html
+sidebar:
+  nav: "region-changing"
 ---
-
+<a name="start" />
 Эта дополнительная секция рассказывает о смене региона на вашей приставке с arm9loaderhax CFW SysNAND. Смысл в том, чтобы установить 9.2.0 ctrtransfer для того региона, на который вы хотите сменить текущий и внести изменения в файл SecureInfo_A.
 {: .notice--primary}
 
@@ -24,7 +26,7 @@ permalink: /region-changing.html
 **У вас уже должен быть установлен arm9loaderhax + Luma3DS.**
 {: .notice--danger}
 
-#### Что нужно: 
+#### <a name="what_need" />Что нужно: 
 
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/)
 * Свежая версия [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/latest)
@@ -37,18 +39,18 @@ permalink: /region-changing.html
   +    [Old 3DS/2DS 9.2.0 - JPN - ctrtransfer](magnet:?xt=urn:btih:24ad2b85e67013ef1f91178dca7ad2e40663b9b2&dn=9.2.0-20J%5Fctrtransfer%5Fo3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)     
   +    [Old 3DS/2DS 9.2.0 - USA - ctrtransfer](magnet:?xt=urn:btih:1dc79a2a0babb45497961888f369423a93135e2b&dn=9.2.0-20U%5Fctrtransfer%5Fo3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
  
-#### Что делать:
+#### <a name="instructions" />Что делать:
 
 **В некоторых приставках вместо `SecureInfo_A` используется `SecureInfo_B`; это нормально, просто по ходу инструкции все действия производите над `SecureInfo_B`.**    
 
-##### Часть I - Подготовка
+##### <a name="part1" />Часть I - Подготовка
 
 1. Скопируйте `GodMode9.bin` из архива GodMode9 в папку `/luma/payloads` в корне КП и переименуйте `GodMode9.bin` в `up_GodMode9.bin`.
 2. Скопируйте `Decrypt9WIP.bin` из архива Decrypt9WIP в папку `/luma/payloads` в корне КП и переименуйте `Decrypt9WIP.bin` в `x_Decrypt9WIP.bin`.
 3. Скопируйте файлы .bin` и `.bin.sha` образа 9.2.0 ctrtransfer из архива с 9.2.0 ctrtransfer в папку /files9/` в корне карты памяти. 
 4. Вставьте карту памяти в консоль. 
 
-##### Часть II - Резервное копирование тикетов
+##### <a name="part2" />Часть II - Резервное копирование тикетов
 
 5. Запустите Decrypt9 из под arm9loaderhax, удерживая (X) во время старта консоли. 
 6. Перейдите в меню "Ticket/Titlekey Options", выберите "Ticket Dump (SysNAND)".
@@ -57,7 +59,7 @@ permalink: /region-changing.html
 9. Все файлы с разрешением `.tik`, начинающиеся с "00-" оставьте в папке. 
 10. Вставьте карту памяти в консоль и нажмите (В).
 
-##### Часть III - ctrtransfer
+##### <a name="part3" />Часть III - ctrtransfer
 
 5. Запустите Decrypt9 из под arm9loaderhax, удерживая (X) во время старта консоли. 
 6. Перейдите в меню "SysNAND Options", а затем в "CTRNAND Transfer" и в "Auto CTRNAND Transfer".
@@ -72,7 +74,7 @@ permalink: /region-changing.html
 12. Удалите файлы .bin и .bin.sha от 9.2.0 ctrtransfer из папки /files9/ на карте памяти.
 10. Вставьте карту памяти в консоль.
 
-##### Часть IV - Редактирование SecureInfo
+##### <a name="part4" />Часть IV - Редактирование SecureInfo
 
 1. Отключите приставку. 
 2. Включите консоль, удерживая кнопку (ВВЕРХ)
@@ -98,7 +100,7 @@ permalink: /region-changing.html
 17. Если все сделано правильно, то вы увидите оба файла - `SecureInfo_A` и `SecureInfo_C`. (`SecureInfo_C` автоматически используется вместо `SecureInfo_A`в том случае, если luma3DS находит его в директории).
 18. Нажмите (START) для перезагрузки. 
 
-##### Часть V - Восстановление тикетов
+##### <a name="part5" />Часть V - Восстановление тикетов
 
 1. Запустите FBI.
 2. Выберите "SD".
@@ -111,7 +113,7 @@ permalink: /region-changing.html
 9. Выйдите из FBI нажатием кнопки (home).
 
 
-##### Часть VI - Региональные настройки
+##### <a name="part6" />Часть VI - Региональные настройки
 
 1. Откройте Системные настройки.
 2. Перейдите в пункт "Прочие настройки" (Other Settings), "Профиль" (Profile), "Настройки региона" (Region Settings).

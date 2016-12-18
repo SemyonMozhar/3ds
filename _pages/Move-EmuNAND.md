@@ -1,8 +1,10 @@
 ---
 title: "Перенос EmuNAND"
 permalink: /move-emunand.html
+sidebar:
+  nav: "move-emunand"
 ---
-
+<a name="start" />
 Этот дополнительный раздел предназначен тем, кто хочет перенести содержимое своего EmuNAND в новый SysNAND с кастомной прошивкой. В процессе мы так же удалим раздел с EmuNAND с карты памяти, что освободит на ней лишний гигабайт с чем-то. Помните, что EmuNAND и RedNAND - просто разные реализации одного и того же метода [перенаправления NAND](http://3dbrew.org/wiki/NAND_Redirection).
 {: .notice--info}
 
@@ -12,22 +14,22 @@ permalink: /move-emunand.html
 **У вас уже должен быть установлен arm9loaderhax + Luma3DS.**
 {: .notice--danger}
 
-#### Что нужно:
+#### <a name="what_need" />Что нужно: 
 
 * Исходный EmuNAND.
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/).
 * Свежая версия [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/latest).
 
-#### Что делать: 
+#### <a name="instructions" />Что делать:
 
-##### Часть I - Подготовка
+##### <a name="part1" />Часть I - Подготовка
 
 1. Извлеките КП из консоли и вставьте в ПК.
 1. Скопируйте `GodMode9.bin` из архива GodMode9 в папку `/luma/payloads/` на вашей карте памяти и переименуйте `GodMode9.bin` в `up_GodMode9.bin`.
 5. Скопируйте `Decrypt9WIP.bin` в папку `/luma/payloads/` на карте памяти и переименуйте `Decrypt9WIP.bin` в `x_Decrypt9WIP.bin`.
 2. Верните КП в приставку.
 
-##### Часть II - Резервное копирование тикетов
+##### <a name="part2" />Часть II - Резервное копирование тикетов
 
 Если делали бекап тикетов в части с 2.1.0 ctrtransfer, удалите все файлы с расширением .tik с карты памяти и продолжайте выполнение инструкции. 
 {: .notice--info}
@@ -40,7 +42,7 @@ permalink: /move-emunand.html
 4. В папке должны остаться лишь те .tik-файлы, что начинаются с “00-“.
 5. Вставьте карту памяти назад в 3DS и нажмите (B).
 
-##### Часть III - Создание бекапа EmuNAND
+##### <a name="part3" />Часть III - Создание бекапа EmuNAND
 
 4. Перейдите в "**EmuNAND** Options", "**EmuNAND** Backup/Restore", выберите "NAND Backup (min size)", чтобы сделать бекап **EmuNAND** в файл `NANDmin_emu.bin`.
 4. Дождитесь окончания создания бекапа.
@@ -52,7 +54,7 @@ permalink: /move-emunand.html
 9. Удалите `NANDmin_emu.bin` и `NANDmin_emu.bin.sha` из папки `/files9/` после копирования.
 5. Нажмите (B), чтобы вернуться в меню. 
 
-##### Часть IV - Восстановление бекапа EmuNAND в SysNAND
+##### <a name="part4" />Часть IV - Восстановление бекапа EmuNAND в SysNAND
 Мы восстанавливаем **_бекап_ EmuNAND** в **SysNAND** держите это в голове и будьте внимательны. Если вы восстановите бекап SysNAND, то ничего не изменится.
 {: .notice--warning}
 
@@ -75,7 +77,7 @@ permalink: /move-emunand.html
 20. Нажмите (START) для перезагрузки.
 19. Если нарветесь на черный экран, перейдите к разделу с [проблемами и их решениями](troubleshooting#ts_sys_down).
 
-##### Часть V - Восстановление тикетов
+##### <a name="part5" />Часть V - Восстановление тикетов
 
 1. Запустите FBI.
 2. Выберите "SD".

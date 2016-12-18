@@ -1,15 +1,17 @@
 ---
 title: "Homebrew Launcher (Браузер есть)"
 permalink: /Homebrew-launcher-(browser).html
+sidebar:
+  nav: "Homebrew-launcher-(browser)"
 ---
-
+<a name="start" />
 Для запуска Homebrew Launcher существует несколько точек входа (проще говоря, методов запуска). Чаще всего используется browserhax, для работы которого не нужно ничего, кроме браузера приставки. Из под него уже можно установить menuhax, который позволит запускать Homebrew Launcher, просто зажав кнопку ДО запуска системы. 
 {: .notice--info}
 
 **Browserhax работает для приставок следующих регионов:  EUR / JPN / USA / KOR.**
 {: .notice--warning}
 
-#### Что нужно:
+#### <a name="what_need" />Что нужно: 
 {::comment}
 + [`config.zip`](images/config.zip)
 + The [ropbin](https://smealum.github.io/3ds/#otherapp), соответствующий версии прошивки вашей 3DS.
@@ -17,7 +19,7 @@ permalink: /Homebrew-launcher-(browser).html
 + The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 + Настроенное и рабочее интернет-соединение. 
 
-#### Что делать: 
+#### <a name="instructions" />Что делать:
 
 ##### Часть I -  Подготовка
 

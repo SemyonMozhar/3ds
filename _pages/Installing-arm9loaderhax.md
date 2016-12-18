@@ -1,8 +1,10 @@
 ---
 title: "Установка arm9loaderhax"
 permalink: /installing-arm9loaderhax.html
+sidebar:
+  nav: "installing-arm9loaderhax"
 ---
-
+<a name="start" />
 В последнем этапе гайда устанавливаем arm9loaderhax и настраиваем Luma3DS, таким образом загрузка будет занимать значительно меньше времени. За эту возможность благодарим [AuroraWright](https://github.com/AuroraWright/) и его программу SafeA9LHInstaller.
 {: .notice}
 
@@ -15,7 +17,7 @@ permalink: /installing-arm9loaderhax.html
 **НЕЛЬЗЯ использовать чужой OTP. Брик гарантирован!**
 {: .notice--danger}
 
-#### Что будем делать?
+#### <a name="steps" />Что будем делать?
 
 В этом разделе мы будем двигаться к одной великой цели - установке arm9loaderhax.
 
@@ -34,7 +36,7 @@ permalink: /installing-arm9loaderhax.html
   +  **Hourglass9** *(многоцелевая утилита, выполняющие различные функции, связанные с NAND и картриджами)*
   +  **freeshop** *(open source клон eShop, облегчающий поиск игр)*
 
-#### Что понадобится:
+#### <a name="what_need" />Что нужно: 
 
 * [`aeskeydb.bin`](magnet:?xt=urn:btih:18b3a17f78e2376e05feaa150749d9fd689b25dc&dn=aeskeydb.bin&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 * [`fbi-2.4.2-injectable.zip`](magnet:?xt=urn:btih:f978b4cf5eda72823240b9c649f3fd2940a9f525&dn=fbi-2.4.2-injectable.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
@@ -52,7 +54,7 @@ permalink: /installing-arm9loaderhax.html
 * Если вы пользовались блокировкой conntest.nintendowifi.net [(Homebrew Launcher (Браузер есть), часть IV)](Homebrew-launcher-(browser)) через файерволл, роутер, смартфон, прочее, то отключите добавленное вами правило, иначе вы не сможете ни обновить прошивку по окончании выполнения инструкции, ни скачать новый ropbin payload при необходимости, а следовательно, зайти в HBL. 
 
 
-#### Что делать: 
+#### <a name="instructions" />Что делать:
 
 ##### Часть I - Подготовка
 

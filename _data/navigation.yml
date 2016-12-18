@@ -254,3 +254,194 @@ dsiware-downgrade-(save-injection):
       - title: "  - Часть VII - Форматирование устройства"
         url: /dsiware-downgrade-(save-injection)#part7
 
+h2testw-(windows):
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /h2testw-(windows)#start
+      - title: "• Что нужно?"
+        url: /h2testw-(windows)#what_need
+      - title: "• Что делать:"
+        url: /h2testw-(windows)#instructions
+
+hardmod-downgrade:
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /hardmod-downgrade#start
+      - title: "• Что нужно?"
+        url: /hardmod-downgrade#what_need
+      - title: "• Что делать:"
+        url: /hardmod-downgrade#instructions
+      - title: "  - Часть I - Модификация NAND"
+        url: /hardmod-downgrade#part1
+      - title: "  - Часть II - Проверка эксплойта"
+        url: /hardmod-downgrade#part2
+
+Homebrew-launcher-(browser):
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /Homebrew-launcher-(browser)#start
+      - title: "• Что нужно?"
+        url: /Homebrew-launcher-(browser)#what_need
+      - title: "• Что делать:"
+        url: /Homebrew-launcher-(browser)#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /Homebrew-launcher-(browser)#part1
+      - title: "  - Часть II - Обход проверки версии"
+        url: /Homebrew-launcher-(browser)#part2
+      - title: "  - Часть III - Блокировка conntest.nintendowifi.net"
+        url: /Homebrew-launcher-(browser)#part3
+      - title: "  - Часть IV - browserhax"
+        url: /Homebrew-launcher-(browser)#part4
+      - title: "  - Часть V - menuhax"
+        url: /Homebrew-launcher-(browser)#part5
+
+Homebrew-launcher-(no-browser):
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /Homebrew-launcher-(no-browser)#start
+      - title: "• Что нужно?"
+        url: /Homebrew-launcher-(no-browser)#what_need
+      - title: "• Что делать:"
+        url: /Homebrew-launcher-(no-browser)#instructions
+
+installing-arm9loaderhax:
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /installing-arm9loaderhax#start
+      - title: "• Что будем делать?"
+        url: /installing-arm9loaderhax#steps
+      - title: "• Что нужно?"
+        url: /installing-arm9loaderhax#what_need
+      - title: "• Что делать:"
+        url: /installing-arm9loaderhax#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /installing-arm9loaderhax#part1
+      - title: "  - Часть II - Установка arm9loaderhax"
+        url: /installing-arm9loaderhax#part2
+      - title: "  - Часть III - Настройка Luma3DS"
+        url: /installing-arm9loaderhax#part3
+      - title: "  - Часть IV - Восстановление системы"
+        url: /installing-arm9loaderhax#part4
+      - title: "  - Часть V - Внедрение FBI"
+        url: /installing-arm9loaderhax#part5
+      - title: "  - Часть VI - Заканчиваем настройку"
+        url: /installing-arm9loaderhax#part6
+      - title: "  - Часть VII - Восстановление тикетов"
+        url: /installing-arm9loaderhax#part7
+        
+move-emunand:
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /move-emunand#start
+      - title: "• Что нужно?"
+        url: /move-emunand#what_need
+      - title: "• Что делать:"
+        url: /move-emunand#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /move-emunand#part1
+      - title: "  - Часть II - Резервное копирование тикетов"
+        url: /move-emunand#part2
+      - title: "  - Часть III - Создание бекапа EmuNAND"
+        url: /move-emunand#part3
+      - title: "  - Часть IV - Восстановление бекапа EmuNAND в SysNAND"
+        url: /move-emunand#part4
+      - title: "  - Часть V - Часть V - Восстановление тикетов"
+        url: /move-emunand#part5
+
+ntr-and-cubic-ninja:
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /ntr-and-cubic-ninja#start
+      - title: "• Что нужно?"
+        url: /ntr-and-cubic-ninja#what_need
+      - title: "• Что делать:"
+        url: /ntr-and-cubic-ninja#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /ntr-and-cubic-ninja#part1
+      - title: "  - Часть II - Резервное копирование тикетов"
+        url: /ntr-and-cubic-ninja#part2
+
+region-changing:
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /region-changing#start
+      - title: "• Что нужно?"
+        url: /region-changing#what_need
+      - title: "• Что делать:"
+        url: /region-changing#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /region-changing#part1
+      - title: "  - Часть II - Резервное копирование тикетов"
+        url: /region-changing#part2
+      - title: "  - Часть III - ctrtransfer"
+        url: /region-changing#part3
+      - title: "  - Часть IV - Редактирование SecureInfo"
+        url: /region-changing#part4
+      - title: "  - Часть V - Восстановление тикетов"
+        url: /region-changing#part5
+      - title: "  - Часть VI - Региональные настройки"
+        url: /region-changing#part6
+
+themes:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /themes#what_need
+      - title: "• Что делать:"
+        url: /themes#instructions
+
+updating-a9lh:
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /updating-a9lh#start
+      - title: "• Что нужно?"
+        url: /updating-a9lh#what_need
+      - title: "• Что делать:"
+        url: /updating-a9lh#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /updating-a9lh#part1
+      - title: "  - Часть II - Обновление загрузчика"
+        url: /updating-a9lh#part2
+      - title: "  - Часть III - Настройка Luma3DS"
+        url: /updating-a9lh#part3
+      - title: "  - Часть IV - CTRNAND Luma3DS"
+        url: /updating-a9lh#part4
+
+nand-size:
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /nand-size#start
+      - title: "• 2DS"
+        url: /nand-size#2ds
+      - title: "• Old 3DS"
+        url: /nand-size#3ds
+      - title: "• New 3DS"
+        url: /nand-size#n3ds
+
+updating-a9lh:
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /updating-a9lh#start
+      - title: "• Что нужно?"
+        url: /updating-a9lh#what_need
+      - title: "• Что делать:"
+        url: /updating-a9lh#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /updating-a9lh#part1
+      - title: "  - Часть II - Обновление загрузчика"
+        url: /updating-a9lh#part2
+      - title: "  - Часть III - Настройка Luma3DS"
+        url: /updating-a9lh#part3
+      - title: "  - Часть IV - CTRNAND Luma3DS"
+        url: /updating-a9lh#part4

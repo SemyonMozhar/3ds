@@ -1,12 +1,14 @@
 ---
 title: "NTR и Cubic Ninja"
 permalink: /ntr-and-cubic-ninja.html
+sidebar:
+  nav: "ntr-and-cubic-ninja"
 ---
-
+<a name="start" />
 **NTR Cubic Ninja работает ТОЛЬКО для JPN New 3DS!**
 {: .notice--warning}
 
-#### What you need
+#### <a name="what_need" />Что нужно: 
 
 * [JPN Cubic Ninja](https://www.amazon.com/dp/B004QL7M0A)
 * The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
@@ -20,9 +22,9 @@ permalink: /ntr-and-cubic-ninja.html
 * Свежая версия [NTR Debugger](magnet:?xt=urn:btih:66274cee542bef7745792714673bf2be4d606496&dn=NTR%20Debugger.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.piratepublic.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.kicks-ass.net%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce)
  +    [New 3DS 9.2.0 - JPN](magnet:?xt=urn:btih:c8630ed31b53637b9023bd4dc1ce38362bb8ecd9&dn=9.2.0-20J%28Full%29%5Fn3DS.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.piratepublic.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.kicks-ass.net%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.kicks-ass.net%2Fannounce)     
 
-#### Что делать:
+#### <a name="instructions" />Что делать:
 
-##### Часть I - Подготовка
+##### <a name="part1" />Часть I - Подготовка
 
 1. Установите WAMP в папку по умолчанию.
 2. Скопируйте содержимое `3ds-private-update-server.zip` в папку `C:\wamp\www\` (соглашайтесь на замену).
@@ -41,7 +43,7 @@ permalink: /ntr-and-cubic-ninja.html
 1. Скопируйте _содержимое_ архива `starter.zip` в корень карты памяти и вставьте ее обратно в 3DS.
 2. Скопируйте папку `Decrypt9WIP` из архива Decrypt9WIP в папку `/3ds/` на карте памяти.
 
-##### Часть II - Обновление
+##### <a name="part2" />Часть II - Обновление
 
 1. Загрузите 3DS в режим восстановления, удерживая (L)+(R)+(A)+(ВВЕРХ) во время включения приставки.
 2. Отклоните предложение обновиться и перезагрузите приставку.

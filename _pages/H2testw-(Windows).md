@@ -1,8 +1,10 @@
 ---
 title: "H2testw (Windows)"
 permalink: /h2testw-(windows).html
+sidebar:
+  nav: "h2testw-(windows)"
 ---
-
+<a name="start" />
 В этом разделе рассказывается о том, как проверить карту памяти на ошибки под ОС Linux с помощью h2testw.
 {: .notice}
 
@@ -12,11 +14,11 @@ permalink: /h2testw-(windows).html
 Этот раздел предназначен для пользователей Windows. Если у вас не Windows, воспользуйтесь F3 (linux)](f3-(linux)) или [F3X (mac)](f3x-(mac)).
 {: .notice--info}
 
-#### Что нужно:
+#### <a name="what_need" />Что нужно: 
 
 * Свежая версия [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-#### Что делать:
+#### <a name="instructions" />Что делать:
 
 1. Скопируйте `h2testw.exe` из архива с h2testw на рабочий стол.
 4. Вставьте карту памяти в ПК.

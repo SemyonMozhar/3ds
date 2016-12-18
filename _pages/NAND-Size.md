@@ -1,8 +1,10 @@
 ---
 title: "Размеры NAND"
 permalink: /nand-size.html
+sidebar:
+  nav: "nand-size"
 ---
-
+<a name="start" />
 Для большинства случаев, NAND должен быть одного из нижеуказанных размеров. 
 {: .notice--primary}
 
@@ -18,7 +20,7 @@ permalink: /nand-size.html
 **Ваш бекап должен соответствовать указанным размерам. Если это не так, то удалите его и сделайте по новой** (*что явно противоречит сказанному в предыдущем предложении :) по-факту конечно, лучше сделать парочку раз, если размер отличен от ожидаемого, и сравнить. - прим. пер.*)
 {: .notice--danger}
 
-## 2DS:    
+## <a name="2ds" />2DS:    
 
     + Toshiba NAND:     
       988.807.168 bytes = 943 MiB    
@@ -32,7 +34,7 @@ permalink: /nand-size.html
     + Samsung NAND:    
       1.300.234.240 bytes = 1.21 GiB    
 
-## Old 3DS:    
+## <a name="3ds" />Old 3DS:    
 
     + Toshiba NAND:     
       988.807.168 bytes = 943 MiB    
@@ -40,7 +42,7 @@ permalink: /nand-size.html
     + Samsung NAND:    
       1.000.341.504 bytes = 954 MiB    
 
-## New 3DS:    
+## <a name="n3ds" />New 3DS:    
 
     + Toshiba NAND:    
       1.979.711.488 bytes = 1.84 GiB    
