@@ -149,3 +149,23 @@ decrypt9-(browser):
         url: /decrypt9-(browser)#what_need
       - title: "• Что делать:"
         url: /decrypt9-(browser)#instructions
+
+decrypt9-(Homebrew-launcher):
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /decrypt9-(Homebrew-launcher)#start
+      - title: "• Что нужно?"
+        url: /decrypt9-(Homebrew-launcher)#what_need
+      - title: "• Что делать:"
+        url: /decrypt9-(Homebrew-launcher)#instructions
+
+decrypt9-(mset):
+  - title: "Разделы"
+    children:
+      - title: "• В начало раздела"
+        url: /decrypt9-(mset)#start
+      - title: "• Что нужно?"
+        url: /decrypt9-(mset)#what_need
+      - title: "• Что делать:"
+        url: /decrypt9-(mset)#instructions
