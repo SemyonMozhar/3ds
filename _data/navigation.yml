@@ -28,6 +28,10 @@ main:
     url: /dsiware-list
   - title: "FAQ"
     url: /faq
+  - title: "Установка и жетонов (badges)"
+    url: /badges
+  - title: "Установка и использование тем"
+    url: /themes
   - title: "Проблемы и их<br>решения"
     url: /troubleshooting
   - title: "Обновление A9LH"
