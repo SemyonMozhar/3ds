@@ -49,4 +49,12 @@ home:
   - title: "Разделы"
     children:
       - title: "Что такое Hombrew?"
-        url: /home#what_hombrw
+        url: /#what_hombrw
+      - title: "Что такое кастомная прошивка (CFW)?"
+        url: /#what_cfw
+      - title: "Так чему же учит этот гайд?"
+        url: /#what_guide
+      - title: "Что же можно делать на кастомной прошивке?"
+        url: /#what_can_cfw
+      - title: "Что нужно знать, перед тем, как начать?"
+        url: /#what_know
