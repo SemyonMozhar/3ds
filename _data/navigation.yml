@@ -259,11 +259,11 @@ dsiware-downgrade-(save-injection):
 dsiware-list:
   - title: "Разделы"
     children:
-      - title: "• Совместимые игры USA-региона"
+      - title: "• Игры USA-региона"
         url: /dsiware-list#usa
-      - title: "• Совместимые игры EUR-региона"
+      - title: "• Игры EUR-региона"
         url: /dsiware-list#eur
-      - title: "• Совместимые игры JPN-региона"
+      - title: "• Игры JPN-региона"
         url: /dsiware-list#jpn
         
 h2testw-(windows):
