@@ -99,6 +99,8 @@ home:
         url: /9.2.0-ctrtransfer#part2
       - title: "  - Часть III - ctrtransfer"
         url: /9.2.0-ctrtransfer#part3
+      - title: "  - Часть IV - Восстановление конфигов"
+        url: /9.2.0-ctrtransfer#part4
         
 9.2.0-downgrade:
   - title: "Разделы"
@@ -389,6 +391,8 @@ region-changing:
         url: /region-changing#part5
       - title: "  - Часть VI - Региональные настройки"
         url: /region-changing#part6
+      - title: "  - Часть VII - Восстановление конфигов"
+        url: /region-changing#part7
 
 themes:
   - title: "Разделы"
