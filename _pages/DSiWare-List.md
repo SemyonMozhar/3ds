@@ -6,8 +6,6 @@ permalink: /dsiware-list.html
 Это список совместимых DSiWare-игр для [Понижения прошивки при помощи DSiWare (Инжект приложения с помощью второй 3DS)](dsiware-downgrade-(app-injection-and-second-3ds)) составлен автоматически с помощью скрипта.
 {: .notice--primary}
 
-<div class="notice">{{ notice-old | markdownify }}</div>
-
 Список отсортирован по регионам в следующем порядке: USA, EUR, JPN.
 {: .notice--info}
 

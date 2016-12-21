@@ -256,6 +256,16 @@ dsiware-downgrade-(save-injection):
       - title: "  - Часть VII - Форматирование устройства"
         url: /dsiware-downgrade-(save-injection)#part7
 
+dsiware-list:
+  - title: "Разделы"
+    children:
+      - title: "• Совместимые игры USA-региона"
+        url: /dsiware-list#usa
+      - title: "• Совместимые игры EUR-региона"
+        url: /dsiware-list#eur
+      - title: "• Совместимые игры JPN-региона"
+        url: /dsiware-list#jpn
+        
 h2testw-(windows):
   - title: "Разделы"
     children:
