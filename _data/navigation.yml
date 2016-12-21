@@ -259,6 +259,8 @@ dsiware-downgrade-(save-injection):
 dsiware-list:
   - title: "Разделы"
     children:
+      - title: "• В начало раздела"
+        url: /dsiware-list#start
       - title: "• Игры USA-региона"
         url: /dsiware-list#usa
       - title: "• Игры EUR-региона"
