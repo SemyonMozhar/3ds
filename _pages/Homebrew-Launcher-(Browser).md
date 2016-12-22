@@ -21,7 +21,7 @@ sidebar:
 
 #### <a name="instructions" />Что делать:
 
-#####<a name="part1" /> Часть I -  Подготовка
+##### <a name="part1" />Часть I -  Подготовка
 
 1. Скопируйте _содержимое_ архива `starter.zip` в корень вашей карты памяти.
 {::comment}
@@ -32,7 +32,7 @@ sidebar:
 {:/comment}
 4. Вставьте карту памяти в приставку.
 
-#####<a name="part2" /> Часть II -  Обход проверки версии
+##### <a name="part2" />Часть II -  Обход проверки версии
 
 Эта часть нужна только для приставок с версией прошивки от 9.9.0 до 10.6.0 включительно
 {: .notice--info}
@@ -44,7 +44,7 @@ sidebar:
 6. Откройте браузер, а затем, как можно скорее, откройте настройки браузера.
 7. Листайте вниз и нажмите Удалить сохр. данные (Initialize Savedata / All Save Data) как можно скорее. 
 
-#####<a name="part3" /> Часть III - Блокировка conntest.nintendowifi.net
+##### <a name="part3" />Часть III - Блокировка conntest.nintendowifi.net
 
 Эта часть нужна только для New 3DS с версией прошивки 10.7.0
 {: .notice--info}
@@ -80,7 +80,7 @@ sidebar:
 5. Скачайте [ropbin](https://smealum.github.io/3ds/#otherapp) соответствующий вашей системе и текущей прошивке. 
 6. Переименуйте скачанный файл в `browserhax_hblauncher_ropbin_payload.bin` и поместите его в корень карты памяти. 
 
-#####<a name="part4" /> Часть IV -  browserhax
+##### <a name="part4" />Часть IV -  browserhax
 
 8. Перейдите по ссылке `http://yls8.mtheall.com/3dsbrowserhax_auto.php`, либо его сокращенной  версии - `https://goo.gl/d0YhK9`.
 
@@ -96,7 +96,7 @@ sidebar:
     + Если вы воспользовались способом из части III и заблокировали conntest.nintendowifi.net (или его IP), снимите блокировки сразу, как войдете в homebrew launcher.
 
 
-#####<a name="part5" /> Часть V -  menuhax
+##### <a name="part5" />Часть V -  menuhax
 
 10. Запустите menuhax_manager.
 11. Нажмите (A), чтобы запустить установщик эксплойта. В логе могут быть ошибки, однако, это не страшно. Важно, чтобы в конце было написано "Install finished successfully".
