@@ -6,7 +6,7 @@ main:
     url: /nfirm-downgrade
   - title: "Hombrew Launcher<br>(используя браузер)"
     url: /Homebrew-launcher-(browser)
-  - title: "Hombrew Launcher<br>(без браузера)"
+  - title: "Hombrew Launcher<br>(не используя браузер)"
     url: /Homebrew-launcher-(no-browser)
   - title: "Даунгрейд<br>до 9.2.0"
     url: /9.2.0-downgrade
