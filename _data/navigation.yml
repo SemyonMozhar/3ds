@@ -253,8 +253,6 @@ dsiware-downgrade-(save-injection):
         url: /dsiware-downgrade-(save-injection)#part5
       - title: "  - Часть VI - Проверка эксплойта"
         url: /dsiware-downgrade-(save-injection)#part6
-      - title: "  - Часть VII - Форматирование устройства"
-        url: /dsiware-downgrade-(save-injection)#part7
 
 dsiware-list:
   - title: "Разделы"
@@ -347,6 +345,8 @@ installing-arm9loaderhax:
         url: /installing-arm9loaderhax#part6
       - title: "  - Часть VII - Восстановление тикетов"
         url: /installing-arm9loaderhax#part7
+      - title: "  - Часть VIII - Восстановление nim"
+        url: /installing-arm9loaderhax#part8
         
 move-emunand:
   - title: "Разделы"

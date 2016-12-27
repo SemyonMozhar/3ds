@@ -26,14 +26,11 @@ sidebar:
 Ваше DSiWare-сохранение будет скопировано перед тем, как будет заменено взломанным сохранением.
 {: .notice--info}
 
-По неизвестной причине софт-брик, описанный  в разделе [Понижение прошивки до 9.2.0](9.2.0-downgrade) происходит только у пользователей, использующих [slowhax](dsiware-downgrade-(save-injection)), либо понижение с помощью DSiWare. Поэтому в инструкции на этой странице нет рекомендаций к форматированию.
-{: .notice--info}
-
 {% capture notice-4 %}
-This exploit requires you to [System Transfer](http://en-americas-support.nintendo.com/app/answers/detail/a_id/13996/) from a CFW 3DS to a stock 3DS as part of the steps. System Transfers will work in the following directions *only*:    
-  + New 3DS -> New 3DS    
-  + Old 3DS or 2DS -> Old 3DS or 2DS    
-  + Old 3DS or 2DS -> New 3DS    
+Этот эксплойт потребует от вас Передачи данных системы ([System Transfer](http://en-americas-support.nintendo.com/app/answers/detail/a_id/13996/)) из приставки с кастомной прошивки на приставку со стоковой прошивкой. Перенос данных будет работать *только* в одном из следующих направлений: 
+  + New 3DS -> New 3DS
+  + Old 3DS or 2DS -> Old 3DS or 2DS
+  + Old 3DS or 2DS -> New 3DS 
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-4 | markdownify }}</div>
@@ -59,7 +56,7 @@ NNID из исходной 3DS будет находится в целевой 3
   + [`USA - DSiWare_usa_sudokuhax_injection.zip`](magnet:?xt=urn:btih:7ed7fee15c900ed02b5e2cb3c8e7a0363f4d9354&dn=DSiWare_usa_sudokuhax_injection.zip&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce)
   + [`EUR - DSiWare_eur_exidiahax_injection.zip`](magnet:?xt=urn:btih:046bb8023bc40b9a95a8a339c85a9ef18cf60db6&dn=DSiWare_eur_exidiahax_injection.zip&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce)
   + [`JPN - DSiWare_jpn_4swordshax_injection.zip`](magnet:?xt=urn:btih:1bcc90c93da91c9876671f6218084207def90db9&dn=DSiWare_jpn_4swordshax_injection.zip&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)
-* Свежий коммит [GodMode9](images/GodMode9-20161209-011002.zip) *(4431c46a)*
+* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [3DSident](https://github.com/joel16/3DSident/releases/latest)
 * Свежая версия [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
 * Свежая версия [dgTool](https://github.com/Plailect/dgTool/releases/latest)
@@ -283,12 +280,12 @@ NNID из исходной 3DS будет находится в целевой 3
 3. Верните карту памяти в **целевую 3DS**.
 3. Запустите установленную DSiWare игру на **целевой 3DS**.
   + Если игра не запускает dgTool, [следуйте инструкциям из части с проблемами и их решениями](troubleshooting#ts_dsiware)
-5. Выберите "Dump nand", чтобы сделать резервную копию NAND **целевой 3DS**.
+5. Выберите "Dump f0f1", чтобы сделать резервную копию NFIRM **целевой 3DS**.
   + Процесс не быстрый, ожидайте. 
-6. Запомните место положения бекапа NAND.
+6. Запомните место положения бекапа NFIRM.
 7. Закройте dgTool.
   + При необходимости выключите приставку, удерживая кнопку питания.
-8. Вставьте КП в компьютер, скопируйте `NAND_N3DS.bin` или `NAND_O3DS.bin` (зависит от вашей модели) в надежное место.
+8. Вставьте КП в компьютер, скопируйте `F0F1_N3DS.bin` или `F0F1_O3DS.bin` (зависит от вашей модели) в надежное место.
   + Сделайте копии в нескольких местах или в облачном хранилище; 
   + Этот бекап может спасти вам консоль, если что-то пойдет не так.
   + **Убедитесь, что размер вашего бекапа соответствует размеру указанному в [этом](nand-size) разделе; если это не так, удалите бекап и создайте его заново!**

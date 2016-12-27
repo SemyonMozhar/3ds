@@ -32,7 +32,6 @@ sidebar:
 * Свежая версия [waithax](https://github.com/Mrrraou/waithax/releases/latest)
 * Свежая версия [3DSident](https://github.com/joel16/3DSident/releases/latest)
 * Свежая версия [dgTool](https://github.com/Plailect/dgTool/releases/latest)
-* Свежая версия [TinyFormat](https://github.com/javimadgit/TinyFormat/releases)
 * The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Архив с прошивкой, соответствующей версии **целевой 3DS**:
   + [New 3DS 11.0.0](magnet:?xt=urn:btih:2d13a5ea1570f911bd5c6423e0c30e51d548837a&dn=11.0.0%5Fto%5F10.4.0%5Fn3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
@@ -52,7 +51,6 @@ sidebar:
 5. Скопируйте папку `3ds` с заменой из архива 3DSident в корень КП.
 5. Скопируйте `waithax.3dsx` в папку `/3ds/` на КП.
 6. Скопируйте `boot.nds` от dgTools в корень КП.
-4. Скопируйте папку `3ds` с заменой из архива TinyFormat в корень КП.
 1. Создайте папку `dgTool` в корне карты памяти **целевой 3DS**, если таковой там нет.
 3. Скопируйте содержимое архива с NFIRM (11.y.y_to_10.4.0_x3ds.zip) в папку `dgTool`.
 3. Верните карту памяти в 3DS.
@@ -83,7 +81,7 @@ sidebar:
 8. Нажмите (START) для входа в меню Hombrew Launcher.
 4. Нажмите (A) для выхода.
 
-##### <a name="part4" /> Часть IV - Резервное копирование NAND
+##### <a name="part4" /> Часть IV - Резервное копирование NFIRM
 
 3. Запустите установленную DSiWare-игру.
 4. Запустите dgTool, используя установленную DSiWare-игру. 
@@ -92,12 +90,12 @@ sidebar:
   + **Guitar Rock Tour**: листайте вниз и перейдите в High-Scores -> Drums -> Easy.
   + **The Legend of Zelda: Four Swords (Anniversary Edition)**: Просто начните игру.
   + Если у игры нет установленного хакнутого сохранения, начните инструкцию с начала.
-5. Выберите "Dump nand", чтобы сделать бекап NAND 3DS.
+5. Выберите "Dump f0f1", чтобы сделать бекап NFIRM 3DS.
   + Процесс занимает много времени.
 6. Запомните путь, по которому сохраняется результат. 
 7. Выйдите из dgTool.
   + При необходимости выключите приставку, удерживая кнопку питания.
-8. Вставьте КП в компьютер, скопируйте `NAND_N3DS.bin` или `NAND_O3DS.bin` (зависит от вашей модели) в надежное место.
+8. Вставьте КП в компьютер, скопируйте `F0F1_N3DS.bin` или `F0F1_O3DS.bin` (зависит от вашей модели) в надежное место.
   + Сделайте копии в нескольких местах или в облачном хранилище; 
   + Этот бекап может спасти вам консоль, если что-то пойдет не так.
   + **Убедитесь, что размер вашего бекапа соответствует размеру указанному в [этом](nand-size) разделе; если это не так, удалите бекап и создайте его заново!**
@@ -127,23 +125,6 @@ sidebar:
   + **FIRM version**: 2.50-11
   + Если у вас отображаются другие значения, значит вы где-то допустили ошибку. Проделайте все с самого начала. 
 5. Нажмите любую кнопку, чтобы вернуться в Homebrew Launcher.
-
-##### <a name="part7" /> Часть VII - Форматирование устройства
-Форматирование нужно, чтобы избежать софт-брика описанного в разделе [Понижение прошивки до 9.2.0](9.2.0-downgrade). Бекап, сделанный ранее, будет использован для восстановления состояния приставки до форматированияю, когда вы дойдете до [установки arm9loaderhax](installing-arm9loaderhax).
-{: .notice--info}
-
-Вы не потеряете данных, если у вас есть бекап, который вы восстановите, когда перейдете к [установке arm9loaderhax](installing-arm9loaderhax).
-{: .notice--info}
-
-Вы не сможете использовать ни одну из ранее установленных вторичных точек входа (тех, которые устанавливались с помощью второй приставки из homebrew launcher, например steelhax), использующих игры, скачанные из eShop. Картриджей это замечание не касается. *(Исключение - [genhax](https://github.com/svanheulen/genhax)*.
-{: .notice--warning}
-
-Выполнение этой части опционально. Но не забывайте о шансе софт-брика, описанного здесь: [9.2.0 Downgrade](9.2.0-downgrade).
-{: .notice--warning}
-
-1. Запустите TinyFormat из Hombrew Launcher.
-2. Нажмите (Y) для форматирования устройства.
-3. Настройте устройство.
 
 Версия прошивки, указанная в настройках **не** изменится.
 {: .notice--info}
