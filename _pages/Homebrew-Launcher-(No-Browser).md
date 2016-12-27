@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Launcher (без браузера)"
+title: "Homebrew Launcher (не используя браузер)"
 permalink: /Homebrew-launcher-(no-browser).html
 sidebar:
   nav: "Homebrew-launcher-(no-browser)"

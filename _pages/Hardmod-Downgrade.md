@@ -52,7 +52,7 @@ sidebar:
 
 1. Скопируйте и объедините папку `3ds` из архива с 3DSident с папкой `3ds` в корне карты памяти.
 2. Вставьте КП в консоль.
-3. Запустите Homebrew launcher используя способы, описанные в [Homebrew Launcher (без браузера)](Homebrew-launcher-(no-browser)).
+3. Запустите Homebrew launcher используя способы, описанные в [Homebrew Launcher (не используя браузер)](Homebrew-launcher-(no-browser)).
 4. Запустите 3DSident.
 5. Убедитесь, что в программе следующие значения совпадают:
   + **Kernel version**: 2.50-11

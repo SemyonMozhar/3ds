@@ -36,11 +36,11 @@ permalink: /get-started-(old-3ds-usa).html
 | 1.0.0 | 1.1.0 | [Обновление картриджем](cart-update) | [Обновление картриджем](cart-update) |
 | 2.1.0 | 2.1.0 | [Обновление картриджем](cart-update) | [Установка arm9loaderhax](installing-arm9loaderhax)|
 | 2.2.0 | 3.1.0 | [Обновление картриджем](cart-update)  | [Обновление картриджем](cart-update) |
-| 4.0.0 | 4.5.0 | [Decrypt9 (MSET)](decrypt9-(mset)) | [Decrypt9<br>(Браузер есть)](decrypt9-(browser)) |
-| 5.0.0 | 5.1.0 | [Обновление картриджем](cart-update) | [Decrypt9<br>(Браузер есть)](decrypt9-(browser)) |
-| 6.0.0 | 6.3.0 | [Decrypt9 (MSET)](decrypt9-(mset)) | [Decrypt9<br>(Браузер есть)](decrypt9-(browser)) |
-| 7.0.0 | 8.1.0 | [Обновление картриджем](cart-update) | [Decrypt9<br>(Браузер есть)](decrypt9-(browser)) |
-| 9.0.0 | 9.2.0 | [Homebrew Launcher<br>(Браузера нет)](Homebrew-launcher-(no-browser)) | [Decrypt9<br>(Браузер есть)](decrypt9-(browser)) |
-| 9.3.0 | 10.6.0 | [Homebrew Launcher<br>(Браузера нет)](Homebrew-launcher-(no-browser)) | [Homebrew Launcher<br>(Браузер есть)](Homebrew-launcher-(browser)) |
-| 10.7.0 | 10.7.0 | [Homebrew Launcher<br>(Браузера нет)](Homebrew-launcher-(no-browser))| [Homebrew Launcher<br>(Браузера нет)](Homebrew-launcher-(no-browser))|
+| 4.0.0 | 4.5.0 | [Decrypt9 (MSET)](decrypt9-(mset)) | [Decrypt9<br>(используя браузер)](decrypt9-(browser)) |
+| 5.0.0 | 5.1.0 | [Обновление картриджем](cart-update) | [Decrypt9<br>(используя браузер)](decrypt9-(browser)) |
+| 6.0.0 | 6.3.0 | [Decrypt9 (MSET)](decrypt9-(mset)) | [Decrypt9<br>(используя браузер)](decrypt9-(browser)) |
+| 7.0.0 | 8.1.0 | [Обновление картриджем](cart-update) | [Decrypt9<br>(используя браузер)](decrypt9-(browser)) |
+| 9.0.0 | 9.2.0 | [Homebrew Launcher<br>(не используя браузер)](Homebrew-launcher-(no-browser)) | [Decrypt9<br>(используя браузер)](decrypt9-(browser)) |
+| 9.3.0 | 10.6.0 | [Homebrew Launcher<br>(не используя браузер)](Homebrew-launcher-(no-browser)) | [Homebrew Launcher<br>(используя браузер)](Homebrew-launcher-(browser)) |
+| 10.7.0 | 10.7.0 | [Homebrew Launcher<br>(не используя браузер)](Homebrew-launcher-(no-browser))| [Homebrew Launcher<br>(не используя браузер)](Homebrew-launcher-(no-browser))|
 | 11.0.0 | 11.2.0 | [Понижение прошивки](nfirm-downgrade) | [Понижение прошивки](nfirm-downgrade) |

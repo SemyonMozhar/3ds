@@ -1,5 +1,5 @@
 ---
-title: "Decrypt9 (Браузер есть)"
+title: "Decrypt9 (используя браузер)"
 permalink: /decrypt9-(browser).html
 sidebar:
   nav: "decrypt9-(browser)"
