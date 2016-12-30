@@ -49,7 +49,7 @@ sidebar:
 * Свежая версия [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases/latest)
 * Свежая версия [DspDump](https://github.com/Cruel/DspDump/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/)
-* Свежая версия [freeshop](https://github.com/Cruel/freeShop/releases)
+* Свежая версия [freeshop](https://goo.gl/zAcWAw)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Если вы пользовались блокировкой conntest.nintendowifi.net [(Homebrew Launcher (используя браузер), часть IV)](Homebrew-launcher-(browser)) через файерволл, роутер, смартфон, прочее, то отключите добавленное вами правило, иначе вы не сможете ни обновить прошивку по окончании выполнения инструкции, ни скачать новый ropbin payload при необходимости, а следовательно, зайти в HBL. 
