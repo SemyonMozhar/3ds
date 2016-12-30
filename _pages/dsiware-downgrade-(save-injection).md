@@ -27,7 +27,7 @@ sidebar:
   + **Legends of Exidia**;
   + **Guitar Rock Tour**; 
   + **The Legend of Zelda: Four Swords (Anniversary Edition)**  
-* Точка входа из [этого списка](homebrew-launcher-(no-browser)) или (в случае, если у вас прошивка версии 11.0.0 EUR / USA) [из этого списка](homebrew-launcher-(browser)).    
+* Точка входа из части [Homebrew Launcher (SoundHax)](homebrew-launcher-(soundhax)) или [Homebrew Launcher (не используя браузер)](homebrew-launcher-(no-browser)).
 * Свежая версия [3ds_dsiwarehax_installer](https://github.com/yellows8/3ds_dsiwarehax_installer/releases)
 * Свежая версия [waithax](https://github.com/Mrrraou/waithax/releases/latest)
 * Свежая версия [3DSident](https://github.com/joel16/3DSident/releases/latest)

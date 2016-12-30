@@ -187,20 +187,18 @@ dsiware-downgrade-(app-injection-and-second-3ds):
         url: /dsiware-downgrade-(app-injection-and-second-3ds)#part2
       - title: "  - Часть III - Установка сохранения"
         url: /dsiware-downgrade-(app-injection-and-second-3ds)#part3
-      - title: "  - Часть IV - steelhax"
+      - title: "  - Часть IV - ctr-httpwn"
         url: /dsiware-downgrade-(app-injection-and-second-3ds)#part4
-      - title: "  - Часть V - ctr-httpwn"
+      - title: "  - Часть V - Перенос системы"
         url: /dsiware-downgrade-(app-injection-and-second-3ds)#part5
-      - title: "  - Часть VI - Перенос системы"
+      - title: "  - Часть VI - Восстановление исходной 3DS"
         url: /dsiware-downgrade-(app-injection-and-second-3ds)#part6
-      - title: "  - Часть VII - Восстановление исходной 3DS"
+      - title: "  - Часть VII - Резервное копирование прошивки целевой 3DS"
         url: /dsiware-downgrade-(app-injection-and-second-3ds)#part7
-      - title: "  - Часть VIII - Резервное копирование прошивки целевой 3DS"
+      - title: "  - Часть VIII - Прошивка целевой 3DS"
         url: /dsiware-downgrade-(app-injection-and-second-3ds)#part8
-      - title: "  - Часть IX - Прошивка целевой 3DS"
+      - title: "  - Часть IX - Проверка эксплойта"
         url: /dsiware-downgrade-(app-injection-and-second-3ds)#part9
-      - title: "  - Часть X - Проверка эксплойта"
-        url: /dsiware-downgrade-(app-injection-and-second-3ds)#part10
         
 dsiware-downgrade-(save-injection-and-second-3ds):
   - title: "Разделы"
@@ -217,20 +215,18 @@ dsiware-downgrade-(save-injection-and-second-3ds):
         url: /dsiware-downgrade-(save-injection-and-second-3ds)#part2
       - title: "  - Часть III - Установка сохранения"
         url: /dsiware-downgrade-(save-injection-and-second-3ds)#part3
-      - title: "  - Часть IV - steelhax"
+      - title: "  - Часть IV - ctr-httpwn"
         url: /dsiware-downgrade-(save-injection-and-second-3ds)#part4
-      - title: "  - Часть V - ctr-httpwn"
+      - title: "  - Часть V - Перенос системы"
         url: /dsiware-downgrade-(save-injection-and-second-3ds)#part5
-      - title: "  - Часть VI - Перенос системы"
+      - title: "  - Часть VI - Восстановление исходной 3DS"
         url: /dsiware-downgrade-(save-injection-and-second-3ds)#part6
-      - title: "  - Часть VII - Восстановление исходной 3DS"
+      - title: "  - Часть VII - Резервное копирование прошивки целевой 3DS"
         url: /dsiware-downgrade-(save-injection-and-second-3ds)#part7
-      - title: "  - Часть VIII - Резервное копирование прошивки целевой 3DS"
+      - title: "  - Часть VIII - Прошивка целевой 3DS"
         url: /dsiware-downgrade-(save-injection-and-second-3ds)#part8
-      - title: "  - Часть IX - Прошивка целевой 3DS"
+      - title: "  - Часть IX - Проверка эксплойта"
         url: /dsiware-downgrade-(save-injection-and-second-3ds)#part9
-      - title: "  - Часть X - Проверка эксплойта"
-        url: /dsiware-downgrade-(save-injection-and-second-3ds)#part10
 
 dsiware-downgrade-(save-injection):
   - title: "Разделы"

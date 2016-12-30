@@ -33,5 +33,5 @@ permalink: /get-started-(new-3ds-usa).html
 
 | От | До | Браузера нет | Браузер есть |
 |:-:|:-:|:-:|:-:|
-| 9.0.0 | 10.7.0 | [Homebrew Launcher (не используя браузер)](Homebrew-launcher-(no-browser)) | [Homebrew Launcher (используя браузер)](Homebrew-launcher-(browser)) |
+| 9.0.0 | 10.7.0 | [Homebrew Launcher (SoundHax)](homebrew-launcher-(soundhax)) | [Homebrew Launcher (SoundHax)](homebrew-launcher-(soundhax)) |
 | 11.0.0 | 11.2.0 | [Понижение прошивки](nfirm-downgrade) | [Понижение прошивки](nfirm-downgrade) |

@@ -40,7 +40,5 @@ permalink: /get-started-(old-3ds-jpn).html
 | 5.0.0 | 5.1.0 | [Обновление картриджем](cart-update) | [Decrypt9<br>(используя браузер)](decrypt9-(browser)) |
 | 6.0.0 | 6.3.0 | [Decrypt9 (MSET)](decrypt9-(mset)) | [Decrypt9<br>(используя браузер)](decrypt9-(browser)) |
 | 7.0.0 | 8.1.0 | [Обновление картриджем](cart-update) | [Decrypt9<br>(используя браузер)](decrypt9-(browser)) |
-| 9.0.0 | 9.2.0 | [Homebrew Launcher<br>(не используя браузер)](Homebrew-launcher-(no-browser)) | [Decrypt9<br>(используя браузер)](decrypt9-(browser)) |
-| 9.3.0 | 10.6.0 | [Homebrew Launcher<br>(не используя браузер)](Homebrew-launcher-(no-browser)) | [Homebrew Launcher<br>(используя браузер)](Homebrew-launcher-(browser)) |
-| 10.7.0 | 10.7.0 | [Homebrew Launcher<br>(не используя браузер)](Homebrew-launcher-(no-browser))| [Homebrew Launcher<br>(не используя браузер)](Homebrew-launcher-(no-browser))|
+| 9.0.0 | 10.7.0 | [Homebrew Launcher (SoundHax)](homebrew-launcher-(soundhax)) | [Homebrew Launcher (SoundHax)](homebrew-launcher-(soundhax)) |
 | 11.0.0 | 11.2.0 | [Понижение прошивки](nfirm-downgrade) | [Понижение прошивки](nfirm-downgrade) |

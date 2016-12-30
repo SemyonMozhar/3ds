@@ -52,9 +52,10 @@ NNID из исходной 3DS будет находится в целевой 3
 * Купленная в eShop DSiWare-игра, установленная на **исходной 3DS**.
   + Пиратская копия игры **НЕ** будет работать. 
   + [Cписок совместимых DSiWare-игр](dsiware-list).
+* Точка входа из части [Homebrew Launcher (SoundHax)](homebrew-launcher-(soundhax)) или [Homebrew Launcher (не используя браузер)](homebrew-launcher-(no-browser))
 * Версия sudokuhax injection `.zip`для вашего региона:
-  + [`USA - DSiWare_usa_sudokuhax_injection.zip`](magnet:?xt=urn:btih:7ed7fee15c900ed02b5e2cb3c8e7a0363f4d9354&dn=DSiWare_usa_sudokuhax_injection.zip&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce)
   + [`EUR - DSiWare_eur_exidiahax_injection.zip`](magnet:?xt=urn:btih:046bb8023bc40b9a95a8a339c85a9ef18cf60db6&dn=DSiWare_eur_exidiahax_injection.zip&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce)
+  + [`USA - DSiWare_usa_sudokuhax_injection.zip`](magnet:?xt=urn:btih:7ed7fee15c900ed02b5e2cb3c8e7a0363f4d9354&dn=DSiWare_usa_sudokuhax_injection.zip&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce)
   + [`JPN - DSiWare_jpn_4swordshax_injection.zip`](magnet:?xt=urn:btih:1bcc90c93da91c9876671f6218084207def90db9&dn=DSiWare_jpn_4swordshax_injection.zip&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [3DSident](https://github.com/joel16/3DSident/releases/latest)
@@ -70,8 +71,6 @@ NNID из исходной 3DS будет находится в целевой 3
   ~        
   + [New 3DS 11.2.0](magnet:?xt=urn:btih:881388a552a1ce9a963d391bf1a023642270991c&dn=11.2.0%5Fto%5F10.4.0%5Fn3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)     
   + [Old 3DS 11.2.0](magnet:?xt=urn:btih:a479e4ee55efbc18c181d426cd77a34815388151&dn=11.2.0%5Fto%5F10.4.0%5Fo3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)    
-* Скачанная на **исходную 3DS** официальная версия **Steel Diver: Sub Wars** (игра бесплатная, но работать будет только версия, скачанная из eShop). Не нужна при наличии альтернативной точки входа. Если вы не знаете, что такое альтернативная точка входа - скачайте эту игру. 
-* Предыдущая версия [steelhax](https://vegaroxas.github.io/files/steelhax-installer.zip)
 * Если версия системного ПО на **целевой 3DS** ниже, чем 11.2.0, вам так же придется воспользоваться
   + свежей версией [ctr-httpwn](https://github.com/yellows8/ctr-httpwn/releases/latest).
   
@@ -102,18 +101,6 @@ NNID из исходной 3DS будет находится в целевой 3
 12. **Сохраните файлы с обеих карт памяти в разные папки на компьютере (назовите папки таким образом, чтобы понимать какие файлы откуда)!**
 13. Верните обе карты памяти на места (не перепутайте).
 14. Нажмите (START) для перезагрузки. 
-
-<!--15. Купите любую игру в eShop (нет, пиратская копия не пройдет, нужно именно купить) на **исходной 3DS**.
-16. Перейдите в системные настройки (System Settings), "Управление данными" (Data Management), "DSiWare" на **исходной 3DS**.
-17. Скопируйте все DSiWare-игры которые уже есть на карте памяти в Память системы (System Memory).
-18. Скопируйте DSiWare-игру, которую вы собираетесь использовать, на карту памяти. 
-19. Отключите **исходную 3DS** и вставьте карту памяти в ПК. 
-20. Перейдите по адресу `/Nintendo 3DS/(32-х значный ID)/(32-х значный ID)/Nintendo DSiWare/`
-21. Запишите 8-ми значный ID, содержащийся в имени `.bin`-файла в этой папке. 
-  + Например, если вы видите файл `4B4C4545.bin`, запишите `4B4C4545`. 
-22. Верните карту памяти в **исходную 3DS** и включите приставку.
-23. Перейдите в системные настройки (System Settings), "Управление данными" (Data Management), "DSiWare" на **исходной 3DS**.
-24. Удалите DSiWare-игру из карты памяти *(не удаляйте из памяти системы)*.-->
 
 ##### <a name="part2" /> Часть II - Резервное копирование DsiWare
 
@@ -169,58 +156,12 @@ NNID из исходной 3DS будет находится в целевой 3
   + Если выскакивает черный экран, обратитесь к разделу с [проблемами и их решениями](troubleshooting#twl_broken).
   + Если игра пропала из **целевой 3DS**, либо выскакивает ошибка сообщающая о повреждении, либюо недоступности файла сохранения, [обратитесь к части с проблемами и их решениями](troubleshooting#ts_dsiware).
 
-##### <a name="part4" /> Часть IV - steelhax
-
-С помощью этой части мы сможем войти в Homebrew launcher после переноса системы.
-{: .notice--info}
-
-Если у вас есть альтернативная точка входа, переходите к части V. Если вы не знаете, что такое альтернативная точка входа - выполните все пункты этой части. 
-{: .notice--info}
-
-1. Скопируйте папку `steelhax-installer` из архива steelhax в папку `/3ds/` на карте памяти **исходной 3DS**.
-2. Вставьте карту памяти обратно в 3DS.
-3. Убедитесь, что никакие апдейты для **Steel Diver: Sub Wars** не установлены. Для этого перейдите в Системные настройки (System Settings):
-  + Зайдите в "Управление данными" (Data Management), "Nintendo 3DS", "Дополнительный контент" (Downloadable Content).
-  + Выберите **Steel Diver: Sub Wars**, затем нажмите "удалить" (delete).
-  + Закройте Системные настройки. 
-2. Запустите **Steel Diver: Sub Wars**
-  + Нажмите Запустить программу. Не обновляйтесь, иначе придется по новому удалять апдейт!
-3. Нажмите (A), чтобы продолжить, затем выберите/создайте (если нет) Mii. 
-4. Покиньте игру.
-2. Запустите Homebrew launcher на **исходной 3DS**.
-  + Если у вас на приставке arm9loaderhax, то это можно сделать через [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases).
-4. Нажмите (A) для продолжения.
-5. Нажмите (A) для подтверждения версии **Steel Diver: Sub Wars**.
-6. Нажмите (A) для подтверждения версии системного ПО **исходной 3DS**.
-7. Нажмите (START) для выхода из программы.
-8. Нажмите (START) для того, чтобы открыть меню Homebrew launcher.
-7. Нажмите (X), чтобы перейти к домашнему экрану без перезагрузки. 
-  + Может выскочить ошибка "Произошла ошибка" (Error has occurred). Так бывает, просто нажмите (A), чтобы продолжить. 
-9. Запустите **Steel Diver: Sub Wars**, чтобы протестировать эксплойт. 
-  + Не обновляйте игру. 
-  + Если сохранение игры испорчено:
-    + Не нажимайте "OK", иначе вы удалите испорченное сохранение (corrupted). Просто выйдите из игры, нажав кнопку (home).
-      + Если вы случайно нажмете "OK", придется по новой указывать Mii. 
-    + Повторите установку через Homebrew launcher.
-    + Все эти действия могут занять много попыток. 
-  + Если все сделано верно, устройство перезапустится в Homebrew launcher.
-10. Успешно попав в Homebrew launcher, снова запустите steelhax installer.
-11. Нажмите (A) для продолжения.
-12. Нажмите (A), чтобы подтвердить версию **Steel Diver: Sub Wars**.
-16. В этот раз укажите версию ПО на **целевой 3DS** и версию самой **целевой 3DS** и нажмите (A).
-  + Даже если после переноса вы планируете понижать систему на второй консоли, здесь укажите ту версию, на которой консоль сейчас. То есть ту версию, на которой будет совершаться перенос данных. 
-12. Скопируйте *содержимое* архива `starter.zip` в корень карты памяти **целевой 3DS**.
-13. Вставьте карту памяти назад в **целевую 3DS**.
-
-##### <a name="part5" /> Часть V - ctr-httpwn
+##### <a name="part4" /> Часть IV - ctr-httpwn
 
 Эта часть нужна только в том случае, если прошивка _целевой 3DS_ ниже, чем 11.2.0.
 {: .notice--info}
 
 Эта часть позволит провести перенос системы, даже в том случае, если ваша прошивка ниже последней.
-{: .notice--info}
-
-Можно просто обновиться до 11.2, разницы в процессе даунгрейда вы не заметите - *прим.пер*.
 {: .notice--info}
 
 1. Скопируйте и объедините папку `3ds` из архива ctr-httpwn в корень карты памяти **целевой 3DS**.
@@ -239,7 +180,7 @@ NNID из исходной 3DS будет находится в целевой 3
   + Помните, что выход из Системных настроек перезагружает приставку.
   + Если вы перезагрузили приставку, то следует повторно запустить ctr-httpwn, иначе Перенос системы не будет работать.
 
-##### <a name="part6" /> Часть VI - Перенос системы
+##### <a name="part5" /> Часть V - Перенос системы
 
 8. **Сохраните файлы с обеих карт памяти в разные папки на компьютере (назовите папки таким образом, чтобы понимать какие файлы откуда)!**
 
@@ -261,7 +202,7 @@ NNID из исходной 3DS будет находится в целевой 3
     + Медленный способ: Выберите "Wireless Transfer" (опция 1) для долгого переноса содержимого карты памяти в целевую приставку по воздуху.
 6. Перейдите по [этой ссылке](http://www.nintendo.ru/-/Nintendo-2DS-Nintendo-3DS/-Nintendo-3DS-Nintendo-3DS-XL-/-Nintendo-3DS-Nintendo-3DS-XL/-Nintendo-3DS-Nintendo-3DS-XL-592201.html) ([та же информация, но на английском](http://en-americas-support.nintendo.com/app/answers/detail/a_id/227/)) и следуйте официальным инструкциям от nintendo, держа в голове то, что вы прочитали чуть выше. 
 
-##### <a name="part7" /> Часть VII - Восстановление исходной 3DS
+##### <a name="part6" /> Часть VI - Восстановление исходной 3DS
 
 1. На **исходной 3DS**, завершите первоначальную настройку.
 2. Выполните одно из следующих действий *(или ни одного, если вас не волнует отсутствие NNID на исходной консоли)*.
@@ -271,7 +212,7 @@ NNID из исходной 3DS будет находится в целевой 3
 3. Перезагрузите **исходную 3DS**, удерживайте (START) во время загрузки устройства, чтобы запустить Hourglass9.
 4. Перейдите в SysNAND Backup/Restore восстановите SysNAND из файла `NANDmin.bin`.
 
-##### <a name="part8" /> Часть VIII - Резервное копирование прошивки целевой 3DS
+##### <a name="part7" /> Часть VII - Резервное копирование прошивки целевой 3DS
 
 1. Вставьте карту памяти **целевой 3DS** в ПК.
 1. Скопируйте `boot.nds` от dgTools в корень карты памяти **целевой 3DS**.
@@ -279,7 +220,7 @@ NNID из исходной 3DS будет находится в целевой 3
 3. Скопируйте содержимое архива с NFIRM (11.y.y_to_10.4.0_x3ds.zip) в папку `dgTool` в корне **целевой 3DS**.
 3. Верните карту памяти в **целевую 3DS**.
 3. Запустите установленную DSiWare игру на **целевой 3DS**.
-  + Если игра не запускает dgTool, [следуйте инструкциям из части с проблемами и их решениями](troubleshooting#ts_dsiware)
+  + Если игра не запускает dgTool, или игры нет, [следуйте инструкциям из части с проблемами и их решениями](troubleshooting#ts_dsiware)
 5. Выберите "Dump f0f1", чтобы сделать резервную копию NFIRM **целевой 3DS**.
   + Процесс не быстрый, ожидайте. 
 6. Запомните место положения бекапа NFIRM.
@@ -288,9 +229,8 @@ NNID из исходной 3DS будет находится в целевой 3
 8. Вставьте КП в компьютер, скопируйте `F0F1_N3DS.bin` или `F0F1_O3DS.bin` (зависит от вашей модели) в надежное место.
   + Сделайте копии в нескольких местах или в облачном хранилище; 
   + Этот бекап может спасти вам консоль, если что-то пойдет не так.
-  + **Убедитесь, что размер вашего бекапа соответствует размеру указанному в [этом](nand-size) разделе; если это не так, удалите бекап и создайте его заново!**
 
-##### <a name="part9" /> Часть IX - Прошивка целевой 3DS.
+##### <a name="part8" /> Часть VIII - Прошивка целевой 3DS.
 
 **НЕ понижайте прошивку с помощью dgTool на приставках с установленным arm9loaderhax. Это гарантированно приведет к брику!**
 
@@ -301,7 +241,7 @@ NNID из исходной 3DS будет находится в целевой 3
   + При необходимости выключите приставку, удерживая кнопку питания.
 5. Перезагрузите приставку.
 
-##### <a name="part10" /> Часть X - Проверка эксплойта
+##### <a name="part9" /> Часть IX - Проверка эксплойта
 
 1. Скопируйте и объедините папку `3ds` из архива с 3DSident с папкой `3ds` в корне карты памяти **целевой 3DS**.
 2. Вставьте КП в **целевую 3DS**.
@@ -312,14 +252,8 @@ NNID из исходной 3DS будет находится в целевой 3
   + **FIRM version**: 2.50-11
   + Если у вас отображаются другие значения, значит вы где-то допустили ошибку. Проделайте все с самого начала. 
 
-Можете использовать другую точку входа, если хотите; steelhax рекомендован исключительно из-за своей бесплатности.
-{: .notice--info}
-
 Версия прошивки, указанная в настройках **целевой 3DS** не изменится.
 {: .notice--info}
-
-Если переноса данных steelhax крашится в черный экран, обратитесь к разделу с [проблемами и их решениями](troubleshooting#ts_steelhax).
-{: .notice--warning}
-  
+ 
 Переходите к [понижению прошивки до 9.2.0](9.2.0-downgrade)
 {: .notice--primary}
