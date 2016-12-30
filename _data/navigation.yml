@@ -8,6 +8,8 @@ main:
     url: /Homebrew-launcher-(browser)
   - title: "Hombrew Launcher<br>(не используя браузер)"
     url: /Homebrew-launcher-(no-browser)
+  - title: "Soundhax"
+    url: /homebrew-launcher-(soundhax)
   - title: "Даунгрейд<br>до 9.2.0"
     url: /9.2.0-downgrade
   - title: "2.1.0<br>ctrtransfer"
