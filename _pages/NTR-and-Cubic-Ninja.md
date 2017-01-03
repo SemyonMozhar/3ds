@@ -64,5 +64,5 @@ sidebar:
 
 ___
 
-Переходите к [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
+Переходите к [Decrypt9 (Homebrew Launcher)](decrypt9-(Homebrew-launcher))
 {: .notice--primary}

@@ -260,5 +260,5 @@ NNID из исходной 3DS будет находится в целевой 3
 Версия прошивки, указанная в настройках **целевой 3DS** не изменится.
 {: .notice--info}
  
-Переходите к запуску [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
+Переходите к запуску [Decrypt9 (Homebrew Launcher)](decrypt9-(Homebrew-launcher))
 {: .notice--primary}

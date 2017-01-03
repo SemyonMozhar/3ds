@@ -62,5 +62,5 @@ sidebar:
 Версия прошивки, указанная в настройках 3DS **не изменится**.
 {: .notice--info}
 
-Переходите к [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher)).
+Переходите к [Decrypt9 (Homebrew Launcher)](decrypt9-(Homebrew-launcher)).
 {: .notice--primary}

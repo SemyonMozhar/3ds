@@ -27,5 +27,5 @@ SoundHax совместим с приставками с прошивками о
 6. Проиграйте скачанный `.m4a`.
 7. На приставке запустится homebrew menu.
 
-Переходите к [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher)).
+Переходите к [Decrypt9 (Homebrew Launcher)](decrypt9-(Homebrew-launcher)).
 {: .notice--primary}

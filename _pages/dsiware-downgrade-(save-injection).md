@@ -133,5 +133,5 @@ sidebar:
 Версия прошивки, указанная в настройках **не** изменится.
 {: .notice--info}
 
-Переходите к запуску [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
+Переходите к запуску [Decrypt9 (Homebrew Launcher)](decrypt9-(Homebrew-launcher))
 {: .notice--primary}
