@@ -27,8 +27,5 @@ SoundHax совместим с приставками с прошивками о
 6. Проиграйте скачанный `.m4a`.
 7. На приставке запустится homebrew menu.
 
-Для всех приставок с версией прошивки выше, чем 9.2.0 для начала нужно сделать [понижение прошивки до 9.2.0](9.2.0-downgrade).
-{: .notice--primary}
-
-Если у вас прошивка ниже, или равна 9.2.0, переходите сразу к [Decrypt9 (Homebrew Launcher)](decrypt9-(Homebrew-launcher)).
+Переходите к [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher)).
 {: .notice--primary}
