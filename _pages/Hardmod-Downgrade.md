@@ -52,7 +52,7 @@ sidebar:
 
 1. Скопируйте и объедините папку `3ds` из архива с 3DSident с папкой `3ds` в корне карты памяти.
 2. Вставьте КП в консоль.
-3. Запустите Homebrew launcher используя способы, описанные в [Homebrew Launcher (не используя браузер)](Homebrew-launcher-(no-browser)).
+3. Запустите Homebrew launcher используя способы, описанные в [Homebrew Launcher (SoundHax)](homebrew-launcher-(soundhax)).
 4. Запустите 3DSident.
 5. Убедитесь, что в программе следующие значения совпадают:
   + **Kernel version**: 2.50-11
@@ -62,8 +62,5 @@ sidebar:
 Версия прошивки, указанная в настройках 3DS **не изменится**.
 {: .notice--info}
 
-Если версия вашей прошивки - 11.0.0 (и ваша приставка не японского региона), переходите к запуску [Homebrew Launcher с помощью браузера](homebrew-launcher-(browser)).
-{: .notice--primary}
-
-В любых иных случаях, запускайте [Homebrew Launcher без браузера](homebrew-launcher-(no-browser)).
+Переходите к [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher)).
 {: .notice--primary}

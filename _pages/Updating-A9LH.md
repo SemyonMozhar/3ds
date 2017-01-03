@@ -43,7 +43,7 @@ sidebar:
 13. Удалите папку `a9lh` из корня карты памяти.
 2. Скопируйте скачанный `aeskeydb.bin` в папку `/files9/` в корне КП.
 3. Скопируйте `Hourglass9.bin` из архива Hourglass9 в папку `/luma/payloads/`, а затем переименуйте `Hourglass9.bin` в `start_Hourglass9.bin`.
-5. Скопируйте `arm9loaderhax.bin` из архива SafeA9LHInstaller  в папку `/luma/payloads`
+5. Скопируйте `arm9loaderhax.bin` из архива SafeA9LHInstaller  в папку `/luma/payloads/`.
 9. Переименуйте `arm9loaderhax.bin` в `down_safea9lhinstaller.bin`.
 7. Скопируйте папку`a9lh` из архива `data_input_v3.zip` в корень карты памяти.
 8. Скопируйте содержимое архива arm9loaderhax (release.7z) в папку `a9lh` в корне КП.
@@ -56,7 +56,7 @@ sidebar:
 11. Нажмите (SELECT), чтобы обновить arm9loaderhax.
 12. Отключите приставку и вновь вставьте КП в компьютер.
 13. Удалите папку `a9lh` из корня карты памяти.
-14. Удалите `down_safea9lhinstaller.bin` из папки `/luma/payloads`
+14. Удалите `down_safea9lhinstaller.bin` из папки `/luma/payloads/`.
 
 ##### <a name="part3" />Часть III - Настройка Luma3DS
 

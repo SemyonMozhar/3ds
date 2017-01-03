@@ -56,6 +56,7 @@ permalink: /credits.html
 + Steveice10
 + Syphurith
 + Tech0verlord
++ TinVi
 + TuxSH
 + Urbanshadow
 + Vappy
