@@ -1,4 +1,4 @@
-	---
+---
 title: "Понижение прошивки при помощи DSiWare (инжект сохранения)"
 permalink: /dsiware-downgrade-(save-injection).html
 sidebar:
