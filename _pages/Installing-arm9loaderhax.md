@@ -139,7 +139,8 @@ sidebar:
 Если вы делали бекап NAND в части [DSiWare Downgrade (Save Injection)](dsiware-downgrade-(save-injection)) or [Hardmod Downgrade](hardmod-downgrade), восстановите этот бекап вместо `NANDmin.bin`. Переместите тот бекап в папку `/files9/` и следуйте инструкции. Бекап будет называться `NAND_N3DS.bin`, `NAND_O3DS.bin`, или `backup_nand.bin`, в зависимости от шага на котором он был сделан.
 {: .notice--info}
 
-1. **Если вы делали [2.1.0 ctrtransfer](2.1.0-ctrtransfer), восстановите NANDmin.bin:**         
+1. **Если вы делали [2.1.0 ctrtransfer](2.1.0-ctrtransfer), восстановите NANDmin.bin:**        
+
     + Если бекапа нет, то следуйте рекомендациям из [раздела с 9.2.0 ctrtransfer](9.2.0-ctrtransfer).
     + Запустите Hourglass9 из под arm9loaderhax, включив приставку с зажатой кнопкой (START). 
     + Перейдите в "SysNAND Backup/Restore"
