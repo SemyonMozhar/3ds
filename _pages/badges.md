@@ -9,7 +9,7 @@ sidebar:
 + Установленный a9lh с luma3ds и FBI. 
 + Свежая версия [GYTB](https://github.com/MrCheeze/GYTB). Пролистайте чуть ниже, там будут ссылки на CIA-версию и 3DSX-версию. Берите 3DSX. 
 + Пак с баджами. Можете взять [мой](https://goo.gl/KWHtCH), можете поискать [тут](https://badges.3dsthem.es/) или [тут](https://gbatemp.net/threads/nintendo-badge-arcade-badges-collection.405667/).
-* Свежая версия [freeshop](https://github.com/Cruel/freeShop/releases)
+* Свежая версия [freeshop](https://goo.gl/zAcWAw)
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
 
 #### <a name="instructions" />Что делать:

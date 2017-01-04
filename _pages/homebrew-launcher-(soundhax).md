@@ -6,7 +6,7 @@ permalink: /homebrew-launcher-(soundhax).html
 Существует много различных точек входа в Homebrew Launcher.
 {: .notice}
 
-SoundHax совместим с приставками с прошивками от 9.0.0 до 11.2.0 включительно, следующих регионов: EUR, JPN, и USA *(скоро будет больше)*.
+SoundHax совместим с приставками с прошивками от 9.0.0 до 11.2.0 включительно, следующих регионов: EUR, JPN, USA и KOR.
 {: .notice--info}
 
 #### <a name="what_need" />Что нужно: 
