@@ -142,9 +142,8 @@ sidebar:
 Если бекапа нет, то следуйте рекомендациям из [раздела с 9.2.0 ctrtransfer](9.2.0-ctrtransfer).
 {: .notice--info}
 
-1. **Если вы делали [2.1.0 ctrtransfer](2.1.0-ctrtransfer), восстановите NANDmin.bin:**
-
-    + Запустите Hourglass9 из под arm9loaderhax, включив приставку с зажатой кнопкой (START). 
+1. **Если вы делали [2.1.0 ctrtransfer](2.1.0-ctrtransfer), восстановите NANDmin.bin:**.        
+    + Запустите Hourglass9 из под arm9loaderhax, включив приставку с зажатой кнопкой (START). 
     + Перейдите в "SysNAND Backup/Restore"
     + Выберите SysNAND Restore (keep a9lh)", выберите ваш бекап (`NANDmin.bin`) и подтвердите восстановление.
     + Нажмите (START) для перезагрузки системы.
