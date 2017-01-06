@@ -4,7 +4,7 @@ permalink: /dsiware-downgrade-(save-injection-and-second-3ds).html
 sidebar:
   nav: "dsiware-downgrade-(save-injection-and-second-3ds)"
 ---
-<a name="start" />
+
 **Это старая версия инструкции для тех, у кого есть купленные "Fieldrunners", "Legends of Exidia", "Guitar Rock Tour", или "The Legend of Zelda: Four Swords (Anniversary Edition)" на исходной 3DS**
 {: .notice--primary}
 

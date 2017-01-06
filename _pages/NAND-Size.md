@@ -4,7 +4,7 @@ permalink: /nand-size.html
 sidebar:
   nav: "nand-size"
 ---
-<a name="start" />
+
 Для большинства случаев, NAND должен быть одного из нижеуказанных размеров. 
 {: .notice--primary}
 

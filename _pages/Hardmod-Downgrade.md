@@ -4,7 +4,7 @@ permalink: /hardmod-downgrade.html
 sidebar:
   nav: "hardmod-downgrade"
 ---
-<a name="start" />
+
 **Если ваша прошивка 11.0.0 или 11.1.0, НЕ ОБНОВЛЯЙТЕСЬ до 11.2.0. Скоро сообщество обновит способ даунгрейда NFIRM с помощью DSiWare _без_ необходимости второй 3DS или хардмода!**
 {: .notice--primary}
 

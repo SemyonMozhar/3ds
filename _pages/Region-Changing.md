@@ -4,7 +4,7 @@ permalink: /region-changing.html
 sidebar:
   nav: "region-changing"
 ---
-<a name="start" />
+
 Эта дополнительная секция рассказывает о смене региона на вашей приставке с arm9loaderhax CFW SysNAND. Смысл в том, чтобы установить 9.2.0 ctrtransfer для того региона, на который вы хотите сменить текущий и внести изменения в файл SecureInfo_A.
 {: .notice--primary}
 

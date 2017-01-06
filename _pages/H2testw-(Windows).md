@@ -4,7 +4,7 @@ permalink: /h2testw-(windows).html
 sidebar:
   nav: "h2testw-(windows)"
 ---
-<a name="start" />
+
 В этом разделе рассказывается о том, как проверить карту памяти на ошибки под ОС Linux с помощью h2testw.
 {: .notice}
 

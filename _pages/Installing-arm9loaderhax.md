@@ -4,7 +4,7 @@ permalink: /installing-arm9loaderhax.html
 sidebar:
   nav: "installing-arm9loaderhax"
 ---
-<a name="start" />
+
 В последнем этапе гайда устанавливаем arm9loaderhax и настраиваем Luma3DS, таким образом загрузка будет занимать значительно меньше времени. За эту возможность благодарим [AuroraWright](https://github.com/AuroraWright/) и его программу SafeA9LHInstaller.
 {: .notice}
 

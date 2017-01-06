@@ -4,7 +4,7 @@ permalink: /ntr-and-cubic-ninja.html
 sidebar:
   nav: "ntr-and-cubic-ninja"
 ---
-<a name="start" />
+
 **NTR Cubic Ninja работает ТОЛЬКО для JPN New 3DS!**
 {: .notice--warning}
 

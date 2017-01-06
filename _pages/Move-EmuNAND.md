@@ -4,7 +4,7 @@ permalink: /move-emunand.html
 sidebar:
   nav: "move-emunand"
 ---
-<a name="start" />
+
 Этот дополнительный раздел предназначен тем, кто хочет перенести содержимое своего EmuNAND в новый SysNAND с кастомной прошивкой. В процессе мы так же удалим раздел с EmuNAND с карты памяти, что освободит на ней лишний гигабайт с чем-то. Помните, что EmuNAND и RedNAND - просто разные реализации одного и того же метода [перенаправления NAND](http://3dbrew.org/wiki/NAND_Redirection).
 {: .notice--info}
 
