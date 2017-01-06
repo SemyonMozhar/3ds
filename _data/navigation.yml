@@ -74,11 +74,8 @@ home:
         url: /2.1.0-ctrtransfer#instructions
       - title: "  - Часть I - Подготовка"
         url: /2.1.0-ctrtransfer#part1
-      - title: "  - Часть II - Резервное копирование тикетов"
+      - title: "  - Часть II - ctrtransfer"
         url: /2.1.0-ctrtransfer#part2
-      - title: "  - Часть III - ctrtransfer"
-        url: /2.1.0-ctrtransfer#part3   
-
 
 9.2.0-ctrtransfer:
   - title: "Разделы"
@@ -335,10 +332,6 @@ installing-arm9loaderhax:
         url: /installing-arm9loaderhax#part5
       - title: "  - Часть VI - Заканчиваем настройку"
         url: /installing-arm9loaderhax#part6
-      - title: "  - Часть VII - Восстановление тикетов"
-        url: /installing-arm9loaderhax#part7
-      - title: "  - Часть VIII - Восстановление nim"
-        url: /installing-arm9loaderhax#part8
         
 move-emunand:
   - title: "Разделы"
