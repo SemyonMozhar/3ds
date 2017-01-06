@@ -1,6 +1,6 @@
 # main links links
 main:
-  - title: "<a name="start" />Начнем"
+  - title: "Начнем"
     url: /get-started
   - title: "Даунгрейд<br>с 11.x.x"
     url: /nfirm-downgrade
