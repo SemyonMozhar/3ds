@@ -5,12 +5,6 @@ sidebar:
   nav: "hardmod-downgrade"
 ---
 
-**Если ваша прошивка 11.0.0 или 11.1.0, НЕ ОБНОВЛЯЙТЕСЬ до 11.2.0. Скоро сообщество обновит способ даунгрейда NFIRM с помощью DSiWare _без_ необходимости второй 3DS или хардмода!**
-{: .notice--primary}
-
-Версия autofirm, используемая в инструкции - модифицированная версия с форума [Reboot.ms](https://www.reboot.ms/forum/threads/2403/), которую изменил [Raugo](https://gbatemp.net/members/356694/). Оригинальная версия выкладывается ([с разрешения автора](http://archive.is/KOrWp)).
-{: .notice}  
-
 Лучшая инструкция по пайке хардмода находится [здесь](https://gbatemp.net/threads/414498/). Если у вас New 3DS, прочтите [это](https://github.com/Plailect/Guide/issues/681) перед тем, как хардмодить.
 {: .notice--info}
 
