@@ -94,6 +94,10 @@ home:
         url: /9.2.0-ctrtransfer#part3
       - title: "  - Часть IV - Восстановление конфигов"
         url: /9.2.0-ctrtransfer#part4
+      - title: "  - Часть V - Внедрение FBI"
+        url: /9.2.0-ctrtransfer#part5
+      - title: "  - Часть VI - Переустановка тикетов"
+        url: /9.2.0-ctrtransfer#part6
         
 9.2.0-downgrade:
   - title: "Разделы"

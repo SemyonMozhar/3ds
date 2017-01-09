@@ -6,7 +6,7 @@ permalink: /credits.html
 **Спасибо всем из [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) за то, что они невероятные крутоны!**
 {: .notice--primary}
 
-*Если я кого-то забыл, прошу написать об этом в ЛС и я обязательно вас добавлю!*
+Если я кого-то забыл, прошу написать об этом в ЛС и я обязательно вас добавлю!
 {: .notice}
 
 + AHP_Person
