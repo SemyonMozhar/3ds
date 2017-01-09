@@ -5,13 +5,13 @@ sidebar:
   nav: "hardmod-downgrade"
 ---
 
-Лучшая инструкция по пайке хардмода находится [здесь](https://gbatemp.net/threads/414498/). Если у вас New 3DS, прочтите [это](https://github.com/Plailect/Guide/issues/681) перед тем, как хардмодить.
+Лучшая инструкция по пайке хардмода находится [здесь](https://gbatemp.net/threads/414498/). Если у вас New 3DS, прочтите [это](https://github.com/Plailect/Guide/issues/681) перед тем, как приступать.
 {: .notice--info}
 
 Это рабочая реализация "FIRM partitions known-plaintext"-эксплойта. Подробнее о нем [здесь](https://www.3dbrew.org/wiki/3DS_System_Flaws).
 {: .notice--info}
 
-Будет работать на всех версиях 3DS - New 3DS, Old 3DS, и 2DS.
+Актуально для всех версиях 3DS - New 3DS, Old 3DS, и 2DS.
 {: .notice--success}
 
 #### <a name="what_need" />Что нужно: 

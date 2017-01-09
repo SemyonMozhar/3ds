@@ -58,7 +58,7 @@ NNID из исходной 3DS будет находится в целевой 3
   + **Guitar Rock Tour**; 
   + **The Legend of Zelda: Four Swords (Anniversary Edition)**.
 * Точка входа из части [Homebrew Launcher (SoundHax)](homebrew-launcher-(soundhax)) или [Homebrew Launcher (не используя браузер)](homebrew-launcher-(no-browser))
-* Свежая версия [3ds_dsiwarehax_installer](https://github.com/yellows8/3ds_dsiwarehax_installer/releases)
+* Свежая версия [3ds_dsiwarehax_installer](https://github.com/yellows8/3ds_dsiwarehax_installer/releases/latest)
 * Свежая версия [3DSident](https://github.com/joel16/3DSident/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
 * Свежая версия [dgTool](https://github.com/Plailect/dgTool/releases/latest)

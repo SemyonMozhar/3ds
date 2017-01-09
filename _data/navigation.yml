@@ -42,7 +42,7 @@ main:
     url: /otp-info
   - title: "Пожертвования"
     url: /donations
-  - title: "Credits"
+  - title: "Благодарности"
     url: /credits
 
 home:

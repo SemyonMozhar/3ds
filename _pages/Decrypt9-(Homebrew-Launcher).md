@@ -1,5 +1,5 @@
 ---
-title: "Decrypt9 (Homebrew Launcher)"
+title: "Запуск Decrypt9 через Homebrew Launcher"
 permalink: /decrypt9-(Homebrew-launcher).html
 sidebar:
   nav: "decrypt9-(Homebrew-launcher)"

@@ -1,5 +1,5 @@
 ---
-title: "Decrypt9 (MSET)"
+title: "Запуск Decrypt9 через MSET"
 permalink: /decrypt9-(mset).html
 sidebar:
   nav: "decrypt9-(mset)"

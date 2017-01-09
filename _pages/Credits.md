@@ -1,5 +1,5 @@
 ---
-title: "credits"
+title: "Благодарности"
 permalink: /credits.html
 ---
 
