@@ -20,8 +20,6 @@ main:
     url: /installing-arm9loaderhax   
   - title: "Обновление<br>картриджем"
     url: /cart-update
-  - title: "Список совместимых<br>DSiWare-игр"
-    url: /dsiware-list
   - title: "FAQ"
     url: /faq
   - title: "Установка и использование<br>жетонов (badges)"
