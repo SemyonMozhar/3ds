@@ -14,7 +14,7 @@ sidebar:
 #### <a name="what_need" />Что нужно: 
 
 * Флешкартридж для DS, работающий на вашей версии прошивки. 
-* Свежая версия [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/)
+* Свежая версия [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/latest)
 
 #### <a name="instructions" />Что делать:
 

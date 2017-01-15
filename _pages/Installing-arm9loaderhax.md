@@ -43,12 +43,12 @@ sidebar:
 * [`data_input_v3.zip`](magnet:?xt=urn:btih:a1195c9f7ab650fa7c7bf020b51fc19ea8d9440c&dn=data%5Finput%5Fv3.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 * Свежий форк [SafeA9LHInstaller](https://github.com/Plailect/SafeA9LHInstaller/releases/latest) *(`.7z`-файл)*
 * Свежая версия [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases/latest) *(t`.7z`-файл)*
-* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-файл)*
+* Свежая версия с зеркала [Luma3DS](https://astronautlevel2.github.io/Luma3DS/builds/Luma-1eb18c17.zip) *(`.7z`-файл)*
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
 * Свежая версия [Hourglass9](https://github.com/d0k3/Hourglass9/releases/latest)
 * Свежая версия [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases/latest)
 * Свежая версия [DspDump](https://github.com/Cruel/DspDump/releases/latest)
-* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/)
+* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
 * Свежая версия [freeshop](http://get.freeshop.pw/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
@@ -167,7 +167,7 @@ sidebar:
 
 ##### <a name="part6" />Часть VI - Заканчиваем настройку
 
-2. Запустите Информация о здоровье и безопасности (Health and Safety) (это теперь FBI).
+2. Запустите Информация о здоровье и безопасности (Health & Safety) (это теперь FBI).
 3. Выберите "SD".
 4. Выберите "cias".
 5. Наведите курсор на `<current directory>`, нажмите (А) и выберите Install all CIAs.
@@ -255,6 +255,6 @@ ___
 + [Как делать резервные копии, редактировать и восстанавливать](https://gbatemp.net/threads/release-jks-savemanager-Homebrew-cia-save-manager.413143/) сохранения игр. 
 + Как настроить внешний вид домашнего экрана кастомными [темами](themes) и [жетонами](badges) с помощью программ [СHMM2](http://rinnegatamante.it/site/3ds_hbs.php) и [GYTB](https://github.com/MrCheeze/GYTB). 
 + [Как ставить игры?](http://vk.com/3ds_cfw?w=wall-125012133_147%2Fall)
-+ [Ключи для freeshop](http://prntscr.com/dscajx)
++ [Как настроить freeshop](https://vk.com/3ds_cfw?w=wall-125012133_847%2Fall)
 {: .notice--success}
 {% endcapture %}

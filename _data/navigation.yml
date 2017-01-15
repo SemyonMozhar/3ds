@@ -2,7 +2,7 @@
 main:
   - title: "Начнем"
     url: /get-started
-  - title: "Даунгрейд<br>с 11.x.x"
+  - title: "Хардмод"
     url: /nfirm-downgrade
   - title: "Homebrew<br>launcher"
     url: /homebrew-launcher-(soundhax)
@@ -10,23 +10,23 @@ main:
     url: /2.1.0-ctrtransfer
   - title: "9.2.0<br>ctrtransfer"
     url: /9.2.0-ctrtransfer
+  - title: "Установка<br>arm9loaderhax"
+    url: /installing-arm9loaderhax   
   - title: "Decrypt9 (MSET)"
     url: /decrypt9-(mset)
   - title: "Decrypt9<br>(Homebrew Launcher)"
     url: /decrypt9-(Homebrew-launcher)
   - title: "Decrypt9<br>(Браузер есть)"
     url: /decrypt9-(browser)
-  - title: "Установка<br>arm9loaderhax"
-    url: /installing-arm9loaderhax   
-  - title: "Обновление<br>картриджем"
-    url: /cart-update
+  - title: "Внедрение FBI"
+    url: /fbi
   - title: "FAQ"
     url: /faq
   - title: "Установка и использование<br>жетонов (badges)"
     url: /badges
-  - title: "Установка и использование<br>тем"
+  - title: "Установка и использование тем"
     url: /themes
-  - title: "Проблемы и их<br>решения"
+  - title: "Проблемы и их решения"
     url: /troubleshooting
   - title: "Обновление A9LH"
     url: /updating-a9lh
