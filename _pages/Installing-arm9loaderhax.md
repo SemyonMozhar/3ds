@@ -250,7 +250,7 @@ ___
 Для того, чтобы держать свой a9lh в актуальном состоянии, следуйте этой инструкции - [Обновление A9LH](updating-a9lh).
 {: .notice--success}
 
-<a name="part7" /></a>
+<a name="part7" />
 
 {% capture notice-7 %}
     + Рекомендую ознакомиться с различными фишками, которые умеет Luma3DS [в этой статье](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
