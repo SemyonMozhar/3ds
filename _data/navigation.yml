@@ -334,6 +334,9 @@ installing-arm9loaderhax:
         url: /installing-arm9loaderhax#part5
       - title: "  - Часть VI - Заканчиваем настройку"
         url: /installing-arm9loaderhax#part6
+      - title: "• Полезные ссылки"
+        url: /installing-arm9loaderhax#part7
+
         
 move-emunand:
   - title: "Разделы"
