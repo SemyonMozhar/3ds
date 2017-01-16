@@ -11,7 +11,7 @@ header:
   cta_label: "Начнем!"
   cta_url: "/get-started"
   caption:
-excerpt: 'Пошаговая инструкция по установке arm9loaderhax и <br /> кастомной прошивки для 3DS от А до Я.<br /><br />**Актуализировал к версии гайда от Plailect<br />15.01.2017<br /><br />**'
+excerpt: 'Пошаговая инструкция по установке arm9loaderhax и <br /> кастомной прошивки для 3DS от А до Я.<br /><br />**Актуализировал к версии гайда от Plailect<br />16.01.2017<br /><br />**'
 ---
 
 <a name="start" />
