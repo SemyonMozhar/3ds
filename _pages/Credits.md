@@ -19,7 +19,7 @@ permalink: /credits.html
 + Cartman123
 + Cell9
 + coder65535
-+ Cruel`
++ Cruel'
 + d0k3
 + dank101
 + dark_samus
@@ -66,6 +66,9 @@ permalink: /credits.html
 + xy2_
 + yellows8
 + yifan_lu
+
+За помощь в вычитке перевода спасибо:
+dimakuz26
 
 ----
 
