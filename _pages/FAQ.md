@@ -1,6 +1,8 @@
 ---
 title: "FAQ"
 permalink: /faq.html
+sidebar:
+  nav: "faq"
 ---
 
 <a name="faq_latestfw" />**В:** *Моя консоль на последней версии прошивки, могу ли я её взломать?*    
@@ -33,8 +35,8 @@ permalink: /faq.html
 <a name="faq_updates" />**В:** *Безопасно ли обновлять кастомную прошивку, установленную в SysNAND?*    
 **О:** Да. Это безопасно, хватит уже спрашивать об этом.
 
-+ <a name="faq_rm_nnid" />**В:** *Можно ли удалить NNID без форматирования устройства?*    
-  **О:** Да, почитайте [здесь](troubleshooting#rm_nnid).
+<a name="faq_rm_nnid" />**В:** *Можно ли удалить NNID без форматирования устройства?*    
+**О:** Да, почитайте [здесь](troubleshooting#rm_nnid).
 
 <a name="faq_support" />**Q:** *Куда я могу обратиться за помощью?*    
 **О:** Если у вас есть вопросы, вы можете задать их на [#3dshacks канале Rizon IRC](https://www.reddit.com/r/3dshacks/wiki/irc) или [3DS Hacking канале в Discord](https://discord.gg/MWxPgEp) (английский).  

@@ -233,9 +233,9 @@ ___
 {: .notice--success}
 
 <a name="part7" />
-+ Рекомендую ознакомиться с различными фишками, которые умеет Luma3DS [в этой статье](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).   
-+ [Как делать резервные копии, редактировать и восстанавливать](https://gbatemp.net/threads/release-jks-savemanager-Homebrew-cia-save-manager.413143/) сохранения игр.    
-+ Как настроить внешний вид домашнего экрана кастомными [темами](themes) и [жетонами](badges) с помощью программ [СHMM2](http://rinnegatamante.it/site/3ds_hbs.php) и [GYTB](https://github.com/MrCheeze/GYTB).    
-+ [Как ставить игры?](http://vk.com/3ds_cfw?w=wall-125012133_147%2Fall)   
-+ [Как настроить freeshop](https://vk.com/3ds_cfw?w=wall-125012133_847%2Fall)   
+• Рекомендую ознакомиться с различными фишками, которые умеет Luma3DS [в этой статье](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).   
+• [Как делать резервные копии, редактировать и восстанавливать](https://gbatemp.net/threads/release-jks-savemanager-Homebrew-cia-save-manager.413143/) сохранения игр.    
+• Как настроить внешний вид домашнего экрана кастомными [темами](themes) и [жетонами](badges) с помощью программ [СHMM2](http://rinnegatamante.it/site/3ds_hbs.php) и [GYTB](https://github.com/MrCheeze/GYTB).    
+• [Как ставить игры?](http://vk.com/3ds_cfw?w=wall-125012133_147%2Fall)   
+• [Как настроить freeshop](https://vk.com/3ds_cfw?w=wall-125012133_847%2Fall)   
 {: .notice--success}
