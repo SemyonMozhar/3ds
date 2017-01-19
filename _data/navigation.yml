@@ -46,7 +46,7 @@ main:
 troubleshooting:
   - title: "Разделы"
     children:
-      - title: "• DSi / DS игры не работают после завершения руководства"</br>
+      - title: "• DSi / DS игры не работают после завершения руководства"
         url: /#twl_broken
       - title: "• Удаление NNID без форматирования устройства"
         url: /#rm_nnid
