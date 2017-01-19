@@ -30,5 +30,5 @@ sidebar:
 8. Перезагрузите консоль, зайдите в "Системные настройки", затем"Прочие настройки" (Other Settings), затем "Профиль" (Profile), затем "Профиль Nintendo DS" (Nintendo DS Profile)
 9. Если эксплойт сработал верно, запустится Decrypt9
 
-Переходим к [2.1.0 ctrtransfer](2.1.0-ctrtransfer).
+Следующий шаг: [2.1.0 ctrtransfer](2.1.0-ctrtransfer).
 {: .notice--primary}

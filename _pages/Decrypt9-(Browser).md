@@ -38,5 +38,6 @@ sidebar:
   + При возникновении ошибки, обратитесь к разделу [Проблемы и их решения](troubleshooting#ts_browser)
 
 5. Если эксплойт сработал, запустится Decrypt9
+
 Следующий шаг: [2.1.0 ctrtransfer](2.1.0-ctrtransfer).
 {: .notice--primary}
