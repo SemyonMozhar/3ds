@@ -52,7 +52,7 @@ permalink: /faq.html
 **О:** Если точно следовать этому руководству от начала и до конца вы сохраните свой NNID.
 
 <a name="faq_systransfer" />**В:** *Работает ли Передача Данных (System Transfer)?*    
-**A:** Once you have completed the guide, you can system transfer to and from an arm9loaderhax'd 3DS or 2DS exactly like you would a regular stock console or EmuNAND (you will lose any non-legitimate games/themes/DLC in the transfer; saves will stay even for games that are lost).
+**О:** После завершения руководства, Передача данных (System transfer) может осуществялятся со взломаной (arm9loaderhax) 3DS или 2DS либо на неё без каких либо ограничений, как это бы работало на не взломанной консоли или EmuNAND (все нелегально полученные игры/темы/загружаемый контент будут потеряны при передаче, однако сохранения останутся даже для потерянных игр).
 
 <a name="faq_nopc" />**В:** *Могу ли я обойтись без использования компьютера (например, использовать телефон на Android)?*    
 **О:** Все, что вам понадобится, это возможность копировать файлы на SD-карту!
