@@ -46,6 +46,8 @@ main:
 troubleshooting:
   - title: "Разделы"
     children:
+      - title: "• В начало раздела"
+        url: /#start
       - title: "• DSi / DS игры не работают после завершения руководства"
         url: /#twl_broken
       - title: "• Удаление NNID без форматирования устройства"
@@ -70,6 +72,8 @@ troubleshooting:
 faq:
   - title: "Разделы"
     children:
+      - title: "• В начало раздела"
+        url: /#start
       - title: "• Моя консоль на последней версии прошивки, могу ли я её взломать?"
         url: /#faq_latestfw
       - title: "• Как можно обновить Luma3DS?"
