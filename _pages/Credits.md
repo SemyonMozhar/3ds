@@ -6,7 +6,10 @@ permalink: /credits.html
 **Спасибо всем из [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) за то, что они невероятные крутоны!**
 {: .notice--primary}
 
-Если я кого-то забыл, прошу написать об этом в ЛС и я обязательно вас добавлю!
+**Отдельное спасибо всем [переводчикам](https://translate.3ds.guide/) за их работу!**
+{: .notice--primary}
+
+Если я кого-то забыл, свяжитесь со мной и я добавлю ваше имя.
 {: .notice}
 
 + AHP_Person
@@ -36,6 +39,7 @@ permalink: /credits.html
 + ihaveamac
 + IngeniousDefault
 + J-D-K
++ jkcgs
 + LordBass
 + MassExplosion123
 + mid-kid

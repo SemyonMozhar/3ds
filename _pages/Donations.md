@@ -3,15 +3,15 @@ title: "Пожертвования"
 permalink: /donations.html
 ---
 
-<h4 align="center">Если вам помог или просто понравился этот гайд, то милости прошу донатить.<br>Донатим в первую очередь создателю гайда - <a href="https://github.com/Plailect">Plailect:</a></h4>
+## Если вам помогло или просто понравилось это руководство, то я принимаю пожертвования.
 
 {: .text-center}
 {: .notice--success}
 
-[![Bitcoin](images/donate_64.png)](https://www.coinbase.com/plailect){: .align-center}
+[![Bitcoin]({{ base_path }}/images/donate_64.png)](https://www.coinbase.com/plailect){: .align-center}
 {: .text-center}
 
-[![Paypal](images/paypal.jpg)](https://www.paypal.me/plailect/15){: .align-center}
+[![Paypal]({{ base_path }}/images/paypal.jpg)](https://www.paypal.me/plailect/15){: .align-center}
 {: .text-center}
 
 ---
