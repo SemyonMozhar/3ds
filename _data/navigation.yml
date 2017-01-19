@@ -46,8 +46,6 @@ main:
 troubleshooting:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /#start
       - title: "• DSi / DS игры не работают после завершения руководства"
         url: /#twl_broken
       - title: "• Удаление NNID без форматирования устройства"
@@ -68,12 +66,12 @@ troubleshooting:
         url: /#ts_sys_a9lh
       - title: "• Голубой экран при загрузке (bootrom error)"
         url: /#ts_sys_blue
+      - title: "• В начало раздела"
+        url: /#start
         
 faq:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /#start
       - title: "• Моя консоль на последней версии прошивки, могу ли я её взломать?"
         url: /#faq_latestfw
       - title: "• Как можно обновить Luma3DS?"
@@ -112,6 +110,8 @@ faq:
         url: /#faq_nopc
       - title: "• Помогите! Что-то пошло не так, и консоль больше не запускается..."
         url: /#faq_problem
+      - title: "• В начало раздела"
+        url: /#start
         
 home:
   - title: "Разделы"
