@@ -71,10 +71,21 @@ permalink: /credits.html
 + yellows8
 + yifan_lu
 
+Люди, переводившие руководство: 
++ [Zloebot](https://translate.3ds.guide/profile/Aibot)
++ [Unrael](https://translate.3ds.guide/profile/Unrael)
++ [Lost_gamer](https://translate.3ds.guide/profile/Lost_gamer)
++ [CrazySolo](https://translate.3ds.guide/profile/CrazySolo)
++ [Nezd](https://translate.3ds.guide/profile/yanpalis)
++ [Vir](https://translate.3ds.guide/profile/admiin159)
++ [Smarter-san](https://translate.3ds.guide/profile/Smarter-san)
++ [Bullsquid](https://translate.3ds.guide/profile/Bullsquid)
++ [mstrVLT](https://translate.3ds.guide/profile/mstrVLT)
++ [Metalik](https://translate.3ds.guide/profile/Metalik)
++ [jkcgs](https://translate.3ds.guide/profile/jkcgs)
++ [xHR](https://translate.3ds.guide/profile/rashevskyv)
+
 За помощь в вычитке перевода спасибо:
 dimakuz26
 
 ----
-
-### Перевод сделал xHR для проекта [3ds_CFW](http://vk.com/3ds_cfw).
-
