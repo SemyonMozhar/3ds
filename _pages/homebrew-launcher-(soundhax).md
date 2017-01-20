@@ -29,5 +29,5 @@ SoundHax совместим с версиями прошивки от 9.0.0 до
   + При зависании отключите питание консоли, зажав кнопку питания, и попробуйте снова
 8. Консоль должна загрузиться в Homebrew Launcher
 
-Следующий шаг: [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
+Следующий шаг: [Decrypt9 (Homebrew Launcher)](decrypt9-(Homebrew-launcher))
 {: .notice--primary}
