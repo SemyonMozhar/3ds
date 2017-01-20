@@ -47,71 +47,71 @@ troubleshooting:
   - title: "Разделы"
     children:
       - title: "• DSi / DS игры не работают после завершения руководства"
-        url: /#twl_broken
+        url: /troubleshooting#twl_broken
       - title: "• Удаление NNID без форматирования устройства"
-        url: /#rm_nnid
+        url: /troubleshooting#rm_nnid
       - title: "• Не выходит сделать интеграцию в Health & Safety на устройстве с пониженной прошивкой с помощью Gateway"
-        url: /#gw_fbi
+        url: /troubleshooting#gw_fbi
       - title: "• Почему не работает эксплойт, использующий браузер?"
-        url: /#ts_browser
+        url: /troubleshooting#ts_browser
       - title: "• Приставка грузится в SafeA9LHInstaller"
-        url: /#ts_safe_a9lh
+        url: /troubleshooting#ts_safe_a9lh
       - title: "• Изображение после запуска SafeA9LHInstaller некорректно"
-        url: /#ts_safe_a9lh_screen
+        url: /troubleshooting#ts_safe_a9lh_screen
       - title: "• Decrypt9 или Hourglass9 не восстанавливают / не видят мой NAND-бекап"
-        url: /#ts_d9_backup
+        url: /troubleshooting#ts_d9_backup
       - title: "• Черный экран при загрузке SysNAND "
-        url: /#ts_sys_down
+        url: /troubleshooting#ts_sys_down
       - title: "• Черный экран при загрузке SysNAND после установки a9lh"
-        url: /#ts_sys_a9lh
+        url: /troubleshooting#ts_sys_a9lh
       - title: "• Голубой экран при загрузке (bootrom error)"
-        url: /#ts_sys_blue
+        url: /troubleshooting#ts_sys_blue
       - title: "• В начало раздела"
-        url: /#start
+        url: /troubleshooting#start
         
 faq:
   - title: "Разделы"
     children:
       - title: "• Моя консоль на последней версии прошивки, могу ли я её взломать?"
-        url: /#faq_latestfw
+        url: /faq#faq_latestfw
       - title: "• Как можно обновить Luma3DS?"
-        url: /#faq_updatecfw
+        url: /faq#faq_updatecfw
       - title: "• В чем различие между EmuNAND и RedNAND?"
-        url: /#faq_RedNAND
+        url: /faq#faq_RedNAND
       - title: "• Я слышал, что в продаже есть различные устройства (Gateway, Sky3DS, и т. д.), нужны ли они мне?"
-        url: /#faq_gatewaysky
+        url: /faq#faq_gatewaysky
       - title: "• Как мне перенести свои сохранения с Gateway на консоль для установленных игр?"
-        url: /#faq_gatewaysaves
+        url: /faq#faq_gatewaysaves
       - title: "• Что мне потребуется для выполнения руководства?"
-        url: /#faq_need
+        url: /faq#faq_need
       - title: "• Насколько опасно взламывать консоль?"
-        url: /#faq_risky
+        url: /faq#faq_risky
       - title: "• Смогу ли я после взлома запускать сторонние программы и эмуляторы?"
-        url: /#faq_homebrew
+        url: /faq#faq_homebrew
       - title: "• Смогу ли я играть в игры других регионов?"
-        url: /#faq_regionfree
+        url: /faq#faq_regionfree
       - title: "• Безопасно ли обновлять кастомную прошивку, установленную в SysNAND?"
-        url: /#faq_updates
+        url: /faq#faq_updates
       - title: "• Можно ли удалить NNID без форматирования устройства?"
-        url: /#faq_rm_nnid
+        url: /faq#faq_rm_nnid
       - title: "• Куда я могу обратиться за помощью?"
-        url: /#faq_support
+        url: /faq#faq_support
       - title: "• Могу ли я использовать SD-карту размером 4 ГБ (или меньше)?"
-        url: /#faq_le4gbsd
+        url: /faq#faq_le4gbsd
       - title: "• Могу ли я использовать SD-карту размером 128 ГБ (или больше)?"
-        url: /#faq_ge128gbsd
+        url: /faq#faq_ge128gbsd
       - title: "• Как мне перенести данные на новую SD-карту?"
-        url: /#faq_movesd
+        url: /faq#faq_movesd
       - title: "• Могу ли я сохранить свой NNID?"   
-        url: /#faq_NNID
+        url: /faq#faq_NNID
       - title: "• Работает ли Передача Данных (System Transfer)?"
-        url: /#faq_systransfer
+        url: /faq#faq_systransfer
       - title: "• Могу ли я обойтись без использования компьютера (например, использовать телефон на Android)?"
-        url: /#faq_nopc
+        url: /faq#faq_nopc
       - title: "• Помогите! Что-то пошло не так, и консоль больше не запускается..."
-        url: /#faq_problem
+        url: /faq#faq_problem
       - title: "• В начало раздела"
-        url: /#start
+        url: /faq#start
         
 home:
   - title: "Разделы"
