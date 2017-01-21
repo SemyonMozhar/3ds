@@ -71,10 +71,8 @@ sidebar:
 4. Скопируйте _содержимое_ `.7z-архива` SafeA9LHInstaller в корень SD-карты
 3. **Скопируйте папку `a9lh` из `.zip-архива` `data_input` в корень SD-карты**
 4. Скопируйте _содержимое_ `.7z-архива` arm9loaderhax в папку `a9lh` в корне SD-карты
-5. Скопируйте _содержимое_ архива SafeA9LHInstaller в корень карты памяти.
 6. Скопируйте `hblauncher_loader.cia` из архива hblauncher_loader в папку `/cias/` в корне SD-карты
-9. Скопируйте `hblauncher_loader.cia` из архива hblauncher_loader в папку `/cias/` в корне КП.
-10. Скопируйте `lumaupdater.cia` из архива Luma3DS Updater в папку `/cias/` в корне КП.
+10. Скопируйте `lumaupdater.cia` из архива Luma3DS Updater в папку `/cias/` в корне SD-карты
 11. Скопируйте `FBI.cia` из архива FBI в папку `/cias/` в корне КП.
 11. Скопируйте `freeShop-latest.cia` в папку `/cias/` в корне КП.
 12. Скопируйте `arm9loaderhax.bin` из архива Luma3DS, в корень карты памяти, согласившись на перезапись.
