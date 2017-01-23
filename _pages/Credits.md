@@ -6,7 +6,7 @@ permalink: /credits.html
 **Спасибо всем из [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) за то, что они невероятные крутоны!**
 {: .notice--primary}
 
-**Отдельное спасибо всем [переводчикам](https://translate.3ds.guide/) за их работу!**
+**Отдельное спасибо всем из [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) за то, что они потрясающие!**
 {: .notice--primary}
 
 Если я кого-то забыл, свяжитесь со мной и я добавлю ваше имя.
