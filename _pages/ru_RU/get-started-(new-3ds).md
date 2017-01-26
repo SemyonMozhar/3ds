@@ -8,8 +8,7 @@ permalink: /get-started-(new-3ds).html
 
 {::comment}
 {% capture notice-1 %}
-
-Два последних столбца относятся к последнему числу, указанному в версии прошивки вашего устройства (которая обозначает версию установленного браузера в системе). Если версия оканчивается на -0, значит, у вас отсутствует браузер, любое другое число больше 0 говорит о том, что браузер установлен.
+Два последних столбца относятся к последнему числу, указанному в версии прошивки вашего устройства (которое обозначает версию установленного браузера в системе). Если версия оканчивается на -0, значит, у вас отсутствует браузер, любое другое число больше 0 говорит о том, что браузер установлен.
 
 Столбцы "С" и "По" обозначают границы диапазона. Это означает, к примеру, что диапазон "с 9.0.0 по 9.2.0" включает в себя 9.0.0, 9.1.0 и 9.2.0.
 
@@ -37,8 +36,8 @@ permalink: /get-started-(new-3ds).html
 <table>
   <thead>
     <tr>
-      <th style="text-align: center">От</th>
-      <th style="text-align: center">До</th>
+      <th style="text-align: center">С</th>
+      <th style="text-align: center">По</th>
       <th style="text-align: center"><!-- Браузера нет--></th>
       <!-- <th style="text-align: center">Браузер есть</th> -->
     </tr>
@@ -47,7 +46,7 @@ permalink: /get-started-(new-3ds).html
     <tr>
       <td style="text-align: center">8.1.0</td>
       <td style="text-align: center">8.1.0</td>
-      <td style="text-align: center" colspan="2"><a href="ntr-and-cubic-ninja">NTR и Cubic Ninja</a></td>
+      <td style="text-align: center"><a href="ntr-and-cubic-ninja">NTR и Cubic Ninja</a></td>
     </tr>
     <tr>
       <td style="text-align: center">9.0.0</td>
