@@ -129,6 +129,14 @@ home:
       - title: "• Что нужно знать, перед тем, как начать?"
         url: /#what_know
 
+fbi:
+  - title: "Разделы"
+    children:
+      - title: "• Часть I - Подготовка"
+        url: /fbi#part1
+      - title: "• Часть II - Внедрение FBI"
+        url: /fbi#part2
+        
 2.1.0-ctrtransfer:
   - title: "Разделы"
     children:
