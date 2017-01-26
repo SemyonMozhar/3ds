@@ -17,7 +17,7 @@ main:
   - title: "Decrypt9<br>(MSET)"
     url: /decrypt9-mset
   - title: "Decrypt9<br>(HBL)"
-    url: /decrypt9-Homebrew-launcher
+    url: /decrypt9-homebrew-launcher
   - title: "Decrypt9<br>(Браузер)"
     url: /decrypt9-browser
   - title: "Внедрение<br>FBI"
@@ -217,15 +217,15 @@ decrypt9-browser:
       - title: "• Что делать:"
         url: /decrypt9-browser#instructions
 
-decrypt9-Homebrew-launcher:
+decrypt9-homebrew-launcher:
   - title: "Разделы"
     children:
       - title: "• В начало раздела"
-        url: /decrypt9-Homebrew-launcher#start
+        url: /decrypt9-homebrew-launcher#start
       - title: "• Что нужно?"
-        url: /decrypt9-Homebrew-launcher#what_need
+        url: /decrypt9-homebrew-launcher#what_need
       - title: "• Что делать:"
-        url: /decrypt9-Homebrew-launcher#instructions
+        url: /decrypt9-homebrew-launcher#instructions
 
 decrypt9-mset:
   - title: "Разделы"
