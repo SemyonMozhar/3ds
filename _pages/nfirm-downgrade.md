@@ -11,4 +11,4 @@ redirect_from: "/dsiware-downgrade"
 
 ---
 
-+ Воспользуйтесь [этой ссылкой](hardmod-downgrade), чтобы понизить прошивку с помощью [хардмода](https://gbatemp.net/threads/414498/).    
++ Обратитесь к [этому](hardmod-downgrade) разделу для понижения версии NFIRM с помощью [хардмода](https://gbatemp.net/threads/414498/) (англ.)

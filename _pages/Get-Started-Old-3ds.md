@@ -1,6 +1,6 @@
 	---
 title: "Начнем (Old 3DS)"
-permalink: /get-started-(old-3ds).html
+permalink: /get-started-old-3ds.html
 ---
 
 Выберите подходящую для вашей версии страницу из таблицы ниже.
@@ -56,31 +56,31 @@ permalink: /get-started-(old-3ds).html
     <tr>
       <td style="text-align: center">4.0.0</td>
       <td style="text-align: center">4.5.0</td>
-      <td style="text-align: center"><a href="decrypt9-(mset)">Decrypt9 (MSET)</a></td>
-      <td style="text-align: center"><a href="decrypt9-(browser)">Decrypt9 (используя браузер)</a></td>
+      <td style="text-align: center"><a href="decrypt9-mset">Decrypt9 (MSET)</a></td>
+      <td style="text-align: center"><a href="decrypt9-browser">Decrypt9 (используя браузер)</a></td>
     </tr>
     <tr>
       <td style="text-align: center">5.0.0</td>
       <td style="text-align: center">5.1.0</td>
       <td style="text-align: center"><a href="cart-update">Обновление картриджем</a></td>
-      <td style="text-align: center"><a href="decrypt9-(browser)">Decrypt9 (используя браузер)</a></td>
+      <td style="text-align: center"><a href="decrypt9-browser">Decrypt9 (используя браузер)</a></td>
     </tr>
     <tr>
       <td style="text-align: center">6.0.0</td>
       <td style="text-align: center">6.3.0</td>
-      <td style="text-align: center"><a href="decrypt9-(mset)">Decrypt9 (MSET)</a></td>
-      <td style="text-align: center"><a href="decrypt9-(browser)">Decrypt9 (используя браузер)</a></td>
+      <td style="text-align: center"><a href="decrypt9-mset">Decrypt9 (MSET)</a></td>
+      <td style="text-align: center"><a href="decrypt9-browser">Decrypt9 (используя браузер)</a></td>
     </tr>
     <tr>
       <td style="text-align: center">7.0.0</td>
       <td style="text-align: center">8.1.0</td>
       <td style="text-align: center"><a href="cart-update">Обновление картриджем</a></td>
-      <td style="text-align: center"><a href="decrypt9-(browser)">Decrypt9 (используя браузер)</a></td>
+      <td style="text-align: center"><a href="decrypt9-browser">Decrypt9 (используя браузер)</a></td>
     </tr>
     <tr>
       <td style="text-align: center">9.0.0</td>
       <td style="text-align: center">11.2.0</td>
-      <td style="text-align: center" colspan="2"><a href="homebrew-launcher-(soundhax)">Homebrew Launcher (SoundHax)</a></td>
+      <td style="text-align: center" colspan="2"><a href="homebrew-launcher-soundhax">Homebrew Launcher (SoundHax)</a></td>
     </tr>
   </tbody>
 </table>

@@ -1,6 +1,6 @@
 ---
 title: "Начнем (New 3DS)"
-permalink: /get-started-(new-3ds).html
+permalink: /get-started-new-3ds.html
 ---
 
 Выберите подходящую для вашей версии страницу из таблицы ниже.
@@ -51,7 +51,7 @@ permalink: /get-started-(new-3ds).html
     <tr>
       <td style="text-align: center">9.0.0</td>
       <td style="text-align: center">11.2.0</td>
-      <td style="text-align: center"><a href="homebrew-launcher-(soundhax)">Homebrew Launcher (SoundHax)</a></td>
+      <td style="text-align: center"><a href="homebrew-launcher-soundhax">Homebrew Launcher (SoundHax)</a></td>
     </tr>
   </tbody>
 </table>

@@ -1,6 +1,6 @@
 ---
 title: "Установка и использование жетонов (badges)"
-permalink: /badges.html
+permalink: /Badges.html
 sidebar:
   nav: "badges"
 ---

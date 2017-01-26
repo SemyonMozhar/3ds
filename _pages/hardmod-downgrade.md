@@ -5,7 +5,7 @@ sidebar:
   nav: "hardmod-downgrade"
 ---
 
-Отличное руководство по пайке хардмода находится [здесь](https://gbatemp.net/threads/414498/). Если у вас New 3DS, прочтите [это](https://github.com/Plailect/Guide/issues/681) перед тем, как приступать.
+Отличное руководство по пайке хардмода находится [здесь](https://gbatemp.net/threads/414498/) (англ.). Если у вас New 3DS, прочтите [это](https://github.com/Plailect/Guide/issues/681) (англ.) перед тем, как приступать.
 {: .notice--info}
 
 Это рабочая реализация "FIRM partitions known-plaintext"-эксплойта. Подробнее о нем [здесь](https://www.3dbrew.org/wiki/3DS_System_Flaws).
@@ -14,9 +14,9 @@ sidebar:
 Актуально для всех версий 3DS - New 3DS, Old 3DS, и 2DS.
 {: .notice--success}
 
-#### <a name="what_need" />Что необходимо
+#### <a name="what_need" />Что понадобится
 
-* Полученный с помощью [хардмода](https://gbatemp.net/threads/414498/) образ NAND
+* Полученный с помощью [хардмода](https://gbatemp.net/threads/414498/) (англ.) образ NAND
 * Свежая версия [autofirm](https://github.com/Plailect/autofirm/archive/master.zip)
 * Свежая версия [3DSident](https://github.com/joel16/3DSident/releases/latest)
 * `.zip-архив` с NFIRM, соответствующий версии приставки и ее региону:
@@ -46,7 +46,7 @@ sidebar:
 
 1. Скопируйте и объедините папку `3ds` из`.zip-архива` 3DSident с папкой `3ds` в корне SD-карты
 2. Вставьте SD-карту обратно в 3DS
-3. Используйте [Homebrew Launcher (SoundHax)](homebrew-launcher-(soundhax)), чтобы запустить Homebrew Launcher
+3. Используйте [Homebrew Launcher (SoundHax)](homebrew-launcher-soundhax), чтобы запустить Homebrew Launcher
 4. Запустите 3DSident
 5. Убедитесь, что в программе следующие значения совпадают с указанными:
   + **Kernel version**: 2.50-11
@@ -56,5 +56,5 @@ sidebar:
 Версия прошивки, указанная в настройках **не** изменится.
 {: .notice--info}
 
-Следующий шаг: [Decrypt9 (Homebrew Launcher)](decrypt9-(Homebrew-launcher)).
+Следующий шаг: [Decrypt9 (Homebrew Launcher)](decrypt9-homebrew-launcher).
 {: .notice--primary}

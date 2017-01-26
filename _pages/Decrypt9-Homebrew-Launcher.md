@@ -1,8 +1,8 @@
 ---
 title: "Запуск Decrypt9 через Homebrew Launcher"
-permalink: /decrypt9-(Homebrew-launcher).html
+permalink: /decrypt9-homebrew-launcher.html
 sidebar:
-  nav: "decrypt9-(Homebrew-launcher)"
+  nav: "decrypt9-homebrew-launcher"
 ---
 
 #### <a name="what_need" />Что понадобится
@@ -21,11 +21,11 @@ sidebar:
 6. Вставьте SD-карту в 3DS
 4. Запустите fasthax, найдя его в списке приложений homebrew 
   + Вам может потребоваться пролистать список вниз, чтобы увидеть нужный пункт
-4. После того, как он закончит работу, нажмите (START), чтобы вернуться в HBL
-  + Может потребовать нескольких попыток.
+8. После завершения нажмите (START), чтобы вернуться в Homebrew launcher
+  + Может потребоваться несколько попыток
 5. Запустите safehax, найдя его в списке приложений hombrew 
   + Вам может потребоваться пролистать список вниз, чтобы увидеть нужный пункт
-4. Если эксплойт сработал верно, запустится Decrypt9
+10. Если эксплойт сработал верно, запустится Decrypt9
 
 Следующий шаг: [2.1.0 ctrtransfer](2.1.0-ctrtransfer)    
 {: .notice--primary}

@@ -1,8 +1,8 @@
 ---
 title: "H2testw (Windows)"
-permalink: /h2testw-(windows).html
+permalink: /h2testw-windows.html
 sidebar:
-  nav: "h2testw-(windows)"
+  nav: "h2testw-windows"
 ---
 
 В этом разделе рассказывается о том, как проверить SD-карту на ошибки с помощью h2testw.
@@ -11,7 +11,7 @@ sidebar:
 В зависимости от размера SD-карты и скорости компьютера этот процесс может занять до нескольких часов!
 {: .notice--info}
 
-Этот раздел предназначен для пользователей Windows. Если у вас не Windows, воспользуйтесь F3 (linux)](f3-(linux)) или [F3X (mac)](f3x-(mac)).
+Этот раздел предназначен для пользователей Windows. Если у вас не Windows, воспользуйтесь F3 (linux)](f3-linux) или [F3X (mac)](f3x-mac).
 {: .notice--info}
 
 #### <a name="what_need" />Что понадобится 

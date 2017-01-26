@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <a name="faq_latestfw" />**В:** *Моя консоль на последней версии прошивки, могу ли я её взломать?*    
-**О:** Да, версия 11.2 может быть взломана с помощью [Homebrew Launcher (SoundHax)](homebrew-launcher-(soundhax))
+**О:** Да, версия 11.2 может быть взломана с помощью [Homebrew Launcher (SoundHax)](homebrew-launcher-soundhax)
 
 <a name="faq_updatecfw" />**В:** *Как можно обновить Luma3DS?*    
 **О:** Используйте Luma3DS Updater

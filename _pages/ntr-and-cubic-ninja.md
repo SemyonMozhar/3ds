@@ -26,15 +26,15 @@ sidebar:
 
 ##### <a name="part1" />Часть I - Подготовительные работы
 
-1. Установите WAMP в папку по умолчанию.
-2. Скопируйте содержимое `3ds-private-update-server.zip` в папку `C:\wamp\www\` (соглашайтесь на замену).
-3. Скопируйте `update.php` в `C:\wamp\www\` (соглашайтесь на замену).
+1. Установите WAMP в папку по умолчанию
+2. Скопируйте содержимое `3ds-private-update-server.zip` в папку `C:\wamp\www\` (соглашайтесь на замену)
+3. Скопируйте `update.php` в `C:\wamp\www\` (соглашайтесь на замену)
 4. Скопируйте папку `updates` из `.zip-архива` с файлами для понижения прошивки, в папку `C:\wamp\www\`
-5. Переместите `node.exe` в папку `C:\wamp\www\updates`.
-6. Переместите `C:\wamp\www\CdnCiaUnpack.js` в папку `C:\wamp\www\updates`.
+5. Переместите `node.exe` в папку `C:\wamp\www\updates`
+6. Переместите `C:\wamp\www\CdnCiaUnpack.js` в папку `C:\wamp\www\updates`
 7. В папке `C:\wamp\www\updates` перетащите мышкой файл `CdnCiaUnpack.js` на `node.exe`, чтобы создать `GetSystemUpdate.partial.xml`
-8. Переместите `node.exe` и `CdnCiaUnpack.js` обратно в папку `C:\wamp\www\`.
-9. Скопируйте `GetSystemUpdate.partial.xml` в папку `C:\wamp\www\` (таким образом по копии этого файла будут находится в папках `C:\wamp\www\updates` и `C:\wamp\www\`).
+8. Переместите `node.exe` и `CdnCiaUnpack.js` обратно в папку `C:\wamp\www\`
+9. Скопируйте `GetSystemUpdate.partial.xml` в папку `C:\wamp\www\` (таким образом по одной копии этого файла будет находится и в `C:\wamp\www\updates`, и в `C:\wamp\www\`)
 10. Нажмите на иконке WAMP в системном трее, и выберите "Put Online"
 10. Нажмите Win+R и в появившейся строке наберите "CMD".
 11. В командной строке выполните команду `ipconfig /all`, чтобы узнайте IPv4 адрес вашего компьютера, он вам скоро понадобится
@@ -46,7 +46,7 @@ sidebar:
 
 ##### <a name="part2" />Часть II - Обновление
 
-1. Загрузите 3DS в режиме восстановления, удерживая (L)+(R)+(A)+(Вверх) во время включения приставки
+1. Загрузите 3DS в режиме восстановления, удерживая (L)+(R)+(A)+(ВВЕРХ) во время включения приставки
 2. Откажитесь от обновления и перезагрузите консоль
 3. Запустите Cubic Ninja (если у вас уже был установлен NinjHax, зажмите (L)+(R)+(X)+(Y), чтобы сбросить его)
 4. Выберите "Create", затем "QR Code", затем "Scan QR Code".
@@ -64,5 +64,5 @@ sidebar:
 
 ___
 
-Следующий шаг: [Decrypt9 (Homebrew Launcher)](decrypt9-(Homebrew-launcher))
+Следующий шаг: [Decrypt9 (Homebrew Launcher)](decrypt9-homebrew-launcher)
 {: .notice--primary}
