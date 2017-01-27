@@ -1,4 +1,4 @@
-	---
+---
 title: "Начнем (Old 3DS)"
 permalink: /get-started-old-3ds.html
 ---
