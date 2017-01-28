@@ -46,7 +46,7 @@ sidebar:
 
 ##### <a name="part1" />Часть I - Подготовительные работы
 
-1. Скопируйте `GodMode9.bin` из `.zip-архива` GodMode9 в папку `/luma/payloads/`на SD-карте
+1. Скопируйте `GodMode9.bin` из `.zip-архива` GodMode9 в папку `/luma/payloads/`на SD-карте и переименуйте `GodMode9.bin` в `up_GodMode9.bin`
 2. Скопируйте `Decrypt9WIP.bin` в папку `/luma/payloads/` на SD-карте и переименуйте `Decrypt9WIP.bin` в `x_Decrypt9WIP.bin`
 3. Скопируйте файлы `.bin` и `.bin.sha` из `.zip-архива` с образом 9.2.0 ctrtransfer в папку `/files9/` на SD-карте
 4. Вставьте SD-карту обратно в 3DS

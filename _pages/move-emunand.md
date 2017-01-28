@@ -16,8 +16,9 @@ sidebar:
 
 #### <a name="what_need" />Что понадобится
 
-* Исходный EmuNAND.
+* Существующий EmuNAND
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* Свежая версия [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/latest)
 
 #### <a name="instructions" />Инструкция
 
@@ -26,7 +27,7 @@ sidebar:
 1. Извлеките SD-карту из консоли и вставьте её в ПК.
 1. Скопируйте `GodMode9.bin` из  `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте и переименуйте `GodMode9.bin` в `up_GodMode9.bin`
 5. Скопируйте `Decrypt9WIP.bin` в папку `/luma/payloads/` на карте памяти и переименуйте `Decrypt9WIP.bin` в `x_Decrypt9WIP.bin`.
-2. Вставьте SD-карту обратно в приставку
+2. Вставьте SD-карту обратно в 3DS
 
 ##### <a name="part2" />Часть II - Резервное копирование тикетов
 
