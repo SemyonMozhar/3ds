@@ -116,8 +116,6 @@ faq:
 home:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /#start
       - title: "• Что такое Homebrew?"
         url: /#what_hombrw
       - title: "• Что такое кастомная прошивка (CFW)?"
@@ -128,6 +126,8 @@ home:
         url: /#what_can_cfw
       - title: "• Что нужно знать, перед тем, как начать?"
         url: /#what_know
+      - title: "• В начало раздела"
+        url: /#start
 
 fbi:
   - title: "Разделы"
@@ -136,12 +136,12 @@ fbi:
         url: /fbi#part1
       - title: "• Часть II - Внедрение FBI"
         url: /fbi#part2
+      - title: "• В начало раздела"
+        url: /fbi#start
         
 2.1.0-ctrtransfer:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /2.1.0-ctrtransfer#start
       - title: "• Что будем делать?"
         url: /2.1.0-ctrtransfer#steps
       - title: "• Что нужно?"
@@ -152,12 +152,12 @@ fbi:
         url: /2.1.0-ctrtransfer#part1
       - title: "  - Часть II - ctrtransfer"
         url: /2.1.0-ctrtransfer#part2
+      - title: "• В начало раздела"
+        url: /2.1.0-ctrtransfer#start
 
 9.2.0-ctrtransfer:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /9.2.0-ctrtransfer#start
       - title: "• Что нужно?"
         url: /9.2.0-ctrtransfer#what_need
       - title: "• Что делать:"
@@ -174,12 +174,12 @@ fbi:
         url: /9.2.0-ctrtransfer#part5
       - title: "  - Часть VI - Переустановка тикетов"
         url: /9.2.0-ctrtransfer#part6
+      - title: "• В начало раздела"
+        url: /9.2.0-ctrtransfer#start
         
 9.2.0-downgrade:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /9.2.0-downgrade#start
       - title: "• Что нужно?"
         url: /9.2.0-downgrade#what_need
       - title: "• Что делать:"
@@ -188,6 +188,8 @@ fbi:
         url: /9.2.0-downgrade#part1
       - title: "  - Часть II - Понижение прошивки"
         url: /9.2.0-downgrade#part2
+      - title: "• В начало раздела"
+        url: /9.2.0-downgrade#start
 
 badges:
   - title: "Разделы"
@@ -202,54 +204,54 @@ badges:
         url: /badges#part2
       - title: "  - Часть III - Завершение работы"
         url: /badges#part3
+      - title: "• В начало раздела"
+        url: /badges#start
 
 cart-update:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /cart-update#start
       - title: "• Что нужно?"
         url: /cart-update#what_need
       - title: "• Что делать:"
         url: /cart-update#instructions
       - title: "• Владельцам Sky3DS"
         url: /cart-update#sky3ds
+      - title: "• В начало раздела"
+        url: /cart-update#start
 
 decrypt9-browser:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /decrypt9-browser#start
       - title: "• Что нужно?"
         url: /decrypt9-browser#what_need
       - title: "• Что делать:"
         url: /decrypt9-browser#instructions
+      - title: "• В начало раздела"
+        url: /decrypt9-browser#start
 
 decrypt9-homebrew-launcher:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /decrypt9-homebrew-launcher#start
       - title: "• Что нужно?"
         url: /decrypt9-homebrew-launcher#what_need
       - title: "• Что делать:"
         url: /decrypt9-homebrew-launcher#instructions
+      - title: "• В начало раздела"
+        url: /decrypt9-homebrew-launcher#start
 
 decrypt9-mset:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /decrypt9-mset#start
       - title: "• Что нужно?"
         url: /decrypt9-mset#what_need
       - title: "• Что делать:"
         url: /decrypt9-mset#instructions
+      - title: "• В начало раздела"
+        url: /decrypt9-mset#start
 
 dsiware-downgrade-app-injection-and-second-3ds:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /dsiware-downgrade-app-injection-and-second-3ds#start
       - title: "• Что нужно?"
         url: /dsiware-downgrade-app-injection-and-second-3ds#what_need
       - title: "• Что делать:"
@@ -272,12 +274,12 @@ dsiware-downgrade-app-injection-and-second-3ds:
         url: /dsiware-downgrade-app-injection-and-second-3ds#part8
       - title: "  - Часть IX - Проверка эксплойта"
         url: /dsiware-downgrade-app-injection-and-second-3ds#part9
+      - title: "• В начало раздела"
+        url: /dsiware-downgrade-app-injection-and-second-3ds#start
         
 dsiware-downgrade-save-injection-and-second-3ds:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /dsiware-downgrade-save-injection-and-second-3ds#start
       - title: "• Что нужно?"
         url: /dsiware-downgrade-save-injection-and-second-3ds#what_need
       - title: "• Что делать:"
@@ -300,12 +302,12 @@ dsiware-downgrade-save-injection-and-second-3ds:
         url: /dsiware-downgrade-save-injection-and-second-3ds#part8
       - title: "  - Часть IX - Проверка эксплойта"
         url: /dsiware-downgrade-save-injection-and-second-3ds#part9
+      - title: "• В начало раздела"
+        url: /dsiware-downgrade-save-injection-and-second-3ds#start
 
 dsiware-downgrade-save-injection:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /dsiware-downgrade-save-injection#start
       - title: "• Что нужно?"
         url: /dsiware-downgrade-save-injection#what_need
       - title: "• Что делать:"
@@ -322,34 +324,34 @@ dsiware-downgrade-save-injection:
         url: /dsiware-downgrade-save-injection#part5
       - title: "  - Часть VI - Проверка эксплойта"
         url: /dsiware-downgrade-save-injection#part6
+      - title: "• В начало раздела"
+        url: /dsiware-downgrade-save-injection#start
 
 dsiware-list:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /dsiware-list#start
       - title: "• Игры USA-региона"
         url: /dsiware-list#usa
       - title: "• Игры EUR-региона"
         url: /dsiware-list#eur
       - title: "• Игры JPN-региона"
         url: /dsiware-list#jpn
+      - title: "• В начало раздела"
+        url: /dsiware-list#start
         
 h2testw-windows:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /h2testw-windows#start
       - title: "• Что нужно?"
         url: /h2testw-windows#what_need
       - title: "• Что делать:"
         url: /h2testw-windows#instructions
+      - title: "• В начало раздела"
+        url: /h2testw-windows#start
 
 hardmod-downgrade:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /hardmod-downgrade#start
       - title: "• Что нужно?"
         url: /hardmod-downgrade#what_need
       - title: "• Что делать:"
@@ -358,12 +360,12 @@ hardmod-downgrade:
         url: /hardmod-downgrade#part1
       - title: "  - Часть II - Проверка эксплойта"
         url: /hardmod-downgrade#part2
+      - title: "• В начало раздела"
+        url: /hardmod-downgrade#start
 
 Homebrew-launcher-browser:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /Homebrew-launcher-browser#start
       - title: "• Что нужно?"
         url: /Homebrew-launcher-browser#what_need
       - title: "• Что делать:"
@@ -378,22 +380,22 @@ Homebrew-launcher-browser:
         url: /Homebrew-launcher-browser#part4
       - title: "  - Часть V - menuhax"
         url: /Homebrew-launcher-browser#part5
+      - title: "• В начало раздела"
+        url: /Homebrew-launcher-browser#start
 
 Homebrew-launcher-no-browser:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /Homebrew-launcher-no-browser#start
       - title: "• Что нужно?"
         url: /Homebrew-launcher-no-browser#what_need
       - title: "• Что делать:"
         url: /Homebrew-launcher-no-browser#instructions
+      - title: "• В начало раздела"
+        url: /Homebrew-launcher-no-browser#start
 
 installing-arm9loaderhax:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /installing-arm9loaderhax#start
       - title: "• Что будем делать?"
         url: /installing-arm9loaderhax#steps
       - title: "• Что нужно?"
@@ -414,13 +416,13 @@ installing-arm9loaderhax:
         url: /installing-arm9loaderhax#part6
       - title: "• Полезные ссылки"
         url: /installing-arm9loaderhax#part7
+      - title: "• В начало раздела"
+        url: /installing-arm9loaderhax#start
 
         
 move-emunand:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /move-emunand#start
       - title: "• Что нужно?"
         url: /move-emunand#what_need
       - title: "• Что делать:"
@@ -435,12 +437,12 @@ move-emunand:
         url: /move-emunand#part4
       - title: "  - Часть V - Часть V - Восстановление тикетов"
         url: /move-emunand#part5
+      - title: "• В начало раздела"
+        url: /move-emunand#start
 
 ntr-and-cubic-ninja:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /ntr-and-cubic-ninja#start
       - title: "• Что нужно?"
         url: /ntr-and-cubic-ninja#what_need
       - title: "• Что делать:"
@@ -449,12 +451,12 @@ ntr-and-cubic-ninja:
         url: /ntr-and-cubic-ninja#part1
       - title: "  - Часть II - Резервное копирование тикетов"
         url: /ntr-and-cubic-ninja#part2
+      - title: "• В начало раздела"
+        url: /ntr-and-cubic-ninja#start
 
 region-changing:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /region-changing#start
       - title: "• Что нужно?"
         url: /region-changing#what_need
       - title: "• Что делать:"
@@ -473,6 +475,8 @@ region-changing:
         url: /region-changing#part6
       - title: "  - Часть VII - Восстановление конфигов"
         url: /region-changing#part7
+      - title: "• В начало раздела"
+        url: /region-changing#start
 
 themes:
   - title: "Разделы"
@@ -481,12 +485,12 @@ themes:
         url: /themes#what_need
       - title: "• Что делать:"
         url: /themes#instructions
+      - title: "• В начало раздела"
+        url: /themes#start
 
 updating-a9lh:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /updating-a9lh#start
       - title: "• Что нужно?"
         url: /updating-a9lh#what_need
       - title: "• Что делать:"
@@ -499,24 +503,24 @@ updating-a9lh:
         url: /updating-a9lh#part3
       - title: "  - Часть IV - CTRNAND Luma3DS"
         url: /updating-a9lh#part4
+      - title: "• В начало раздела"
+        url: /updating-a9lh#start
 
 nand-size:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /nand-size#start
       - title: "• 2DS"
         url: /nand-size#2ds
       - title: "• Old 3DS"
         url: /nand-size#3ds
       - title: "• New 3DS"
         url: /nand-size#n3ds
+      - title: "• В начало раздела"
+        url: /nand-size#start
 
 updating-a9lh:
   - title: "Разделы"
     children:
-      - title: "• В начало раздела"
-        url: /updating-a9lh#start
       - title: "• Что нужно?"
         url: /updating-a9lh#what_need
       - title: "• Что делать:"
@@ -529,3 +533,5 @@ updating-a9lh:
         url: /updating-a9lh#part3
       - title: "  - Часть IV - CTRNAND Luma3DS"
         url: /updating-a9lh#part4
+      - title: "• В начало раздела"
+        url: /updating-a9lh#start
