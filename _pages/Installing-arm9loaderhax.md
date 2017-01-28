@@ -61,7 +61,7 @@ sidebar:
 
 **Использование неисправной карты может привести к БРИКУ!**
 
-**Если вы не уверены, что SD-карта исправна, рекомендуется проверить eё на ошибки с помощью [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-linux), или [F3X (Mac)](f3x-mac)!**
+**Если вы не уверены, что SD-карта исправна, рекомендуется проверить eё на ошибки с помощью [H2testw (Windows)](h2testw-windows), [F3 (Linux)](f3-linux), или [F3X (Mac)](f3x-mac)!**
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-5 | markdownify }}</div>
