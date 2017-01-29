@@ -50,7 +50,7 @@ sidebar:
 * Свежая версия [DspDump](https://github.com/Cruel/DspDump/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
-* Свежая версия [freeshop](http://get.freeshop.pw/latest)
+* Свежая версия [freeshop](http://get.freeshop.pw/latest) зеркало на [я.диске](https://yadi.sk/d/OVaX2Caz3Bebgd) и [меге(https://mega.nz/#!h58BVIbI!-iO7mCAeulNBGDqnuo5mjHuKO2N9yBB2EVzWlJ7BFyY). 
 
 Если у вас не выходит скачать freeshop или другие файлы, воспользуйтесь VPN. 
 {: .notice--warning}
