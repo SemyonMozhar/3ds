@@ -1,6 +1,8 @@
 ---
 title: "Инжект FBI"
 permalink: /fbi.html
+sidebar:
+  nav: "fbi"
 ---
 
 #### Что нужно: 
