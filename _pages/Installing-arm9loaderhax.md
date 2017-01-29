@@ -52,6 +52,9 @@ sidebar:
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Свежая версия [freeshop](http://get.freeshop.pw/latest)
 
+Если у вас не выходит скачать freeshop или другие файлы, воспользуйтесь VPN. 
+{: .notice--warning}
+
 #### <a name="instructions" />Инструкция
 
 ##### <a name="part1" />Часть I - Подготовительные работы
