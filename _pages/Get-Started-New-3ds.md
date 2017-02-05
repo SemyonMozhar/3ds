@@ -7,7 +7,7 @@ permalink: /get-started-new-3ds.html
 {: .notice--primary}
 
 Рекомендую обновить прошивку через системное меню до последней версии и только после этого продолжать выполнять инструкции.
-{: .warning--primary}
+{: .notice--warning}
 
 {::comment}
 {% capture notice-1 %}
