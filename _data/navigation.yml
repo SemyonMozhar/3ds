@@ -32,12 +32,8 @@ main:
     url: /region-changing
   - title: "Перенос EmuNAND"
     url: /move-emunand
-  - title: "Размеры NAND"
-    url: /nand-size
   - title: "OTP"
     url: /otp-info
-  - title: "Хардмод"
-    url: /nfirm-downgrade
   - title: "Пожертвования"
     url: /donations
   - title: "Благодарности"

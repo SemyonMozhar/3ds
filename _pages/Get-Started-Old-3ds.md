@@ -82,5 +82,10 @@ permalink: /get-started-old-3ds.html
       <td style="text-align: center">11.2.0</td>
       <td style="text-align: center" colspan="2"><a href="homebrew-launcher-soundhax">Homebrew Launcher (SoundHax)</a></td>
     </tr>
+    <tr>
+      <td style="text-align: center">11.3.0</td>
+      <td style="text-align: center">11.3.0</td>
+      <td style="text-align: center">-</td>
+    </tr>
   </tbody>
 </table>
