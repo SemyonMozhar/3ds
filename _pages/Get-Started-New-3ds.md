@@ -56,7 +56,7 @@ permalink: /get-started-new-3ds.html
     <tr>
       <td style="text-align: center">11.3.0</td>
       <td style="text-align: center">11.3.0</td>
-      <td style="text-align: center">-</td>
+      <td style="text-align: center">Взлом невозможен</td>
     </tr>
   </tbody>
 </table>
