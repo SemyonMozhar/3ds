@@ -39,5 +39,7 @@ sidebar:
 
 5. Если эксплойт сработал, запустится Decrypt9
 
+___
+
 Следующий шаг: [2.1.0 ctrtransfer](2.1.0-ctrtransfer).
 {: .notice--primary}

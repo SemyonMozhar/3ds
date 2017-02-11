@@ -22,6 +22,8 @@ main:
     url: /decrypt9-browser
   - title: "Внедрение<br>FBI"
     url: /fbi
+  - title: "Обновление с<br>помощью картриджа"
+    url: /cart-update
   - title: "Установка и использование<br>жетонов (badges)"
     url: /badges
   - title: "Установка и использование тем"

@@ -27,6 +27,7 @@ permalink: /get-started-old-3ds.html
 
 Версия вашего программного обеспечения отображается в правом нижнем углу верхнего экрана в приложении Системные настройки (System settings).
 {: .notice--success}
+
 <table>
   <thead>
     <tr>

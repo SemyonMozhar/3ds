@@ -88,5 +88,7 @@ sidebar:
 8. Нажмите (B), чтобы **отказаться** от установки тикетов из CDN.
 9. Выйдите из FBI нажатием кнопки (HOME).
 
+___
+
 Вернитесь в раздел [установку arm9loaderhax](installing-arm9loaderhax) к **части V**.
 {: .notice--primary}

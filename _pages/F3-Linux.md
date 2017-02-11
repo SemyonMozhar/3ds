@@ -48,7 +48,9 @@ permalink: /f3-linux.html
 			Slightly changed: 0.00 Byte (0 sectors)
 			     Overwritten: 0.00 Byte (0 sectors)
 		Average Reading speed: 9.42 MB/s
-
+		
+___
+		
 Если в результате тестирования вы видите `Data LOST: 0.00 Byte (0 sectors)`, ваша SD-карта в порядке. Можете удалить все файлы с расширением `.h2w` на SD-карте
 {: .notice--success}
 
