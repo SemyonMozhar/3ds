@@ -8,6 +8,8 @@ main:
     url: /troubleshooting
   - title: "Homebrew<br>launcher"
     url: /homebrew-launcher-soundhax
+  - title: "Homebrew Launcher (используя браузер)"
+    url: /Homebrew-launcher-browser
   - title: "2.1.0<br>ctrtransfer"
     url: /2.1.0-ctrtransfer
   - title: "9.2.0<br>ctrtransfer"
