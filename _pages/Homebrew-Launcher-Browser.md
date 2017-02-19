@@ -2,7 +2,7 @@
 title: "Homebrew Launcher (используя браузер)"
 permalink: /homebrew-launcher-browser.html
 sidebar:
-  nav: "Homebrew-launcher-(browser)"
+  nav: "homebrew-launcher-browser"
 ---
 
 **Browserhax работает для приставок следующих регионов:  EUR / JPN / USA / KOR.**

@@ -30,6 +30,8 @@ main:
     url: /badges
   - title: "Установка и использование тем"
     url: /themes
+  - title: "Конвертация 3DS-ромов в CIA"
+    url: /3ds-to-cia
   - title: "Обновление A9LH"
     url: /updating-a9lh
   - title: "Смена региона"
@@ -154,6 +156,20 @@ fbi:
         url: /2.1.0-ctrtransfer#part2
       - title: "• В начало раздела"
         url: /2.1.0-ctrtransfer#start
+        
+3ds-to-cia:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /3ds-to-cia#what_need
+      - title: "• Что делать:"
+        url: /3ds-to-cia#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /3ds-to-cia#part1
+      - title: "  - Часть II - Генерация xorpad'ов"
+        url: /3ds-to-cia#part2
+      - title: "  - Часть III - Конвертация 3DS-ромов в CIA"
+        url: /3ds-to-cia#part3
 
 9.2.0-ctrtransfer:
   - title: "Разделы"
@@ -367,21 +383,21 @@ homebrew-launcher-browser:
   - title: "Разделы"
     children:
       - title: "• Что нужно?"
-        url: /Homebrew-launcher-browser#what_need
+        url: /homebrew-launcher-browser#what_need
       - title: "• Что делать:"
-        url: /Homebrew-launcher-browser#instructions
+        url: /homebrew-launcher-browser#instructions
       - title: "  - Часть I - Подготовка"
-        url: /Homebrew-launcher-browser#part1
+        url: /homebrew-launcher-browser#part1
       - title: "  - Часть II - Обход проверки версии"
-        url: /Homebrew-launcher-browser#part2
+        url: /homebrew-launcher-browser#part2
       - title: "  - Часть III - Блокировка conntest.nintendowifi.net"
-        url: /Homebrew-launcher-browser#part3
+        url: /homebrew-launcher-browser#part3
       - title: "  - Часть IV - browserhax"
-        url: /Homebrew-launcher-browser#part4
+        url: /homebrew-launcher-browser#part4
       - title: "  - Часть V - menuhax"
-        url: /Homebrew-launcher-browser#part5
+        url: /homebrew-launcher-browser#part5
       - title: "• В начало раздела"
-        url: /Homebrew-launcher-browser#start
+        url: /homebrew-launcher-browser#start
 
 Homebrew-launcher-no-browser:
   - title: "Разделы"
