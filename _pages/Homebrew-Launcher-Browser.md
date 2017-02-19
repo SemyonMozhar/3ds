@@ -81,22 +81,5 @@ sidebar:
 9. Приставка должна загрузиться в Homebrew Launcher.
     + Если вы воспользовались способом из части III и заблокировали conntest.nintendowifi.net (или его IP), снимите блокировки сразу, как войдете в homebrew launcher.
 
-##### <a name="part5" />Часть V -  menuhax
-
-10. Запустите menuhax_manager.
-11. Нажмите (A), чтобы запустить установщик эксплойта. В логе могут быть ошибки, однако, это не страшно. Важно, чтобы в конце было написано "Install finished successfully".
-    + При появлении надписи "override the detected system version," нажмите (B) для отмены.
-12. Вернитесь в главное меню menuhax_manager, и выберите "Configure menuhax".
-13. Нажмите (A), чтобы продолжить, затем выберите "Type1".
-14. Зажмите (ВНИЗ) и, не отпуская кнопку, нажмите на нижний экран. 
-15. Вернитесь в главное меню menuhax_manager, нажмите (B) и нажмите (START) для того, чтобы вернуться в Homebrew Launcher.
-16. Нажмите (START), а затем (A) для перезагрузки. 
-
-Теперь, если зажать (ВНИЗ) и, не отпуская кнопку, включить приставку, вы попадете сразу в Homebrew Launcher.
-{: .notice--info}
-
-Для всех приставок с версией прошивки выше, чем 9.2.0 для начала нужно сделать [понижение прошивки до 9.2.0](9.2.0-downgrade).
-{: .notice--primary}
-
-Если у вас прошивка ниже, или равно 9.2.0, переходите сразу к [Decrypt9 (Homebrew Launcher)](decrypt9-(Homebrew-launcher)).
+Следующий шаг: [Decrypt 9](https://rashevskyv.github.io/decrypt9-homebrew-launcher)
 {: .notice--primary}
