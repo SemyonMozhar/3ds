@@ -363,7 +363,7 @@ hardmod-downgrade:
       - title: "• В начало раздела"
         url: /hardmod-downgrade#start
 
-Homebrew-launcher-browser:
+homebrew-launcher-browser:
   - title: "Разделы"
     children:
       - title: "• Что нужно?"
