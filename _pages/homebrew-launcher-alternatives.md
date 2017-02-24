@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Launcher (Alternatives)"
+title: "Homebrew Launcher (Альтернативные методы)"
 permalink: /homebrew-launcher-alternatives.html
 sidebar:
   nav: "homebrew-launcher-alternatives"
