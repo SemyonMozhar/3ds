@@ -10,6 +10,8 @@ main:
     url: /homebrew-launcher-soundhax
   - title: "Homebrew Launcher<br>(используя браузер)"
     url: /homebrew-launcher-browser
+  - title: "Homebrew Launcher<br>(Альтернативные методы)"
+    url: /homebrew-launcher-alternatives
   - title: "2.1.0<br>ctrtransfer"
     url: /2.1.0-ctrtransfer
   - title: "9.2.0<br>ctrtransfer"
@@ -184,11 +186,11 @@ fbi:
         url: /9.2.0-ctrtransfer#part2
       - title: "  - Часть III - ctrtransfer"
         url: /9.2.0-ctrtransfer#part3
-      - title: "  - Часть IV - Восстановление конфигов"
+      - title: "  - Часть IV - Внедрение FBI"
         url: /9.2.0-ctrtransfer#part4
-      - title: "  - Часть V - Внедрение FBI"
+      - title: "  - Часть V - Переустановка тикетов"
         url: /9.2.0-ctrtransfer#part5
-      - title: "  - Часть VI - Переустановка тикетов"
+      - title: "  - Часть VI - Восстановление приложения Информация о здоровье и безопасности"
         url: /9.2.0-ctrtransfer#part6
       - title: "• В начало раздела"
         url: /9.2.0-ctrtransfer#start
@@ -379,6 +381,16 @@ hardmod-downgrade:
       - title: "• В начало раздела"
         url: /hardmod-downgrade#start
 
+homebrew-launcher-alternatives:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /homebrew-launcher-alternatives#what_need
+      - title: "• Что делать:"
+        url: /homebrew-launcher-alternatives#instructions
+      - title: "• В начало раздела"
+        url: /homebrew-launcher-alternatives#start
+        
 homebrew-launcher-browser:
   - title: "Разделы"
     children:
@@ -485,12 +497,14 @@ region-changing:
         url: /region-changing#part3
       - title: "  - Часть IV - Редактирование SecureInfo"
         url: /region-changing#part4
-      - title: "  - Часть V - Восстановление тикетов"
+      - title: "  - Часть V - Интеграция FBI"
         url: /region-changing#part5
-      - title: "  - Часть VI - Региональные настройки"
+      - title: "  - Часть VI - Переустановка тикетов"
         url: /region-changing#part6
-      - title: "  - Часть VII - Восстановление конфигов"
+      - title: "  - Часть VII - Региональные настройки"
         url: /region-changing#part7
+      - title: "  - Часть VIII - Восстановление приложения Информация о здоровье и безопасности"
+        url: /region-changing#part8
       - title: "• В начало раздела"
         url: /region-changing#start
 
