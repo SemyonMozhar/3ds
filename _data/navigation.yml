@@ -1,5 +1,9 @@
 # main links links
 main:
+  - title: "3DS"
+    children:
+      - title: "Начнем"
+        url: /get-started
   - title: "Начнем"
     url: /get-started
   - title: "FAQ"
