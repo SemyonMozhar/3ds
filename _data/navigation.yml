@@ -1,9 +1,5 @@
 # main links links
 main:
-  - title: "WiiU"
-    children:
-      - title: "Начнем"
-        url: /faq
   - title: "Начнем"
     url: /get-started
   - title: "FAQ"
