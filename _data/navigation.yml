@@ -3,7 +3,7 @@ main:
   - title: "3DS"
     children:
       - title: "Начнем"
-        url: /get-started
+        url: /faq
   - title: "Начнем"
     url: /get-started
   - title: "FAQ"
