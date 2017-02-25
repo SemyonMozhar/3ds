@@ -21,17 +21,17 @@
    Vendor
    ========================================================================== */
 
-/* Breakpoint - media query mixins 
+/* Breakpoint - media query mixins */
 @import "vendor/breakpoint/breakpoint";
-@include breakpoint-set("to ems", true);*/
+@include breakpoint-set("to ems", true);
 
-/* Font Awesome - icon font set 
-@import "vendor/font-awesome/font-awesome";*/
+/* Font Awesome - icon font set */
+@import "vendor/font-awesome/font-awesome";
 
-/* Magnific Popup - responsive lightbox 
-@import "vendor/magnific-popup/magnific-popup"; // Magnific Popup*/
+/* Magnific Popup - responsive lightbox */
+@import "vendor/magnific-popup/magnific-popup"; // Magnific Popup
 
-/* Susy - grid mixins 
+/* Susy - grid mixins */
 $susy: (
   columns: 12,
   gutters: 1/4,
@@ -48,7 +48,7 @@ $susy: (
   // ),
 );
 @import "vendor/susy/susy";
-*/
+
 
 /*
    Base

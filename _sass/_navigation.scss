@@ -193,6 +193,7 @@
     position: absolute;
     height: 100%;
     right: 0;
+    top: 0;
     padding: 0 0.5rem;
     border: 0;
     outline: none;
@@ -201,12 +202,12 @@
     cursor: pointer;
   }
 
+  .nav-selector {
+    right: 3rem;
+  }
+
   .visible-links {
     display: table;
-	text-align: center;
-	margin-left: 20px;
-	margin-right: 20px;
-
 
     li {
       display: table-cell;
@@ -229,8 +230,6 @@
 
     a {
       position: relative;
-	  margin-left: 10px;
-	  margin-right: 10px;
 
       &:before {
         content: "";
@@ -255,6 +254,10 @@
     }
   }
 
+  .links-menu {
+    right: 3rem !important;
+  }
+
   .hidden-links {
     position: absolute;
     top: 100%;
@@ -265,8 +268,6 @@
     border-radius: $border-radius;
     background: #fff;
     box-shadow: 0 0 10px rgba(#000, 0.25);
-	text-align: left;
-
 
     a {
       margin: 0;
