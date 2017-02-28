@@ -31,7 +31,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : # "master", "gh-pages"
+  branch                 : "master"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -110,37 +110,38 @@ author:
 
 # Reading Files
 include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
+ - .htaccess
+ - _pages
+exclude: [
+  "*.sublime-project",
+  "*.sublime-workspace",
+  vendor,
+  .asset-cache,
+  .bundle,
+  .jekyll-assets-cache,
+  .sass-cache,
+  assets/js/plugins,
+  assets/js/_main.js,
+  assets/js/vendor,
+  Capfile,
+  CHANGELOG,
+  config,
+  Gemfile,
+  Gruntfile.js,
+  gulpfile.js,
+  LICENSE,
+  log,
+  node_modules,
+  package.json,
+  Rakefile,
+  README,
+  tmp,
+]
 keep_files:
   - .git
   - .svn
 encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md,txt"
 
 
 # Conversion
@@ -178,13 +179,6 @@ defaults:
       layout: single
       author_profile: false
 
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
 # Plugins
 gems:
   - jekyll-paginate
@@ -200,7 +194,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
+  - jekyll-redirect-from
 
 # Archives
 #  Type
