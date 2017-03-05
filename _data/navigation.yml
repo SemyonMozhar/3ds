@@ -1,7 +1,5 @@
 # main links links
 main:
-  - title: "На главную"
-    url: http://customfw.xyz
   - title: "FAQ"
     url: /faq
   - title: "Проблемы и<br>их решения"
