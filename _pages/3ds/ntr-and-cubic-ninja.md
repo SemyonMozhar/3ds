@@ -1,0 +1,68 @@
+---
+title: "NTR и Cubic Ninja"
+permalink: /ntr-and-cubic-ninja.html
+sidebar:
+  nav: "ntr-and-cubic-ninja"
+---
+
+**Этот метод работает ТОЛЬКО на японских New 3DS!**
+{: .notice--warning}
+
+#### <a name="what_need" />Что понадобится
+
+* [JPN Cubic Ninja](https://www.amazon.com/dp/B004QL7M0A)
+* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
+* Свежая версия [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/latest)
+* <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [`3ds-private-update-server.zip`](magnet:?xt=urn:btih:8623e580752f22940d96630ef723ce30a707b22e&dn=3ds-private-update-server.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.piratepublic.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.kicks-ass.net%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce)
+* [WAMPSERVER (PHP 5.5) 2.5](http://www.wampserver.com/en/#download-wrapper)
+* [`node.exe`](http://nodejs.org/dist/latest/win-x86/node.exe)
+* <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [`update.php`](magnet:?xt=urn:btih:cd7e59ea9744115913b561dbde15f8d68e713507&dn=update.php&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.piratepublic.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.kicks-ass.net%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce)
+* Версия v3.2 [NTR CFW](https://github.com/44670/BootNTR/releases/tag/3.2)
+* Свежая версия <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [NTR Debugger](magnet:?xt=urn:btih:66274cee542bef7745792714673bf2be4d606496&dn=NTR%20Debugger.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.piratepublic.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.kicks-ass.net%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce)
+* `.zip-архив` с файлами для понижения прошивки до 9.2.0 для японской New 3DS:  
+ +    <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [New 3DS 9.2.0 - JPN](magnet:?xt=urn:btih:c8630ed31b53637b9023bd4dc1ce38362bb8ecd9&dn=9.2.0-20J%28Full%29%5Fn3DS.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.piratepublic.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.kicks-ass.net%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.kicks-ass.net%2Fannounce)     
+
+#### <a name="instructions" />Инструкция
+
+##### <a name="part1" />Часть I - Подготовительные работы
+
+1. Установите WAMP в папку по умолчанию
+2. Скопируйте содержимое `3ds-private-update-server.zip` в папку `C:\wamp\www\` (соглашайтесь на замену)
+3. Скопируйте `update.php` в `C:\wamp\www\` (соглашайтесь на замену)
+4. Скопируйте папку `updates` из `.zip-архива` с файлами для понижения прошивки, в папку `C:\wamp\www\`
+5. Переместите `node.exe` в папку `C:\wamp\www\updates`
+6. Переместите `C:\wamp\www\CdnCiaUnpack.js` в папку `C:\wamp\www\updates`
+7. В папке `C:\wamp\www\updates` перетащите мышкой файл `CdnCiaUnpack.js` на `node.exe`, чтобы создать `GetSystemUpdate.partial.xml`
+8. Переместите `node.exe` и `CdnCiaUnpack.js` обратно в папку `C:\wamp\www\`
+9. Скопируйте `GetSystemUpdate.partial.xml` в папку `C:\wamp\www\` (таким образом по одной копии этого файла будет находится и в `C:\wamp\www\updates`, и в `C:\wamp\www\`)
+10. Нажмите на иконке WAMP в системном трее, и выберите "Put Online"
+10. Нажмите Win+R и в появившейся строке наберите "CMD".
+11. В командной строке выполните команду `ipconfig /all`, чтобы узнайте IPv4 адрес вашего компьютера, он вам скоро понадобится
+12. Скопируйте `ntr.bin` в корень SD-карты
+13. Создайте папку `files9` в корне SD-карты, если таковой нет
+14. Скопируйте _содержимое_ папки `starter` из архива `starter.zip` в корень вашей SD-карты
+15. Скопируйте папку `Decrypt9WIP` из `.zip-архива` Decrypt9WIP в папку `/3ds/` на SD-карте
+16. Вставьте SD-карту обратно в 3DS
+
+##### <a name="part2" />Часть II - Обновление
+
+1. Загрузите 3DS в режиме восстановления, удерживая (L)+(R)+(A)+(ВВЕРХ) во время включения приставки
+2. Откажитесь от обновления и перезагрузите консоль
+3. Запустите Cubic Ninja (если у вас уже был установлен NinjHax, зажмите (L)+(R)+(X)+(Y), чтобы сбросить его)
+4. Выберите "Create", затем "QR Code", затем "Scan QR Code".
+5. Отсканируйте QR-код, содержащийся в `.zip-архиве` NTR CFW и соответствующий вашему региону
+6. В меню HOME нажмите одновременно (X) и (Y), чтобы открыть меню NTR
+7. Включите отладчик (Enable the debugger) и закройте меню
+8. Используйте web-интерфейс своего маршрутизатора, чтобы узнать IP-адрес вашей консоли (если не знаете, как это сделать - воспользуйтесь google, так как все роутеры разные)
+9. Запустите NTR Debugger на компьютере
+10. Введите следующие команды (замените XXX.XXX.XXX.XXX IP-адресом вашей 3DS, а YYY.YYY.YYY.YYY IP-адресом вашего компьютера)    
+    + `connect("XXX.XXX.XXX.XXX", 8000)`
+    + `write(0x15E424, tuple(map(ord, "http://YYY.YYY.YYY.YYY/update.php\0")), pid=0x25)`
+    + `write(0x15E0EC, tuple(map(ord, "http://YYY.YYY.YYY.YYY/update.php\0")), pid=0x25)`
+    + `write(0x15E463, tuple(map(ord, "http://YYY.YYY.YYY.YYY/update.php\0")), pid=0x25)`
+11. Обновите прошивку 3DS. Для этого зайдите в Системные настройки (System Settings), "Прочие настройки" (Other Settings), листайте вправо до тех пор, пока не дойдете до предпоследнего пункта - Обновление ("System Update")
+
+___
+
+Следующий шаг: [Decrypt9 (Homebrew Launcher)](decrypt9-homebrew-launcher)
+{: .notice--primary}

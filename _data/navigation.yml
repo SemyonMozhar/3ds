@@ -1,5 +1,7 @@
 # main links links
 main:
+  - title: "Начнем"
+    url: /get-started
   - title: "FAQ"
     url: /faq
   - title: "Проблемы и<br>их решения"
