@@ -11,11 +11,7 @@ header:
   cta_label: "Начнем!"
   cta_url: "/get-started"
   caption:
-<<<<<<< HEAD:_pages/Home.md
 excerpt: 'Полное руководство по прошивке 3DS, <br /> от начала до arm9loaderhax.<br /><br />**Последнее изменение: <br />05.03.2017<br /><br />**'
-=======
-excerpt: 'Полное руководство по прошивке 3DS, <br /> от начала до arm9loaderhax.<br /><br />**Актуализировал к версии гайда от Plailect<br />24.02.2017<br /><br />**'
->>>>>>> parent of 51e5aac... 123:_pages/3ds/Home.md
 ---
 
 <a name="start" />
