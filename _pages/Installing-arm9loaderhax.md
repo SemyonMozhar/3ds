@@ -249,6 +249,7 @@ ___
 
     + 3ds
     + files9
+    + DCIM
     + hblauncherloader
     + luma
     + Nintendo 3DS
