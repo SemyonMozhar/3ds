@@ -72,18 +72,18 @@ permalink: /credits.html
 + yifan_lu
 
 Люди, переводившие руководство:     
-• [Zloebot](https://translate.3ds.guide/profile/Aibot)   
-• [Unrael](https://translate.3ds.guide/profile/Unrael)   
-• [Lost_gamer](https://translate.3ds.guide/profile/Lost_gamer)   
-• [CrazySolo](https://translate.3ds.guide/profile/CrazySolo)   
-• [Nezd](https://translate.3ds.guide/profile/yanpalis)   
-• [Vir](https://translate.3ds.guide/profile/admiin159)   
-• [Smarter-san](https://translate.3ds.guide/profile/Smarter-san)   
-• [Bullsquid](https://translate.3ds.guide/profile/Bullsquid)   
-• [mstrVLT](https://translate.3ds.guide/profile/mstrVLT)   
-• [Metalik](https://translate.3ds.guide/profile/Metalik)   
-• [jkcgs](https://translate.3ds.guide/profile/jkcgs)   
-• [xHR](https://translate.3ds.guide/profile/rashevskyv)   
+• [Zloebot](https://crowdin.com/profile/Aibot)   
+• [Unrael](https://crowdin.com/profile/Unrael)   
+• [Lost_gamer](https://crowdin.com/profile/Lost_gamer)   
+• [CrazySolo](https://crowdin.com/profile/CrazySolo)   
+• [Nezd](https://crowdin.com/profile/yanpalis)   
+• [Vir](https://crowdin.com/profile/admiin159)   
+• [Smarter-san](https://crowdin.com/profile/Smarter-san)   
+• [Bullsquid](https://crowdin.com/profile/Bullsquid)   
+• [mstrVLT](https://crowdin.com/profile/mstrVLT)   
+• [Metalik](https://crowdin.com/profile/Metalik)   
+• [jkcgs](https://crowdin.com/profile/jkcgs)   
+• [xHR](https://crowdin.com/profile/rashevskyv)   
 
 За помощь в вычитке перевода спасибо:
 • dimakuz26

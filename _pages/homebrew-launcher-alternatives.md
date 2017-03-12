@@ -11,11 +11,11 @@ Homebrew Launcher имеет множество точек входа, или м
 Если у вас нет одной из этих игр или другой 3DS с доступом к Homebrew Launcher, самый дешевый вариант это купить "Nintendo Selects" версию [Ocarina of Time 3D](https://amzn.to/2fkaKdp) (убедитесь, что покупаете картридж своего региона) и [Powersaves](https://amzn.to/2fb3VY7) (совместим со всеми регионами), затем использовать oot3dhax из таблицы ниже.
 {: .notice--info}
 
-#### <a name="what_need" />Что нужно: 
+#### <a name="what_need" />Что понадобится: 
 
 + The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
-#### <a name="instructions" />Что делать:
+#### <a name="instructions" />Инструкция:
 
 1. Скопируйте _содержимое_ `starter.zip` в корень вашей SD-карты
 2. Используйте одну из следующих точек входа для запуска homebrew launcher:
