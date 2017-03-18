@@ -1,7 +1,7 @@
 ---
 layout: single-no-ads
 permalink: /
-title: "Руководство"
+title: "3DS Guide"
 sidebar:
   nav: "home"
 header:
@@ -11,7 +11,7 @@ header:
   cta_label: "Начнем!"
   cta_url: "/get-started"
   caption:
-excerpt: 'Полное руководство по прошивке 3DS, <br /> от начала до arm9loaderhax.<br /><br />**Последнее изменение: <br />12.03.2017<br /><br />**'
+excerpt: 'Полное руководство по прошивке 3DS, <br /> от начала до arm9loaderhax.<br /><br />**Последнее изменение: <br />18.03.2017<br /><br />**'
 ---
 
 <a name="start" />
