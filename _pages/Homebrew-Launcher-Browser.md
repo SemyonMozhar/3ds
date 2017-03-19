@@ -81,5 +81,5 @@ sidebar:
 9. Приставка должна загрузиться в Homebrew Launcher.
     + Если вы воспользовались способом из части III и заблокировали conntest.nintendowifi.net (или его IP), снимите блокировки сразу, как войдете в homebrew launcher.
 
-Следующий шаг: [Decrypt 9](https://rashevskyv.github.io/decrypt9-homebrew-launcher)
+Следующий шаг: [Decrypt 9](decrypt9-homebrew-launcher)
 {: .notice--primary}
