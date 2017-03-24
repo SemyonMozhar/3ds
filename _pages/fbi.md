@@ -1,5 +1,5 @@
 ---
-title: "Инжект FBI"
+title: "Интегрирование FBI"
 permalink: /fbi.html
 sidebar:
   nav: "fbi"

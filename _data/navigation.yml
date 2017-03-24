@@ -24,7 +24,7 @@ main:
     url: /decrypt9-homebrew-launcher
   - title: "Decrypt9<br>(Браузер)"
     url: /decrypt9-browser
-  - title: "Внедрение<br>FBI"
+  - title: "Интегрирование<br>FBI"
     url: /fbi
   - title: "Обновление с<br>помощью картриджа"
     url: /cart-update
