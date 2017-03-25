@@ -436,11 +436,10 @@ installing-arm9loaderhax:
         url: /installing-arm9loaderhax#part8
       - title: "  - Часть IX - CTRNAND Luma3DS"
         url: /installing-arm9loaderhax#part9
-        - title: "• Полезные ссылки"
+      - title: "• Полезные ссылки"
         url: /installing-arm9loaderhax#part10
       - title: "• В начало раздела"
         url: /installing-arm9loaderhax#start
-
         
 move-emunand:
   - title: "Разделы"
