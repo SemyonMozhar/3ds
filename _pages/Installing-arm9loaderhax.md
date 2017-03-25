@@ -307,7 +307,7 @@ ___
 Чтобы узнать, как поддерживать A9LH в актуальном состоянии, обратитесь к разделу [Обновление A9LH](updating-a9lh).
 {: .notice--success}
 
-<a name="part10" />
+<a name="part11" />
 • [Ответы на вопросы, которые у вас почти наверняка возникли](https://vk.com/3ds_cfw?w=wall-125012133_1073%2Fall)      
 • Для справки об использовании различных функций Luma3DS обратитесь к её [вики](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage) (англ.).       
 • [Как делать резервные копии, редактировать и восстанавливать](https://gbatemp.net/threads/release-jks-savemanager-Homebrew-cia-save-manager.413143/) сохранения игр.     
