@@ -18,12 +18,12 @@ main:
     url: /9.2.0-ctrtransfer
   - title: "Установка<br>arm9loaderhax"
     url: /installing-arm9loaderhax   
-  - title: "Decrypt9<br>(MSET)"
-    url: /decrypt9-mset
-  - title: "Decrypt9<br>(HBL)"
-    url: /decrypt9-homebrew-launcher
-  - title: "Decrypt9<br>(Браузер)"
-    url: /decrypt9-browser
+  - title: "SafeCTRTransfer<br>(HBL)"
+    url: /safectrtransfer-homebrew-launcher
+  - title: "SafeCTRTransfer<br>(Браузер)"
+    url: /safectrtransfer-browser
+  - title: "SafeCTRTransfer<br>(MSET)"
+    url: /safectrtransfer-mset
   - title: "Интегрирование<br>FBI"
     url: /fbi
   - title: "Обновление с<br>помощью картриджа"
@@ -46,33 +46,7 @@ main:
     url: /donations
   - title: "Благодарности"
     url: /credits
-    
-troubleshooting:
-  - title: "Разделы"
-    children:
-      - title: "• DSi / DS игры не работают после завершения руководства"
-        url: /troubleshooting#twl_broken
-      - title: "• Удаление NNID без форматирования устройства"
-        url: /troubleshooting#rm_nnid
-      - title: "• Не выходит сделать интеграцию в Health & Safety на устройстве с пониженной прошивкой с помощью Gateway"
-        url: /troubleshooting#gw_fbi
-      - title: "• Почему не работает эксплойт, использующий браузер?"
-        url: /troubleshooting#ts_browser
-      - title: "• Приставка грузится в SafeA9LHInstaller"
-        url: /troubleshooting#ts_safe_a9lh
-      - title: "• Изображение после запуска SafeA9LHInstaller некорректно"
-        url: /troubleshooting#ts_safe_a9lh_screen
-      - title: "• Decrypt9 или Hourglass9 не восстанавливают / не видят мой NAND-бекап"
-        url: /troubleshooting#ts_d9_backup
-      - title: "• Черный экран при загрузке SysNAND "
-        url: /troubleshooting#ts_sys_down
-      - title: "• Черный экран при загрузке SysNAND после установки a9lh"
-        url: /troubleshooting#ts_sys_a9lh
-      - title: "• Голубой экран при загрузке (bootrom error)"
-        url: /troubleshooting#ts_sys_blue
-      - title: "• В начало раздела"
-        url: /troubleshooting#start
-        
+          
 faq:
   - title: "Разделы"
     children:
@@ -117,6 +91,20 @@ faq:
       - title: "• В начало раздела"
         url: /faq#start
         
+fbi:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /fbi#what_need
+      - title: "• Инструкция"
+        url: /fbi#instructions
+      - title: "- Часть I - Подготовка"
+        url: /fbi#part1
+      - title: "- Часть II - Интегрирование FBI"
+        url: /fbi#part1
+      - title: "• В начало раздела"
+        url: /fbi#start
+        
 home:
   - title: "Разделы"
     children:
@@ -132,17 +120,7 @@ home:
         url: /#what_know
       - title: "• В начало раздела"
         url: /#start
-
-fbi:
-  - title: "Разделы"
-    children:
-      - title: "• Часть I - Подготовка"
-        url: /fbi#part1
-      - title: "• Часть II - Внедрение FBI"
-        url: /fbi#part2
-      - title: "• В начало раздела"
-        url: /fbi#start
-        
+       
 2.1.0-ctrtransfer:
   - title: "Разделы"
     children:
@@ -180,17 +158,17 @@ fbi:
         url: /9.2.0-ctrtransfer#what_need
       - title: "• Инструкция:"
         url: /9.2.0-ctrtransfer#instructions
-      - title: "  - Часть I - Подготовка"
+      - title: "  - Часть I - Подготовительные работы"
         url: /9.2.0-ctrtransfer#part1
-      - title: "  - Часть II - Резервное копирование тикетов"
+      - title: "  - Часть II - CTRTransfer"
         url: /9.2.0-ctrtransfer#part2
-      - title: "  - Часть III - ctrtransfer"
+      - title: "  - Часть III - Интеграция FBI"
         url: /9.2.0-ctrtransfer#part3
-      - title: "  - Часть IV - Внедрение FBI"
+      - title: "  - Часть IV - Переустановка тикетов"
         url: /9.2.0-ctrtransfer#part4
-      - title: "  - Часть V - Переустановка тикетов"
+      - title: "  - Часть V - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)"
         url: /9.2.0-ctrtransfer#part5
-      - title: "  - Часть VI - Восстановление приложения Информация о здоровье и безопасности"
+      - title: "  - Часть VI - Удаление образа CTRTransfer"
         url: /9.2.0-ctrtransfer#part6
       - title: "• В начало раздела"
         url: /9.2.0-ctrtransfer#start
@@ -357,6 +335,16 @@ dsiware-list:
       - title: "• В начало раздела"
         url: /dsiware-list#start
         
+fbi:
+  - title: "Разделы"
+    children:
+      - title: "• Часть I - Подготовка"
+        url: /fbi#part1
+      - title: "• Часть II - Внедрение FBI"
+        url: /fbi#part2
+      - title: "• В начало раздела"
+        url: /fbi#start
+        
 h2testw-windows:
   - title: "Разделы"
     children:
@@ -424,13 +412,13 @@ Homebrew-launcher-no-browser:
 installing-arm9loaderhax:
   - title: "Разделы"
     children:
-      - title: "• Что будем делать?"
+      - title: "• Описание шагов"
         url: /installing-arm9loaderhax#steps
       - title: "• Что понадобится"
         url: /installing-arm9loaderhax#what_need
       - title: "• Инструкция:"
         url: /installing-arm9loaderhax#instructions
-      - title: "  - Часть I - Подготовка"
+      - title: "  - Часть I - Подготовительные работы"
         url: /installing-arm9loaderhax#part1
       - title: "  - Часть II - Установка arm9loaderhax"
         url: /installing-arm9loaderhax#part2
@@ -438,12 +426,18 @@ installing-arm9loaderhax:
         url: /installing-arm9loaderhax#part3
       - title: "  - Часть IV - Восстановление системы"
         url: /installing-arm9loaderhax#part4
-      - title: "  - Часть V - Внедрение FBI"
+      - title: "  - Часть V - Интеграция FBI"
         url: /installing-arm9loaderhax#part5
-      - title: "  - Часть VI - Заканчиваем настройку"
+      - title: "  - Часть VI - Установка CIA"
         url: /installing-arm9loaderhax#part6
-      - title: "• Полезные ссылки"
+      - title: "  - Часть VII - DSP Dump"
         url: /installing-arm9loaderhax#part7
+      - title: "  - Часть VIII - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)"
+        url: /installing-arm9loaderhax#part8
+      - title: "  - Часть IX - CTRNAND Luma3DS"
+        url: /installing-arm9loaderhax#part9
+        - title: "• Полезные ссылки"
+        url: /installing-arm9loaderhax#part10
       - title: "• В начало раздела"
         url: /installing-arm9loaderhax#start
 
@@ -455,19 +449,37 @@ move-emunand:
         url: /move-emunand#what_need
       - title: "• Инструкция:"
         url: /move-emunand#instructions
-      - title: "  - Часть I - Подготовка"
+      - title: "  - Часть I - Подготовительные работы"
         url: /move-emunand#part1
-      - title: "  - Часть II - Резервное копирование тикетов"
+      - title: "  - Часть II - Бэкап сохранений DSiWare из SysNAND"
         url: /move-emunand#part2
-      - title: "  - Часть III - Создание бекапа EmuNAND"
+      - title: "  - Часть III - Бэкап сохранений GBA VC"
         url: /move-emunand#part3
-      - title: "  - Часть IV - Восстановление бекапа EmuNAND в SysNAND"
+      - title: "  - Часть IV - Копирование EmuNAND в SysNAND"
         url: /move-emunand#part4
-      - title: "  - Часть V - Часть V - Восстановление тикетов"
+      - title: "  - Часть V - Часть V - Восстановление сохранений DSiWare"
         url: /move-emunand#part5
+      - title: "  - Часть V - Часть VI - Восстановление сохранений GBA VC"
+        url: /move-emunand#part6
+      - title: "  - Часть V - Часть VII - Создание бэкапа SysNAND"
+        url: /move-emunand#part7
+      - title: "  - Часть V - Часть VIII - Форматирование SD-карты"
+        url: /move-emunand#part8
       - title: "• В начало раздела"
         url: /move-emunand#start
 
+nand-size:
+  - title: "Разделы"
+    children:
+      - title: "• 2DS"
+        url: /nand-size#2ds
+      - title: "• Old 3DS"
+        url: /nand-size#3ds
+      - title: "• New 3DS"
+        url: /nand-size#n3ds
+      - title: "• В начало раздела"
+        url: /nand-size#start
+        
 ntr-and-cubic-ninja:
   - title: "Разделы"
     children:
@@ -489,24 +501,75 @@ region-changing:
         url: /region-changing#what_need
       - title: "• Инструкция:"
         url: /region-changing#instructions
-      - title: "  - Часть I - Подготовка"
+      - title: "  - Часть I - Подготовительные работы"
         url: /region-changing#part1
-      - title: "  - Часть II - Резервное копирование тикетов"
+      - title: "  - Часть II - CTRTransfer"
         url: /region-changing#part2
-      - title: "  - Часть III - ctrtransfer"
+      - title: "  - Часть III - Интеграция FBI"
         url: /region-changing#part3
-      - title: "  - Часть IV - Редактирование SecureInfo"
+      - title: "  - Часть IV - Переустановка тикетов"
         url: /region-changing#part4
-      - title: "  - Часть V - Интеграция FBI"
+      - title: "  - Часть V - Региональные настройки"
         url: /region-changing#part5
-      - title: "  - Часть VI - Переустановка тикетов"
+      - title: "  - Часть VI - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)"
         url: /region-changing#part6
-      - title: "  - Часть VII - Региональные настройки"
+      - title: "  - Часть VII - Удаление образа CTRTransfer"
         url: /region-changing#part7
-      - title: "  - Часть VIII - Восстановление приложения Информация о здоровье и безопасности"
-        url: /region-changing#part8
       - title: "• В начало раздела"
         url: /region-changing#start
+        
+safectrtransfer-browser:
+  - title: "Разделы"
+    children:
+      - title: "• Описание шагов"
+        url: /safectrtransfer-browser#steps
+      - title: "• Что понадобится"
+        url: /safectrtransfer-browser#what_need
+      - title: "• Инструкция"
+        url: /safectrtransfer-browser#instructions
+      - title: "- Часть I - Подготовительные работы"
+        url: /safectrtransfer-browser#part1
+      - title: "- Часть II - Запуск SafeCTRTransfer"
+        url: /safectrtransfer-browser#part2
+      - title: "- Часть III - CTRTransfer"
+        url: /safectrtransfer-browser#part3
+        - title: "• В начало раздела"
+        url: /safectrtransfer-browser#start
+
+safectrtransfer-homebrew-launcher:
+  - title: "Разделы"
+    children:
+      - title: "• Описание шагов"
+        url: /safectrtransfer-homebrew-launcher#steps
+      - title: "• Что понадобится"
+        url: /safectrtransfer-homebrew-launcher#what_need
+      - title: "• Инструкция"
+        url: /safectrtransfer-homebrew-launcher#instructions
+      - title: "- Часть I - Подготовительные работы"
+        url: /safectrtransfer-homebrew-launcher#part1
+      - title: "- Часть II - Запуск SafeCTRTransfer"
+        url: /safectrtransfer-homebrew-launcher#part2
+      - title: "- Часть III - CTRTransfer"
+        url: /safectrtransfer-homebrew-launcher#part3
+        - title: "• В начало раздела"
+        url: /safectrtransfer-homebrew-launcher#start
+
+safectrtransfer-mset:
+  - title: "Разделы"
+      - title: "• Описание шагов"
+        url: /safectrtransfer-mset#steps
+      - title: "• Что понадобится"
+        url: /safectrtransfer-mset#what_need
+      - title: "• Инструкция"
+        url: /safectrtransfer-mset#instructions
+      - title: "- Часть I - Подготовительные работы"
+        url: /safectrtransfer-mset#part1
+      - title: "- Часть II - Запуск SafeCTRTransfer"
+        url: /safectrtransfer-mset#part2
+      - title: "- Часть III - CTRTransfer"
+        url: /safectrtransfer-mset#part3
+        - title: "• В начало раздела"
+        url: /safectrtransfer-mset#start
 
 themes:
   - title: "Разделы"
@@ -517,36 +580,32 @@ themes:
         url: /themes#instructions
       - title: "• В начало раздела"
         url: /themes#start
-
-updating-a9lh:
+        
+troubleshooting:
   - title: "Разделы"
     children:
-      - title: "• Что понадобится"
-        url: /updating-a9lh#what_need
-      - title: "• Инструкция:"
-        url: /updating-a9lh#instructions
-      - title: "  - Часть I - Подготовка"
-        url: /updating-a9lh#part1
-      - title: "  - Часть II - Обновление загрузчика"
-        url: /updating-a9lh#part2
-      - title: "  - Часть III - Настройка Luma3DS"
-        url: /updating-a9lh#part3
-      - title: "  - Часть IV - CTRNAND Luma3DS"
-        url: /updating-a9lh#part4
+      - title: "• DSi / DS игры не работают после завершения руководства"
+        url: /troubleshooting#twl_broken
+      - title: "• Удаление NNID без форматирования устройства"
+        url: /troubleshooting#rm_nnid
+      - title: "• Не работает интеграция в Health & Safety на устройстве с пониженной прошивкой при помощи Gateway"
+        url: /troubleshooting#gw_fbi
+      - title: "• Не работает эксплойт на основе браузера"
+        url: /troubleshooting#ts_browser
+      - title: "• При загрузке запускается SafeA9LHInstaller"
+        url: /troubleshooting#ts_safe_a9lh
+      - title: "• Видны искажения на экране после запуска SafeA9LHInstaller"
+        url: /troubleshooting#ts_safe_a9lh_screen
+      - title: "• Черный экран при загрузке SysNAND "
+        url: /troubleshooting#ts_sys_down
+      - title: "• Черный экран при загрузке SysNAND после установки a9lh"
+        url: /troubleshooting#ts_sys_a9lh
+      - title: "• Ошибка во время SafeCTRTransfer"
+        url: /troubleshooting#ts_transfer
+      - title: "• Голубой экран при загрузке (bootrom error)"
+        url: /troubleshooting#ts_sys_blue
       - title: "• В начало раздела"
-        url: /updating-a9lh#start
-
-nand-size:
-  - title: "Разделы"
-    children:
-      - title: "• 2DS"
-        url: /nand-size#2ds
-      - title: "• Old 3DS"
-        url: /nand-size#3ds
-      - title: "• New 3DS"
-        url: /nand-size#n3ds
-      - title: "• В начало раздела"
-        url: /nand-size#start
+        url: /troubleshooting#start
 
 updating-a9lh:
   - title: "Разделы"

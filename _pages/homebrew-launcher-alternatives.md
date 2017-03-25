@@ -33,19 +33,5 @@ Homebrew Launcher имеет множество точек входа, или м
 | <sub>[Ninjhax 2](http://smealum.github.io/ninjhax2/) | <sub>[*Cubic Ninja*](https://amzn.to/2eRI1by) | <sub>eShop, Картридж | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>Все | <sub>от 9.0.0-X до 11.2.0-X включительно |
 | <sub>[GenHax](https://github.com/svanheulen/genhax_proxy_installer) | <sub>[*Monster Hunter X*](http://amzn.to/2gsk6Tk) | <sub>eShop | <sub>New | <sub>JPN | <sub>Все | <sub>от 9.9.0-X до 11.2.0-X включительно |
 
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_tracking_id = "plailect-20";
-amzn_assoc_ad_mode = "manual";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "";
-amzn_assoc_linkid = "718ad647bc3d1b8f8c44b3a1f34bc235";
-amzn_assoc_search_bar = "false";
-amzn_assoc_asins = "B01AC3ZDCE,B00DD0B1R0,B00YC7DZP4,B00IVJ1M7M,B008YYSBR8,B004SG211I,B00KI2OZ9M,B00K848IH0";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
-
-Следующий шаг: [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
+Следующий шаг: [SafeCTRTransfer (Homebrew Launcher)](safectrtransfer-(homebrew-launcher))
 {: .notice--primary}

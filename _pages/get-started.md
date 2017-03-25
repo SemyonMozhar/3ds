@@ -18,6 +18,9 @@ permalink: /get-started.html
 Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-windows), [F3 (Linux)](f3-linux), или [F3X (Mac)](f3x-mac)!
 {: .notice--warning}
 
+**Вам понадобится ~1.79ГБ свободного места на SD-карте если вы используете Old 3DS или 2DS, или ~2.10ГБ свободного места на SD-карте если вы используете New 3DS.**
+{: .notice--info}
+
 | New 3DS | Old 3DS или 2DS |
 |:-:|:-:|
 | [![New 3DS](/images/new3ds.png)](get-started-new-3ds) <br><br> [![New 3DS XL](/images/new3dsxl.png)](get-started-new-3ds) | [![Old 3DS](/images/old3ds.png)](get-started-old-3ds) &nbsp;&nbsp; [![Old 3DS XL](/images/old3dsxl.png)](get-started-old-3ds) <br><br> [![2DS](/images/2ds.png)](get-started-old-3ds) |

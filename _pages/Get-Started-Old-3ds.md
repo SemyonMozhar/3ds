@@ -25,7 +25,7 @@ permalink: /get-started-old-3ds.html
 Если вы обновились с помощью игрового картриджа, содержащего версию 9.9.0 или выше *(то есть ваша версия сейчас 9.9.0 или выше, однако версия браузера -25 или ниже, например - 10.2.0-24)*, браузер был удалён из системы и в этом случае следует воспользоваться колонкой "Без браузера".
 {: .notice--warning}
 
-Версия вашего программного обеспечения отображается в правом нижнем углу верхнего экрана в приложении Системные настройки (System settings).
+Версия программного обеспечения вашего устройства отображается в правом нижнем углу верхнего экрана в приложении Системные настройки (System settings).
 {: .notice--success}
 
 <table>
@@ -57,26 +57,26 @@ permalink: /get-started-old-3ds.html
     <tr>
       <td style="text-align: center">4.0.0</td>
       <td style="text-align: center">4.5.0</td>
-      <td style="text-align: center"><a href="decrypt9-mset">Decrypt9 (MSET)</a></td>
-      <td style="text-align: center"><a href="decrypt9-browser">Decrypt9 (используя браузер)</a></td>
+      <td style="text-align: center"><a href="safectrtransfer-(mset)">SafeCTRTransfer (MSET)</a></td>
+      <td style="text-align: center"><a href="safectrtransfer-(browser)">SafeCTRTransfer (Используя браузер)</a></td>
     </tr>
     <tr>
       <td style="text-align: center">5.0.0</td>
       <td style="text-align: center">5.1.0</td>
       <td style="text-align: center"><a href="cart-update">Обновление картриджем</a></td>
-      <td style="text-align: center"><a href="decrypt9-browser">Decrypt9 (используя браузер)</a></td>
+      <td style="text-align: center"><a href="safectrtransfer-(browser)">SafeCTRTransfer (Используя браузер)</a></td>
     </tr>
     <tr>
       <td style="text-align: center">6.0.0</td>
       <td style="text-align: center">6.3.0</td>
-      <td style="text-align: center"><a href="decrypt9-mset">Decrypt9 (MSET)</a></td>
-      <td style="text-align: center"><a href="decrypt9-browser">Decrypt9 (используя браузер)</a></td>
+      <td style="text-align: center"><a href="safectrtransfer-(mset)">SafeCTRTransfer (MSET)</a></td>
+      <td style="text-align: center"><a href="safectrtransfer-(browser)">SafeCTRTransfer (Используя браузер)</a></td>
     </tr>
     <tr>
       <td style="text-align: center">7.0.0</td>
       <td style="text-align: center">8.1.0</td>
       <td style="text-align: center"><a href="cart-update">Обновление картриджем</a></td>
-      <td style="text-align: center"><a href="decrypt9-browser">Decrypt9 (используя браузер)</a></td>
+      <td style="text-align: center"><a href="safectrtransfer-(browser)">SafeCTRTransfer (Используя браузер)</a></td>
     </tr>
     <tr>
       <td style="text-align: center">9.0.0</td>

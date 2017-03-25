@@ -11,7 +11,7 @@ header:
   cta_label: "Начнем!"
   cta_url: "/get-started"
   caption:
-excerpt: 'Полное руководство по прошивке 3DS, <br /> от начала до arm9loaderhax.<br /><br />**Последнее изменение: <br />22.03.2017<br /><br />**'
+excerpt: 'Полное руководство по прошивке 3DS, <br /> от начала до arm9loaderhax.<br /><br />**Последнее изменение: <br />25.03.2017<br /><br />**'
 ---
 
 <a name="start" />
@@ -36,9 +36,6 @@ excerpt: 'Полное руководство по прошивке 3DS, <br /> 
 {: .notice--warning}
 
 **Руководству необходима *ваша* помощь в раздаче [этих](https://3ds.guide/rss.xml) файлов!**
-{: .notice--info}
-
-**Для использования [magnet](https://ru.wikipedia.org/wiki/Magnet-%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0)-ссылок нужен torrent-клиент. Рекомендуемый клиент - [Deluge](http://dev.deluge-torrent.org/wiki/Download)**
 {: .notice--info}
 
 **Перед началом работ следует прочитать инструкцию полностью, чтобы осознать весь фронт работ.**

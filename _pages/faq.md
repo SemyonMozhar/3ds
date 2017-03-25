@@ -36,7 +36,7 @@ sidebar:
 **О:** Да, почитайте [здесь](troubleshooting#rm_nnid).
 
 <a name="faq_support" />**Q:** *Куда я могу обратиться за помощью?*    
-**О:** Если у вас есть вопросы, вы можете задать их на [#3dshacks канале Rizon IRC](https://www.reddit.com/r/3dshacks/wiki/irc) или [3DS Hacking канале в Discord](https://discord.gg/MWxPgEp) (английский).  
+**О:** Если у вас есть вопросы, вы можете задать их на [#3dshacks канале Rizon IRC](https://www.reddit.com/r/3dshacks/wiki/irc) (англ.), [3DS Hacking канале в Discord](https://discord.gg/MWxPgEp) (англ.), или [группу 3DS_CFW вконтакте](http://vk.com/3ds_cfw) (рус.).
 
 <a name="faq_le4gbsd" />**Q:** *Могу ли я использовать SD-карту размером 4 ГБ (или меньше)?*    
 **О:** Да, благодаря новому CTRNAND методу!

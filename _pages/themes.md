@@ -4,13 +4,15 @@ permalink: /themes.html
 sidebar:
   nav: "themes"
 ---
-#### <a name="what_need" />Что нужно: 
 
-+ Установленный a9lh с luma3ds и FBI. 
+#### <a name="what_need" />Что понадобится
+
++ Установленный a9lh с luma3ds 
+* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
 + Свежая версия [CHMM2](http://rinnegatamante.it/site/3ds_hbs.php).
 + Скачиваем необходимые темы с этого [сайта](https://3dsthem.es/).
 
-#### <a name="instructions" />Что делать:
+##### <a name="instructions" />Инструкция
 
 1. Запускаем менеджер тем, встроенный в приставку (домик сверху слева нижнего экрана, Изменить тему).
 2. Выбираем любую тему. Это необходимо, чтобы система создала все необходимые папки. 
