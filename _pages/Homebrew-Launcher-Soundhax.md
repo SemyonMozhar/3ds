@@ -33,5 +33,5 @@ SoundHax совместим с версиями прошивки от 9.0.0 до
 1. Консоль должна загрузиться в Homebrew Launcher
 ___
 
-Следующий шаг: [Decrypt9 (Homebrew Launcher)](decrypt9-homebrew-launcher)
+Следующий шаг: [SafeCtrTransfer (Homebrew Launcher)](safectrtransfer-(homebrew-launcher))
 {: .notice--primary}
