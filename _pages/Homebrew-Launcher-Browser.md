@@ -80,6 +80,8 @@ sidebar:
   + Если выскочит ошибка, перейдите в раздел [проблемы и их решения](troubleshooting#ts_browser).
 9. Приставка должна загрузиться в Homebrew Launcher.
     + Если вы воспользовались способом из части III и заблокировали conntest.nintendowifi.net (или его IP), снимите блокировки сразу, как войдете в homebrew launcher.
+	
+___
 
 Следующий шаг: [SafeCtrTransfer (Homebrew Launcher)](safectrtransfer-(homebrew-launcher))
 {: .notice--primary}
