@@ -35,5 +35,5 @@ Homebrew Launcher имеет множество точек входа, или м
 
 ___
 
-Следующий шаг: [SafeCTRTransfer (Homebrew Launcher)](safectrtransfer-(homebrew-launcher))
+Следующий шаг: [SafeCTRTransfer (Homebrew Launcher)](safectrtransfer-homebrew-launcher)
 {: .notice--primary}

@@ -83,5 +83,5 @@ sidebar:
 	
 ___
 
-Следующий шаг: [SafeCtrTransfer (Homebrew Launcher)](safectrtransfer-(homebrew-launcher))
+Следующий шаг: [SafeCtrTransfer (Homebrew Launcher)](safectrtransfer-homebrew-launcher)
 {: .notice--primary}
