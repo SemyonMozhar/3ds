@@ -22,7 +22,7 @@ permalink: /get-started-new-3ds.html
 {:/comment}
 
 {::comment}
-Для всех версий вы также можете выполнить [обновление картриджем](cart-update) до более высокой версии из той же колонки, но вам понадобится [альтернативный метод](homebrew-launcher-(alternatives)) запуска homebrew launcher, поскольку Soundhax не будет работать.
+Для всех версий вы также можете выполнить [обновление картриджем](cart-update) до более высокой версии из той же колонки, но вам понадобится [альтернативный метод](homebrew-launcher-alternatives) запуска homebrew launcher, поскольку Soundhax не будет работать.
 {: .notice--warning}
 {:/comment}
 

@@ -34,5 +34,5 @@ SoundHax совместим с версиями прошивки от 9.0.0 до
 
 ___
 
-Следующий шаг: [SafeCtrTransfer (Homebrew Launcher)](safectrtransfer-(homebrew-launcher))
+Следующий шаг: [SafeCtrTransfer (Homebrew Launcher)](safectrtransfer-homebrew-launcher)
 {: .notice--primary}
