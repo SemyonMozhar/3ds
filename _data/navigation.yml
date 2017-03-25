@@ -532,7 +532,7 @@ safectrtransfer-browser:
         url: /safectrtransfer-browser#part2
       - title: "- Часть III - CTRTransfer"
         url: /safectrtransfer-browser#part3
-        - title: "• В начало раздела"
+      - title: "• В начало раздела"
         url: /safectrtransfer-browser#start
 
 safectrtransfer-homebrew-launcher:
@@ -550,7 +550,7 @@ safectrtransfer-homebrew-launcher:
         url: /safectrtransfer-homebrew-launcher#part2
       - title: "- Часть III - CTRTransfer"
         url: /safectrtransfer-homebrew-launcher#part3
-        - title: "• В начало раздела"
+      - title: "• В начало раздела"
         url: /safectrtransfer-homebrew-launcher#start
 
 safectrtransfer-mset:
@@ -567,7 +567,7 @@ safectrtransfer-mset:
         url: /safectrtransfer-mset#part2
       - title: "- Часть III - CTRTransfer"
         url: /safectrtransfer-mset#part3
-        - title: "• В начало раздела"
+      - title: "• В начало раздела"
         url: /safectrtransfer-mset#start
 
 themes:
