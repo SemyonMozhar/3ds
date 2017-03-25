@@ -572,10 +572,20 @@ safectrtransfer-mset:
 themes:
   - title: "Разделы"
     children:
-      - title: "• Что понадобится"
+      - title: "Описание шагов"
+        url: /themes#steps
+      - title: "• Официальные темы"
+        url: /themes#eshop_themes
+      - title: "- Что понадобится"
         url: /themes#what_need
-      - title: "• Инструкция:"
+      - title: "- Инструкция"
         url: /themes#instructions
+      - title: "• CHMM2"
+        url: /themes#chmm2
+      - title: "- Что понадобится"
+        url: /themes#what_need2
+      - title: "- Инструкция"
+        url: /themes#instructions2
       - title: "• В начало раздела"
         url: /themes#start
         
