@@ -553,6 +553,24 @@ safectrtransfer-homebrew-launcher:
       - title: "• В начало раздела"
         url: /safectrtransfer-homebrew-launcher#start
 
+safectrtransfer-mset:
+  - title: "Разделы"
+    children:
+      - title: "• Описание шагов"
+        url: /safectrtransfer-mset#steps
+      - title: "• Что понадобится"
+        url: /safectrtransfer-mset#what_need
+      - title: "• Инструкция"
+        url: /safectrtransfer-mset#instructions
+      - title: "- Часть I - Подготовительные работы"
+        url: /safectrtransfer-mset#part1
+      - title: "- Часть II - Запуск SafeCTRTransfer"
+        url: /safectrtransfer-mset#part2
+      - title: "- Часть III - CTRTransfer"
+        url: /safectrtransfer-mset#part3
+      - title: "• В начало раздела"
+        url: /safectrtransfer-mset#start
+
 themes:
   - title: "Разделы"
     children:
