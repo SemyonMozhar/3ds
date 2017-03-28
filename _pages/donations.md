@@ -8,7 +8,8 @@ permalink: /donations.html
 {: .text-center}
 {: .notice--success}
 
-[![Bitcoin]({{ base_path }}/images/donate_64.png)](https://www.coinbase.com/plailect){: .align-center}
+![Bitcoin]({{ base_path }}/images/donate_64.png){: .align-center}
+1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety
 {: .text-center}
 
 [![Paypal]({{ base_path }}/images/paypal.jpg)](https://www.paypal.me/plailect/15){: .align-center}

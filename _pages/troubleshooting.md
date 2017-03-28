@@ -171,7 +171,7 @@ sidebar:
     + Скачайте [этот файл](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
     + Скопируйте `firmware.bin` и `cetk` в папку `/luma/` на SD-карте
     + После обновления прошивки удалите оба этих файла
-1. Попробуйте выполнить [9.2.0 CTRTransfer(9.2.0-crtransfer)
+1. Попробуйте выполнить [9.2.0 CTRTransfer(9.2.0-ctrransfer)
 1. Вы можете обратиться за поддержкой на [канал #3dshacks Rizon IRC](https://www.reddit.com/r/3dshacks/wiki/irc) (англ.), [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) (англ.), или [группу 3DS_CFW вконтакте](http://vk.com/3ds_cfw) (рус.).
 
 ## <a name="ts_transfer" />Ошибка во время SafeCTRTransfer
