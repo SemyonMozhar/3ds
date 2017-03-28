@@ -197,6 +197,7 @@ sidebar:
 
 1. Запустите Homebrew Launcher из меню HOME
  + Если Homebrew Launcher не запускается, убедитесь что у вас включен Wi-Fi, стоит свежая версия hblloader и, если у вас New 3DS, в настройках Luma "New 3DS CPU" стоит в значении "Off"
+ + Если вместо Homebrew Launcher запускается Загружаемая игра (Download play), отключите приставку, удерживая кнопку включения, и заново запустите Homebrew Launcher.
 1. Выберите "DSP Dump"
 1. После завершения нажмите (START) для выхода из DSP Dump
 1. Нажмите (START), чтобы открыть меню выхода из Homebrew Launcher
