@@ -582,6 +582,12 @@ themes:
         url: /themes#what_need
       - title: "- Инструкция"
         url: /themes#instructions
+      - title: "• Официальные темы (freeshop)"
+        url: /themes#eshop_themes_f
+      - title: "- Что понадобится"
+        url: /themes#what_need_f
+      - title: "- Инструкция"
+        url: /themes#instructions_f
       - title: "• CHMM2"
         url: /themes#chmm2
       - title: "- Что понадобится"
