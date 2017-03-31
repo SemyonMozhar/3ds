@@ -39,7 +39,7 @@ main:
   - title: "Перенос EmuNAND"
     url: /move-emunand
   - title: "OTP"
-    url: /otp-info
+    url: /otp
   - title: "Пожертвования"
     url: /donations
   - title: "Благодарности"
