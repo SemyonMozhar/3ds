@@ -18,8 +18,8 @@ main:
     url: /safectrtransfer-homebrew-launcher
   - title: "SafeCTRTransfer<br>(Браузер)"
     url: /safectrtransfer-browser
-  - title: "SafeCTRTransfer<br>(MSET)"
-    url: /safectrtransfer-mset
+  - title: "Decrypt9<br>(MSET)"
+    url: /decrypt9-mset
   - title: "9.2.0<br>ctrtransfer"
     url: /9.2.0-ctrtransfer
   - title: "Интегрирование<br>FBI"
@@ -236,10 +236,18 @@ decrypt9-homebrew-launcher:
 decrypt9-mset:
   - title: "Разделы"
     children:
+      - title: "• Описание шагов"
+        url: /decrypt9-mset#steps
       - title: "• Что понадобится"
         url: /decrypt9-mset#what_need
-      - title: "• Инструкция:"
+      - title: "• Инструкция"
         url: /decrypt9-mset#instructions
+      - title: "- Часть I - Подготовительные работы"
+        url: /decrypt9-mset#part1
+      - title: "- Часть II - Запуск SafeCTRTransfer"
+        url: /decrypt9-mset#part2
+      - title: "- Часть III - CTRTransfer"
+        url: /decrypt9-mset#part3
       - title: "• В начало раздела"
         url: /decrypt9-mset#start
 

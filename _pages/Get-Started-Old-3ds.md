@@ -57,7 +57,7 @@ permalink: /get-started-old-3ds.html
     <tr>
       <td style="text-align: center">4.0.0</td>
       <td style="text-align: center">4.5.0</td>
-      <td style="text-align: center"><a href="safectrtransfer-mset">SafeCTRTransfer (MSET)</a></td>
+      <td style="text-align: center"><a href="decrypt9-mset">Decrypt9 (MSET)</a></td>
       <td style="text-align: center"><a href="safectrtransfer-browser">SafeCTRTransfer (Используя браузер)</a></td>
     </tr>
     <tr>
@@ -69,7 +69,7 @@ permalink: /get-started-old-3ds.html
     <tr>
       <td style="text-align: center">6.0.0</td>
       <td style="text-align: center">6.3.0</td>
-      <td style="text-align: center"><a href="safectrtransfer-mset">SafeCTRTransfer (MSET)</a></td>
+      <td style="text-align: center"><a href="decrypt9-mset">Decrypt9 (MSET)</a></td>
       <td style="text-align: center"><a href="safectrtransfer-browser">SafeCTRTransfer (Используя браузер)</a></td>
     </tr>
     <tr>
