@@ -22,5 +22,3 @@ permalink: /donations.html
 
 [![Paypal]({{ base_path }}/images/paypal.jpg)](https://www.paypal.me/plailect/15){: .align-center}
 {: .text-center}
-
----

@@ -71,6 +71,8 @@ permalink: /credits.html
 + yellows8
 + yifan_lu
 
+___
+
 Люди, переводившие руководство:     
 • [Zloebot](https://crowdin.com/profile/Aibot)   
 • [Unrael](https://crowdin.com/profile/Unrael)   
@@ -87,5 +89,3 @@ permalink: /credits.html
 
 За помощь в вычитке перевода спасибо:
 • dimakuz26
-
-----
