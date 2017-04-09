@@ -70,7 +70,7 @@ sidebar:
 4. Скопируйте `Decrypt9.nds` из `.zip-архива` Decrypt9 на флешкартридж DS
 1. Включите консоль
 
-##### <a name="part2" />Часть II - Запуск SafeCTRTransfer
+##### <a name="part2" />Часть II - Запуск Decrypt9
 
 1. Запустите флешкартридж DS
 6. Запустите `Decrypt9.nds`, используя флешкартридж
@@ -78,7 +78,7 @@ sidebar:
   + 4.X.X -> "4.x Decrypt9WIP"
   + 6.X.X -> "6.x Decrypt9WIP"
 1. Перезагрузите консоль, зайдите в "Системные настройки" (System Settings), затем "Прочие настройки" (Other Settings), затем "Профиль" (Profile), затем "Профиль Nintendo DS" (Nintendo DS Profile)
-1. Если эксплойт сработал, запустится SafeCTRTransfer
+1. Если эксплойт сработал, запустится Decrypt9
 
 ##### <a name="part3" />Часть III - CTRTransfer
 
