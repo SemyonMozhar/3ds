@@ -62,13 +62,13 @@ sidebar:
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases/latest)
-{% comment %}
+{::comment}
 * Свежая версия [DspDump](https://github.com/Cruel/DspDump/releases/latest)
-{% endcomment %}
+{:/comment}
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
-{% comment %}
+{::comment}
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
-{% endcomment %}
+{:/comment}
 * Свежая версия [freeshop](http://get.freeshop.pw/latest) (зеркало на [я.диске](https://yadi.sk/d/OVaX2Caz3Bebgd) и [меге](https://mega.nz/#!h58BVIbI!-iO7mCAeulNBGDqnuo5mjHuKO2N9yBB2EVzWlJ7BFyY)). 
 
 Если у вас не выходит скачать freeshop или другие файлы, воспользуйтесь VPN. 
@@ -88,11 +88,11 @@ sidebar:
   + **Если вы использовали Decrypt9 и MSET, ваш файл будет называться NANDmin.bin и находиться он будет в корне карте памяти, либо в папке files9**
 1. Создайте папку `cias` в корне SD-карты
 1. Создайте папку `files9` в корне SD-карты, если ее там нет
-{% comment %}
+{::comment}
 1. Удалите папку `3ds` из корня SD-карты, если таковая существует
 1. Скопируйте _содержимое_ папки `starter` из архива `starter.zip` в корень вашей SD-карты
   + Этот архив содержит новую папку `3ds`, которая заменит удаленную
-{% endcomment %}
+{:/comment}
 1. Скопируйте _содержимое_ `.7z-архива` SafeA9LHInstaller в корень SD-карты
 1. **Скопируйте папку `a9lh` из `.zip-архива` `data_input` в корень SD-карты**
 1. Скопируйте _содержимое_ архива arm9loaderhax (`release.7z`) в папку `a9lh` в корне SD-карты
@@ -105,9 +105,9 @@ sidebar:
 1. Создайте папку `payloads` в папке `luma` на SD-карте
 1. Скопируйте `GodMode9.bin` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте и переименуйте `GodMode9.bin` внутри папки `/luma/payloads/` в `start_GodMode9.bin`
 1. Скопируйте `aeskeydb.bin` в папку `/files9/` в корне SD-карты
-{% comment %}
+{::comment}
 1. Скопируйте `DspDump.3dsx` в папку `/3ds/` в корне SD-карты
-{% endcomment %}
+{:/comment}
 
 ##### <a name="part2" />Часть II - Установка arm9loaderhax
 
@@ -147,13 +147,13 @@ sidebar:
   + **"Autoboot SysNAND"**
   + **"Use SysNAND FIRM if booting with R"**
   + **"Show NAND or user string in System Settings"**
-{% comment %}
+{::comment}
 1. Если у вас **New 3DS**, вы *также* можете включить следующие опции:
   + **"New 3DS CPU" выбрать значение "Clock+L2(x)"**
     + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других
     + Если какие-либо игры работают некорректно, отключите эту опцию
   + **Если у вас 11.3 и вам нужен Homebrew Launcher, не включайте эту опцию.**
-{% endcomment %}
+{:/comment}
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
   + Если после включения экран остаётся чёрным, просто переходите к следующей части   
   + Если появляется ошибка "Failed to mount CTRNAND", просто переходите к следующей части     
@@ -213,7 +213,7 @@ sidebar:
 1. Выберите "DSP Dump"
 1. После завершения нажмите (START) для выхода из DSP Dump
 1. Нажмите (START), чтобы открыть меню выхода из Homebrew Launcher
-{% endcomment %}
+{:/comment}
 
 ##### <a name="part7" />Часть VII - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)
 
@@ -241,13 +241,13 @@ sidebar:
   + Необходимо хотя бы раз загрузиться без SD-карты, чтобы настроить Luma3DS, установленную в раздел CTRNAND
 1. Нажимая (A) выберите следующие пункты:    
   + **"Show NAND or user string in System Settings"**
-{% comment %}
+{::comment}
 1. Если у вас **New 3DS**, вы *также* можете включить следующие опции:
   + **"New 3DS CPU" выбрать значение "Clock+L2(x)"**
     + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других
     + Если какие-либо игры работают некорректно, отключите эту опцию
     + **Если у вас 11.3 и вам нужен Homebrew Launcher, не включайте эту опцию.**
-{% endcomment %}
+{:/comment}
 1. Вставьте SD-карту обратно в консоль
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
 
@@ -293,10 +293,10 @@ ___
 В дальнейшем вы можете обновить arm9loaderhax, обратившись к разделу [обновление A9LH](updating-a9lh).
 {: .notice--info}
 
-{% comment %}
+{::comment}
 Чтобы установить [NTR CFW](https://github.com/44670/BootNTR/), поместите `ntr.bin` из архива с подходящей версией с [этой страницы](https://github.com/44670/BootNTR/releases) в корень SD-карты. Затем установите [`BootNTR.cia`](https://github.com/astronautlevel2/BootNTR/releases/latest).
 {: .notice--info}
-{% endcomment %}
+{:/comment}
 
 Сохраните свой бекап. Это либо `<serialnumber>_nand.bin`, либо `NANDmin.bin`, в случае использования MSET и Decrypt9. Используя GodMode9, этим файлом можно восстановить консоль в случае брика.
 {: .notice--info}
