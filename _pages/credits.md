@@ -87,5 +87,6 @@ ___
 • [jkcgs](https://crowdin.com/profile/jkcgs)   
 • [xHR](https://crowdin.com/profile/rashevskyv)   
 
-За помощь в вычитке перевода спасибо:
+Отдельная благодарность 
 • dimakuz26
+• Антон Вишневский за внимательность 

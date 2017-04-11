@@ -436,16 +436,14 @@ installing-arm9loaderhax:
         url: /installing-arm9loaderhax#part5
       - title: "  - Часть VI - Установка CIA"
         url: /installing-arm9loaderhax#part6
-      - title: "  - Часть VII - DSP Dump"
-        url: /installing-arm9loaderhax#part7
       - title: "  - Часть VIII - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)"
+        url: /installing-arm9loaderhax#part7
+      - title: "  - Часть VIII - CTRNAND Luma3DS"
         url: /installing-arm9loaderhax#part8
-      - title: "  - Часть IX - CTRNAND Luma3DS"
+      - title: "  -  Часть IX - Настройка freeshop"
         url: /installing-arm9loaderhax#part9
-      - title: "  -  Часть X - Настройка freeshop"
-        url: /installing-arm9loaderhax#part10
       - title: "• Полезные ссылки"
-        url: /installing-arm9loaderhax#part11
+        url: /installing-arm9loaderhax#part10
       - title: "• В начало раздела"
         url: /installing-arm9loaderhax#start
         

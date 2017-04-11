@@ -51,12 +51,12 @@ permalink: /get-started-new-3ds.html
     </tr>
     <tr>
       <td style="text-align: center">9.0.0</td>
-      <td style="text-align: center">11.2.0</td>
+      <td style="text-align: center">11.3.0</td>
       <td style="text-align: center"><a href="homebrew-launcher-soundhax">Homebrew Launcher (SoundHax)</a></td>
     </tr>
     <tr>
-      <td style="text-align: center">11.3.0</td>
-      <td style="text-align: center">11.3.0</td>
+      <td style="text-align: center">11.4.0</td>
+      <td style="text-align: center">11.4.0</td>
       <td style="text-align: center">Взлом невозможен</td>
     </tr>
   </tbody>
