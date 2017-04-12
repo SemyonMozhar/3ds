@@ -329,6 +329,7 @@ ___
     + luma
     + Nintendo 3DS
     + arm9loaderhax.bin
+	+ boot.3dsx
 	
 {% endcapture %}
 
