@@ -9,6 +9,9 @@ permalink: /homebrew-launcher-soundhax.html
 SoundHax совместим с версиями прошивки от 9.0.0 до 11.3.0 включительно в регионах EUR, JPN, KOR и USA.
 {: .notice--info}
 
+**Убедитесь, что у вас есть рабочее активное подключение к интернету.**
+{: .notice--warning}
+
 #### <a name="what_need" />Что понадобится 
 
 + Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
