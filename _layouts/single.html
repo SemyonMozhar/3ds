@@ -38,29 +38,6 @@ layout: default
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
 
-        <center>
-
-        {% assign split_path = page.path | split: "/" %}
-        {% assign locale = split_path[1] %}
-        {% for link in site.data.navigation[locale].bottom %}
-          {% if link.url contains 'http' %}
-            {% assign domain = '' %}
-          {% else %}
-            {% assign domain = site.url | append: site.baseurl %}
-          {% endif %}
-          <div class ="notice--info"><b>{{ link.title }}</b></div>
-        {% endfor %}
-		
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<script>
-					(adsbygoogle = window.adsbygoogle || []).push({
-						google_ad_client: "ca-pub-5722126613784694",
-						enable_page_level_ads: true
-					});
-			</script>
-		
-        </center>
-
       </section>
 
       <footer class="page__meta">
