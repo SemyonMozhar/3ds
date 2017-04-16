@@ -40,7 +40,25 @@ layout: default
 
         <center>
 
-        <!--<div class ="notice--info"><b>За помощью обращайтесь в группу <a href="https://vk.com/3ds_cfw">вконтакте</a>.<br>Если вам помог или просто понравился этот гайд, то милости прошу <a href="donations">донатить</a>.</b></div>-->
+        {% assign split_path = page.path | split: "/" %}
+        {% assign locale = split_path[1] %}
+        {% for link in site.data.navigation[locale].bottom %}
+          {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+          {% else %}
+            {% assign domain = site.url | append: site.baseurl %}
+          {% endif %}
+          <div class ="notice--info"><b>{{ link.title }}</b></div>
+        {% endfor %}
+		
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<script>
+					(adsbygoogle = window.adsbygoogle || []).push({
+						google_ad_client: "ca-pub-5722126613784694",
+						enable_page_level_ads: true
+					});
+			</script>
+		
         </center>
 
       </section>
