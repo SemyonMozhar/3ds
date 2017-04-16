@@ -73,7 +73,7 @@ sidebar:
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 {:/comment}
 
-* Свежая версия [freeshop](http://get.freeshop.pw/latest) (зеркало на [я.диске](https://yadi.sk/d/OVaX2Caz3Bebgd) и [меге](https://mega.nz/#!h58BVIbI!-iO7mCAeulNBGDqnuo5mjHuKO2N9yBB2EVzWlJ7BFyY)). 
+* Свежая версия [freeshop](http://get.freeshop.pw/latest) (зеркало на [я.диске](https://yadi.sk/d/hexh6zRx3H3Rdh) и [меге](https://mega.nz/#!l80ARYAQ!wwHR3byH6fGuaQJ1YbceB5L2PQwCvSZbwZt2TkR7TEM). 
 
 Если у вас не выходит скачать freeshop или другие файлы, воспользуйтесь VPN. 
 {: .notice--warning}
