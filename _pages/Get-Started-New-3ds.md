@@ -39,15 +39,15 @@ permalink: /get-started-new-3ds.html
     <tr>
       <th style="text-align: center">С</th>
       <th style="text-align: center">По</th>
-      <th style="text-align: center"><!-- Браузера нет--></th>
-      <!-- <th style="text-align: center">Браузер есть</th> -->
+      <th style="text-align: center">Браузера нет</th>
+      <th style="text-align: center">Браузер есть</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: center">8.1.0</td>
       <td style="text-align: center">8.1.0</td>
-      <td style="text-align: center"><a href="ntr-and-cubic-ninja">NTR и Cubic Ninja</a></td>
+      <td style="text-align: center" colspan="2"><a href="ntr-and-cubic-ninja">NTR и Cubic Ninja</a></td>
     </tr>
     <tr>
       <td style="text-align: center">9.0.0</td>
@@ -58,7 +58,7 @@ permalink: /get-started-new-3ds.html
     <tr>
       <td style="text-align: center">11.4.0</td>
       <td style="text-align: center">11.4.0</td>
-      <td style="text-align: center">Взлом невозможен</td>
+      <td style="text-align: center" colspan="2">Взлом невозможен</td>
     </tr>
   </tbody>
 </table>
