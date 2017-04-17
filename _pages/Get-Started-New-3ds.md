@@ -39,8 +39,8 @@ permalink: /get-started-new-3ds.html
     <tr>
       <th style="text-align: center">С</th>
       <th style="text-align: center">По</th>
-      <th style="text-align: center">Браузера нет</th>
-      <th style="text-align: center">Браузер есть</th>
+      <th style="text-align: center">Браузера есть</th>
+      <th style="text-align: center">Браузер нет</th>
     </tr>
   </thead>
   <tbody>
