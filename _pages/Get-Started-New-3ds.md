@@ -39,8 +39,8 @@ permalink: /get-started-new-3ds.html
     <tr>
       <th style="text-align: center">С</th>
       <th style="text-align: center">По</th>
-      <th style="text-align: center">Браузера есть</th>
       <th style="text-align: center">Браузер нет</th>
+      <th style="text-align: center">Браузера есть</th>
     </tr>
   </thead>
   <tbody>
@@ -52,8 +52,8 @@ permalink: /get-started-new-3ds.html
     <tr>
       <td style="text-align: center">9.0.0</td>
       <td style="text-align: center">11.3.0</td>
-      <td style="text-align: center"><a href="homebrew-launcher-soundhax">Homebrew Launcher (SoundHax)</a></td>
       <td style="text-align: center"><a href="homebrew-launcher-alternatives">Homebrew Launcher<br>(альтернативные способы запуска)</a></td>
+      <td style="text-align: center"><a href="homebrew-launcher-soundhax">Homebrew Launcher (SoundHax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center">11.4.0</td>
