@@ -6,7 +6,7 @@ main:
     url: /faq
   - title: "Проблемы и<br>их решения"
     url: /troubleshooting
-  - title: "Homebrew<br>launcher"
+  - title: "Soundhax"
     url: /homebrew-launcher-soundhax
   - title: "Homebrew Launcher<br>(используя браузер)"
     url: /homebrew-launcher-browser
