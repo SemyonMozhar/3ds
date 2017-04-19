@@ -2,7 +2,7 @@
 title: "Как устанавливать приложения"
 permalink: /games.html
 sidebar:
-  nav: "fbi"
+  nav: "games"
 ---
 
 #### <a name="what_need" />Что понадобится
