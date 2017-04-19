@@ -118,7 +118,7 @@ games:
         url: /games#from_sd
       - title: "- Установка с ПК по беспроводному соединению"
         url: /games#from_wifi
-        - title: "- Способ II - freeshop"
+      - title: "- Способ II - freeshop"
         url: /games#freeshop
       - title: "• В начало раздела"
         url: /games#start
