@@ -62,17 +62,9 @@ sidebar:
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases/latest)
-
-{::comment}
 * Свежая версия [DspDump](https://github.com/Cruel/DspDump/releases/latest)
-{:/comment}
-
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
-
-{::comment}
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
-{:/comment}
-
 * Свежая версия [freeshop](http://get.freeshop.pw/latest) (зеркало на [я.диске](https://yadi.sk/d/hexh6zRx3H3Rdh) и [меге](https://mega.nz/#!l80ARYAQ!wwHR3byH6fGuaQJ1YbceB5L2PQwCvSZbwZt2TkR7TEM). 
 
 Если у вас не выходит скачать freeshop или другие файлы, воспользуйтесь VPN. 
@@ -92,13 +84,9 @@ sidebar:
   + **Если вы использовали Decrypt9 и MSET, ваш файл будет называться NANDmin.bin и находиться он будет в корне карте памяти, либо в папке files9**
 1. Создайте папку `cias` в корне SD-карты
 1. Создайте папку `files9` в корне SD-карты, если ее там нет
-
-{::comment}
 1. Удалите папку `3ds` из корня SD-карты, если таковая существует
 1. Скопируйте _содержимое_ папки `starter` из архива `starter.zip` в корень вашей SD-карты
   + Этот архив содержит новую папку `3ds`, которая заменит удаленную
-{:/comment}
-
 1. Скопируйте _содержимое_ `.7z-архива` SafeA9LHInstaller в корень SD-карты
 1. **Скопируйте папку `a9lh` из `.zip-архива` `data_input` в корень SD-карты**
 1. Скопируйте _содержимое_ архива arm9loaderhax (`release.7z`) в папку `a9lh` в корне SD-карты
@@ -111,10 +99,7 @@ sidebar:
 1. Создайте папку `payloads` в папке `luma` на SD-карте
 1. Скопируйте `GodMode9.bin` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте и переименуйте `GodMode9.bin` внутри папки `/luma/payloads/` в `start_GodMode9.bin`
 1. Скопируйте `aeskeydb.bin` в папку `/files9/` в корне SD-карты
-
-{::comment}
 1. Скопируйте `DspDump.3dsx` в папку `/3ds/` в корне SD-карты
-{:/comment}
 
 
 ##### <a name="part2" />Часть II - Установка arm9loaderhax
@@ -159,15 +144,10 @@ sidebar:
   + **"Autoboot SysNAND"**
   + **"Use SysNAND FIRM if booting with R"**
   + **"Show NAND or user string in System Settings"**
-  
-{::comment}
 1. Если у вас **New 3DS**, вы *также* можете включить следующие опции:
   + **"New 3DS CPU" выбрать значение "Clock+L2(x)"**
     + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других
     + Если какие-либо игры работают некорректно, отключите эту опцию
-  + **Если у вас 11.3 и вам нужен Homebrew Launcher, не включайте эту опцию.**
-{:/comment}
-
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
   + Если после включения экран остаётся чёрным, просто переходите к следующей части   
   + Если появляется ошибка "Failed to mount CTRNAND", просто переходите к следующей части     
@@ -219,18 +199,17 @@ sidebar:
 1. Выберите "Install all CIAs" и нажмите (A) для подтверждения
 1. Нажмите (HOME) для выхода из FBI
 
-{::comment}
 ##### <a name="part7" />Часть VII - DSP Dump
 
 1. Запустите Homebrew Launcher из меню HOME
  + Если Homebrew Launcher не запускается, убедитесь что у вас включен Wi-Fi, стоит свежая версия hblloader и, если у вас New 3DS, в настройках Luma "New 3DS CPU" стоит в значении "Off"
  + Если вместо Homebrew Launcher запускается Загружаемая игра (Download play), отключите приставку, удерживая кнопку включения, и заново запустите Homebrew Launcher.
+ + Если у вас Old3DS на последней прошивке, скачайте [otherapp](https://smealum.github.io/3ds/#otherapp) для 11.2.0-35X, где X - версия вашего текущего региона, в папку `hblauncherloader` на вашей SD-карте и переименуйте его в OLD-11-4-0-37-XXX, где XXX - ваш текущий регион (EUR, JAP, USA, KOR или CHN).
 1. Выберите "DSP Dump"
 1. После завершения нажмите (START) для выхода из DSP Dump
 1. Нажмите (START), чтобы открыть меню выхода из Homebrew Launcher
-{:/comment}
 
-##### <a name="part7" />Часть VII - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)
+##### <a name="part8" />Часть VIII - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)
 
 Выполнение этой части опционально. В случае форматирования приставки с восстановленным H&S, [FBI придется интегрировать повторно](fbi)!
 {: .notice--info}
@@ -241,7 +220,7 @@ sidebar:
 1. Выберите "Restore H&S"
 1. Нажмите (A), чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
 
-##### <a name="part8" />Часть VIII - CTRNAND Luma3DS
+##### <a name="part9" />Часть IX - CTRNAND Luma3DS
 
 1. Перейдите в `SDCARD`
 1. Нажмите (Y), выделив файл `arm9loaderhax.bin` чтобы скопировать его
@@ -256,19 +235,14 @@ sidebar:
   + Необходимо хотя бы раз загрузиться без SD-карты, чтобы настроить Luma3DS, установленную в раздел CTRNAND
 1. Нажимая (A) выберите следующие пункты:    
   + **"Show NAND or user string in System Settings"**
-  
-{::comment}
 1. Если у вас **New 3DS**, вы *также* можете включить следующие опции:
   + **"New 3DS CPU" выбрать значение "Clock+L2(x)"**
     + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других
     + Если какие-либо игры работают некорректно, отключите эту опцию
-    + **Если у вас 11.3 и вам нужен Homebrew Launcher, не включайте эту опцию.**
-{:/comment}
-
 1. Вставьте SD-карту обратно в консоль
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
 
-##### <a name="part9" />Часть IX - Настройка freeshop
+##### <a name="part10" />Часть X - Настройка freeshop
 
 Приложение работает только при включенном интернете!
 {: .notice--info}
@@ -342,7 +316,7 @@ ___
 Чтобы узнать, как поддерживать A9LH в актуальном состоянии, обратитесь к разделу [Обновление A9LH](updating-a9lh).
 {: .notice--success}
 
-<a name="part10" />
+<a name="part11" />
 • [Ответы на вопросы, которые у вас почти наверняка возникли](https://vk.com/3ds_cfw?w=wall-125012133_2178%2Fall)      
 • Для справки об использовании различных функций Luma3DS обратитесь к её [вики](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage) (англ.).       
 • [Как делать резервные копии, редактировать и восстанавливать](https://gbatemp.net/threads/release-jks-savemanager-Homebrew-cia-save-manager.413143/) сохранения игр.     
