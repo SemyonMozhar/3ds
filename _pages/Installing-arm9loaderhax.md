@@ -320,6 +320,6 @@ ___
 • Для справки об использовании различных функций Luma3DS обратитесь к её [вики](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage) (англ.).       
 • [Как делать резервные копии, редактировать и восстанавливать](https://gbatemp.net/threads/release-jks-savemanager-Homebrew-cia-save-manager.413143/) сохранения игр.     
 • Как настроить внешний вид домашнего экрана кастомными [темами](themes) и [жетонами](badges) с помощью программ [СHMM2](http://rinnegatamante.it/site/3ds_hbs.php) и [GYTB](https://github.com/MrCheeze/GYTB).    
-• [Как ставить игры?](https://vk.com/3ds_cfw?w=wall-125012133_2662%2Fall)   
+• [Как ставить игры?](games)   
 • [Конвертировать 3DS-ромы в CIA](3ds-to-cia)   
 {: .notice--success}

@@ -103,6 +103,24 @@ fbi:
       - title: "• В начало раздела"
         url: /fbi#start
         
+games:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /games#what_need
+      - title: "• Инструкция"
+        url: /games#instructions
+      - title: "- Способ I - FBI"
+        url: /games#fbi
+      - title: "- Установка с SD-карты"
+        url: /games#from_sd
+      - title: "- Установка с ПК по беспроводному соединению"
+        url: /games#from_wifi
+        - title: "- Способ II - freeshop"
+        url: /games#freeshop
+      - title: "• В начало раздела"
+        url: /games#start
+        
 home:
   - title: "Разделы"
     children:
