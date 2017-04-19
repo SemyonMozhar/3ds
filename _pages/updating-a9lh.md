@@ -48,7 +48,7 @@ sidebar:
 1. Удалите `aeskeydb.bin` из корня SD-карты
 1. Удалите папку `a9lh` из корня SD-карты, если она существует
 1. Скопируйте `aeskeydb.bin` в папку `/files9/` на SD-карте
-1. Скопируйте `GodMode9.bin` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте и переименуйте `GodMode9.bin` внутри папки `/luma/payloads/` в `start_GodMode9.bin`
+1. Скопируйте `GodMode9.bin` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
   + Если файл `start_Hourglass9.bin` уже есть в этой папке, удалите `start_Hourglass9.bin`
 1. Скопируйте `arm9loaderhax.bin` из `.zip-архива` SafeA9LHInstaller в папку `/luma/payloads/`
 1. Переименуйте `arm9loaderhax.bin`, находящийся в папке `/luma/payloads/`, в `down_safea9lhinstaller.bin`
@@ -81,7 +81,7 @@ sidebar:
 
 ##### <a name="part4" />Часть IV - CTRNAND Luma3DS
 
-1. Перезагрузитесь, удерживая кнопку (START), чтобы запустить GodMode9
+1. Включите вашу консоль, зажав кнопку (START) и выберите GodMode9.bin
 1. Перейдите в `SDCARD`
 1. Нажмите (Y), выделив файл `arm9loaderhax.bin` чтобы скопировать его
 1. Нажмите (B), чтобы вернуться в главное меню
