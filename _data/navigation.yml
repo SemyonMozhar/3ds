@@ -30,6 +30,8 @@ main:
     url: /badges
   - title: "Установка и использование тем"
     url: /themes
+  - title: "Как устанавливать приложения"
+    url: /games
   - title: "Конвертация 3DS-ромов в CIA"
     url: /3ds-to-cia
   - title: "Обновление A9LH"
