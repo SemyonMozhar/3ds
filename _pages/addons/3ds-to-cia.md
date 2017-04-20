@@ -5,13 +5,13 @@ sidebar:
   nav: "3ds-to-cia"
 ---
 
-#### <a name="what_need" />Что нужно: 
+#### <a name="what_need" />Что понадобится 
 * Свежая версия [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/latest)
 * Свежая версия [3DS Simple CIA Converter](https://gbatemp.net/attachments/3ds-simple-cia-converter-v4-3-rar.46661/)
 
-#### <a name="instructions" />Что делать:
+#### <a name="instructions" />Инструкция:
 
-##### <a name="part1" />Часть I -  Подготовка
+##### <a name="part1" />Часть I -  Подготовительные работы
 1. Распакуйте архив с 3DS Simple CIA Converter в удобную для вас папку
 2. Скопируйте `Decrypt9WIP.bin` в папку `/luma/payloads/` на SD-карте и переименуйте `Decrypt9WIP.bin` в `x_Decrypt9WIP.bin`
 3. Переместите РОМы в формате 3DS, которые вы хотите переконвертировать в CIA, в папку `roms`, которая находится по пути `\3DS Simple CIA Converter v4.3\roms`
