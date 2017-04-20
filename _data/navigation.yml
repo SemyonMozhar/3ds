@@ -26,14 +26,8 @@ main:
     url: /fbi
   - title: "Обновление с<br>помощью картриджа"
     url: /cart-update
-  - title: "Установка и использование<br>жетонов (badges)"
-    url: /badges
-  - title: "Установка и использование тем"
-    url: /themes
-  - title: "Как устанавливать приложения"
-    url: /games
-  - title: "Конвертация 3DS-ромов в CIA"
-    url: /3ds-to-cia
+  - title: "Инструкции, полезные после прошивки"
+    url: /addons
   - title: "Обновление A9LH"
     url: /updating-a9lh
   - title: "Смена региона"
@@ -90,6 +84,48 @@ faq:
         url: /faq#faq_problem
       - title: "• В начало раздела"
         url: /faq#start
+        
+faq-3ds:
+  - title: "Разделы"
+    children:
+      - title: "• Моя консоль на последней версии прошивки, могу ли я её взломать?"
+        url: faq-3ds#faq_latestfw
+      - title: "• Как мне перенести свои сохранения с Gateway на консоль для установленных игр?"
+        url: faq-3ds#faq_gatewaysaves
+      - title: "• Можно ли обновлять системное ПО на прошитой консоли?"
+        url: faq-3ds#update
+      - title: "• Не забанит ли меня Nintendo?"
+        url: faq-3ds#ban
+      - title: "• Можно ли запускать игры другого региона?"
+        url: faq-3ds#region_free
+      - title: "• Можно ли запускать игры от DS?"
+        url: faq-3ds#ds
+      - title: "• Запустится ли R4 или его аналог на моей приставке? "
+        url: faq-3ds#ds_r4
+      - title: "• Как сделать бекап? 
+        url: faq-3ds#backup
+      - title: "• Как восстановить бекап? "
+        url: faq-3ds#restore_backup
+      - title: "• Как настроить freeshop? У меня там ни одной игры! "
+        url: faq-3ds#freeshop
+      - title: "• Как устанавливать игры и приложения? "
+        url: faq-3ds#cia_games
+      - title: "• Я не могу найти во freeshop %game_name%!"
+        url: faq-3ds#3dsisos
+      - title: "• Можно ли качать игры с eShop? "   
+        url: faq-3ds#eshop
+      - title: "• Как поставить в приставку карту большего объема? "
+        url: faq-3ds#bigger_sd
+      - title: "• Как установить на консоль игры в формате 3DS? "
+        url: faq-3ds#3ds_games
+      - title: "• Можно ли убрать оповещение об обновлении при запуске? "
+        url: faq-3ds#update_notification
+      - title: "• Как запустить игру на русском на приставке без русского языка в настройках? "
+        url: faq-3ds#lumalocaleswitcher
+      - title: "• Как обновить Luma3DS? "
+        url: faq-3ds#luma_update
+      - title: "• В начало раздела"
+        url: faq-3ds#start
         
 fbi:
   - title: "Разделы"
@@ -461,11 +497,11 @@ installing-arm9loaderhax:
       - title: "  - Часть VIII - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)"
         url: /installing-arm9loaderhax#part8
       - title: "  - Часть IX - CTRNAND Luma3DS"
-        url: /installing-arm9loaderhax#part9
+        url: /installing-arm9loaderhax#lumactrnand
       - title: "  - Часть X - Настройка freeshop"
-        url: /installing-arm9loaderhax#part10
+        url: /installing-arm9loaderhax#freeshop
       - title: "• Полезные ссылки"
-        url: /installing-arm9loaderhax#part11
+        url: /installing-arm9loaderhax#links
       - title: "• В начало раздела"
         url: /installing-arm9loaderhax#start
         
@@ -668,3 +704,17 @@ updating-a9lh:
         url: /updating-a9lh#part4
       - title: "• В начало раздела"
         url: /updating-a9lh#start
+        
+update-luma3ds:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /update-luma3ds#what_need
+      - title: "• Инструкция:"
+        url: /update-luma3ds#instructions
+      - title: "  - Часть I - Luma3ds Updater"
+        url: /update-luma3ds#part1
+      - title: "  - Часть II -  Обновление Luma вручную"
+        url: /update-luma3ds#part2
+      - title: "• В начало раздела"
+        url: /update-luma3ds#start

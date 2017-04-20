@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Launcher (SoundHax)"
+title: "Использование SoundHax для запуска Hombrew Launcher"
 permalink: /homebrew-launcher-soundhax.html
 ---
 
