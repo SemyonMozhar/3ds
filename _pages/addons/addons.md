@@ -1,5 +1,5 @@
 ---
-title: "Интегрирование FBI"
+title: "Список полезных после прошивки инструкций"
 permalink: /addons.html
 sidebar:
   nav: "addons"
