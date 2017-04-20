@@ -12,7 +12,7 @@ sidebar:
 
 ##### <a name="instructions" />Инструкция
 
-##### <a name="part1" />Способ I - Luma3ds Updater
+##### <a name="part1" />Luma3ds Updater
 
 1. Установите `LumaLocaleSwitcher` через FBI (как это сделать описано [здесь](games))
 1. Запустите LumaLocaleSwitcher из меню Home
