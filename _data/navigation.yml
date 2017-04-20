@@ -26,7 +26,7 @@ main:
     url: /fbi
   - title: "Обновление с<br>помощью картриджа"
     url: /cart-update
-  - title: "Инструкции, полезные после прошивки"
+  - title: "Инструкции,<br>полезные после прошивки"
     url: /addons
   - title: "Обновление A9LH"
     url: /updating-a9lh
