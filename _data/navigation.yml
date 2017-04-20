@@ -89,43 +89,43 @@ faq-3ds:
   - title: "Разделы"
     children:
       - title: "• Моя консоль на последней версии прошивки, могу ли я её взломать?"
-        url: faq-3ds#faq_latestfw
+        url: /faq-3ds#faq_latestfw
       - title: "• Как мне перенести свои сохранения с Gateway на консоль для установленных игр?"
-        url: faq-3ds#faq_gatewaysaves
+        url: /faq-3ds#faq_gatewaysaves
       - title: "• Можно ли обновлять системное ПО на прошитой консоли?"
-        url: faq-3ds#update
+        url: /faq-3ds#update
       - title: "• Не забанит ли меня Nintendo?"
-        url: faq-3ds#ban
+        url: /faq-3ds#ban
       - title: "• Можно ли запускать игры другого региона?"
-        url: faq-3ds#region_free
+        url: /faq-3ds#region_free
       - title: "• Можно ли запускать игры от DS?"
-        url: faq-3ds#ds
+        url: /faq-3ds#ds
       - title: "• Запустится ли R4 или его аналог на моей приставке?"
-        url: faq-3ds#ds_r4
+        url: /faq-3ds#ds_r4
       - title: "• Как сделать бекап?"
-        url: faq-3ds#backup
+        url: /faq-3ds#backup
       - title: "• Как восстановить бекап?"
-        url: faq-3ds#restore_backup
+        url: /faq-3ds#restore_backup
       - title: "• Как настроить freeshop? У меня там ни одной игры!"
-        url: faq-3ds#freeshop
+        url: /faq-3ds#freeshop
       - title: "• Как устанавливать игры и приложения?"
-        url: faq-3ds#cia_games
+        url: /faq-3ds#cia_games
       - title: "• Я не могу найти во freeshop %game_name%!"
-        url: faq-3ds#3dsisos
+        url: /faq-3ds#3dsisos
       - title: "• Можно ли качать игры с eShop?"
-        url: faq-3ds#eshop
+        url: /faq-3ds#eshop
       - title: "• Как поставить в приставку карту большего объема?"
-        url: faq-3ds#bigger_sd
+        url: /faq-3ds#bigger_sd
       - title: "• Как установить на консоль игры в формате 3DS?"
-        url: faq-3ds#3ds_games
+        url: /faq-3ds#3ds_games
       - title: "• Можно ли убрать оповещение об обновлении при запуске?"
-        url: faq-3ds#update_notification
+        url: /faq-3ds#update_notification
       - title: "• Как запустить игру на русском на приставке без русского языка в настройках?"
-        url: faq-3ds#lumalocaleswitcher
+        url: /faq-3ds#lumalocaleswitcher
       - title: "• Как обновить Luma3DS? "
-        url: faq-3ds#luma_update
+        url: /faq-3ds#luma_update
       - title: "• В начало раздела"
-        url: faq-3ds#start
+        url: /faq-3ds#start
         
 fbi:
   - title: "Разделы"
@@ -204,6 +204,8 @@ home:
         url: /3ds-to-cia#part2
       - title: "  - Часть III - Конвертация 3DS-ромов в CIA"
         url: /3ds-to-cia#part3
+      - title: "• В начало раздела"
+        url: /3ds-to-cia#start
 
 9.2.0-ctrtransfer:
   - title: "Разделы"
