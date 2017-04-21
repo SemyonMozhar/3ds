@@ -714,9 +714,14 @@ update-luma3ds:
         url: /update-luma3ds#what_need
       - title: "• Инструкция:"
         url: /update-luma3ds#instructions
-      - title: "  - Часть I - Luma3ds Updater"
+      - title: "  - Часть I - Обновление Luma3DS"
         url: /update-luma3ds#part1
-      - title: "  - Часть II -  Обновление Luma вручную"
-        url: /update-luma3ds#part2
+      - title: "  - Способ I - Luma3ds Updater"
+        url: /update-luma3ds#lumaupdater
+      - title: "• В начало раздела"
+      - title: "  - Способ II - Обновление Luma вручную"
+        url: /update-luma3ds#lumasd
+      - title: "  - Часть II - CTRNAND Luma3DS"
+        url: /update-luma3ds#lumactrnand
       - title: "• В начало раздела"
         url: /update-luma3ds#start
