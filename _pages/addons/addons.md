@@ -11,7 +11,7 @@ sidebar:
 + [Как устанавливать приложения и игры](games)
 + [Дополнительный FAQ](faq-3ds), дающий ответы на вопросы, которые наверняка у вас возникнут после взлома
 + Для справки об использовании различных функций Luma3DS обратитесь к её [вики](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage) (англ.).       
-+ Как обновить [luma3ds](update-luma3ds)
++ [Как обновить Luma3DS](update-luma3ds)
 + [Как делать резервные копии, редактировать и восстанавливать](https://gbatemp.net/threads/release-jks-savemanager-Homebrew-cia-save-manager.413143/) сохранения игр (англ.).     
 + [Установка и использование тем](themes)
 + [Установка и использование жетонов](badges)   
