@@ -18,8 +18,8 @@ main:
     url: /safectrtransfer-homebrew-launcher
   - title: "SafeCTRTransfer<br>(Браузер)"
     url: /safectrtransfer-browser
-  - title: "Decrypt9<br>(MSET)"
-    url: /decrypt9-mset
+  - title: "SafeCTRTransfer<br>(MSET)"
+    url: /safectrtransfer-mset
   - title: "9.2.0<br>ctrtransfer"
     url: /9.2.0-ctrtransfer
   - title: "Интегрирование<br>FBI"
