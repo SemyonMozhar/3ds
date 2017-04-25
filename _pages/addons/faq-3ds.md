@@ -35,8 +35,7 @@ sidebar:
 + Скачайте последнюю версию [Decrypt9](https://github.com/d0k3/Decrypt9WIP/releases)      
 + Скопируйте `Decrypt9WIP.bin` из `.zip-архива` Decrypt9 в папку `/luma/payloads/` на SD-карте      
 + Запустите приставку, удерживая (START) во время включения консоли и выберите Decrypt9WIP.bin      
-+ Перейдите в “SysNAND Backup/Restore”, затем выберите “SysNAND Backup”, чтобы сделать резервную копию SysNAND в файл NANDmin.bin      
-+ Бекап будет лежать в папке files9 на карте памяти.       
++ Перейдите в “SysNAND Backup/Restore”, затем выберите “SysNAND Backup”, чтобы сделать резервную копию SysNAND в файл NANDmin.bin (бекап должен лежать папке files9 на карте памяти)      
 
 <a name="restore_backup" />**В:** Как восстановить бекап?       
 **О:**       
@@ -45,8 +44,16 @@ sidebar:
 + Скопируйте `Decrypt9WIP.bin` из `.zip-архива` Decrypt9 в папку `/luma/payloads/` на SD-карте      
 + Запустите приставку, удерживая (START) во время включения консоли и выберите Decrypt9WIP.bin      
 + Перейдите в “SysNAND Backup/Restore”, затем выберите “SysNAND Restore (keep a9lh)”, чтобы восстановить NANDmin.bin в SysNAND      
-+ Выберите нужный файл с бекапом и нажмите (А)      
-+ Бекап должен лежать папке files9 на карте памяти      
++ Выберите нужный файл с бекапом и нажмите (А) (бекап должен лежать папке files9 на карте памяти)      
+
+<a name="remove_a9lh" />**В:** Как удалить a9lh и вернуть приставку к заводскому состоянию?       
+**О:**       
++ [Обновите luma3DS](http://3ds.customfw.xyz/update-luma3ds) до последней стабильной версии      
++ Скачайте последнюю версию [Decrypt9](https://github.com/d0k3/Decrypt9WIP/releases)      
++ Скопируйте `Decrypt9WIP.bin` из `.zip-архива` Decrypt9 в папку `/luma/payloads/` на SD-карте      
++ Запустите приставку, удерживая (START) во время включения консоли и выберите Decrypt9WIP.bin      
++ Перейдите в “SysNAND Backup/Restore”, затем выберите “SysNAND Restore”, чтобы восстановить NANDmin.bin в SysNAND
++ Выберите файл с бекапом, который вы создали во время даунгрейда до 2.1 и нажмите (А) (бекап должен лежать папке files9 на карте памяти)       
 
 <a name="freeshop" />**В:** Как настроить freeshop? У меня там ни одной игры!       
 **О:** Выполните инструкции по [ссылке](https://3ds.customfw.xyz/installing-arm9loaderhax#freeshop).
