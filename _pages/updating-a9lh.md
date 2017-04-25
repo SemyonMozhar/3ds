@@ -51,19 +51,19 @@ sidebar:
 1. Скопируйте `GodMode9.bin` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
   + Если файл `start_Hourglass9.bin` уже есть в этой папке, удалите `start_Hourglass9.bin`
 1. Скопируйте `arm9loaderhax.bin` из `.zip-архива` SafeA9LHInstaller в папку `/luma/payloads/`
-1. Переименуйте `arm9loaderhax.bin`, находящийся в папке `/luma/payloads/`, в `down_safea9lhinstaller.bin`
+1. Переименуйте `arm9loaderhax.bin`, находящийся в папке `/luma/payloads/`, в `safea9lhinstaller.bin`
 1. Скопируйте папку `a9lh` из `.zip-архива` `data_input` в корень SD-карты
 1. Скопируйте _содержимое_ `.7z-архива` arm9loaderhax в папку `a9lh` в корне SD-карты
 1. Вставьте SD-карту обратно в консоль
 
 ##### <a name="part2" />Часть II - Обновление загрузчика
 
-1. Запустите SafeA9LHInstaller из под arm9loaderhax, удерживая (ВНИЗ) во время загрузки
+1. Включите вашу консоль, зажав кнопку (START) и выберите SafeA9LHInstaller.bin
 1. Нажмите (SELECT), чтобы обновить arm9loaderhax
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. Удалите папку `a9lh` из корня SD-карты
-1. Удалите `down_safea9lhinstaller.bin` из папки `/luma/payloads/`
+1. Удалите `safea9lhinstaller.bin` из папки `/luma/payloads/`
 1. Вставьте SD-карту обратно в консоль
 
 ##### <a name="part3" />Часть III - Настройка Luma3DS
@@ -82,10 +82,10 @@ sidebar:
 ##### <a name="part4" />Часть IV - CTRNAND Luma3DS
 
 1. Перезагрузите консоль, зажав кнопку (START) и выберите GodMode9.bin
-1. Перейдите в `SDCARD`
+1. Перейдите в `[0:] SDCARD`
 1. Нажмите (Y), выделив файл `arm9loaderhax.bin` чтобы скопировать его
 1. Нажмите (B), чтобы вернуться в главное меню
-1. Перейдите в `SYSNAND CTRNAND`
+1. Перейдите в `[1:] SYSNAND CTRNAND`
 1. Нажмите (Y) чтобы вставить файл `arm9loaderhax.bin`
 1. Выберите "Copy path(s)"
   + Перезапишите существующий файл `arm9loaderhax.bin`, при появлении запроса

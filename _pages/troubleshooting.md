@@ -55,7 +55,7 @@ sidebar:
 
 1. Скопируйте `GodMode9.bin` из `.zip-архива` GodMode9 в директорию `/luma/payloads/` на SD-карте
 1. Включите вашу консоль, зажав кнопку (START) и выберите GodMode9.bin
-1. Перейдите в `SYSNAND CTRNAND` -> `data` -> (32-значный ID) -> `sysdata` -> `00010038`
+1. Перейдите в `[1:] SYSNAND CTRNAND` -> `data` -> (32-значный ID) -> `sysdata` -> `00010038`
 1. Зажмите (R), затем нажмите (X) на файле `00000000`, чтобы переименовать его
 1. Нажмите (ВВЕРХ), чтобы переименовать файл в `10000000`
 1. Нажмите (A), чтобы сохранить изменения
@@ -144,7 +144,7 @@ sidebar:
     1. Зажмите (L)+(R)+(A)+(ВВЕРХ)
     1. Включите консоль
     1. Если вы вошли в режим восстановления, обновите консоль *при условии, что у вас есть возможность запустить Homebrew Launcher на последней версии прошивки, и понизить версию прошивки*, и попробуйте понизить прошивку ещё раз.
-1. Ваша консоль, скорее всего, превратилась в брик. Вы можете обратиться за поддержкой на [канал #3dshacks Rizon IRC](https://www.reddit.com/r/3dshacks/wiki/irc) (англ.), [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) (англ.), [группу 3DS_CFW вконтакте](http://vk.com/3ds_cfw) (рус.)
+1. Ваша консоль, скорее всего, превратилась в брик. Вы можете обратиться за поддержкой на канал [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) (англ.), [группу 3DS_CFW вконтакте](http://vk.com/3ds_cfw) (рус.)
 
 ## <a name="ts_sys_a9lh" />Черный экран при загрузке SysNAND после установки a9lh
 
@@ -171,8 +171,8 @@ sidebar:
     + Скачайте [этот файл](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
     + Скопируйте `firmware.bin` и `cetk` в папку `/luma/` на SD-карте
     + После обновления прошивки удалите оба этих файла
-1. Попробуйте выполнить [9.2.0 CTRTransfer(9.2.0-ctrransfer)
-1. Вы можете обратиться за поддержкой на [канал #3dshacks Rizon IRC](https://www.reddit.com/r/3dshacks/wiki/irc) (англ.), [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) (англ.), или [группу 3DS_CFW вконтакте](http://vk.com/3ds_cfw) (рус.).
+1. Попробуйте выполнить [9.2.0 CTRTransfer](9.2.0-ctrransfer)
+1. Вы можете обратиться за поддержкой на канал [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) (англ.), или [группу 3DS_CFW вконтакте](http://vk.com/3ds_cfw) (рус.).
 
 ## <a name="ts_transfer" />Ошибка во время SafeCTRTransfer
 
@@ -190,10 +190,10 @@ sidebar:
 1. Вставьте SD-карту обратно в консоль
 1. Выберите "Run 0:/ctrtransfer/payload.bin"
 1. В случае успеха запустится GodMode9
-1. Перейдите в `SDCARD` -> `ctrtransfer`
+1. Перейдите в `[0:] SDCARD` -> `ctrtransfer`
 1. Нажмите (Y), выделив файл `<serialnumber>_nand.bin` чтобы скопировать его
 1. Дважды нажмите (B) для возврата в главное меню
-1. Перейдите в `SYSNAND VIRTUAL`
+1. Перейдите в `[S:] SYSNAND VIRTUAL`
 1. Нажмите (Y) чтобы вставить файл `<serialnumber>_nand.bin`
 1. Нажмите (A) для подтверждения
 1. Нажмите (A) для запуска процесса инъекции в `nand.bin`

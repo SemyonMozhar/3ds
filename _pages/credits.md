@@ -30,6 +30,7 @@ permalink: /credits.html
 + Delebile
 + DinohScene
 + dukesrg
++ elementalcode
 + elSeledonio
 + felipejfc
 + Frozen_Chen
@@ -45,7 +46,7 @@ permalink: /credits.html
 + mid-kid
 + MrNbaYoh
 + Mrrraou
-+ Night_Fallen_Wolf
++ Night\_Fallen\_Wolf
 + Normmatt
 + plutooo
 + Psi-Hate

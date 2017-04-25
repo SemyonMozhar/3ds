@@ -34,7 +34,7 @@ sidebar:
 
 #### <a name="what_need" />Что понадобится 
 
-* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/)
+* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
 * Образ 9.2.0 ctrtransfer для вашего устройства и региона, на который вы хотите перейти
   +    <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [New 3DS 9.2.0 - EUR - CTRTransfer](magnet:?xt=urn:btih:fed7bfeec0e52b42a77467cfb6ffd3e9dd2d5a70&dn=9.2.0-20E%5FCTRTransfer%5Fn3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)   
@@ -60,8 +60,7 @@ sidebar:
 ##### <a name="part2" />Часть II - CTRTransfer
 
 1. Включите вашу консоль, зажав кнопку (START) и выберите GodMode9.bin
-
-1. Перейдите в `SDCARD` -> `files9`
+1. Перейдите в `[0:] SDCARD` -> `gm9out`
 1. Нажмите (A) чтобы выбрать файл `.bin` CTRTransfer
 1. Выберите "CTRNAND options..."
 1. Выберите "Transfer image to CTRNAND"
@@ -71,7 +70,7 @@ sidebar:
   + Этот процесс займет некоторое время
 1. По завершению процесса, нажмите (A)
 1. Дважды нажмите (B) для возврата в главное меню
-1. Перейдите в `SYSNAND CTRNAND` -> `dbs`
+1. Перейдите в `[1:] SYSNAND CTRNAND` -> `dbs`
 1. Нажмите (A) чтобы выбрать файл `ticket.bak`, затем выберите "Ticket.db options...", а затем "Mount image to drive"
 1. Если такая папка есть, удерживая (R), нажмите (A) чтобы выбрать папку `eshop`, затем выберите "Copy to 0:/gm9out"
   + Этот процесс может занять некоторое время, если у вас много ticket-файлов
@@ -87,7 +86,7 @@ sidebar:
 ##### <a name="part3" />Часть III - Интеграция FBI
 
 1. Перезагрузите консоль, зажав кнопку (START) и выберите GodMode9.bin
-1. Перейдите в `SDCARD` -> `cias`
+1. Перейдите в `[0:] SDCARD` -> `cias`
 1. Нажмите (A) чтобы выбрать файл `FBI.cia`, затем выберите "CIA image options...", затем "Mount image to drive"
 1. Нажмите (A) чтобы выбрать файл `.app`, затем выберите "NCCH image options", затем "Inject to H&S"
 1. Нажмите (A), чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
@@ -133,7 +132,7 @@ sidebar:
 
 ##### <a name="part7" />Часть VII - Удаление образа CTRTransfer
 
-1. Перейдите в `SDCARD` -> `files9`
+1. Перейдите в `[0:] SDCARD` -> `files9`
 1. Нажмите (X), выделив файл `.bin` CTRTransfer чтобы удалить его
 1. Нажмите (A) для подтверждения
 1. Нажмите (START) для перезагрузки

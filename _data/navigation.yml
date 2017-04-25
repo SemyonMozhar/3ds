@@ -159,6 +159,38 @@ games:
       - title: "• В начало раздела"
         url: /games#start
         
+godmode9-usage:
+  - title: "Разделы"
+    children:
+      - title: "• Создание бэкапа NAND"
+        url: /godmode9-usage#nand_backup
+      - title: "• Восстановление бэкапа NAND"
+        url: /godmode9-usage#nand_restore
+      - title: "• Инъекция любого .CIA в приложение Информация о здоровье и безопасности (Health & Safety)"
+        url: /godmode9-usage#injectHS
+      - title: "• Восстановление приложения Информация о здоровье и безопасности"
+        url: /godmode9-usage#from_sd
+      - title: "• Создание дампа картриджа"
+        url: /godmode9-usage#from_wifi
+      - title: "• Создание дампа тайтла"
+        url: /godmode9-usage#dump_title
+      - title: "• Восстановление приложения Информация о здоровье и безопасности"
+        url: /godmode9-usage#from_sd
+      - title: "• Конвертация из .3DS в .CIA"
+        url: /godmode9-usage#convert_3ds
+      - title: "• Бэкап сохранений GBA VC"
+        url: /godmode9-usage#backup_gba
+      - title: "• Восстановление сохранений GBA VC"
+        url: /godmode9-usage#restore_gba
+      - title: "• Форматирование SD-карты"
+        url: /godmode9-usage#format_sd
+      - title: "• Загрузка другого ARM9 приложения"
+        url: /godmode9-usage#payload_chain
+      - title: "• Шифровка / Расшифровка файла .CIA"
+        url: /godmode9-usage#crypt_cia
+      - title: "• В начало раздела"
+        url: /godmode9-usage#start
+        
 home:
   - title: "Разделы"
     children:
