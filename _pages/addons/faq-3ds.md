@@ -30,21 +30,10 @@ sidebar:
 **О:** Выполните инструкции по [ссылке](https://3ds.customfw.xyz/troubleshooting#twl_broken) и попробуйте сами.
 
 <a name="backup" />**В:** Как сделать бекап?       
-**О:**       
-+ [Обновите luma3DS](http://3ds.customfw.xyz/update-luma3ds) до последней стабильной версии      
-+ Скачайте последнюю версию [Decrypt9](https://github.com/d0k3/Decrypt9WIP/releases)      
-+ Скопируйте `Decrypt9WIP.bin` из `.zip-архива` Decrypt9 в папку `/luma/payloads/` на SD-карте      
-+ Запустите приставку, удерживая (START) во время включения консоли и выберите Decrypt9WIP.bin      
-+ Перейдите в “SysNAND Backup/Restore”, затем выберите “SysNAND Backup”, чтобы сделать резервную копию SysNAND в файл NANDmin.bin (бекап должен лежать папке files9 на карте памяти)      
+**О:** Выполните инструкции по [ссылке](https://3ds.customfw.xyz/godmode9-usage#nand_backup).
 
 <a name="restore_backup" />**В:** Как восстановить бекап?       
-**О:**       
-+ [Обновите luma3DS](http://3ds.customfw.xyz/update-luma3ds) до последней стабильной версии      
-+ Скачайте последнюю версию [Decrypt9](https://github.com/d0k3/Decrypt9WIP/releases)      
-+ Скопируйте `Decrypt9WIP.bin` из `.zip-архива` Decrypt9 в папку `/luma/payloads/` на SD-карте      
-+ Запустите приставку, удерживая (START) во время включения консоли и выберите Decrypt9WIP.bin      
-+ Перейдите в “SysNAND Backup/Restore”, затем выберите “SysNAND Restore (keep a9lh)”, чтобы восстановить NANDmin.bin в SysNAND      
-+ Выберите нужный файл с бекапом и нажмите (А) (бекап должен лежать папке files9 на карте памяти)      
+**О:** Выполните инструкции по [ссылке](https://3ds.customfw.xyz/godmode9-usage#nand_restore).
 
 <a name="remove_a9lh" />**В:** Как удалить a9lh и вернуть приставку к заводскому состоянию?       
 **О:**       
@@ -71,7 +60,7 @@ sidebar:
 **О:** Просто скопируйте ВСЕ данные со старой карты в новую. 
 
 <a name="3ds_games" />**В:** Как установить на консоль игры в формате 3DS?       
-**О:** Для начала их нужно сконвертировать в CIA. Как это сделать описано [здесь](https://3ds.customfw.xyz/3ds-to-cia).
+**О:** Для начала их нужно сконвертировать в CIA. Как это сделать описано [здесь](https://3ds.customfw.xyz/godmode9-usage#convert_3ds).
 
 <a name="update_notification" />**В:** Можно ли убрать оповещение об обновлении при запуске?       
 **О:** Да, для этого нужно с включенным WiFi войти в рекавери (A+R+L+Up(DPad) при загрузке приставки) и при запросе на обновление прошивки нажать "Отмена", после чего приставка выключится. Затем, чтобы консоль не проверяла обновления в дальнейшем, [прописать в настройках DNS](http://en-americas-support.nintendo.com/app/answers/detail/a_id/217/~/how-to-manually-enter-dns-settings) активного подключения 208.67.222.222 и 208.67.220.220. ВАЖНО: после изменения DNS могут возникнут трудности с доступом к eShop!
