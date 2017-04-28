@@ -58,14 +58,14 @@ sidebar:
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [`data_input_v3.zip`](magnet:?xt=urn:btih:a1195c9f7ab650fa7c7bf020b51fc19ea8d9440c&dn=data%5Finput%5Fv3.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 * Свежая версия [SafeA9LHInstaller](https://github.com/Plailect/SafeA9LHInstaller/releases/latest) *(`.7z`-архив)*
 * Свежая версия [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases/latest) *(`.7z`-архив)*
-* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/tag/v6.6) *(`.7z`-архив)*
+* Версия 6.6 [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/tag/v6.6) *(`.7z`-архив)*
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases/latest)
 * Свежая версия [DspDump](https://github.com/Cruel/DspDump/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
-* Свежая версия [freeshop](http://get.freeshop.pw/latest) (зеркало на [я.диске](https://yadi.sk/d/hexh6zRx3H3Rdh) и [меге](https://goo.gl/e0k8Ku)). 
+* Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases)
 * **Только для Old 3DS и 2DS:** Old 3DS 11.2.0-35 [otherapp payload](https://smealum.github.io/3ds/#otherapp) для вашего региона
 
 Если у вас не выходит скачать freeshop или другие файлы, воспользуйтесь VPN. 
@@ -159,6 +159,7 @@ sidebar:
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
   + Если после включения экран остаётся чёрным, просто переходите к следующей части   
   + Если появляется ошибка "Failed to mount CTRNAND", просто переходите к следующей части     
+1. Обновите luma3ds до самой свежей версии. Как это сделать описано [здесь](update-luma3ds). 
   
 ##### <a name="part4" />Часть IV - Восстановление системы
 
@@ -186,7 +187,6 @@ sidebar:
   + Теперь вы снова можете безопасно переводить New 3DS в режим сна
   + При появлении ошибки, поставьте в настройках подключения, в настройках DNS "Получать DNS автоматически" в положение "Да"
   + Если вы все еще получаете ошибку и версия вашего NAND ниже 9.2.0, [выполните 9.2.0 CTRTransfer](9.2.0-ctrtransfer)
-1. Обновите luma3ds до самой свежей версии. Как это сделать описано [здесь](update-luma3ds). 
   
 ##### <a name="part5" />Часть V - Интеграция FBI
 
