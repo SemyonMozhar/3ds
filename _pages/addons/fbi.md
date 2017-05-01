@@ -6,7 +6,7 @@ sidebar:
 ---
 
 #### <a name="what_need" />Что понадобится
-* Установленный и рабочий [a9lh](installing-arm9loaderhax)
+* Установленный и рабочий [a9lh](installing-arm9loaderhax) (*если уже делали, то повторно делать не нужно*)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
