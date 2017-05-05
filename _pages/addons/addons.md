@@ -16,7 +16,7 @@ sidebar:
 + [Как делать резервные копии, редактировать и восстанавливать](https://gbatemp.net/threads/release-jks-savemanager-Homebrew-cia-save-manager.413143/) сохранения игр (англ.).     
 + [Установка и использование тем](themes)
 + [Установка и использование жетонов](badges)   
-+ [Конвертация 3DS-ромов в CIA](3ds-to-cia)   
++ [Конвертация 3DS-ромов в CIA](godmode9-usage#convert_3ds)   
 + Как включить русский язык в играх на приставке не европейского региона. [Использование LumaLocaleSwitcher](lumalocaleswitcher)
 + [Смена региона](region-changing)
 + [Обновление A9LH](updating-a9lh)

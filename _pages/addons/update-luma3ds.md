@@ -10,6 +10,7 @@ sidebar:
 * Установленный и рабочий [FBI](fbi)
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
 * Свежая версия [Luma3ds Updater](https://github.com/Hamcha/lumaupdate/releases) (`lumaupdater.cia`)
+* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
 ##### <a name="instructions" />Инструкция
 
@@ -53,6 +54,9 @@ sidebar:
 
 ##### <a name="lumactrnand" />Часть II - CTRNAND Luma3DS
 
+1. Вставьте SD-карту в компьютер
+1. Скопируйте `GodMode9.bin` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
+1. Вставьте SD-карту в приставку
 1. Перезагрузите консоль, зажав кнопку (START) и выберите GodMode9.bin
 1. Перейдите в `SDCARD`
 1. Нажмите (Y), выделив файл `arm9loaderhax.bin` чтобы скопировать его
@@ -60,6 +64,9 @@ sidebar:
 1. Перейдите в `SYSNAND CTRNAND`
 1. Нажмите (Y) чтобы вставить файл `arm9loaderhax.bin`
 1. Выберите "Copy path(s)"
+1. Нажмите (A) для подтверждения копирования
+1. Введите указанную комбинацию клавиш для того, чтобы разрешить запись в системный раздел
+1. Выберите "Overwrite file(s)"
 1. Нажмите (B) для возврата в главное меню
 1. Удерживая (R) нажмите (B), чтобы извлечь SD-карту
 1. Извлеките SD-карту из консоли

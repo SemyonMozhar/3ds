@@ -11,10 +11,8 @@ Homebrew Launcher имеет множество точек входа, или м
 **Убедитесь, что у вас есть рабочее активное подключение к интернету.**
 {: .notice--warning}
 
-Если у вас нет одной из этих игр и другой 3DS с доступом к Homebrew Launcher, самый дешевый вариант это бесплатно скачать Swapdoodle из eShop, затем найти кого-то (например [тут](https://www.reddit.com/r/3dshacks/comments/64yydp/) (англ.)), кто сможет отправить вам Doodlebomb из таблицы ниже.
-{: .notice--info}
 
-Если вы не можете найти кого-нибудь с Doodlebomb, у вас нет одной из этих игр и другой 3DS с доступом к Homebrew Launcher, самый дешевый вариант это купить "Nintendo Selects" версию [Ocarina of Time 3D](https://amzn.to/2fkaKdp) (убедитесь, что покупаете картридж своего региона) и [Powersaves](https://amzn.to/2fb3VY7) (совместим со всеми регионами), затем использовать oot3dhax из таблицы ниже.
+Если у вас нет одной из этих игр и другой 3DS с доступом к Homebrew Launcher, самый дешевый вариант это бесплатно скачать Swapdoodle из eShop, затем найти кого-то (например [тут](https://www.reddit.com/r/3dshacks/comments/64yydp/) (англ.)), кто сможет отправить вам Doodlebomb из таблицы ниже.
 {: .notice--info}
 
 Убедитесь, что Беспроводной режим (Wireless Communication) включен, так как udsploit (используется на следующей странице) потребует активный беспроводной модуль для своей работы, и некоторые консоли (New 3DS и 2DS) не могут включить Беспроводной режим, находясь в Homebrew Launcher. Достаточно включить Беспроводной режим (Wireless Communication); наличие соединения с точкой доступа не обязательно.
@@ -31,7 +29,6 @@ Homebrew Launcher имеет множество точек входа, или м
 
 | <sub> | <sub>Что понадобится | <sub>Издания | <sub>Устройства | <sub>Регионы | <sub>Версии игры | <sub>Версии прошивки |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| <sub>[Doodlebomb](https://mrnbayoh.github.io/doodlebomb/) | <sub>[*Swapdoodle*](http://www.nintendo.com/games/detail/u7CIHWz89ErxhWClm06yJqz3LYcMrhfs) | <sub>eShop | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>v1.1.1 | <sub>9.0.0-X up to and including 11.4.0-X |
 | <sub>[oot3dhax](https://github.com/yellows8/oot3dhax) | <sub>[*Ocarina of Time 3D*](https://amzn.to/2fkaKdp), <br> Powersaves или другая 3DS с доступом к Homebrew Launcher | <sub>Картридж | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>Все | <sub>от 9.0.0-X до 11.2.0-X включительно |
 | <sub>[smashbroshax](https://gbatemp.net/threads/397194/) | <sub>[*Super Smash Bros*](https://amzn.to/2ftGA72) | <sub>Картридж, eShop | <sub>New  | <sub>EUR, JPN, USA | <sub><1.1.3, <br> Картриджи с "amiibo" на обложке идут с версией 1.1.4 | <sub>от 9.0.0-X до 11.2.0-X включительно |
 | <sub>[supermysterychunkhax](https://smd.salthax.org/) | <sub>[*Pokemon Super Mystery Dungeon*](https://amzn.to/2ebxZ75), <br> Другая 3DS с доступом к Homebrew Launcher | <sub>Картридж | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>Все | <sub>9.9.0-X (USA/JPN) / от 10.2.0-X (EUR) до 11.0.0-X (EUR) включительно |
