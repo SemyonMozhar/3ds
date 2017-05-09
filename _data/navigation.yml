@@ -704,7 +704,7 @@ troubleshooting:
         url: /troubleshooting#rm_nnid
       - title: "• Не работает интеграция в Health & Safety на устройстве с пониженной прошивкой при помощи Gateway"
         url: /troubleshooting#gw_fbi
-      - title: "• Не работает эксплойт на основе браузера"
+      - title: "• Браузер зависает при попытке открыть http://goo.gl/xUMUJB"
         url: /troubleshooting#ts_browser
       - title: "• При загрузке запускается SafeA9LHInstaller"
         url: /troubleshooting#ts_safe_a9lh
