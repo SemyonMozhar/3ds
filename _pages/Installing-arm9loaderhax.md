@@ -271,7 +271,7 @@ sidebar:
 1. Нажмите кнопку "Обновить кэш"
 1. Перезагрузите freeshop
 
-![freeshop keys](images/QR/freeshop.jpg)
+![freeshop keys](images/QR/freeshop.png)
 
 Если у вас freeshop ругается на неверные или отсутствующие ключи, скачайте предложенный [`zip-архив`](images/freeshop.zip) и распакуйте его содержимое с заменой в папку `/3ds/data` на вашей SD-карте (должно получится так: `/3ds/data/freeshop/файлы`), после чего перезагрузите freeshop.
 {: .notice--warning}
