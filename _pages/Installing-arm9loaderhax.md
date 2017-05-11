@@ -326,8 +326,6 @@ ___
 
 <div class="notice--info">Удалите все файлы связанные со взломом, кроме представленных на скриншоте:<br><br><a href="{{ base_path }}/images/screenshots/final-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/final-file-layout-crop.png"></div></a></div>
 
-{% endcapture %}
-
 <div class="notice--info">{{ notice-7 | markdownify }}</div>
 
 Чтобы узнать, как сменить регион своей консоли, обратитесь к разделу [Смена региона](region-changing).
