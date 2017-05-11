@@ -48,7 +48,7 @@ Homebrew Launcher имеет множество точек входа, или м
 	| <sub>[GenHax](https://github.com/svanheulen/genhax_proxy_installer) | <sub>[*Monster Hunter X*](http://amzn.to/2gsk6Tk) | <sub>eShop | <sub>New | <sub>JPN | <sub>Все | <sub>от 9.9.0-X до 11.2.0-X включительно |
     {: .notice--info}
 	
-Консоль должна загрузиться в Homebrew Launcher
+1. Консоль должна загрузиться в Homebrew Launcher
 
     <div class="notice--info"><a href="{{ base_path }}/images/screenshots/homebrew-launcher.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/homebrew-launcher-crop.png"></div></a></div>
 
