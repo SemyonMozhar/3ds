@@ -34,22 +34,29 @@ sidebar:
 
 #### <a name="steps" />Описание шагов
 
+{% capture notice-2 %}
+
 В этом разделе мы, наконец, сделаем то, к чему вели все предыдущие шаги: установим arm9loaderhax.
-
+<br><br>
 Можно уверенно заявить, что arm9loaderhax - наилучший из имеющихся типов эксплойтов. Все потому, что он устанавливается непосредственно в раздел NAND firm и запускается ДО запуска операционной системы приставки. Кроме прочего, a9lh работает с **любой** прошивкой и, благодаря тому, что запускается до ОС, в большинстве ситуаций, удалить его случайно не выйдет. А еще этот эксплойт позволяет запускать различного рода загрузчики, которые помогут восстановить консоль даже из тех состояний, которые в обычном случае привели бы вас в сервисный центр. 
-
+<br><br>
 Файл `arm9loaderhax.bin` - это то, что arm9loaderhax запускает после загрузки из NAND, и этот файл может быть любым arm9-приложением. Он может быть заменён когда угодно, однако Luma3DS позволяет запускать другие arm9 приложения, используя свой загрузчик.
-
+<br><br>
 Мы используем Luma3DS от [AuroraWright](https://github.com/AuroraWright/), чтобы запускать пропатченный SysNAND напрямую, поэтому необходимость в каком-либо виде EmuNAND полностью пропадает, что значительно упрощает использование взломанной 3DS и экономит место на SD-карте.
-
+<br><br>
 После установки arm9loaderhax и настройки Luma3DS мы восстановим бэкап прошивки, сделанный ранее.
-
+<br><br>
 В процессе мы установим и настроим следующие программы:    
 
 +  **FBI** *(установщик приложений и игр в формате CIA)*
-+  **Luma3DS Updater** *(Удобное обновление CFW)*
++  **Themely** *(для установки кастомных тем)*
++  **Luma3DS Updater** *(удобное обновление CFW)*
 +  **GodMode9** *(многофункциональная утилита для работы с NAND и картриджами)*
 +  **freeshop** *(open source клон eShop, облегчающий поиск игр)*
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-2 | markdownify }}</div>
 
 #### <a name="what_need" />Что понадобится
 
@@ -59,10 +66,10 @@ sidebar:
 * Свежая версия [SafeA9LHInstaller](https://github.com/Plailect/SafeA9LHInstaller/releases/latest) *(`.7z`-архив)*
 * Свежая версия [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases/latest) *(`.7z`-архив)*
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
+* Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(the `.cia` file)*
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases/latest)
-* Свежая версия [DspDump](https://github.com/Cruel/DspDump/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases)
@@ -79,7 +86,7 @@ sidebar:
 {: .notice--warning}
 
 1. Вставьте SD-карту в компьютер
-1. **Перейдите в папку `/ctrtransfer/` на вашей SD-карте и скопируйте файл `<serialnumber>_nand.bin`, если таковой имеется, в безопасное место на вашем компьютере**
+1. Скопируйте `<серийный_номер_приставки>_nand.bin` и `<серийный_номер_приставки>_nand.bin.sha` (если таковые существуют) из папки `/CTRTransfer/` на вашей SD-карте в безопасное место на вашем компьютере
   + Сделайте несколько резервных копий в нескольких местах (например в облачном хранилище)
   + Эти бэкапы позволят восстановить консоль, если впоследствии что-то пойдёт не так
 1. Создайте папку `cias` в корне SD-карты
@@ -93,7 +100,11 @@ sidebar:
 1. Скопируйте `hblauncher_loader.cia` из архива hblauncher_loader в папку `/cias/` в корне SD-карты
 1. Скопируйте `lumaupdater.cia` из архива Luma3DS Updater в папку `/cias/` в корне SD-карты
 1. Скопируйте `FBI.cia` из архива FBI в папку `/cias/` в корне SD-карты
-11. Скопируйте `freeShop-latest.cia` в папку `/cias/` в корне SD-карты
+1. Скопируйте `Themely.cia` в папку `/cias/` в корне SD-карты
+1. Скопируйте `freeShop-latest.cia` в папку `/cias/` в корне SD-карты
+
+    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/cias-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/cias-file-layout-crop.png"></div></a></div>
+
 1. **Скопируйте `arm9loaderhax.bin` из `.7z-архива` Luma3DS в корень SD-карты, соглашаясь на перезапись файлов**
 1. Создайте папку `luma` в корне SD-карты
 1. Создайте папку `payloads` в папке `luma` на SD-карте
@@ -106,6 +117,8 @@ sidebar:
   + **JPN:** `OLD-11-4-0-37-JPN.bin`
   + **KOR:** `OLD-11-4-0-37-KOR.bin`
   + **USA:** `OLD-11-4-0-37-USA.bin`
+
+    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/install-a9lh-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/install-a9lh-file-layout-crop.png"></div></a></div>
 
 
 ##### <a name="part2" />Часть II - Установка arm9loaderhax
@@ -163,17 +176,17 @@ sidebar:
   
 ##### <a name="part4" />Часть IV - Восстановление системы
 
-Если прежде чем начать выполнять действия из этого руководства у вас уже был установлен EmuNAND и вы хотите перенести содержимое EmuNAND в SysNAND с кастомной прошивкой - сейчас самый подходящий момент. Выполните действия из раздела [перенос EmuNAND](move-emunand), вместо первых 6 шагов в этой части.
+Если прежде чем начать выполнять действия из этого руководства у вас уже был установлен EmuNAND и вы хотите перенести содержимое EmuNAND в SysNAND с кастомной прошивкой - сейчас самый подходящий момент. Выполните действия из раздела [перенос EmuNAND](move-emunand), вместо выполнения этой части.
 {: .notice--info}
 
 1. Включите вашу консоль, зажав кнопку (START) и выберите GodMode9.bin
 1. Перейдите в `[0:] SDCARD` -> `ctrtransfer`
-1. Нажмите (A) чтобы выбрать файл `<serialnumber>_nand.bin`, затем выберите "NAND image options...", затем "Restore SysNAND (safe)"
+1. Нажмите (A) чтобы выбрать файл `<серийный_номер_приставки>_nand.bin`, затем выберите "NAND image options...", затем "Restore SysNAND (safe)"
 1. Нажмите (A), чтобы разрешить запись в SysNAND и введите указанную комбинацию кнопок
   + Это действие не перезапишет установленный arm9loaderhax
 1. Введите указанную комбинацию кнопок чтобы разрешить запись в SysNAND (lvl1)
   + Этот процесс займет некоторое время
-1. Нажмите (A) для продолжения, когда процесс завершится
+1. Когда процесс завершится, нажмите (A) для продолжения
 1. Нажмите (START) для перезагрузки
   + Если после запуска экран чёрный, выполняйте инструкции из раздела [9.2.0 CTRTransfer](9.2.0-ctrtransfer)
   + Теперь вы снова можете безопасно переводить New 3DS в режим сна
@@ -305,24 +318,14 @@ ___
 Чтобы использовать [NTR CFW](https://github.com/44670/BootNTR/), установите [BootNTR Selector](https://gbatemp.net/threads/release-bootntr-selector.432911/).
 {: .notice--info}
 
-Сохраните свой бекап (`<serialnumber>_nand.bin`). Используя GodMode9, с помощью этого файла, можно восстановить консоль в случае брика.
+Сохраните свой бекап (`<серийный_номер_приставки>_nand.bin`). Используя GodMode9, с помощью этого файла, можно восстановить консоль в случае брика.
 {: .notice--info}
 
 Вы можете удалить бэкапы NAND из папки `/files9/` или `/CTRtransfer/` (если они там есть), при условии наличия резервной копии в безопасном месте.
 {: .notice--info}
 
-{% capture notice-7 %}
-**Вы можете удалить все ненужные файлы и папки в корне SD-карты, кроме следующих:**
+<div class="notice--info">Удалите все файлы связанные со взломом, кроме представленных на скриншоте:<br><br><a href="{{ base_path }}/images/screenshots/final-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/final-file-layout-crop.png"></div></a></div>
 
-    + 3ds
-    + DCIM
-    + files9
-    + hblauncherloader
-    + luma
-    + Nintendo 3DS
-    + arm9loaderhax.bin
-	+ boot.3dsx
-	
 {% endcapture %}
 
 <div class="notice--info">{{ notice-7 | markdownify }}</div>

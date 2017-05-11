@@ -554,14 +554,16 @@ move-emunand:
         url: /move-emunand#part3
       - title: "  - Часть IV - Копирование EmuNAND в SysNAND"
         url: /move-emunand#part4
-      - title: "  - Часть V - Часть V - Восстановление сохранений DSiWare"
+      - title: "  - Часть V - Восстановление сохранений DSiWare"
         url: /move-emunand#part5
-      - title: "  - Часть V - Часть VI - Восстановление сохранений GBA VC"
+      - title: "  - Часть VI - Восстановление сохранений GBA VC"
         url: /move-emunand#part6
-      - title: "  - Часть V - Часть VII - Создание бэкапа SysNAND"
+      - title: "  - Часть VII - Создание бэкапа SysNAND"
         url: /move-emunand#part7
-      - title: "  - Часть V - Часть VIII - Форматирование SD-карты"
+      - title: "  - Часть VIII - Форматирование SD-карты"
         url: /move-emunand#part8
+      - title: "  - Часть IX - Обновление прошивки консоли "
+        url: /move-emunand#part9
       - title: "• В начало раздела"
         url: /move-emunand#start
 
