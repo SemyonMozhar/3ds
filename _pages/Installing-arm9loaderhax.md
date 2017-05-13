@@ -118,9 +118,9 @@ sidebar:
   + **KOR:** `OLD-11-4-0-37-KOR.bin`
   + **USA:** `OLD-11-4-0-37-USA.bin`
 
-    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/install-a9lh-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/install-a9lh-file-layout-crop.png"></div></a></div>
-		<br><br>
-    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/install-a9lh_folder-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/install-a9lh_folder-file-layout-crop.png"></div></a></div>
+    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/install-a9lh-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/install-a9lh-file-layout-crop.png"></div></a>
+	<br><br>
+    <a href="{{ base_path }}/images/screenshots/install-a9lh_folder-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/install-a9lh_folder-file-layout-crop.png"></div></a></div>
   
 ##### <a name="part2" />Часть II - Установка arm9loaderhax
 
