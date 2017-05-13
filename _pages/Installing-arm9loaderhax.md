@@ -42,11 +42,11 @@ sidebar:
 <br><br>
 Файл `arm9loaderhax.bin` - это то, что arm9loaderhax запускает после загрузки из NAND, и этот файл может быть любым arm9-приложением. Он может быть заменён когда угодно, однако Luma3DS позволяет запускать другие arm9 приложения, используя свой загрузчик.
 <br><br>
-Мы используем Luma3DS от [AuroraWright](https://github.com/AuroraWright/), чтобы запускать пропатченный SysNAND напрямую, поэтому необходимость в каком-либо виде EmuNAND полностью пропадает, что значительно упрощает использование взломанной 3DS и экономит место на SD-карте.
+Мы используем Luma3DS от [AuroraWright](https://github.com/AuroraWright/), чтобы запускать пропатченный SysNAND напрямую, поэтому необходимость в EmuNAND в каком-либо виде полностью пропадает, что значительно упрощает использование взломанной 3DS и экономит место на SD-карте.
 <br><br>
 После установки arm9loaderhax и настройки Luma3DS мы восстановим бэкап прошивки, сделанный ранее.
 <br><br>
-В процессе мы установим и настроим следующие программы:    
+В процессе мы установим следующие программы:    
 
 +  **FBI** *(установщик приложений и игр в формате CIA)*
 +  **Themely** *(для установки кастомных тем)*
@@ -66,7 +66,7 @@ sidebar:
 * Свежая версия [SafeA9LHInstaller](https://github.com/Plailect/SafeA9LHInstaller/releases/latest) *(`.7z`-архив)*
 * Свежая версия [arm9loaderhax](https://github.com/AuroraWright/arm9loaderhax/releases/latest) *(`.7z`-архив)*
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
-* Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(the `.cia` file)*
+* Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(`.cia`-файл)*
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases/latest)
@@ -118,7 +118,7 @@ sidebar:
   + **KOR:** `OLD-11-4-0-37-KOR.bin`
   + **USA:** `OLD-11-4-0-37-USA.bin`
 
-    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/install-a9lh-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/install-a9lh-file-layout-crop.png"></div></a></div>
+    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/install-a9lh-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/install-a9lh-file-layout-crop.png"><a href="{{ base_path }}/images/screenshots/install-a9lh_folder-file-layout.png"></div></a><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/install-a9lh_folder-file-layout-crop.png"></div></a></div>
 
 
 ##### <a name="part2" />Часть II - Установка arm9loaderhax
@@ -147,6 +147,9 @@ sidebar:
   + Если браузер зависает, обратитесь к разделу [Проблемы и их решения](troubleshooting#ts_browser), либо проверьте, что на карте все необходимые файлы находятся на нужных местах и карта памяти находится в приставке
   + Если на экране видны искажения, обратитесь к разделу [Проблемы и их решения](troubleshooting#ts_safe_a9lh_screen)
   + Если вы забыли включить Wi-Fi на 2DS или New 3DS, это можно сделать, вытащив батарею и отключив зарядное устройство на несколько секунд, а затем снова включить консоль
+  
+    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/browser.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/browser-crop.png"></div></a><a href="{{ base_path }}/images/screenshots/browser-url.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/browser-url-crop.png"></div></a><a href="{{ base_path }}/images/screenshots/safea9lhinstaller-full.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/safea9lhinstaller-full-crop.png"></div></a></div>
+  
 1. Нажмите (SELECT) для установки
 1. Установщик поставит arm9loaderhax на вашу консоль (буквально за секунду)
 1. Выключите консоль, нажав любую кнопку
@@ -169,6 +172,9 @@ sidebar:
   + **"New 3DS CPU" выбрать значение "Clock+L2(x)"**
     + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других
     + Если какие-либо игры работают некорректно, отключите эту опцию
+	
+    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/luma-settings.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/luma-settings-crop.png"></div></a></div>
+	
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
   + Если после включения экран остаётся чёрным, просто переходите к следующей части   
   + Если появляется ошибка "Failed to mount CTRNAND", просто переходите к следующей части     
@@ -281,10 +287,11 @@ sidebar:
 1. Поставьте галочку напротив первого пункта - "Авто-обновление ключей приложения через URL"
 1. Нажмите на иконку с изображение QR-кода (находится прямо под галочкой, которую вы только что отметили)
 1. Отсканируйте QR 
+
+    <div class="notice--info"><a href="{{ base_path }}/images/QR/freeshop.png"><div class="screenshot_image"><img src="{{ base_path }}/images/QR/freeshop-crop.png"></div></a></div>
+
 1. Нажмите кнопку "Обновить кэш"
 1. Перезагрузите freeshop
-
-![freeshop keys](images/QR/freeshop.png)
 
 Если у вас freeshop ругается на неверные или отсутствующие ключи, скачайте предложенный [`zip-архив`](images/freeshop.zip) и распакуйте его содержимое с заменой в папку `/3ds/data` на вашей SD-карте (должно получится так: `/3ds/data/freeshop/файлы`), после чего перезагрузите freeshop.
 {: .notice--warning}
