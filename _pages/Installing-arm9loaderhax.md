@@ -118,18 +118,9 @@ sidebar:
   + **KOR:** `OLD-11-4-0-37-KOR.bin`
   + **USA:** `OLD-11-4-0-37-USA.bin`
 
-    <div class="notice--info">
-		<a href="{{ base_path }}/images/screenshots/install-a9lh-file-layout.png">
-			<div class="screenshot_image">
-				<img src="{{ base_path }}/images/screenshots/install-a9lh-file-layout-crop.png">
-			</div>
-		</a>
-		<a href="{{ base_path }}/images/screenshots/install-a9lh_folder-file-layout.png">
-			<div class="screenshot_image">
-				<img src="{{ base_path }}/images/screenshots/install-a9lh_folder-file-layout-crop.png">
-			</div>
-		</a>
-	</div>
+    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/install-a9lh-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/install-a9lh-file-layout-crop.png"></div></a></div>
+		<br><br>
+    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/install-a9lh_folder-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/install-a9lh_folder-file-layout-crop.png"></div></a></div>
   
 ##### <a name="part2" />Часть II - Установка arm9loaderhax
 
@@ -158,7 +149,11 @@ sidebar:
   + Если на экране видны искажения, обратитесь к разделу [Проблемы и их решения](troubleshooting#ts_safe_a9lh_screen)
   + Если вы забыли включить Wi-Fi на 2DS или New 3DS, это можно сделать, вытащив батарею и отключив зарядное устройство на несколько секунд, а затем снова включить консоль
   
-    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/browser.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/browser-crop.png"></div></a><a href="{{ base_path }}/images/screenshots/browser-url.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/browser-url-crop.png"></div></a><a href="{{ base_path }}/images/screenshots/safea9lhinstaller-full.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/safea9lhinstaller-full-crop.png"></div></a></div>
+    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/browser.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/browser-crop.png"></div></a></div>
+		<br><br>
+	<div class="notice--info"><a href="{{ base_path }}/images/screenshots/browser-url.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/browser-url-crop.png"></div></a></div>
+		<br><br>
+	<div class="notice--info"><a href="{{ base_path }}/images/screenshots/safea9lhinstaller-full.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/safea9lhinstaller-full-crop.png"></div></a></div>
   
 1. Нажмите (SELECT) для установки
 1. Установщик поставит arm9loaderhax на вашу консоль (буквально за секунду)
