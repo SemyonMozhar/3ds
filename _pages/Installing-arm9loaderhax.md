@@ -142,20 +142,23 @@ sidebar:
 
 1. Убедитесь, что приставка включена, а затем вставьте в нее SD-карту 
 1. **Консоль уже должна быть на прошивке 2.1.0**
-2. Откройте `https://goo.gl/xUMUJB` в браузере 3DS (нужно вводить адрес не в поиск, а именно перейти по нему, воспользовавшись кнопкой URL)
+1. Запустите браузер на консоли
+
+    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/browser.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/browser-crop.png"></div></a></div>
+
+1. Перейдите по адресу `https://goo.gl/xUMUJB` в браузере 3DS (нужно вводить адрес не в поиск, а именно перейти по нему, воспользовавшись кнопкой URL)
+  
+    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/browser-url.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/browser-url-crop.png"></div></a></div>
+	
   + Если появляется ошибка "This service is not available in your region", поменяйте регион в Системных настройках (System Settings) на соответствующий тому, который был установлен при 2.1.0 CTRTransfer
   + Если вы забыли отключить Родительский контроль до начала процесса CTRTransfer или не можете получить доступ к настройкам сети, консоль подключится автоматически к беспроводной сети с именем `attwifi` без пароля
   + Если браузер зависает, обратитесь к разделу [Проблемы и их решения](troubleshooting#ts_browser), либо проверьте, что на карте все необходимые файлы находятся на нужных местах и карта памяти находится в приставке
-  + Если на экране видны искажения, обратитесь к разделу [Проблемы и их решения](troubleshooting#ts_safe_a9lh_screen)
   + Если вы забыли включить Wi-Fi на 2DS или New 3DS, это можно сделать, вытащив батарею и отключив зарядное устройство на несколько секунд, а затем снова включить консоль
-  
-    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/browser.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/browser-crop.png"></div></a>
-	<br><br>
-	<a href="{{ base_path }}/images/screenshots/browser-url.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/browser-url-crop.png"></div></a>
-	<br><br>
-	<a href="{{ base_path }}/images/screenshots/safea9lhinstaller-full.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/safea9lhinstaller-full-crop.png"></div></a></div>
-  
-1. Нажмите (SELECT) для установки
+1. После того, как появится SafeA9lhInstaller, нажмите (SELECT) для установки
+
+	<div class="notice--info"><a href="{{ base_path }}/images/screenshots/safea9lhinstaller-full.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/safea9lhinstaller-full-crop.png"></div></a></div>
+	
+  + Если на экране видны искажения, обратитесь к разделу [Проблемы и их решения](troubleshooting#ts_safe_a9lh_screen)
 1. Установщик поставит arm9loaderhax на вашу консоль (буквально за секунду)
 1. Выключите консоль, нажав любую кнопку
 1. Вставьте SD-карту в компьютер
