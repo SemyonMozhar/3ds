@@ -1,7 +1,7 @@
 ---
 title: "Расширения файлов (Windows)" #
 lang: ru
-permalink: /ru_RU/file-extensions-windows.html
+permalink: /file-extensions-windows.html
 ---
 
 Это дополнительный раздел поможет включить в Windows отображение скрытых файлов, что поможет вам отыскать необходимые файлы в других частях руководства.
