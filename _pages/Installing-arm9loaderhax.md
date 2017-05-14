@@ -72,6 +72,7 @@ sidebar:
 * Свежая версия [Luma3DS Updater](https://github.com/Hamcha/lumaupdate/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
+* Свежая версия [DspDump](https://github.com/Cruel/DspDump/releases/latest)
 * Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases)
 * **Только для Old 3DS и 2DS:** Old 3DS 11.2.0-35 [otherapp payload](https://smealum.github.io/3ds/#otherapp) для вашего региона
 
