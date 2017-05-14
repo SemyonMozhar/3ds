@@ -11,8 +11,7 @@ Homebrew Launcher имеет множество точек входа, или м
 **Убедитесь, что у вас есть рабочее активное подключение к интернету.**
 {: .notice--warning}
 
-
-Если у вас нет одной из этих игр и другой 3DS с доступом к Homebrew Launcher, самый дешевый вариант это бесплатно скачать Swapdoodle из eShop, затем найти кого-то (например [тут](https://www.reddit.com/r/3dshacks/comments/64yydp/) (англ.)), кто сможет отправить вам Doodlebomb из таблицы ниже.
+Если вы не можете использовать browserhax (см. таблицу ниже), у вас нет одной из этих игр и другой 3DS с доступом к Homebrew Launcher, самый дешевый вариант это купить "Nintendo Selects" версию [Ocarina of Time 3D](https://amzn.to/2fkaKdp) (убедитесь, что покупаете картридж своего региона) и [Powersaves](https://amzn.to/2fb3VY7) (совместим со всеми регионами), затем использовать oot3dhax из таблицы ниже.
 {: .notice--info}
 
 Убедитесь, что Беспроводной режим (Wireless Communication) включен, так как udsploit (используется на следующей странице) потребует активный беспроводной модуль для своей работы, и некоторые консоли (New 3DS и 2DS) не могут включить Беспроводной режим, находясь в Homebrew Launcher. Достаточно включить Беспроводной режим (Wireless Communication); наличие соединения с точкой доступа не обязательно.
@@ -28,7 +27,9 @@ Homebrew Launcher имеет множество точек входа, или м
 1. Вставьте SD-карту в компьютер
 1. Скопируйте _содержимое_ `starter.zip` в корень вашей SD-карты
 
-    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/hb-alt-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/hb-alt-file-layout-crop.png"></div></a></div>
+    ![]({{ base_path }}/images/screenshots/hb-alt-file-layout.png)
+	{: .text-center}
+    {: .notice--info}
     
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
@@ -51,7 +52,9 @@ Homebrew Launcher имеет множество точек входа, или м
 	
 1. Консоль должна загрузиться в Homebrew Launcher
 
-    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/homebrew-launcher.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/homebrew-launcher-crop.png"></div></a></div>
+    ![]({{ base_path }}/images/screenshots/homebrew-launcher.png)
+	{: .text-center}
+    {: .notice--info}
 
 ___
 

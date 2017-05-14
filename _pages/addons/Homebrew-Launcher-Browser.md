@@ -68,18 +68,20 @@ sidebar:
 
 ##### <a name="part4" />Часть IV -  browserhax
 
-8. Перейдите по ссылке `http://yls8.mtheall.com/3dsbrowserhax_auto.php`, либо его сокращенной  версии - `https://goo.gl/d0YhK9`.
+1. Перейдите по ссылке `http://yls8.mtheall.com/3dsbrowserhax_auto.php`, либо его сокращенной  версии - `https://goo.gl/d0YhK9`.
 
-Зеркало: `http://plail.ueuo.com/3dsbrowserhax_auto.php`, либо его сокращенная  версия - `https://goo.gl/VuK851`.
-{: .notice--info}
+	Зеркало: `http://plail.ueuo.com/3dsbrowserhax_auto.php`, либо его сокращенная  версия - `https://goo.gl/VuK851`.
+	{: .notice--info}
 
-  + Либо можно просто сосканировать QR с помощью камеры. Нажмите одновременно (L)+(R), находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране. Наведите камеру на это изображение:<br>
-  
-![browserhax_auto](http://yls8.mtheall.com/3dsbrowserhax_auto_qrcode.png)
+	+ Либо можно просто сосканировать QR с помощью камеры. Нажмите одновременно (L)+(R), находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране. Наведите камеру на это изображение:<br>
+	
+    ![[browserhax_auto]](http://yls8.mtheall.com/3dsbrowserhax_auto_qrcode.png)
+	{: .text-center}
+    {: .notice--info}
 
-  + Если выскочит ошибка, перейдите в раздел [проблемы и их решения](troubleshooting#ts_browser).
-9. Приставка должна загрузиться в Homebrew Launcher.
-    + Если вы воспользовались способом из части III и заблокировали conntest.nintendowifi.net (или его IP), снимите блокировки сразу, как войдете в homebrew launcher.
+	+ Если выскочит ошибка, перейдите в раздел [проблемы и их решения](troubleshooting#ts_browser).
+1. Приставка должна загрузиться в Homebrew Launcher.
+	+ Если вы воспользовались способом из части III и заблокировали conntest.nintendowifi.net (или его IP), снимите блокировки сразу, как войдете в homebrew launcher.
 	
 ___
 

@@ -104,7 +104,9 @@ sidebar:
 1. Скопируйте `Themely.cia` в папку `/cias/` в корне SD-карты
 1. Скопируйте `freeShop-latest.cia` в папку `/cias/` в корне SD-карты
 
-    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/cias-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/cias-file-layout-crop.png"></div></a></div>
+    ![]({{ base_path }}/images/screenshots/cias-file-layout.png)
+	{: .text-center}
+    {: .notice--info}
 
 1. **Скопируйте `arm9loaderhax.bin` из `.7z-архива` Luma3DS в корень SD-карты, соглашаясь на перезапись файлов**
 1. Создайте папку `luma` в корне SD-карты
@@ -119,9 +121,10 @@ sidebar:
   + **KOR:** `OLD-11-4-0-37-KOR.bin`
   + **USA:** `OLD-11-4-0-37-USA.bin`
 
-    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/install-a9lh-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/install-a9lh-file-layout-crop.png"></div></a>
-	<br><br>
-    <a href="{{ base_path }}/images/screenshots/install-a9lh_folder-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/install-a9lh_folder-file-layout-crop.png"></div></a></div>
+    ![]({{ base_path }}/images/screenshots/install-a9lh-file-layout.png)
+    ![]({{ base_path }}/images/screenshots/install-a9lh_folder-file-layout.png)
+	{: .text-center}
+    {: .notice--info}
   
 ##### <a name="part2" />Часть II - Установка arm9loaderhax
 
@@ -145,11 +148,15 @@ sidebar:
 1. **Консоль уже должна быть на прошивке 2.1.0**
 1. Запустите браузер на консоли
 
-    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/browser.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/browser-crop.png"></div></a></div>
+    ![]({{ base_path }}/images/screenshots/browser.png)
+	{: .text-center}
+    {: .notice--info}
 
 1. Перейдите по адресу `https://goo.gl/xUMUJB` в браузере 3DS (нужно вводить адрес не в поиск, а именно перейти по нему, воспользовавшись кнопкой URL)
   
-    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/browser-url.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/browser-url-crop.png"></div></a></div>
+    ![]({{ base_path }}/images/screenshots/browser-url-crop.png)
+	{: .text-center}
+    {: .notice--info}
 	
 	+ Если появляется ошибка "This service is not available in your region", поменяйте регион в Системных настройках (System Settings) на соответствующий тому, который был установлен при 2.1.0 CTRTransfer
 	+ Если вы забыли отключить Родительский контроль до начала процесса CTRTransfer или не можете получить доступ к настройкам сети, консоль подключится автоматически к беспроводной сети с именем `attwifi` без пароля
@@ -157,7 +164,9 @@ sidebar:
 	+ Если вы забыли включить Wi-Fi на 2DS или New 3DS, это можно сделать, вытащив батарею и отключив зарядное устройство на несколько секунд, а затем снова включить консоль
 1. После того, как появится SafeA9lhInstaller, нажмите (SELECT) для установки
 
-	<div class="notice--info"><a href="{{ base_path }}/images/screenshots/safea9lhinstaller-full.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/safea9lhinstaller-full-crop.png"></div></a></div>
+    ![]({{ base_path }}/images/screenshots/safea9lhinstaller-full-crop.png)
+	{: .text-center}
+    {: .notice--info}
 	
 	+ Если на экране видны искажения, обратитесь к разделу [Проблемы и их решения](troubleshooting#ts_safe_a9lh_screen)
 1. Установщик поставит arm9loaderhax на вашу консоль (буквально за секунду)
@@ -182,7 +191,9 @@ sidebar:
     + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других
     + Если какие-либо игры работают некорректно, отключите эту опцию
 	
-    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/luma-settings.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/luma-settings-crop.png"></div></a></div>
+    ![]({{ base_path }}/images/screenshots/luma-settings-crop.png)
+	{: .text-center}
+    {: .notice--info}
 	
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
   + Если после включения экран остаётся чёрным, просто переходите к следующей части   
@@ -297,7 +308,9 @@ sidebar:
 1. Нажмите на иконку с изображение QR-кода (находится прямо под галочкой, которую вы только что отметили)
 1. Отсканируйте QR 
 
-    <div class="notice--info"><a href="{{ base_path }}/images/QR/freeshop.png"><div class="screenshot_image"><img src="{{ base_path }}/images/QR/freeshop-crop.png"></div></a></div>
+    ![]({{ base_path }}/images/QR/freeshop.png)
+	{: .text-center}
+    {: .notice--info}
 
 1. Нажмите кнопку "Обновить кэш"
 1. Перезагрузите freeshop
@@ -340,7 +353,11 @@ ___
 Вы можете удалить бэкапы NAND из папки `/files9/` или `/CTRtransfer/` (если они там есть), при условии наличия резервной копии в безопасном месте.
 {: .notice--info}
 
-<div class="notice--info">Удалите все файлы связанные со взломом, кроме представленных на скриншоте:<br><br><a href="{{ base_path }}/images/screenshots/final-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/final-file-layout-crop.png"></div></a></div>
+{% capture notice-7 %}
+Удалите все файлы связанные со взломом, кроме представленных на скриншоте:
+<br><br>
+![]({{ base_path }}/images/screenshots/final-file-layout.png)
+{% endcapture %}
 
 <div class="notice--info">{{ notice-7 | markdownify }}</div>
 

@@ -70,7 +70,9 @@ sidebar:
 1. Создайте папку `CTRTransfer` в корне SD-карты, если таковой нет
 1. Скопируйте 2.1.0 `.bin` и `.bin.sha` из `.zip-архива` CTRTransfer в папку `/CTRTransfer/` на SD-карте
 
-    <div class="notice--info"><a href="{{ base_path }}/images/screenshots/ctrtransfer-file-layout.png"><div class="screenshot_image"><img src="{{ base_path }}/images/screenshots/ctrtransfer-file-layout-crop.png"></div></a></div>
+    ![]({{ base_path }}/images/screenshots/ctrtransfer-file-layout.png)
+	{: .text-center}
+    {: .notice--info}
 
 1. Скопируйте `Launcher.dat` и `SafeCTRTransfer.dat` из `.zip-ахрива` SafeCTRTransfer в корень SD-карты
 1. Скопируйте _содержимое_ папки `starter` из архива `starter.zip` в корень вашей SD-карты
@@ -85,18 +87,17 @@ sidebar:
 	+ `https://goo.gl/f8GbSf` или `http://go.gateway-3ds.com/`
 	+ `https://goo.gl/ASCLSV` или `http://www.reboot.ms/3ds/load.html?Launcher.dat`
 	+ `https://goo.gl/etmY59` или `http://dukesrg.dynu.net/3ds/rop?GW17567.dat&Launcher.dat`
-	+ Или сосканируйте камерой QR, если QR-сканер есть в вашей версии прошивки:
+	+ **Или сосканируйте камерой QR, если QR-сканер есть в вашей версии прошивки:**
 
-	<div class="notice--info">Для того, чтобы попасть в QR-scanner, нажмите одновременно (L)+(R), находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране.</div>
+	Для того, чтобы попасть в QR-scanner, нажмите одновременно (L)+(R), находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране.
+	{: .notice--info}
 
-    <div class="notice--info">
-		<div class="screenshot_image">
-			<img src="{{ base_path }}/images/QR/dukeGithub.png"><img src="{{ base_path }}/images/QR/gateway.png">
-				<br><br>
-			<img src="{{ base_path }}/images/QR/goReboot.png"><img src="{{ base_path }}/images/QR/dukeDynu.png">
-		</div>
-	</div>
-	
+	![]({{ base_path }}/images/QR/dukeGithub.png)	![]({{ base_path }}/images/QR/dukeGithub.png)
+	<br>
+	![]({{ base_path }}/images/QR/dukeGithub.png)	![]({{ base_path }}/images/QR/dukeGithub.png)
+	{: .text-center}
+    {: .notice--info}
+
 	+ В случае, если первая ссылка не сработала, попробуйте все остальные (некоторое консоли не могут использовать первую ссылку, в то время как другие не могут использовать последние три)
 	+ При возникновении ошибки, обратитесь к разделу [Проблемы и их решения](troubleshooting#ts_browser)
 
@@ -123,13 +124,11 @@ ___
 {: .notice--info}
 
 {% capture notice %}
-**Вы ГАРАНТИРОВАННО получите БРИК, если вы введете New 3DS с прошивкой 2.1.0 в режим сна! Для того, чтобы избежать этого достаточно не закрывать крышку приставки. Выключать консоль можно. Можно так же оставлять ее открытую на любое длительное время. Таймера сна в приставке нет. Запрет на закрытие крышки действует исключительно на прошивке 2.1.0 и ТОЛЬКО у New3DS. После того как вы обновите прошивку, запрет будет снят.**
-**Оказавшись на 2.1.0 без промедления сделайте все необходимые шаги, чтобы избежать неприятностей!**    
-<br><br>
+**Вы ГАРАНТИРОВАННО получите БРИК, если вы введете New 3DS с прошивкой 2.1.0 в режим сна! Для того, чтобы избежать этого достаточно не закрывать крышку приставки. Выключать консоль можно. Можно так же оставлять ее открытую на любое длительное время. Таймера сна в приставке нет. Запрет на закрытие крышки действует исключительно на прошивке 2.1.0 и ТОЛЬКО у New3DS. После того как вы обновите прошивку, запрет будет снят. Оказавшись на 2.1.0 без промедления сделайте все необходимые шаги, чтобы избежать неприятностей!**    
+<br>
 **НИКОГДА не форматируйте 2DS на прошивках ниже 6.0.0, иначе вы не сможете закончить первоначальную настройку и получите БРИК!**
 <br><br>
 **НИКОГДА не форматируйте 2DS на прошивках ниже 6.0.0, иначе вы не сможете закончить первоначальную настройку и получите БРИК! Если вы все-таки это сделали, воспользуйтесь [этим](https://gbatemp.net/threads/2dsaver-beta-fix-your-2ds-format-brick-testers-needed.457828/) (англ.) методом восстановления.**
-
 {% endcapture %}
 
 <div class="notice--danger">{{ notice | markdownify }}</div>
