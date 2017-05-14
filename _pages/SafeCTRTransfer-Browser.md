@@ -81,23 +81,26 @@ sidebar:
 
 1. Откройте браузер и перейдите по одно из этих ссылок:
 
-  + `https://goo.gl/U0q0n7` или `https://dukesrg.github.io/?SafeCTRTransfer.dat`
-  + `https://goo.gl/f8GbSf` или `http://go.gateway-3ds.com/`
-  + `https://goo.gl/ASCLSV` или `http://www.reboot.ms/3ds/load.html?Launcher.dat`
-  + `https://goo.gl/etmY59` или `http://dukesrg.dynu.net/3ds/rop?GW17567.dat&Launcher.dat`
- 
-* Или сосканируйте камерой QR, если QR-сканер есть в вашей версии прошивки:
+	+ `https://goo.gl/U0q0n7` или `https://dukesrg.github.io/?SafeCTRTransfer.dat`
+	+ `https://goo.gl/f8GbSf` или `http://go.gateway-3ds.com/`
+	+ `https://goo.gl/ASCLSV` или `http://www.reboot.ms/3ds/load.html?Launcher.dat`
+	+ `https://goo.gl/etmY59` или `http://dukesrg.dynu.net/3ds/rop?GW17567.dat&Launcher.dat`
+	+ Или сосканируйте камерой QR, если QR-сканер есть в вашей версии прошивки:
 
-Для того, чтобы попасть в QR-scanner, нажмите одновременно (L)+(R), находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране.
-{: .notice--info}
+	<div class="notice--info">Для того, чтобы попасть в QR-scanner, нажмите одновременно (L)+(R), находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране.</div>
 
-![dukesrg.github.io](images/QR/dukeGithub.png)        ![go.gateway-3ds.com](images/QR/gateway.png)<br><br>![reboot.ms](images/QR/goReboot.png)        ![dukesrg.dynu.net](images/QR/dukeDynu.png) 
-  
-  + В случае, если первая ссылка не сработала, попробуйте все остальные (некоторое консоли не могут использовать первую ссылку, в то время как другие не могут использовать последние три)
-  + При возникновении ошибки, обратитесь к разделу [Проблемы и их решения](troubleshooting#ts_browser)
+    <div class="notice--info">
+		<div class="screenshot_image">
+			<img src="{{ base_path }}/images/QR/dukeGithub.png"><img src="{{ base_path }}/images/QR/gateway.png">
+				<br><br>
+			<img src="{{ base_path }}/images/QR/goReboot.png"><img src="{{ base_path }}/images/QR/dukeDynu.png">
+		</div>
+	</div>
+	
+	+ В случае, если первая ссылка не сработала, попробуйте все остальные (некоторое консоли не могут использовать первую ссылку, в то время как другие не могут использовать последние три)
+	+ При возникновении ошибки, обратитесь к разделу [Проблемы и их решения](troubleshooting#ts_browser)
 
 1. Если эксплойт сработал, запустится SafeCTRTransfer
-{: .notice--info}
 
 ##### <a name="part3" />Часть III - CTRTransfer
 
