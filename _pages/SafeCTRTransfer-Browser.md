@@ -92,9 +92,9 @@ sidebar:
 	Для того, чтобы попасть в QR-scanner, нажмите одновременно (L)+(R), находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране.
 	{: .notice--info}
 
-	![]({{ base_path }}/images/QR/dukeGithub.png)	![]({{ base_path }}/images/QR/dukeGithub.png)
+	![]({{ base_path }}/images/QR/dukeGithub.png)	![]({{ base_path }}/images/QR/gateway.png)
 	<br>
-	![]({{ base_path }}/images/QR/dukeGithub.png)	![]({{ base_path }}/images/QR/dukeGithub.png)
+	![]({{ base_path }}/images/QR/goReboot.png)	![]({{ base_path }}/images/QR/dukeDynu.png)
 	{: .text-center}
     {: .notice--info}
 
