@@ -184,8 +184,8 @@ sidebar:
 1. Нажимая (A) выберите следующие пункты:    
   + **"Autoboot SysNAND"**
   + **"Use SysNAND FIRM if booting with R"**
-  + **"Show NAND or user string in System Settings"**
   + **"Enable game patching"**
+  + **"Show NAND or user string in System Settings"**
 1. Если у вас **New 3DS**, вы *также* можете включить следующие опции:
   + **"New 3DS CPU" выбрать значение "Clock+L2(x)"**
     + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других

@@ -44,6 +44,8 @@ main:
 faq:
   - title: "Разделы"
     children:
+      - title: "• Если все делать по гайду брик не получу?"
+        url: /faq#brick
       - title: "• Моя консоль на последней версии прошивки, могу ли я её взломать?"
         url: /faq#faq_latestfw
       - title: "• Как можно обновить Luma3DS?"
@@ -81,8 +83,10 @@ faq:
       - title: "• Могу ли я обойтись без использования компьютера (например, использовать телефон на Android)?"
         url: /faq#faq_nopc
       - title: "• Помогите! Что-то пошло не так, и консоль больше не запускается..."
-        url: /faq#faq_problem
+        url: /faq#restore_to_orig_fw
       - title: "• В начало раздела"
+        url: /faq#faq_problem
+      - title: "• Как удалить a9lh и вернуть приставку к заводскому состоянию?"
         url: /faq#start
         
 faq-3ds:

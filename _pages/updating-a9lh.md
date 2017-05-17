@@ -72,6 +72,7 @@ sidebar:
 1. С помощью кнопки (А) отметьте следующие пункты:    
   + **"Autoboot SysNAND"**
   + **"Use SysNAND FIRM if booting with R"**
+  + **"Enable game patching"**
   + **"Show NAND or user string in System Settings"**
 1. Если у вас **New 3DS**, вы *также* можете включить следующие опции:
   + **"New 3DS CPU" выбрать значение "Clock+L2(x)"**
