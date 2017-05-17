@@ -198,7 +198,7 @@ sidebar:
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
   + Если после включения экран остаётся чёрным, просто переходите к следующей части   
   + Если появляется ошибка "Failed to mount CTRNAND", просто переходите к следующей части     
-  + Если появится ошибка "Failed to apply 1 Firm patch(es)", понизьте версию luma до 6.6 (https://github.com/AuroraWright/Luma3DS/releases/tag/v6.6)
+  + Если появится ошибка "Failed to apply 1 Firm patch(es)", понизьте версию [luma до 6.6](https://github.com/AuroraWright/Luma3DS/releases/tag/v6.6)
   
 ##### <a name="part4" />Часть IV - Восстановление системы
 
