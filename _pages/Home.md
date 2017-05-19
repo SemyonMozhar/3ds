@@ -13,7 +13,7 @@ header:
   caption:
 excerpt: 'Полное руководство по прошивке 3DS, <br /> от начала до arm9loaderhax.<br /><br />**Последнее изменение: <br />17 мая 2017<br /><br />**'
 ---
-
+<meta name="google-site-verification" content="bXQ2KTFgfxyvvQx2cGGgbQ59jCOMNMbdSyuHmLPhSwE" />
 <a name="start" />
 
 **НЕ ОБНОВЛЯЙТЕСЬ до самой свежей прошивки 11.4.0, если хотите прошить приставку**
