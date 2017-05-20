@@ -3,9 +3,6 @@ title: "Начнем (Old 3DS)"
 permalink: /get-started-old-3ds.html
 ---
 
-**НЕ ОБНОВЛЯЙТЕСЬ до самой свежей прошивки 11.4.0, если хотите прошить приставку.**
-{: .notice--danger}
-
 Выберите подходящую для вашей версии страницу из таблицы ниже.
 {: .notice--primary}
 
@@ -19,7 +16,10 @@ permalink: /get-started-old-3ds.html
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-Любую версию системного ПО можно обновить на более высокую из этой же колонки [с помощью картриджа](cart-update) и после этого продолжать выполнять инструкцию.
+Любую версию системного ПО можно обновить на более высокую из этой же колонки [с помощью картриджа](cart-update) и после этого продолжать выполнять инструкцию. Поэтому этот вариант не описывается в таблице. 
+{: .notice--info}
+
+Находясь на 2.1.0 и имея браузер вы всегда можете установить [a9lh](installing-arm9loaderhax)? а потом обновить его до [b9s](updating-to-boot9strap)
 {: .notice--info}
 
 {% capture notice-1 %}
@@ -33,6 +33,9 @@ permalink: /get-started-old-3ds.html
 {: .notice--warning}
 
 Версия программного обеспечения вашего устройства отображается в правом нижнем углу верхнего экрана в приложении Системные настройки (System settings).
+{: .notice--success}
+
+Обратите внимание, что новый метод [установки boot9strap через hardmod)](installing-boot9strap-hardmod) работает на *всех устройствах, любого региона и версий*! Включая устройства CHN- и TWN-регионов, которые раньше считались невзлымываемыми!
 {: .notice--success}
 
 ![]({{ base_path }}/images/screenshots/system-version.png)
@@ -51,54 +54,42 @@ permalink: /get-started-old-3ds.html
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
-      <td style="text-align: center; font-weight: bold;">1.1.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="cart-update">Обновление картриджем</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">2.1.0</td>
-      <td style="text-align: center; font-weight: bold;">2.1.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="cart-update">Обновление картриджем</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-arm9loaderhax">Установка arm9loaderhax</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">2.2.0</td>
       <td style="text-align: center; font-weight: bold;">3.1.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="cart-update">Обновление картриджем</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">4.0.0</td>
       <td style="text-align: center; font-weight: bold;">4.5.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="safectrtransfer-mset">SafeCTRTransfer (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="safectrtransfer-browser">SafeCTRTransfer (Используя браузер)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-mset">Установка boot9strap (MSET)</a> or <br> <a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-browser">Установка boot9strap (Browser)</a> or <br> <a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">5.0.0</td>
       <td style="text-align: center; font-weight: bold;">5.1.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="cart-update">Обновление картриджем</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="safectrtransfer-browser">SafeCTRTransfer (Используя браузер)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-browser">Установка boot9strap (Browser)</a> or <br> <a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">6.0.0</td>
       <td style="text-align: center; font-weight: bold;">6.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="safectrtransfer-mset">SafeCTRTransfer (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="safectrtransfer-browser">SafeCTRTransfer (Используя браузер)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-mset">Установка boot9strap (MSET)</a> or <br> <a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-browser">Установка boot9strap (Browser)</a> or <br> <a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">7.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="cart-update">Обновление картриджем</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="safectrtransfer-browser">SafeCTRTransfer (Используя браузер)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-browser">Установка boot9strap (Browser)</a> or <br> <a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>
       <td style="text-align: center; font-weight: bold;">11.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-alternatives">Homebrew Launcher<br>(альтернативные способы запуска)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-soundhax">Homebrew Launcher (SoundHax)</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="homebrew-launcher-soundhax">Homebrew Launcher (Soundhax)</a> or <br> <a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2">Взлом невозможен</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-dsiware">Установка boot9strap (DSiWare)</a> or <br> <a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
     </tr>
   </tbody>
 </table>

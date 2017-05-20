@@ -3,9 +3,6 @@ title: "Начнем (New 3DS)"
 permalink: /get-started-new-3ds.html
 ---
 
-**НЕ ОБНОВЛЯЙТЕСЬ до самой свежей прошивки 11.4.0, если хотите прошить приставку.**
-{: .notice--danger}
-
 Выберите подходящую для вашей версии страницу из таблицы ниже.
 {: .notice--primary}
 
@@ -18,7 +15,13 @@ permalink: /get-started-new-3ds.html
 Любую версию системного ПО можно обновить на более высокую из этой же колонки [с помощью картриджа](cart-update) и после этого продолжать выполнять инструкцию.
 {: .notice--info}
 
+Находясь на 2.1.0 и имея браузер вы всегда можете установить [a9lh](installing-arm9loaderhax)? а потом обновить его до [b9s](updating-to-boot9strap)
+{: .notice--info}
+
 Версия программного обеспечения вашего устройства отображается в правом нижнем углу верхнего экрана в приложении Системные настройки (System settings).
+{: .notice--success}
+
+Обратите внимание, что новый метод [установки boot9strap через hardmod)](installing-boot9strap-hardmod) работает на *всех устройствах, любого региона и версий*! Включая устройства CHN- и TWN-регионов, которые раньше считались невзлымываемыми!
 {: .notice--success}
 
 ![]({{ base_path }}/images/screenshots/system-version.png)
@@ -49,7 +52,7 @@ permalink: /get-started-new-3ds.html
     <tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2">Взлом невозможен</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-dsiware">Установка boot9strap (DSiWare)</a> или <br> <a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
     </tr>
   </tbody>
 </table>

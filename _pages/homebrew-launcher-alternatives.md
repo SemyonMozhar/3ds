@@ -6,7 +6,7 @@ sidebar:
 ---
 
 Homebrew Launcher имеет множество точек входа, или методов запуска.
-{: .notice}
+{: .notice--info}
 
 **Убедитесь, что у вас есть рабочее активное подключение к интернету.**
 {: .notice--warning}
@@ -58,5 +58,5 @@ Homebrew Launcher имеет множество точек входа, или м
 
 ___
 
-Следующий шаг: [SafeCTRTransfer (Homebrew Launcher)](safectrtransfer-homebrew-launcher)
+Следующий шаг: [Установка boot9strap](installing-boot9strap-homebrew-launcher)
 {: .notice--primary}

@@ -4,32 +4,18 @@ main:
     url: http://customfw.xyz
   - title: "FAQ"
     url: /faq
+  - title: "Инструкции,<br>полезные после прошивки"
+    url: /addons
   - title: "Проблемы и<br>их решения"
     url: /troubleshooting
-  - title: "Soundhax"
-    url: /homebrew-launcher-soundhax
-  - title: "Homebrew Launcher<br>(используя браузер)"
-    url: /homebrew-launcher-browser
-  - title: "Homebrew Launcher<br>(альтернативные методы)"
-    url: /homebrew-launcher-alternatives
-  - title: "Установка<br>arm9loaderhax"
-    url: /installing-arm9loaderhax   
-  - title: "SafeCTRTransfer<br>(HBL)"
-    url: /safectrtransfer-homebrew-launcher
-  - title: "SafeCTRTransfer<br>(Браузер)"
-    url: /safectrtransfer-browser
-  - title: "SafeCTRTransfer<br>(MSET)"
-    url: /safectrtransfer-mset
   - title: "9.2.0<br>ctrtransfer"
     url: /9.2.0-ctrtransfer
   - title: "Интегрирование<br>FBI"
     url: /fbi
   - title: "Обновление с<br>помощью картриджа"
     url: /cart-update
-  - title: "Инструкции,<br>полезные после прошивки"
-    url: /addons
-  - title: "Обновление A9LH"
-    url: /updating-a9lh
+  - title: "Обновление b9s"
+    url: /updating-b9s
   - title: "Смена региона"
     url: /region-changing
   - title: "Перенос EmuNAND"
@@ -84,10 +70,12 @@ faq:
         url: /faq#faq_nopc
       - title: "• Помогите! Что-то пошло не так, и консоль больше не запускается..."
         url: /faq#restore_to_orig_fw
+      - title: "• Как удалить a9lh и вернуть приставку к заводскому состоянию?"
+        url: /faq#restore_to_orig_fw_a9lh
+      - title: "• Как удалить bs9 и вернуть приставку к заводскому состоянию?"
+        url: /faq#restore_to_orig_fw_b9s
       - title: "• В начало раздела"
         url: /faq#faq_problem
-      - title: "• Как удалить a9lh и вернуть приставку к заводскому состоянию?"
-        url: /faq#start
         
 faq-3ds:
   - title: "Разделы"
@@ -499,7 +487,7 @@ homebrew-launcher-browser:
       - title: "• В начало раздела"
         url: /homebrew-launcher-browser#start
 
-Homebrew-launcher-no-browser:
+homebrew-launcher-no-browser:
   - title: "Разделы"
     children:
       - title: "• Что понадобится"
@@ -718,8 +706,8 @@ troubleshooting:
         url: /troubleshooting#ts_safe_a9lh_screen
       - title: "• Черный экран при загрузке SysNAND "
         url: /troubleshooting#ts_sys_down
-      - title: "• Черный экран при загрузке SysNAND после установки a9lh"
-        url: /troubleshooting#ts_sys_a9lh
+      - title: "• Черный экран при загрузке SysNAND после установки b9s"
+        url: /troubleshooting#ts_sys_b9s
       - title: "• Ошибка во время SafeCTRTransfer"
         url: /troubleshooting#ts_transfer
       - title: "• Голубой экран при загрузке (bootrom error)"

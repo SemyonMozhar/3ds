@@ -97,7 +97,3 @@
 .notice--danger {
   @include notice($danger-color);
 }
-
-.screenshot_image img {
-	align: center;
-}

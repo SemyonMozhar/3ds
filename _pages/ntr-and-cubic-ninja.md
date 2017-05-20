@@ -64,5 +64,5 @@ sidebar:
 
 ___
 
-Следующий шаг: [SafeCtrTransfer (Homebrew Launcher)](safectrtransfer-homebrew-launcher)
+Следующий шаг: [Установка boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
 {: .notice--primary}
