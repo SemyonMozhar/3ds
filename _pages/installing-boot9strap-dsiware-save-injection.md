@@ -1,7 +1,7 @@
 ---
 title: "Установка boot9strap (Инъекция в сохранения DSiWare)" #
 lang: ru
-permalink: installing-boot9strap-(dsiware-save-injection).html
+permalink: installing-boot9strap-dsiware-save-injection.html
 ---
 
 Обратите внимание, что в некоторых версиях Luma3DS, Luma3DS chainloader меню отображается только в том случае, если существует более чем одно приложение. Если существует только одно приложение, удержание (Start) при включении консоли запустит GodMode9 напрямую.
