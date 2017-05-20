@@ -1,7 +1,7 @@
 ---
 title: "Установка boot9strap (Список уязвимых игр DSiWare)" #
 lang: ru
-permalink: installing-boot9strap-(dsiware-game-injection-list).html
+permalink: installing-boot9strap-dsiware-game-injection-list.html
 ---
 
 Это автоматически создаваемый список всех игр, совместимых с [Установка boot9strap (DSiWare)](installing-boot9strap-(dsiware)).
