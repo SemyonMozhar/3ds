@@ -15,7 +15,7 @@ main:
   - title: "Обновление с<br>помощью картриджа"
     url: /cart-update
   - title: "Обновление b9s"
-    url: /updating-b9s
+    url: /updating-to-boot9strap
   - title: "Смена региона"
     url: /region-changing
   - title: "Перенос EmuNAND"
