@@ -1,5 +1,5 @@
 ---
-title: "Обнавление до boot9strap" #
+title: "Обновление до boot9strap" #
 lang: ru
 permalink: updating-to-boot9strap.html
 ---
