@@ -1,5 +1,5 @@
 ---
-title: "Смена региона "
+title: "Смена региона"
 permalink: /region-changing.html
 sidebar:
   nav: "region-changing"

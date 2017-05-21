@@ -1,5 +1,5 @@
 ---
-title: "Как устанавливать приложения"
+title: "Установка приложений"
 permalink: /games.html
 sidebar:
   nav: "games"

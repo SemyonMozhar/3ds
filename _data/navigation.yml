@@ -6,6 +6,8 @@ main:
     url: /faq
   - title: "Инструкции,<br>полезные после прошивки"
     url: /addons
+  - title: "Карта сайта"
+    url: /site-navigation
   - title: "Проблемы и<br>их решения"
     url: /troubleshooting
   - title: "9.2.0<br>ctrtransfer"
@@ -26,6 +28,7 @@ main:
     url: /donations
   - title: "Благодарности"
     url: /credits
+
           
 faq:
   - title: "Разделы"

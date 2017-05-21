@@ -1,5 +1,5 @@
 ---
-title: "Перенос EmuNAND"
+title: "Перенос EmuNAND в SysNAND"
 permalink: /move-emunand.html
 sidebar:
   nav: "move-emunand"

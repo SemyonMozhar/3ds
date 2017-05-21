@@ -33,6 +33,7 @@ sidebar:
 
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
 * Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(`.cia` файл)*
+* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
@@ -48,13 +49,16 @@ sidebar:
 1. Вставьте SD-карту в компьютер
 1. Создайте папку `cias` в корне SD-карты
 1. Создайте папку `hblauncherloader` в корне SD-карты, если таковой нет
+1. Удалите папку `3ds` из корня SD-карты, если таковая существует
+1. Скопируйте _содержимое_ папки `starter` из архива `starter.zip` в корень вашей SD-карты
 1. Скопируйте `hblauncher_loader.cia` из архива hblauncher_loader в папку `/cias/` в корне SD-карты
 1. Скопируйте `lumaupdater-v2.0.cia` из `.zip-архива` Luma3DS Updater в папку `/cias/` в корне SD-карты
 1. Скопируйте `FBI.cia` из архива FBI в папку `/cias/` в корне SD-карты
-1. Скопируйте `DSP1.cia` в папку `/cias/` в корне SD-карты
 1. Скопируйте `Themely.cia` в папку `/cias/` в корне SD-карты
+1. Скопируйте `freeshop.cia` в папку `/cias/` в корне SD-карты
 
     ![]({{ base_path }}/images/screenshots/cias-file-layout.png)
+	{: .text-center}
     {: .notice--info}
 
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
@@ -69,6 +73,7 @@ sidebar:
   + **USA:** `OLD-11-4-0-37-USA.bin`
 
     ![]({{ base_path }}/images/screenshots/finalizing-setup-file-layout.png)
+	{: .text-center}
     {: .notice--info}
 
 1. Если ваше устройство использует прошивку версии от 3.0.0 до 4.5.0, консоль не запустится до тех пор, пока вы вручную не скачаете нужные файлы прошивки:
