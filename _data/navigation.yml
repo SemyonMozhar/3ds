@@ -1,6 +1,6 @@
 # main links links
 main:
-  - title: "На главную"
+  - title: "<b>Выбрать<br>консоль</b>"
     url: http://customfw.xyz
   - title: "FAQ"
     url: /faq
@@ -14,7 +14,7 @@ main:
     url: /fbi
   - title: "Обновление с<br>помощью картриджа"
     url: /cart-update
-  - title: "Обновление b9s"
+  - title: "Обновление<br>до b9s"
     url: /updating-to-boot9strap
   - title: "Смена региона"
     url: /region-changing

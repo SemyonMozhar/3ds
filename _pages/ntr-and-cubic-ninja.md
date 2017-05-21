@@ -6,7 +6,7 @@ sidebar:
 ---
 
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--info}
+{: .notice--success}
 
 **Этот метод работает ТОЛЬКО на японских New 3DS!**
 {: .notice--warning}

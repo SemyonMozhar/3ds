@@ -154,7 +154,7 @@ sidebar:
 
 1. Перейдите по адресу `https://goo.gl/xUMUJB` в браузере 3DS (нужно вводить адрес не в поиск, а именно перейти по нему, воспользовавшись кнопкой URL)
   
-    ![]({{ base_path }}/images/screenshots/browser-url-crop.png)
+    ![]({{ base_path }}/images/screenshots/browser-url.png)
 	{: .text-center}
     {: .notice--info}
 	
@@ -164,7 +164,7 @@ sidebar:
 	+ Если вы забыли включить Wi-Fi на 2DS или New 3DS, это можно сделать, вытащив батарею и отключив зарядное устройство на несколько секунд, а затем снова включить консоль
 1. После того, как появится SafeA9lhInstaller, нажмите (SELECT) для установки
 
-    ![]({{ base_path }}/images/screenshots/safea9lhinstaller-full-crop.png)
+    ![]({{ base_path }}/images/screenshots/safea9lhinstaller-full.png)
 	{: .text-center}
     {: .notice--info}
 	
@@ -191,7 +191,7 @@ sidebar:
     + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других
     + Если какие-либо игры работают некорректно, отключите эту опцию
 	
-    ![]({{ base_path }}/images/screenshots/luma-settings-crop.png)
+    ![]({{ base_path }}/images/screenshots/luma-settings.png)
 	{: .text-center}
     {: .notice--info}
 	

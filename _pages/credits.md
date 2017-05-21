@@ -25,7 +25,6 @@ permalink: /credits.html
     + Cruel'
     + d0k3
     + dank101
-    + dark_samus
     + Dazzozo
     + Delebile
     + DinohScene
@@ -59,8 +58,8 @@ permalink: /credits.html
     + shinyquagsire23
     + skiptirengu
     + smealum
-    + Steveice10
-    + Syphurith
+    + stuckpixel
+    + Syphurith
     + Tech0verlord
     + TinVi
     + TuxSH

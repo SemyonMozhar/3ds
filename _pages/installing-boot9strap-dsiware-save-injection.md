@@ -4,11 +4,11 @@ lang: ru
 permalink: installing-boot9strap-dsiware-save-injection.html
 ---
 
-Обратите внимание, что в некоторых версиях Luma3DS, Luma3DS chainloader меню отображается только в том случае, если существует более чем одно приложение. Если существует только одно приложение, удержание (Start) при включении консоли запустит GodMode9 напрямую.
+Обратите внимание, что в некоторых версиях Luma3DS, Luma3DS chainloader меню отображается только в том случае, если существует более чем одно приложение. Если существует только одно приложение, удержание (START) при включении консоли запустит GodMode9 напрямую.
 {: .notice--info}
 
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--info}
+{: .notice--success}
 
 Прежде чем продолжить, убедитесь, вы прочитали все уведомления и предупреждения в [Установка boot9strap (DSiWare)](installing-boot9strap-dsiware)
 {: .notice--danger}
@@ -27,7 +27,7 @@ permalink: installing-boot9strap-dsiware-save-injection.html
   + **Guitar Rock Tour**  
   + **The Legend of Zelda: Four Swords**  
 * Свежая версия [3ds_dsiwarehax_installer](https://github.com/yellows8/3ds_dsiwarehax_installer/releases)
-* Свежая версия [GodMode9](images/GodMode9-20161209-011002.zip)
+* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [b9sTool](https://github.com/Plailect/b9sTool/releases/latest)
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * 11.4.0 `.firm` соответствующий **целевой 3DS**
@@ -50,12 +50,12 @@ permalink: installing-boot9strap-dsiware-save-injection.html
   + **Legends of Exidia JPN Region**: `4b4c454a`
   + **Guitar Rock Tour EUR Region**: `4b475256`
   + **Guitar Rock Tour USA Region**: `4b475245`
-  + **The Legend of Zelda: Four Swords EUR Region**: `4b51391`   
-  + **The Legend of Zelda: Four Swords USA Region**: `4b51391`    
+  + **The Legend of Zelda: Four Swords EUR Region**: `4b51345`   
+  + **The Legend of Zelda: Four Swords USA Region**: `4b51356`    
 1. Вставьте SD-карту в **исходную 3DS**
 1. Включите **исходную 3DS** кнопкой питания, держа нажатой кнопку (Start), чтобы запустить меню Luma3DS chainloader
 1. Запустите GodMode9, нажав кнопку (A)
-1. Нажмите кнопку (Home) для вызова меню
+1. Нажмите кнопку (HOME) для вызова меню
 1. Выберите "More..."
 1. Выберите "Backup NAND"
 1. Нажмите (A), чтобы продолжить
@@ -63,7 +63,7 @@ permalink: installing-boot9strap-dsiware-save-injection.html
 1. Вставьте SD-карту **целевой 3DS** в компьютер
 1. **Сохраните каждый файл на обеих SD-картах 3DS в две разные папки на компьютере (следите, какая из них какая)**
 1. Вставьте SD-карты обратно в соответствующие 3DS
-1. Нажмите (Start) на **исходной 3DS** для перезагрузки
+1. Нажмите (START) на **исходной 3DS** для перезагрузки
 
 ##### <a name="part2" />Часть II - Установка сохранения
 
@@ -89,11 +89,11 @@ permalink: installing-boot9strap-dsiware-save-injection.html
 1. Нажмите (A), чтобы продолжить
 1. + Нажмите (Y) чтобы вставить файл `public.sav`
 1. Выберите "Copy path(s)"
-1. Нажмите (Start) для того, чтобы перезагрузить **исходную 3DS**
+1. Нажмите (START) для того, чтобы перезагрузить **исходную 3DS**
 1. Запустите DSiWare-игру на **исходной 3DS**
 1. Проверьте, работает ли сохранение
   + **Fieldrunners**: коснитесь кнопки 'Scores' в главном меню
-  + **Legends of Exidia**: после того, как нажмёте (A) или (Start) и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue)
+  + **Legends of Exidia**: после того, как нажмёте (A) или (START) и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue)
   + **Guitar Rock Tour**: листайте вниз и перейдите в High-Scores -> Drums -> Easy    
   + **The Legend of Zelda: Four Swords**: Просто начните игру
   + Если игра завершается с ошибкой о `boot.nds`, либо просто появляется белый экран, **значит эксплойт сработал успешно!**
@@ -134,7 +134,7 @@ permalink: installing-boot9strap-dsiware-save-injection.html
 1. Введите указанную комбинацию кнопок чтобы разрешить запись в SysNAND (lvl1)
   + Этот процесс займет некоторое время
 1. По завершению процесса, нажмите (A)
-1. Нажмите (Start) для того, чтобы перезагрузить **исходную 3DS**
+1. Нажмите (START) для того, чтобы перезагрузить **исходную 3DS**
 
 ##### <a name="part5" />Часть V - Резервное копирование FIRM целевой 3DS
 
@@ -145,7 +145,7 @@ permalink: installing-boot9strap-dsiware-save-injection.html
 1. Запустите установленную DSiWare игру на **целевой 3DS**
 1. Запустите b9sTool, используя инфицированную DSiWare-игру
   + **Fieldrunners**: коснитесь кнопки 'Scores' в главном меню
-  + **Legends of Exidia**: после того, как нажмёте (A) или (Start) и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue)
+  + **Legends of Exidia**: после того, как нажмёте (A) или (START) и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue)
   + **Guitar Rock Tour**: листайте вниз и перейдите в High-Scores -> Drums -> Easy
   + **The Legend of Zelda: Four Swords**: Просто начните игру
   + Если у игры нет установленного взломанного сохранения обратитесь к разделу с [проблемами и их решениями](troubleshooting#ts_dsiware)
@@ -160,16 +160,16 @@ permalink: installing-boot9strap-dsiware-save-injection.html
 **НЕ используйте b9sTool на приставках с установленным arm9loaderhax. Это гарантированно приведет к БРИКУ!**
 {: .notice--danger}
 
-1. Запустите установленную DSiWare игру на **целевой 3DS**
-1. Запустите b9sTool, используя инфицированную DSiWare-игру
-  + **Fieldrunners**: коснитесь кнопки 'Scores' в главном меню
-  + **Legends of Exidia**: после того, как нажмёте (A) или (Start) и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue)
-  + **Guitar Rock Tour**: листайте вниз и перейдите в High-Scores -> Drums -> Easy
-  + **The Legend of Zelda: Four Swords (Anniversary Edition)**: Просто начните игру
+1. Запустите DSiWare игру на **целевой 3DS**
+1. Запустите b9sTool, используя DSiWare игру
++ **Fieldrunners**: коснитесь кнопки 'Scores' в главном меню
++ **Legends of Exidia**: После нажатия (A), либо (START) на двух первых экранах, выберите первый слот и нажмите "continue"
++ **Guitar Rock Tour**: пролистайте вниз и перейдите в High-Scores -> Drums -> Easy
++ **The Legend of Zelda: Four Swords**: Просто начните игру
 1. Выберите "Install boot9strap" и подтвердите выбор
-1. Закройте b9sTool
-  + При необходимости выключите приставку, удерживая кнопку питания
-1. Перезагрузите устройство, которое автоматически запустит boot9strap, затем выключится
+1. Закройте b9sTool, затем выключите консоль
++ При необходимости выключите консоль принудительно, удерживая кнопку питания
+1. Ваша консоль загрузится в boot9strap, затем автоматически выключится, поскольку запускаемого файла еще нет
 
 ___
 

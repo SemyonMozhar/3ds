@@ -13,6 +13,7 @@ sidebar:
 {: .notice--info}
 
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
+{: .notice--success}
 
 ## <a name="twl_broken" />DSi / DS игры не работают после завершения руководства
 
@@ -174,7 +175,7 @@ sidebar:
     + Скачайте [этот файл](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
     + Скопируйте `firmware.bin` и `cetk` в папку `/luma/` на SD-карте
     + После обновления прошивки удалите оба этих файла
-1. Попробуйте выполнить [9.2.0 CTRTransfer](9.2.0-ctrransfer)
+1. Попробуйте выполнить [9.2.0 CTRTransfer](9.2.0-ctrtransfer)
 1. Вы можете обратиться за поддержкой на канал [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) (англ.), или [группу 3DS_CFW вконтакте](http://vk.com/3ds_cfw) (рус.).
 
 ## <a name="ts_transfer" />Ошибка во время SafeB9SInstaller
@@ -204,7 +205,7 @@ sidebar:
 1. Нажмите (A), чтобы разрешить перезапись SysNAND
 1. Введите указанную комбинацию кнопок чтобы разрешить запись в SysNAND (lvl3)
 1. По завершению процесса, нажмите (A)
-1. Нажмите (Start) для перезагрузки
+1. Нажмите (START) для перезагрузки
 1. Сообщите об этой проблеме сюда [SafeB9SInstaller Issues Page](https://github.com/d0k3/SafeB9SInstaller/issues) (англ.)
 
 ## <a name="ts_sys_blue" />Голубой экран при загрузке (bootrom error)

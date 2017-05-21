@@ -4,11 +4,11 @@ lang: ru
 permalink: installing-boot9strap-dsiware-game-injection.html
 ---
 
-Обратите внимание, что в некоторых версиях Luma3DS, Luma3DS chainloader меню отображается только в том случае, если существует более чем одно приложение. Если существует только одно приложение, удержание (Start) при включении консоли запустит GodMode9 напрямую.
+Обратите внимание, что в некоторых версиях Luma3DS, Luma3DS chainloader меню отображается только в том случае, если существует более чем одно приложение. Если существует только одно приложение, удержание (START) при включении консоли запустит GodMode9 напрямую.
 {: .notice--info}
 
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--info}
+{: .notice--success}
 
 Прежде чем продолжить, убедитесь, вы прочитали все уведомления и предупреждения в [Установка boot9strap (DSiWare)](installing-boot9strap-dsiware)
 {: .notice--danger}
@@ -25,7 +25,7 @@ permalink: installing-boot9strap-dsiware-game-injection.html
   + [`DSiWare_usa_sudokuhax_injection.zip`](magnet:?xt=urn:btih:7ed7fee15c900ed02b5e2cb3c8e7a0363f4d9354&dn=DSiWare_usa_sudokuhax_injection.zip&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce)
   + [`DSiWare_eur_exidiahax_injection.zip`](magnet:?xt=urn:btih:046bb8023bc40b9a95a8a339c85a9ef18cf60db6&dn=DSiWare_eur_exidiahax_injection.zip&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce)
   + [`DSiWare_jpn_4swordshax_injection.zip`](magnet:?xt=urn:btih:1bcc90c93da91c9876671f6218084207def90db9&dn=DSiWare_jpn_4swordshax_injection.zip&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)
-* Свежая версия [GodMode9](images/GodMode9-20161209-011002.zip)
+* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [b9sTool](https://github.com/Plailect/b9sTool/releases/latest)
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * 11.4.0 `.firm` соответствующий **целевой 3DS**
@@ -47,7 +47,7 @@ permalink: installing-boot9strap-dsiware-game-injection.html
 1. Вставьте SD-карту в **исходную 3DS**
 1. Включите **исходную 3DS** кнопкой питания, держа нажатой кнопку (Start), чтобы запустить меню Luma3DS chainloader
 1. Запустите GodMode9, нажав кнопку (A)
-1. Нажмите кнопку (Home) для вызова меню
+1. Нажмите кнопку (HOME) для вызова меню
 1. Выберите "More..."
 1. Выберите "Backup NAND"
 1. Нажмите (A), чтобы продолжить
@@ -55,7 +55,7 @@ permalink: installing-boot9strap-dsiware-game-injection.html
 1. Вставьте SD-карту **целевой 3DS** в компьютер
 1. **Сохраните каждый файл на обеих SD-картах 3DS в две разные папки на компьютере (следите, какая из них какая)**
 1. Вставьте SD-карты обратно в соответствующие 3DS
-1. Нажмите (Start) на **исходной 3DS** для перезагрузки
+1. Нажмите (START) на **исходной 3DS** для перезагрузки
 
 ##### <a name="part2" />Часть II - Инъекция игры и сохранения
 
@@ -87,10 +87,10 @@ permalink: installing-boot9strap-dsiware-game-injection.html
 1. Нажмите (Y), чтобы вставить **содержимое** папки `savedata`в `FAT IMAGE`
 1. Выберите "Copy path(s)"
 1. Нажмите (A), чтобы разрешить запись в SysNAND и введите указанную комбинацию кнопок
-1. Нажмите (Start) для перезагрузки
+1. Нажмите (START) для перезагрузки
 1. Запустите DSiWare-игру на **исходной 3DS**
 1. Нажмите на экран, либо на какую-либо кнопку, чтобы запустить игру и проверить, работает ли сохранение
-  + Если вы используете файлы EUR региона (**Legends of Exidia**), после нажатия (A), либо (Start) на двух первых экранах, выберите первый слот и нажмите "continue"
+  + Если вы используете файлы EUR региона (**Legends of Exidia**), после нажатия (A), либо (START) на двух первых экранах, выберите первый слот и нажмите "continue"
   + Если игра вылетает с ошибкой, касающейся `boot.nds`, **значит эксплойт работает и все в порядке!**
   + Если игра жалуется на поврежденный или неверный файл сохранения (corrupted or inaccessible), убедитесь, что скопировали именно **содержимое** папки `savedata`, а не саму папку
   + Если игра работает нормально безо всяких ошибок, значит вам следует остановится и выяснить на каком этапе вы допустили оплошность
@@ -129,7 +129,7 @@ permalink: installing-boot9strap-dsiware-game-injection.html
 1. Введите указанную комбинацию кнопок чтобы разрешить запись в SysNAND (lvl1)
   + Этот процесс займет некоторое время
 1. По завершению процесса, нажмите (A)
-1. Нажмите (Start) для того, чтобы перезагрузить **исходную 3DS**
+1. Нажмите (START) для того, чтобы перезагрузить **исходную 3DS**
 
 ##### <a name="part5" />Часть V - Резервное копирование FIRM целевой 3DS
 
@@ -150,11 +150,11 @@ permalink: installing-boot9strap-dsiware-game-injection.html
 **НЕ используйте b9sTool на приставках с установленным arm9loaderhax. Это гарантированно приведет к БРИКУ!**
 {: .notice--danger}
 
-1. Запустите b9sTool, запустив инфицированную DSiWare на **целевой 3DS**
+1. Откройте b9sTool, запустив DSiWare игру на **целевой 3DS**
 1. Выберите "Install boot9strap" и подтвердите выбор
-1. Закройте b9sTool
-  + При необходимости выключите приставку, удерживая кнопку питания
-1. Перезагрузите устройство, которое автоматически запустит boot9strap, затем выключится
+1. Закройте b9sTool, затем выключите консоль
+  + При необходимости выключите консоль принудительно, удерживая кнопку питания
+1. Ваша консоль загрузится в boot9strap, затем автоматически выключится, поскольку запускаемого файла еще нет
 
 ___
 

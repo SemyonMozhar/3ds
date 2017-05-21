@@ -8,7 +8,7 @@ permalink: installing-boot9strap-homebrew-launcher.html
 {: .notice--info}
 
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--info}
+{: .notice--success}
 
 #### <a name="what_need" />Что понадобится
 
@@ -37,7 +37,7 @@ permalink: installing-boot9strap-homebrew-launcher.html
 
 1. Выберите udsploit в списке homebrew
   + Вам может потребоваться пролистать список вниз, чтобы увидеть нужный пункт
-1. После завершения нажмите (Start) для выхода из udsploit
+1. После завершения нажмите (START) для выхода из udsploit
   + Может потребоваться несколько попыток
   + При зависании отключите питание консоли, зажав кнопку питания, и попробуйте снова
 1. Выберите safehax в списке homebrew
@@ -48,9 +48,10 @@ permalink: installing-boot9strap-homebrew-launcher.html
 
 ##### <a name="part3" />Часть III - Установка boot9strap
 
-1. Подождите окончания всех проверок безопастности
+1. Дождитесь окончания всех проверок безопасности
 1. При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap
-1. После завершения, ваше устройство перезагрузится в boot9strap, затем автоматически выключится
+1. После завершения процесса, нажмите (A) для перезагрузки
+1. Ваша консоль загрузится в boot9strap, затем автоматически выключится, поскольку запускаемого файла еще нет
 
 ___
 
