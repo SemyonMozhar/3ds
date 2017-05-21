@@ -10,7 +10,7 @@ permalink: installing-boot9strap-dsiware-save-injection.html
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
 {: .notice--info}
 
-Прежде чем продолжить, убедитесь, вы прочитали все уведомления и предупреждения в [Установка boot9strap (DSiWare)](installing-boot9strap-(dsiware))
+Прежде чем продолжить, убедитесь, вы прочитали все уведомления и предупреждения в [Установка boot9strap (DSiWare)](installing-boot9strap-dsiware)
 {: .notice--danger}
 
 Если вы не будете использовать корректный `.firm`, соответствующий целевой 3DS, вы получите БРИК! Убедитесь что скачали и используете правильный!

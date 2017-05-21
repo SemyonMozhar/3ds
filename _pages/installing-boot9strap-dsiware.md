@@ -41,7 +41,7 @@ ___
 
 {% capture notice-1 %}
 
-[Установка boot9strap (Инъекция в сохранения DSiWare)](installing-boot9strap-(dsiware-save-injection))
+[Установка boot9strap (Инъекция в сохранения DSiWare)](installing-boot9strap-dsiware-save-injection)
 <br><br>
 Этот метод требует, чтобы на исходной 3DS была установлена легальная копия одной из следующих игр:
     
@@ -58,9 +58,9 @@ ___
 
 {% capture notice-1 %}
 
-[Установка boot9strap (Инъекция в игры DSiWare)](installing-boot9strap-(dsiware-game-injection))
+[Установка boot9strap (Инъекция в игры DSiWare)](installing-boot9strap-dsiware-game-injection)
 <br><br>
-Этот метод требует, чтобы на исходной 3DS была установлена легальная копия игры, присутствующая в списке на странице [Установка boot9strap (Список уязвимых игр DSiWare)](installing-boot9strap-(dsiware-game-injection-list)).
+Этот метод требует, чтобы на исходной 3DS была установлена легальная копия игры, присутствующая в списке на странице [Установка boot9strap (Список уязвимых игр DSiWare)](installing-boot9strap-dsiware-game-injection-list).
 <br><br>
 Пиратская копия игры *не* будет работать.
 

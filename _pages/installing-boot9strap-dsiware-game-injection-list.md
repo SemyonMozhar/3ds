@@ -4,7 +4,7 @@ lang: ru
 permalink: installing-boot9strap-dsiware-game-injection-list.html
 ---
 
-Это автоматически создаваемый список всех игр, совместимых с [Установка boot9strap (DSiWare)](installing-boot9strap-(dsiware)).
+Это автоматически создаваемый список всех игр, совместимых с [Установка boot9strap (DSiWare)](installing-boot9strap-dsiware).
 {: .notice--primary}
 
 Список отсортирован по регионам в следующем порядке: USA, EUR, JPN.
