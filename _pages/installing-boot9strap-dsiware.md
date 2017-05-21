@@ -54,7 +54,7 @@ ___
 
 {% endcapture %}
 
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+<div class="notice--success">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-1 %}
 
@@ -66,4 +66,4 @@ ___
 
 {% endcapture %}
 
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+<div class="notice--success">{{ notice-1 | markdownify }}</div>
