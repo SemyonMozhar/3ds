@@ -294,7 +294,7 @@ finalizing-setup:
       - title: "• Полезные ссылки"
         url: /finalizing-setup#links
       - title: "• В начало раздела"
-        url: /fbi#start
+        url: /finalizing-setup#start
         
 h2testw-windows:
   - title: "Разделы"

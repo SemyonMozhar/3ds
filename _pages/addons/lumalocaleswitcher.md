@@ -6,7 +6,7 @@ sidebar:
 ---
 
 #### <a name="what_need" />Что понадобится
-* Установленный и рабочий [a9lh](installing-arm9loaderhax)
+* Установленный и рабочий [b9s](updating-to-boot9strap)
 * Установленный и рабочий [FBI](fbi)
 * Установленный и рабочий [LumaLocaleSwitcher](https://github.com/Possum/LumaLocaleSwitcher/releases) *(`.cia`-файл)* (NIGHTLY для luma3ds 7.0 и выше)
 

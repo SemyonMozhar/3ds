@@ -32,6 +32,7 @@ sidebar:
 1. Скопируйте `SafeB9SInstaller.bin` из `.zip-архива` SafeB9SInstaller в корень SD-карты и переименуйте `SafeB9SInstaller.bin` в `safehaxpayload.bin`
 
     ![]({{ base_path }}/images/screenshots/boot9strap-hb-file-layout.png)
+	{: .text-center}
     {: .notice--info}
 
 1. Вставьте SD-карту обратно в консоль

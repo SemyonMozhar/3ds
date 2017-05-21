@@ -8,15 +8,15 @@ sidebar:
 В этом разделе собраны ссылки на различные инструкции, не имеющие прямого отношения ко взлому, однако помогающие лучше изучить возможности 3DS на кастомной прошивке и эффективнее ей пользоваться.
 {: .notice--info}
 
-+ [Как устанавливать приложения и игры](games)
++ [Установка приложений и игр](games)
 + [Дополнительный FAQ](faq-3ds), дающий ответы на вопросы, которые наверняка у вас возникнут после взлома
 + Для справки об использовании различных функций Luma3DS обратитесь к её [вики](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage) (англ.).       
-+ [Как обновить Luma3DS](update-luma3ds)
++ [Обновление Luma3DS](update-luma3ds)
 + [Использование GodMode9](godmode9-usage)
-+ [Как делать резервные копии, редактировать и восстанавливать](https://gbatemp.net/threads/release-jks-savemanager-Homebrew-cia-save-manager.413143/) сохранения игр (англ.).     
++ [Создание, редактирование и восстанавление резервных копий](https://gbatemp.net/threads/release-jks-savemanager-Homebrew-cia-save-manager.413143/) сохранения игр (англ.).     
 + [Установка и использование тем](themes)
 + [Установка и использование жетонов](badges)   
 + [Конвертация 3DS-ромов в CIA](godmode9-usage#convert_3ds)   
 + Как включить русский язык в играх на приставке не европейского региона. [Использование LumaLocaleSwitcher](lumalocaleswitcher)
 + [Смена региона](region-changing)
-+ [Обновление A9LH](updating-a9lh)
++ [Переход с a9lh на b9s](updating-to-boot9strap)
