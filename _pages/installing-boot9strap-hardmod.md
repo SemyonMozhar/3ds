@@ -2,6 +2,8 @@
 title: "Установка boot9strap (Hardmod)" #
 lang: ru
 permalink: installing-boot9strap-hardmod.html
+sidebar:
+  nav: "installing-boot9strap-hardmod"
 ---
 
 Отличное руководство по пайке хардмода находится [здесь](https://gbatemp.net/threads/414498/) (англ.). Если у вас New 3DS, прочтите [это](https://github.com/Plailect/Guide/issues/681) (англ.) перед тем, как приступать.
@@ -69,4 +71,4 @@ permalink: installing-boot9strap-hardmod.html
 ___
 
 Следующий шаг: [Завершение установки](finalizing-setup)
-{: .notice--primary}
+{: .notice--success}

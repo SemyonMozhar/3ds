@@ -70,4 +70,4 @@ SoundHax совместим с версиями прошивки от 9.0.0 до
 	___
 
 Следующий шаг: [Установка boot9strap (Homebrew Launcher)](installing-boot9strap-homebrew-launcher)
-{: .notice--primary}
+{: .notice--success}

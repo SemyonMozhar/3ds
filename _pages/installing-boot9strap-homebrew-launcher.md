@@ -2,6 +2,9 @@
 title: "Установка boot9strap (Homebrew Launcher)" #
 lang: ru
 permalink: installing-boot9strap-homebrew-launcher.html
+sidebar:
+  nav: "installing-boot9strap-homebrew-launcher"
+
 ---
 
 Если вы взламывали ваше устройство ранее и у вас установлена кастомная прошивка на основе EmuNAND, помните, что данное руководство работает только с SysNAND и вы должны выполнять вся шаги находясь в SysNAND. Помните, что RedNAND и EmuNAND - немного разные реализации [одного и того же](http://3dbrew.org/wiki/NAND_Redirection) (англ.).
@@ -56,4 +59,4 @@ permalink: installing-boot9strap-homebrew-launcher.html
 ___
 
 Следующий шаг: [Завершение установки](finalizing-setup)
-{: .notice--primary}
+{: .notice--success}

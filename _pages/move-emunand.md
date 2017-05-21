@@ -161,4 +161,4 @@ sidebar:
 ___
 
 Вернитесь к [Завершение установки](finalizing-setup).
-{: .notice--primary}
+{: .notice--success}

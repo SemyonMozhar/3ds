@@ -2,6 +2,8 @@
 title: "Установка boot9strap (Список уязвимых игр DSiWare)" #
 lang: ru
 permalink: installing-boot9strap-dsiware-game-injection-list.html
+sidebar:
+  nav: "installing-boot9strap-dsiware-game-injection-list"
 ---
 
 Это автоматически создаваемый список всех игр, совместимых с [Установка boot9strap (DSiWare)](installing-boot9strap-dsiware).
@@ -43,6 +45,8 @@ QR-коды можно отсканировать, нажав (L + R) на до�
 
 <div class="notice--primary">{{ notice-list | markdownify }}</div>
 
+<a name="eur" />
+
 | | Цена | 8-значный ID | Регион(ы) | QR код |
 |:-:|:-:|:-:|:-:|:-:|
 | Jagged Alliance | 4,99€ | 4B4A4750 | EUR | ![qrcode](images/qrcodes/000480044B4A4750.png)
@@ -70,6 +74,8 @@ QR-коды можно отсканировать, нажав (L + R) на до�
 | Rytmik Rock Edition | 7,99€ | 4B525156 | EUR | ![qrcode](images/qrcodes/000480044B525156.png)
 | Hip Hop King Rytmik Edition | 7,99€ | 4B525656 | EUR | ![qrcode](images/qrcodes/000480044B525656.png)
 | Rytmik Retrobits | 7,99€ | 4B595256 | EUR | ![qrcode](images/qrcodes/000480044B595256.png)
+
+<a name="usa" />
 
 | | Цена | 8-значный ID | Регион(ы) | QR код |
 |:-:|:-:|:-:|:-:|:-:|
@@ -133,6 +139,8 @@ QR-коды можно отсканировать, нажав (L + R) на до�
 | Rytmik World Music | $7.99 | 4B594845 | USA | ![qrcode](images/qrcodes/000480044B594845.png)
 | Rytmik Retrobits | $7.99 | 4B595245 | USA | ![qrcode](images/qrcodes/000480044B595245.png)
 | Rhythm Core Alpha 2™ | $9.99 | 4B593445 | USA | ![qrcode](images/qrcodes/000480044B593445.png)
+
+<a name="jap" />
 
 | | Цена | 8-значный ID | Регион(ы) | QR код |
 |:-:|:-:|:-:|:-:|:-:|

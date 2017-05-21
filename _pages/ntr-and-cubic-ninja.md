@@ -65,4 +65,4 @@ sidebar:
 ___
 
 Следующий шаг: [Установка boot9strap (Homebrew Launcher)](installing-boot9strap-homebrew-launcher)
-{: .notice--primary}
+{: .notice--success}

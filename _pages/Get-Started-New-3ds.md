@@ -1,4 +1,4 @@
----
+
 title: "Начнем (New 3DS)"
 permalink: /get-started-new-3ds.html
 ---

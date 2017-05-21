@@ -59,4 +59,4 @@ Homebrew Launcher имеет множество точек входа, или м
 ___
 
 Следующий шаг: [Установка boot9strap](installing-boot9strap-homebrew-launcher)
-{: .notice--primary}
+{: .notice--success}

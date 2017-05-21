@@ -36,4 +36,4 @@ permalink: /file-extensions-windows.html
     {: .notice--info}
 
 Вернитесь к [Началу](get-started)
-{: .notice--primary}
+{: .notice--success}

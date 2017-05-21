@@ -199,38 +199,6 @@ home:
       - title: "• В начало раздела"
         url: /#start
        
-2.1.0-ctrtransfer:
-  - title: "Разделы"
-    children:
-      - title: "• Что будем делать?"
-        url: /2.1.0-ctrtransfer#steps
-      - title: "• Что понадобится"
-        url: /2.1.0-ctrtransfer#what_need
-      - title: "• Инструкция:"
-        url: /2.1.0-ctrtransfer#instructions
-      - title: "  - Часть I - Подготовка"
-        url: /2.1.0-ctrtransfer#part1
-      - title: "  - Часть II - ctrtransfer"
-        url: /2.1.0-ctrtransfer#part2
-      - title: "• В начало раздела"
-        url: /2.1.0-ctrtransfer#start
-        
-3ds-to-cia:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /3ds-to-cia#what_need
-      - title: "• Инструкция:"
-        url: /3ds-to-cia#instructions
-      - title: "  - Часть I - Подготовка"
-        url: /3ds-to-cia#part1
-      - title: "  - Часть II - Генерация xorpad'ов"
-        url: /3ds-to-cia#part2
-      - title: "  - Часть III - Конвертация 3DS-ромов в CIA"
-        url: /3ds-to-cia#part3
-      - title: "• В начало раздела"
-        url: /3ds-to-cia#start
-
 9.2.0-ctrtransfer:
   - title: "Разделы"
     children:
@@ -253,20 +221,6 @@ home:
       - title: "• В начало раздела"
         url: /9.2.0-ctrtransfer#start
         
-9.2.0-downgrade:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /9.2.0-downgrade#what_need
-      - title: "• Инструкция:"
-        url: /9.2.0-downgrade#instructions
-      - title: "  - Часть I - Подготовка"
-        url: /9.2.0-downgrade#part1
-      - title: "  - Часть II - Понижение прошивки"
-        url: /9.2.0-downgrade#part2
-      - title: "• В начало раздела"
-        url: /9.2.0-downgrade#start
-
 badges:
   - title: "Разделы"
     children:
@@ -294,135 +248,7 @@ cart-update:
         url: /cart-update#sky3ds
       - title: "• В начало раздела"
         url: /cart-update#start
-
-decrypt9-browser:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /decrypt9-browser#what_need
-      - title: "• Инструкция:"
-        url: /decrypt9-browser#instructions
-      - title: "• В начало раздела"
-        url: /decrypt9-browser#start
-
-decrypt9-homebrew-launcher:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /decrypt9-homebrew-launcher#what_need
-      - title: "• Инструкция:"
-        url: /decrypt9-homebrew-launcher#instructions
-      - title: "• В начало раздела"
-        url: /decrypt9-homebrew-launcher#start
-
-decrypt9-mset:
-  - title: "Разделы"
-    children:
-      - title: "• Описание шагов"
-        url: /decrypt9-mset#steps
-      - title: "• Что понадобится"
-        url: /decrypt9-mset#what_need
-      - title: "• Инструкция"
-        url: /decrypt9-mset#instructions
-      - title: "- Часть I - Подготовительные работы"
-        url: /decrypt9-mset#part1
-      - title: "- Часть II - Запуск SafeCTRTransfer"
-        url: /decrypt9-mset#part2
-      - title: "- Часть III - CTRTransfer"
-        url: /decrypt9-mset#part3
-      - title: "• В начало раздела"
-        url: /decrypt9-mset#start
-
-dsiware-downgrade-app-injection-and-second-3ds:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /dsiware-downgrade-app-injection-and-second-3ds#what_need
-      - title: "• Инструкция:"
-        url: /dsiware-downgrade-app-injection-and-second-3ds#instructions
-      - title: "  - Часть I - Подготовка"
-        url: /dsiware-downgrade-app-injection-and-second-3ds#part1
-      - title: "  - Часть II - Резервное копирование DsiWare"
-        url: /dsiware-downgrade-app-injection-and-second-3ds#part2
-      - title: "  - Часть III - Установка сохранения"
-        url: /dsiware-downgrade-app-injection-and-second-3ds#part3
-      - title: "  - Часть IV - ctr-httpwn"
-        url: /dsiware-downgrade-app-injection-and-second-3ds#part4
-      - title: "  - Часть V - Перенос системы"
-        url: /dsiware-downgrade-app-injection-and-second-3ds#part5
-      - title: "  - Часть VI - Восстановление исходной 3DS"
-        url: /dsiware-downgrade-app-injection-and-second-3ds#part6
-      - title: "  - Часть VII - Резервное копирование прошивки целевой 3DS"
-        url: /dsiware-downgrade-app-injection-and-second-3ds#part7
-      - title: "  - Часть VIII - Прошивка целевой 3DS"
-        url: /dsiware-downgrade-app-injection-and-second-3ds#part8
-      - title: "  - Часть IX - Проверка эксплойта"
-        url: /dsiware-downgrade-app-injection-and-second-3ds#part9
-      - title: "• В начало раздела"
-        url: /dsiware-downgrade-app-injection-and-second-3ds#start
-        
-dsiware-downgrade-save-injection-and-second-3ds:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /dsiware-downgrade-save-injection-and-second-3ds#what_need
-      - title: "• Инструкция:"
-        url: /dsiware-downgrade-save-injection-and-second-3ds#instructions
-      - title: "  - Часть I - Подготовка"
-        url: /dsiware-downgrade-save-injection-and-second-3ds#part1
-      - title: "  - Часть II - Резервное копирование DsiWare"
-        url: /dsiware-downgrade-save-injection-and-second-3ds#part2
-      - title: "  - Часть III - Установка сохранения"
-        url: /dsiware-downgrade-save-injection-and-second-3ds#part3
-      - title: "  - Часть IV - ctr-httpwn"
-        url: /dsiware-downgrade-save-injection-and-second-3ds#part4
-      - title: "  - Часть V - Перенос системы"
-        url: /dsiware-downgrade-save-injection-and-second-3ds#part5
-      - title: "  - Часть VI - Восстановление исходной 3DS"
-        url: /dsiware-downgrade-save-injection-and-second-3ds#part6
-      - title: "  - Часть VII - Резервное копирование прошивки целевой 3DS"
-        url: /dsiware-downgrade-save-injection-and-second-3ds#part7
-      - title: "  - Часть VIII - Прошивка целевой 3DS"
-        url: /dsiware-downgrade-save-injection-and-second-3ds#part8
-      - title: "  - Часть IX - Проверка эксплойта"
-        url: /dsiware-downgrade-save-injection-and-second-3ds#part9
-      - title: "• В начало раздела"
-        url: /dsiware-downgrade-save-injection-and-second-3ds#start
-
-dsiware-downgrade-save-injection:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /dsiware-downgrade-save-injection#what_need
-      - title: "• Инструкция:"
-        url: /dsiware-downgrade-save-injection#instructions
-      - title: "  - Часть I - Подготовка"
-        url: /dsiware-downgrade-save-injection#part1
-      - title: "  - Часть II - Резервное копирование DsiWare"
-        url: /dsiware-downgrade-save-injection#part2
-      - title: "  - Часть III - waithax"
-        url: /dsiware-downgrade-save-injection#part3
-      - title: "  - Часть IV - Резервное копирование NAND"
-        url: /dsiware-downgrade-save-injection#part4
-      - title: "  - Часть V - Прошивка целевой 3DS"
-        url: /dsiware-downgrade-save-injection#part5
-      - title: "  - Часть VI - Проверка эксплойта"
-        url: /dsiware-downgrade-save-injection#part6
-      - title: "• В начало раздела"
-        url: /dsiware-downgrade-save-injection#start
-
-dsiware-list:
-  - title: "Разделы"
-    children:
-      - title: "• Игры USA-региона"
-        url: /dsiware-list#usa
-      - title: "• Игры EUR-региона"
-        url: /dsiware-list#eur
-      - title: "• Игры JPN-региона"
-        url: /dsiware-list#jpn
-      - title: "• В начало раздела"
-        url: /dsiware-list#start
-        
+       
 fbi:
   - title: "Разделы"
     children:
@@ -430,6 +256,40 @@ fbi:
         url: /fbi#part1
       - title: "• Часть II - Внедрение FBI"
         url: /fbi#part2
+      - title: "• В начало раздела"
+        url: /fbi#start
+
+finalizing-setup:
+  - title: "Разделы"
+    children:
+      - title: "• Описание шагов"
+        url: /finalizing-setup#steps
+      - title: "• Что понадобится"
+        url: /finalizing-setup#what_need
+      - title: "• Инструкция:"
+        url: /finalizing-setup#instructions
+      - title: "- Часть I - Подготовительные работы"
+        url: /finalizing-setup#part1
+      - title: "- Часть II - Настройка Luma3DS"
+        url: /finalizing-setup#part2
+      - title: "- Часть III - Обновление системы"
+        url: /finalizing-setup#part3
+      - title: "- Часть IV - Интеграция FBI"
+        url: /finalizing-setup#part4
+      - title: "- Часть V - Установка CIA"
+        url: /finalizing-setup#part5
+      - title: "- Часть VI - DSP Dump"
+        url: /finalizing-setup#part6
+      - title: "- Часть VII - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)"
+        url: /finalizing-setup#part7
+      - title: "- Часть VIII - CTRNAND Luma3DS"
+        url: /finalizing-setup#part8
+      - title: "- Часть IX - NAND Backup"
+        url: /finalizing-setup#nand_backup
+      - title: "- Часть X - Настройка freeshop"
+        url: /finalizing-setup#freeshop
+      - title: "• Полезные ссылки"
+        url: /finalizing-setup#links
       - title: "• В начало раздела"
         url: /fbi#start
         
@@ -442,20 +302,6 @@ h2testw-windows:
         url: /h2testw-windows#instructions
       - title: "• В начало раздела"
         url: /h2testw-windows#start
-
-hardmod-downgrade:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /hardmod-downgrade#what_need
-      - title: "• Инструкция:"
-        url: /hardmod-downgrade#instructions
-      - title: "  - Часть I - Модификация NAND"
-        url: /hardmod-downgrade#part1
-      - title: "  - Часть II - Проверка эксплойта"
-        url: /hardmod-downgrade#part2
-      - title: "• В начало раздела"
-        url: /hardmod-downgrade#start
 
 homebrew-launcher-alternatives:
   - title: "Разделы"
@@ -496,40 +342,120 @@ homebrew-launcher-no-browser:
         url: /Homebrew-launcher-no-browser#instructions
       - title: "• В начало раздела"
         url: /Homebrew-launcher-no-browser#start
-
-installing-arm9loaderhax:
+      
+installing-boot9strap-dsiware-game-injection:
   - title: "Разделы"
     children:
-      - title: "• Описание шагов"
-        url: /installing-arm9loaderhax#steps
       - title: "• Что понадобится"
-        url: /installing-arm9loaderhax#what_need
+        url: /installing-boot9strap-dsiware-game-injection#what_need
       - title: "• Инструкция:"
-        url: /installing-arm9loaderhax#instructions
+        url: /installing-boot9strap-dsiware-game-injection#instructions
       - title: "  - Часть I - Подготовительные работы"
-        url: /installing-arm9loaderhax#part1
-      - title: "  - Часть II - Установка arm9loaderhax"
-        url: /installing-arm9loaderhax#part2
-      - title: "  - Часть III - Настройка Luma3DS"
-        url: /installing-arm9loaderhax#part3
-      - title: "  - Часть IV - Восстановление системы"
-        url: /installing-arm9loaderhax#part4
-      - title: "  - Часть V - Интеграция FBI"
-        url: /installing-arm9loaderhax#part5
-      - title: "  - Часть VI - Установка CIA"
-        url: /installing-arm9loaderhax#part6
-      - title: "  - Часть VII - DSP Dump"
-        url: /installing-arm9loaderhax#part7
-      - title: "  - Часть VIII - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)"
-        url: /installing-arm9loaderhax#part8
-      - title: "  - Часть IX - CTRNAND Luma3DS"
-        url: /installing-arm9loaderhax#lumactrnand
-      - title: "  - Часть X - Настройка freeshop"
-        url: /installing-arm9loaderhax#freeshop
-      - title: "• Полезные ссылки"
-        url: /installing-arm9loaderhax#links
+        url: /installing-boot9strap-dsiware-game-injection#part1
+      - title: "  - Часть II -  Запуск SafeB9SInstaller"
+        url: /installing-boot9strap-dsiware-game-injection#part2
+      - title: "  - Часть III - Установка boot9strap"
+        url: /installing-boot9strap-dsiware-game-injection#part3
       - title: "• В начало раздела"
-        url: /installing-arm9loaderhax#start
+        url: /installing-boot9strap-dsiware-game-injection#start
+    
+installing-boot9strap-dsiware-game-injection:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /installing-boot9strap-dsiware-game-injection#what_need
+      - title: "• Инструкция:"
+        url: /installing-boot9strap-dsiware-game-injection#instructions
+      - title: "  - Часть I - Подготовительные работы"
+        url: /installing-boot9strap-dsiware-game-injection#part1
+      - title: "  - Часть II -  Инъекция игры и сохранения"
+        url: /installing-boot9strap-dsiware-game-injection#part2
+      - title: "  - Часть III - Перенос системы"
+        url: /installing-boot9strap-dsiware-game-injection#part3
+      - title: "  - Часть IV - Восстановление исходной 3DS"
+        url: /installing-boot9strap-dsiware-game-injection#part4
+      - title: "  - Часть V - Резервное копирование FIRM целевой 3DS"
+        url: /installing-boot9strap-dsiware-game-injection#part5
+      - title: "  - Часть VI - Прошивка FIRM целевой 3DS"
+        url: /installing-boot9strap-dsiware-game-injection#part6
+      - title: "• В начало раздела"
+        url: /installing-boot9strap-dsiware-game-injection#start
+    
+installing-boot9strap-dsiware-save-injection:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /installing-boot9strap-dsiware-save-injection#what_need
+      - title: "• Инструкция:"
+        url: /installing-boot9strap-dsiware-save-injection#instructions
+      - title: "  - Часть I - Подготовительные работы"
+        url: /installing-boot9strap-dsiware-save-injection#part1
+      - title: "  - Часть II -  Установка сохранения"
+        url: /installing-boot9strap-dsiware-save-injection#part2
+      - title: "  - Часть III - Перенос системы"
+        url: /installing-boot9strap-dsiware-save-injection#part3
+      - title: "  - Часть IV - Восстановление исходной 3DS"
+        url: /installing-boot9strap-dsiware-save-injection#part4
+      - title: "  - Часть V - Резервное копирование FIRM целевой 3DS"
+        url: /installing-boot9strap-dsiware-save-injection#part5
+      - title: "  - Часть VI - Прошивка FIRM целевой 3DS"
+        url: /installing-boot9strap-dsiware-save-injection#part6
+      - title: "• В начало раздела"
+        url: /installing-boot9strap-dsiware-save-injection#start
+        
+installing-boot9strap-hardmod:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /installing-boot9strap-hardmod#what_need
+      - title: "• Инструкция"
+        url: /installing-boot9strap-hardmod#instructions
+      - title: "• В начало раздела"
+        url: /installing-boot9strap-hardmod#start
+    
+installing-boot9strap-homebrew-launcher:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /installing-boot9strap-homebrew-launcher#what_need
+      - title: "• Инструкция:"
+        url: /installing-boot9strap-homebrew-launcher#instructions
+      - title: "  - Часть I - Подготовительные работы"
+        url: /installing-boot9strap-homebrew-launcher#part1
+      - title: "  - Часть II -  Запуск SafeB9SInstaller"
+        url: /installing-boot9strap-homebrew-launcher#part2
+      - title: "  - Часть III - Установка boot9strap"
+        url: /installing-boot9strap-homebrew-launcher#part3
+      - title: "• В начало раздела"
+        url: /installing-boot9strap-homebrew-launcher#start
+        
+installing-boot9strap-mset:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /installing-boot9strap-mset#what_need
+      - title: "• Инструкция:"
+        url: /installing-boot9strap-mset#instructions
+      - title: "  - Часть I - Подготовительные работы"
+        url: /installing-boot9strap-mset#part1
+      - title: "  - Часть II -  Запуск SafeB9SInstaller"
+        url: /installing-boot9strap-mset#part2
+      - title: "  - Часть III - Установка boot9strap"
+        url: /installing-boot9strap-mset#part3
+      - title: "• В начало раздела"
+        url: /installing-boot9strap-mset#start
+    
+installing-boot9strap-dsiware-game-injection-list:
+  - title: "Разделы"
+    children:
+      - title: "• EUR"
+        url: /installing-boot9strap-dsiware-game-injection-list#eur
+      - title: "• USA"
+        url: /installing-boot9strap-dsiware-game-injection-list#usa
+      - title: "• JAP"
+        url: /installing-boot9strap-dsiware-game-injection-list#jap
+      - title: "• В начало раздела"
+        url: /installing-boot9strap-dsiware-game-injection-list#start
         
 move-emunand:
   - title: "Разделы"
@@ -559,18 +485,6 @@ move-emunand:
       - title: "• В начало раздела"
         url: /move-emunand#start
 
-nand-size:
-  - title: "Разделы"
-    children:
-      - title: "• 2DS"
-        url: /nand-size#2ds
-      - title: "• Old 3DS"
-        url: /nand-size#3ds
-      - title: "• New 3DS"
-        url: /nand-size#n3ds
-      - title: "• В начало раздела"
-        url: /nand-size#start
-        
 ntr-and-cubic-ninja:
   - title: "Разделы"
     children:
@@ -609,60 +523,6 @@ region-changing:
       - title: "• В начало раздела"
         url: /region-changing#start
         
-safectrtransfer-browser:
-  - title: "Разделы"
-    children:
-      - title: "• Описание шагов"
-        url: /safectrtransfer-browser#steps
-      - title: "• Что понадобится"
-        url: /safectrtransfer-browser#what_need
-      - title: "• Инструкция"
-        url: /safectrtransfer-browser#instructions
-      - title: "- Часть I - Подготовительные работы"
-        url: /safectrtransfer-browser#part1
-      - title: "- Часть II - Запуск SafeCTRTransfer"
-        url: /safectrtransfer-browser#part2
-      - title: "- Часть III - CTRTransfer"
-        url: /safectrtransfer-browser#part3
-      - title: "• В начало раздела"
-        url: /safectrtransfer-browser#start
-
-safectrtransfer-homebrew-launcher:
-  - title: "Разделы"
-    children:
-      - title: "• Описание шагов"
-        url: /safectrtransfer-homebrew-launcher#steps
-      - title: "• Что понадобится"
-        url: /safectrtransfer-homebrew-launcher#what_need
-      - title: "• Инструкция"
-        url: /safectrtransfer-homebrew-launcher#instructions
-      - title: "- Часть I - Подготовительные работы"
-        url: /safectrtransfer-homebrew-launcher#part1
-      - title: "- Часть II - Запуск SafeCTRTransfer"
-        url: /safectrtransfer-homebrew-launcher#part2
-      - title: "- Часть III - CTRTransfer"
-        url: /safectrtransfer-homebrew-launcher#part3
-      - title: "• В начало раздела"
-        url: /safectrtransfer-homebrew-launcher#start
-
-safectrtransfer-mset:
-  - title: "Разделы"
-    children:
-      - title: "• Описание шагов"
-        url: /safectrtransfer-mset#steps
-      - title: "• Что понадобится"
-        url: /safectrtransfer-mset#what_need
-      - title: "• Инструкция"
-        url: /safectrtransfer-mset#instructions
-      - title: "- Часть I - Подготовительные работы"
-        url: /safectrtransfer-mset#part1
-      - title: "- Часть II - Запуск SafeCTRTransfer"
-        url: /safectrtransfer-mset#part2
-      - title: "- Часть III - CTRTransfer"
-        url: /safectrtransfer-mset#part3
-      - title: "• В начало раздела"
-        url: /safectrtransfer-mset#start
-
 themes:
   - title: "Разделы"
     children:
@@ -714,25 +574,7 @@ troubleshooting:
         url: /troubleshooting#ts_sys_blue
       - title: "• В начало раздела"
         url: /troubleshooting#start
-
-updating-a9lh:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /updating-a9lh#what_need
-      - title: "• Инструкция:"
-        url: /updating-a9lh#instructions
-      - title: "  - Часть I - Подготовка"
-        url: /updating-a9lh#part1
-      - title: "  - Часть II - Обновление загрузчика"
-        url: /updating-a9lh#part2
-      - title: "  - Часть III - Настройка Luma3DS"
-        url: /updating-a9lh#part3
-      - title: "  - Часть IV - CTRNAND Luma3DS"
-        url: /updating-a9lh#part4
-      - title: "• В начало раздела"
-        url: /updating-a9lh#start
-        
+       
 update-luma3ds:
   - title: "Разделы"
     children:
@@ -744,10 +586,29 @@ update-luma3ds:
         url: /update-luma3ds#part1
       - title: "  - Способ I - Luma3ds Updater"
         url: /update-luma3ds#lumaupdater
-      - title: "• В начало раздела"
       - title: "  - Способ II - Обновление Luma вручную"
         url: /update-luma3ds#lumasd
       - title: "  - Часть II - CTRNAND Luma3DS"
         url: /update-luma3ds#lumactrnand
       - title: "• В начало раздела"
         url: /update-luma3ds#start
+        
+updating-to-boot9strap:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /updating-to-boot9strap#what_need
+      - title: "• Инструкция:"
+        url: /updating-to-boot9strap#instructions
+      - title: "  - Часть I - Подготовительные работы"
+        url: /updating-to-boot9strap#part1
+      - title: "  - Часть II - Установка boot9strap"
+        url: /updating-to-boot9strap#part2
+      - title: "  - Часть III - Настройка Luma3DS"
+        url: /updating-to-boot9strap#part3
+      - title: "  - Часть IV - CTRNAND Luma3DS"
+        url: /updating-to-boot9strap#part4
+      - title: "  - Часть V - Установка Luma3DS Updater"
+        url: /updating-to-boot9strap#part5
+      - title: "• В начало раздела"
+        url: /updating-to-boot9strap#start

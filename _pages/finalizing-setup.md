@@ -2,6 +2,8 @@
 title: "Завершение установки" #
 lang: ru
 permalink:  finalizing-setup.html
+sidebar:
+  nav: "finalizing-setup"
 ---
 
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
@@ -21,6 +23,7 @@ permalink:  finalizing-setup.html
 +  **Themely** *(установка пользовательских тем)*
 +  **Luma3DS Updater** *(Удобное обновление CFW)*
 +  **GodMode9** *(многофункциональная утилита для работы с NAND и картриджами)*
++  **freeshop** *(open source клон eShop, облегчающий поиск игр)*
 
 {% endcapture %}
 
@@ -32,9 +35,10 @@ permalink:  finalizing-setup.html
 * Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(`.cia` файл)*
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
+* Свежая версия [DspDump](https://github.com/Cruel/DspDump/releases/latest)
+* Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases)
 * **Только для Old 3DS и 2DS:** Old 3DS 11.2.0-35 [otherapp payload](https://smealum.github.io/3ds/#otherapp) для вашего региона
 
 #### <a name="instructions" />Инструкция
@@ -79,8 +83,18 @@ permalink:  finalizing-setup.html
 1. Включите консоль, чтобы попасть в меню настроек Luma3DS
   + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)
 1. Нажимая (A) выберите следующие пункты:    
+  + **"Enable game patching"**
   + **"Show NAND or user string in System Settings"**
-1. Нажмите (Start), чтобы сохранить настройки и перезагрузиться
+1. Если у вас **New 3DS**, вы *также* можете включить следующие опции:
+  + **"New 3DS CPU" выбрать значение "Clock+L2(x)"**
+    + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других
+    + Если какие-либо игры работают некорректно, отключите эту опцию
+	
+    ![]({{ base_path }}/images/screenshots/luma-settings.png)
+	{: .text-center}
+    {: .notice--info}
+	
+1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
   + Если после включения экран остаётся чёрным, просто переходите к следующей части   
 
 ##### <a name="part3" />Часть III - Обновление системы
@@ -95,7 +109,7 @@ permalink:  finalizing-setup.html
 
 ##### <a name="part4" />Часть IV - Интеграция FBI
 
-1. Перезагрузитесь, удерживая кнопку (Start), чтобы запустить меню Luma3DS chainloader
+1. Перезагрузитесь, удерживая кнопку (START), чтобы запустить меню Luma3DS chainloader
 1. Запустите GodMode9, нажав кнопку (A)
 1. Перейдите в `[0:] SDCARD` -> `cias`
 1. Нажмите (A) чтобы выбрать файл `FBI.cia`, затем выберите "CIA image options...", затем "Mount image to drive"
@@ -113,14 +127,18 @@ permalink:  finalizing-setup.html
 1. Выберите "Install all CIAs" и нажмите (A) для подтверждения
 1. Нажмите (HOME) для выхода из FBI
 
-##### <a name="part6" />Часть VI - DSP Dump
+##### <a name="part7" />Часть VII - DSP Dump
 
-1. Запустите DSP1
-1. После завершения, нажмите (START) для выхода
+1. Запустите Homebrew Launcher из меню HOME
+ + Если Homebrew Launcher не запускается, убедитесь что у вас включен Wi-Fi, стоит свежая версия hblloader и luma3DS
+ + Если вместо Homebrew Launcher запускается Загружаемая игра (Download play), отключите приставку, удерживая кнопку включения, и заново запустите Homebrew Launcher.
+1. Выберите "DSP Dump"
+1. После завершения нажмите (START) для выхода из DSP Dump
+1. Нажмите (START), чтобы открыть меню выхода из Homebrew Launcher
 
 ##### <a name="part7" />Часть VII - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)
 
-1. Перезагрузитесь, удерживая кнопку (Start), чтобы запустить меню Luma3DS chainloader
+1. Перезагрузитесь, удерживая кнопку (START), чтобы запустить меню Luma3DS chainloader
 1. Запустите GodMode9, нажав кнопку (A)
 1. Нажмите кнопку (HOME) для вызова меню
 1. Выберите "More..."
@@ -129,7 +147,7 @@ permalink:  finalizing-setup.html
 
 ##### <a name="part8" />Часть VIII - CTRNAND Luma3DS
 
-1. Перезагрузитесь, удерживая кнопку (Start), чтобы запустить меню Luma3DS chainloader
+1. Перезагрузитесь, удерживая кнопку (START), чтобы запустить меню Luma3DS chainloader
 1. Запустите GodMode9, нажав кнопку (A)
 1. Перейдите в `[0:] SDCARD` -> `luma` -> `payloads`
 1. Нажмите (X), выделив файл `SafeB9SInstaller.bin` чтобы удалить его
@@ -148,12 +166,17 @@ permalink:  finalizing-setup.html
   + Необходимо хотя бы раз загрузиться без SD-карты, чтобы настроить Luma3DS, установленную в раздел CTRNAND
 1. Нажимая (A) выберите следующие пункты:    
   + **"Show NAND or user string in System Settings"**
+  + **"Enable game patching"**
+1. Если у вас **New 3DS**, вы *также* можете включить следующие опции:
+  + **"New 3DS CPU" выбрать значение "Clock+L2(x)"**
+    + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других
+    + Если какие-либо игры работают некорректно, отключите эту опцию
 1. Вставьте SD-карту обратно в консоль
-1. Нажмите (Start), чтобы сохранить настройки и перезагрузиться
+1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
 
-##### <a name="part9" />Часть IX - NAND Backup
+##### <a name="nand_backup" />Часть IX - NAND Backup
 
-1. Включите консоль кнопкой питания, держа нажатой кнопку (Start), чтобы запустить меню Luma3DS chainloader
+1. Включите консоль кнопкой питания, держа нажатой кнопку (START), чтобы запустить меню Luma3DS chainloader
 1. Запустите GodMode9, нажав кнопку (A)
 1. Нажмите кнопку (HOME) для вызова меню
 1. Выберите "More..."
@@ -166,9 +189,39 @@ permalink:  finalizing-setup.html
   + Эти бэкапы позволят восстановить консоль, если впоследствии что-то пойдёт не так
 1. После копирования удалите `nand.bin` из папки `/gm9out/` на SD-карте
 1. Вставьте SD-карту обратно в консоль
-1. Нажмите (Start), чтобы сохранить настройки и перезагрузиться
+1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
+
+##### <a name="freeshop" />Часть X - Настройка freeshop
+
+Приложение работает только при включенном интернете!
+{: .notice--info}
+
+1. Запустите консоль
+1. Запустите приложение freeshop из меню Home
+1. Дождитесь пока программа обновится
+1. Перейдите в настройки программы. Для этого на нижнем экране нажмите вторую справа иконку в верхнем правом углу (в форме шестеренки)
+1. Перейдите во вкладку "Обновление"
+1. Поставьте галочку напротив первого пункта - "Авто-обновление ключей приложения через URL"
+1. Нажмите на иконку с изображение QR-кода (находится прямо под галочкой, которую вы только что отметили)
+1. Отсканируйте QR 
+
+    ![]({{ base_path }}/images/QR/freeshop.png)
+	{: .text-center}
+    {: .notice--info}
+
+1. Нажмите кнопку "Обновить кэш"
+1. Перезагрузите freeshop
+
+Если у вас freeshop ругается на неверные или отсутствующие ключи, скачайте предложенный [`zip-архив`](images/freeShop.zip) и распакуйте его содержимое с заменой в папку `/3ds/data` на вашей SD-карте (должно получится так: `/3ds/data/freeshop/файлы`), после чего перезагрузите freeshop.
+{: .notice--warning}
+
+Установка приложений из freeshop происходит с помощью кнопки (X)
+{: .notice--info}
 
 ___
+
+В случае проблем с работой DSi / DS (например, картриджи DS или DSiWare перестали работать), обратитесь к разделу [Проблемы и их решения](troubleshooting#twl_broken)
+{: .notice--warning}
 
 {% capture notice-10 %}
 Теперь вы можете использовать Luma3DS Updater для обновления кастомной прошивки. Запустите его и нажмите (А).     
@@ -180,9 +233,9 @@ ___
 
 {% capture notice-6 %}   
 Теперь по умолчанию будет запускаться Luma3DS CFW SysNAND.    
-Для запуска конфигуратора Luma3DS включите консоль с зажатой кнопкой (Select).    
+Для запуска конфигуратора Luma3DS включите консоль с зажатой кнопкой (SELECT).    
 Теперь вы можете удерживать (START) при загрузке для запуска Luma3DS chainloader меню (обратите внимание, что Luma3DS chainloader меню отображается только если существует более одного приложения).
-Теперь вы можете удерживать (START) + (SELECT) + (X) при загрузке для сохранения копий ARM11 bootrom (`boot11.bin`), ARM9 bootrom (`boot9.bin`) и уникального OTP вашей консоли (`OTP.bin`) в папку `/boot9strap/` на SD-карте (Обратите внимания, что это не имеет какого либо запроса или сообщения).
+Удерживайте (START) + (SELECT) + (X) при загрузке для сохранения копий ARM11 bootrom (`boot11.bin`), ARM9 bootrom (`boot9.bin`) и уникального OTP вашей консоли (`OTP.bin`) в папку `/boot9strap/` на SD-карте (весь процесс произойдет в фоне без какого-либо сообщения, или прогресс-бара).
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
@@ -207,5 +260,6 @@ ___
 Для справки об использовании различных функций Luma3DS обратитесь к её [вики](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage) (англ.).
 {: .notice--success}
 
-Для получения информации по установке пользовательских тем, значков и экранов-заставок, посетите [3dsthem.es](https://3dsthem.es/about.php).
+<a name="links" />
+Различные инструкции, не имеющие прямого отношения ко взлому, однако помогающие лучше изучить возможности 3DS на кастомной прошивке и эффективнее ей пользоваться находятся [здесь](addons).
 {: .notice--success}

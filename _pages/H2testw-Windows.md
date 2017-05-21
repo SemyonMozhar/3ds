@@ -39,4 +39,4 @@ ___
 {: .notice--danger}
 
 Вернуться к [Началу](get-started)
-{: .notice--primary}
+{: .notice--success}
