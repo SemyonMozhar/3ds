@@ -345,6 +345,22 @@ homebrew-launcher-no-browser:
         url: /Homebrew-launcher-no-browser#instructions
       - title: "• В начало раздела"
         url: /Homebrew-launcher-no-browser#start
+        
+installing-boot9strap-2xrsa:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /installing-boot9strap-2xrsa#what_need
+      - title: "• Инструкция:"
+        url: /installing-boot9strap-2xrsa#instructions
+      - title: "  - Часть I - Подготовительные работы"
+        url: /installing-boot9strap-2xrsa#part1
+      - title: "  - Часть II -  Запуск SafeB9SInstaller"
+        url: /installing-boot9strap-2xrsa#part2
+      - title: "  - Часть III - Установка boot9strap"
+        url: /installing-boot9strap-2xrsa#part3
+      - title: "• В начало раздела"
+        url: /installing-boot9strap-2xrsa#start
       
 installing-boot9strap-dsiware-game-injection:
   - title: "Разделы"
@@ -483,8 +499,6 @@ move-emunand:
         url: /move-emunand#part7
       - title: "  - Часть VIII - Форматирование SD-карты"
         url: /move-emunand#part8
-      - title: "  - Часть IX - Обновление прошивки консоли "
-        url: /move-emunand#part9
       - title: "• В начало раздела"
         url: /move-emunand#start
 
@@ -561,17 +575,13 @@ troubleshooting:
         url: /troubleshooting#rm_nnid
       - title: "• Не работает интеграция в Health & Safety на устройстве с пониженной прошивкой при помощи Gateway"
         url: /troubleshooting#gw_fbi
-      - title: "• Браузер зависает при попытке открыть http://goo.gl/xUMUJB"
+      - title: "• Не работает эксплойт на основе браузера"
         url: /troubleshooting#ts_browser
-      - title: "• При загрузке запускается SafeA9LHInstaller"
-        url: /troubleshooting#ts_safe_a9lh
-      - title: "• Видны искажения на экране после запуска SafeA9LHInstaller"
-        url: /troubleshooting#ts_safe_a9lh_screen
       - title: "• Черный экран при загрузке SysNAND "
         url: /troubleshooting#ts_sys_down
       - title: "• Черный экран при загрузке SysNAND после установки b9s"
         url: /troubleshooting#ts_sys_b9s
-      - title: "• Ошибка во время SafeCTRTransfer"
+      - title: "• Ошибка во время SafeB9SInstaller"
         url: /troubleshooting#ts_transfer
       - title: "• Голубой экран при загрузке (bootrom error)"
         url: /troubleshooting#ts_sys_blue

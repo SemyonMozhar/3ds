@@ -28,14 +28,29 @@ sidebar:
 1. Скопируйте _содержимое_ папки `starter` из архива `starter.zip` в корень вашей SD-карты
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива`boot9strap в папку `/boot9strap/` в корне SD-карты
-1. Скопируйте `SafeB9SInstaller.dat` из `.zip-ахрива` SafeB9SInstaller в корень SD-карты
+1. Скопируйте `SafeB9SInstaller.dat` и `Launcher.dat` из `.zip-ахрива` SafeB9SInstaller в корень SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
 ##### <a name="part2" />Часть II - Запуск SafeB9SInstaller
 
 1. Запустите браузер на консоли и перейдите по одной из следующих ссылок
-  + `https://dukesrg.github.io/?SafeB9SInstaller.dat`
+  + `https://goo.gl/Pk5IZs` или `https://dukesrg.github.io/?SafeB9SInstaller.dat`
+  + `https://goo.gl/f8GbSf` или `http://go.gateway-3ds.com/`
+  + `https://goo.gl/ASCLSV` или `http://www.reboot.ms/3ds/load.html?Launcher.dat`
+  + `https://goo.gl/etmY59` или `http://dukesrg.dynu.net/3ds/rop?GW17567.dat&Launcher.dat`
+  + **Или сосканируйте камерой QR, если QR-сканер есть в вашей версии прошивки:**
+
+	Для того, чтобы попасть в QR-scanner, нажмите одновременно (L)+(R), находясь на домашнем экране, а затем нажмите пиктограмму с изображением QR-кода на нижнем экране.
+	{: .notice--info}
+
+	![]({{ base_path }}/images/QR/dukeGithub.png)	![]({{ base_path }}/images/QR/gateway.png)
+	<br>
+	![]({{ base_path }}/images/QR/goReboot.png)	![]({{ base_path }}/images/QR/dukeDynu.png)
+	{: .text-center}
+    {: .notice--info}
+  
+  + В случае, если первая ссылка не сработала, попробуйте все остальные (некоторое консоли не могут использовать первую ссылку, в то время как другие не могут использовать последние три)
   + При возникновении ошибки, обратитесь к разделу [Проблемы и их решения](troubleshooting#ts_browser)
 1. Если эксплойт сработал, запустится SafeB9SInstaller
 
@@ -45,6 +60,8 @@ sidebar:
 1. При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap
 1. После завершения процесса, нажмите (A) для перезагрузки
 1. Ваша консоль загрузится в boot9strap, затем автоматически выключится, поскольку запускаемого файла еще нет
+  + Приставка не загрузится до тех пор, пока вы не выполните инструкции на следующей странице; без паники, так и должно быть
+  
 ___
 
 Следующий шаг: [Завершение установки](finalizing-setup)

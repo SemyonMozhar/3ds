@@ -37,7 +37,7 @@ Homebrew Launcher имеет множество точек входа, или м
 
 	| <sub> | <sub>Что понадобится | <sub>Издания | <sub>Устройства | <sub>Регионы | <sub>Версии игры | <sub>Версии прошивки |
 	|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-    | <sub>[browserhax](https://yls8.mtheall.com/3dsbrowserhax.php) | <sub>Nothing | <sub>Предустановленный браузер | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>от 9.0.0-2 до 11.0.0-33 включительно |
+    | <sub>[browserhax](https://yls8.mtheall.com/3dsbrowserhax.php) | <sub>Ничего | <sub>Предустановленный браузер | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>All | <sub>от 9.0.0-2 до 11.0.0-33 включительно |
 	| <sub>[oot3dhax](https://github.com/yellows8/oot3dhax) | <sub>[*Ocarina of Time 3D*](https://amzn.to/2fkaKdp), <br> Powersaves или другая 3DS с доступом к Homebrew Launcher | <sub>Картридж | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>Все | <sub>от 9.0.0-X до 11.3.0-X включительно |
 	| <sub>[smashbroshax](https://gbatemp.net/threads/397194/) | <sub>[*Super Smash Bros*](https://amzn.to/2ftGA72) | <sub>Картридж, eShop | <sub>New  | <sub>EUR, JPN, USA | <sub><1.1.3, <br> Картриджи с "amiibo" на обложке идут с версией 1.1.4 | <sub>от 9.0.0-X до 11.3.0-X включительно |
 	| <sub>[supermysterychunkhax](https://smd.salthax.org/) | <sub>[*Pokemon Super Mystery Dungeon*](https://amzn.to/2ebxZ75), <br> Другая 3DS с доступом к Homebrew Launcher | <sub>Картридж | <sub>New, Old, 2DS | <sub>EUR, JPN, USA | <sub>Все | <sub>9.9.0-X (USA/JPN) / от 10.2.0-X (EUR) до 11.0.0-X (EUR) включительно |

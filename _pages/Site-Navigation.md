@@ -48,6 +48,7 @@ permalink: /site-navigation.html
 + [Расширения файлов (Windows)](file-extensions-windows)
 + [Смена региона](region-changing)
 + [Список полезных после прошивки инструкций](addons)
++ [Установка boot9strap (2xrsa)](installing-boot9strap-2xrsa)
 + [Установка boot9strap (DSiWare)](installing-boot9strap-dsiware)
 + [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod)
 + [Установка boot9strap (Homebrew Launcher)](installing-boot9strap-homebrew-launcher)

@@ -36,15 +36,19 @@ permalink: /get-started-new-3ds.html
   </thead>
   <tbody>
     <tr>
+        <td style="text-align: center; font-weight: bold;">2.1.0</td>
+        <td style="text-align: center; font-weight: bold;">2.1.0</td>
+        <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-2xrsa">Установка boot9strap (2xrsa)</a></td>
+      </tr>
+    <tr>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="ntr-and-cubic-ninja">NTR и Cubic Ninja</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="ntr-and-cubic-ninja">NTR и Cubic Ninja</a> или <br> <a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>
       <td style="text-align: center; font-weight: bold;">11.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-alternatives">Homebrew Launcher<br>(альтернативные способы запуска)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-soundhax">Homebrew Launcher (SoundHax)</a></td>
+        <td style="text-align: center; font-weight: bold;" colspan="2"><a href="homebrew-launcher-soundhax">Homebrew Launcher (Soundhax)</a> или <br> <a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
