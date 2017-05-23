@@ -15,8 +15,6 @@ sidebar:
 Если в Luma3DS вы используете PIN-код, то при работе SafeB9SInstaller вы получите ошибку "OTP Crypto Fail". Для решения этой проблемы временно откажитесь от использования PIN-кода, либо скачайте `aeskeydb.bin`-файл по ссылке ниже.
 {: .notice--warning}
 
-<div class="notice--warning">{{ notice-1 | markdownify }}</div>
-
 Если вы в настоящее время используете или использовали ранее программу "3dsafe", вы можете получить сообщение об ошибке "OTP Crypto Fail" при попытке запуска SafeB9SInstaller. Воспользуйтесь решением, предложенным [здесь](https://github.com/Plailect/Guide/issues/1094)
 {: .notice--warning}
 
@@ -35,7 +33,7 @@ Note that the the following required file named `aeskeydb.bin` is *not* the same
 
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте torrent-клиент для загрузки файла."></i> - **Только для пользователей "3DSafe":** [`aeskeydb.bin`](magnet:?xt=urn:btih:621f8af00638cb2b00d5bd0c6816543fa00b5fb1&dn=aeskeydb.bin&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce)
   + **Обратите внимание, что этот файл решит проблему с ошибкой "OTP Crypto Fail", для всех у кого она возникает (не важно, установлен "3DSafe" или нет), например для пользователей PIN-кода в Luma3DS**
-* <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - **Только для пользователей New 3DS:** [`secret_sector.bin`](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - **Только для пользователей New 3DS:** [`secret_sector.bin`](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl% 3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce)
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z-архив`)*
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest)
@@ -85,7 +83,17 @@ Note that the the following required file named `aeskeydb.bin` is *not* the same
 {: .notice--info}
 
 1. В меню настроек Luma3DS используйте кнопки (A) и D-Pad чтобы включить следующее:    
+  + **"Enable game patching"**
   + **"Show NAND or user string in System Settings"**
+1. Если у вас **New 3DS**, вы *также* можете включить следующие опции:
+  + **"New 3DS CPU" выбрать значение "Clock+L2(x)"**
+    + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других
+    + Если какие-либо игры работают некорректно, отключите эту опцию
+	
+    ![]({{ base_path }}/images/screenshots/luma-settings.png)
+	{: .text-center}
+    {: .notice--info}
+
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
 
 ##### <a name="part4" />Часть IV - CTRNAND Luma3DS
@@ -146,7 +154,7 @@ ___
 <br><br>
 Теперь вы можете удерживать (START) при загрузке для запуска меню Luma3DS chainloader (обратите внимание, что меню Luma3DS chainloader отображается только если существует более одного приложения).
 <br><br>
-Теперь, с помощью зажатой комбинации клавиш (START) + (SELECT) + (X) при включении консоли, вы сможете сохранить копии ARM11 bootrom (`boot11.bin`), ARM9 bootrom (`boot9.bin`) и уникального OTP вашей консоли (`OTP.bin`) в папку `/boot9strap/` на SD-карте (обратите внимание, что этот процесс не предусматривает отображения какого-либо оповещения).
+Теперь, с помощью зажатой комбинации клавиш (START) + (SELECT) + (X) при включении консоли, вы сможете сохранить копии ARM11 bootrom (`boot11.bin`), ARM9 bootrom (`boot9.bin`) и уникального [OTP](otp) вашей консоли (`OTP.bin`) в папку `/boot9strap/` на SD-карте (обратите внимание, что этот процесс не предусматривает отображения какого-либо оповещения).
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

@@ -4,6 +4,8 @@ main:
     url: http://customfw.xyz
   - title: "FAQ"
     url: /faq
+  - title: "Обновление<br>до b9s"
+    url: /updating-to-boot9strap
   - title: "Инструкции,<br>полезные после прошивки"
     url: /addons
   - title: "Карта сайта"
@@ -16,8 +18,6 @@ main:
     url: /fbi
   - title: "Обновление с<br>помощью картриджа"
     url: /cart-update
-  - title: "Обновление<br>до b9s"
-    url: /updating-to-boot9strap
   - title: "Смена региона"
     url: /region-changing
   - title: "Перенос EmuNAND"
