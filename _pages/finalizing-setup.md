@@ -141,7 +141,7 @@ sidebar:
 1. Выберите "Install all CIAs" и нажмите (A) для подтверждения
 1. Нажмите (HOME) для выхода из FBI
 
-##### <a name="part7" />Часть VII - DSP Dump
+##### <a name="part7" />Часть VI - DSP Dump
 
 1. Запустите Homebrew Launcher из меню HOME
  + Если Homebrew Launcher не запускается, убедитесь что у вас включен Wi-Fi, стоит свежая версия hblloader и luma3DS
