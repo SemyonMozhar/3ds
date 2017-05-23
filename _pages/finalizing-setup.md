@@ -6,9 +6,6 @@ sidebar:
   nav: "finalizing-setup"
 ---
 
-Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--success}
-
 #### <a name="steps" />Описание шагов
 
 {% capture notice-2 %}
@@ -56,6 +53,7 @@ sidebar:
 1. Скопируйте `FBI.cia` из архива FBI в папку `/cias/` в корне SD-карты
 1. Скопируйте `Themely.cia` в папку `/cias/` в корне SD-карты
 1. Скопируйте `freeshop.cia` в папку `/cias/` в корне SD-карты
+1. Скопируйте `DspDump.3dsx` в папку `/3ds/` в корне SD-карты
 
     ![]({{ base_path }}/images/screenshots/cias-file-layout.png)
 	{: .text-center}
