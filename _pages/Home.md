@@ -88,8 +88,7 @@ boot9strap имеет множество преимуществ перед др�
 + Следуя гайду вы не потеряете уже имеющиеся сохранения!
 
 <!-- Put this div tag to the place, where the Comments block will be -->
-<div id="vk_comments">
+<div id="vk_comments"></div>
 <script type="text/javascript">
 VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
 </script>
-<br><br><br><br><br><br><br></div>
