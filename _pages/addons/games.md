@@ -61,3 +61,8 @@ sidebar:
 
 Если около игры стоит желтый !, то для этой игры есть DLC. Если зеленый - обновление. Нажатие на соответствующую иконку, добавит выбранное дополнение в очередь загрузки
 {: .notice--info}
+
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>

@@ -71,3 +71,8 @@ SoundHax совместим с версиями прошивки от 9.0.0 до
 
 Следующий шаг: [Установка boot9strap (Homebrew Launcher)](installing-boot9strap-homebrew-launcher)
 {: .notice--success}
+
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>

@@ -20,3 +20,8 @@ sidebar:
 + Как включить русский язык в играх на приставке не европейского региона. [Использование LumaLocaleSwitcher](lumalocaleswitcher)
 + [Смена региона](region-changing)
 + [Переход с a9lh на b9s](updating-to-boot9strap)
+
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>

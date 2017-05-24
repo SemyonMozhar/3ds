@@ -92,3 +92,8 @@ ___
 Отдельная благодарность           
 + dimakuz26      
 + Антон Вишневский и Максим Терещенко за внимательность       
+
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>

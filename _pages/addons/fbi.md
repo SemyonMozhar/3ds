@@ -37,3 +37,8 @@ sidebar:
 1. Нажмите (A), чтобы продолжить
 1. Нажмите (START) для перезагрузки
 1. Если при запуске Health & Safety запускается не FBI и вы в прошлом понижали прошивку с помощью Gateway, обратитесь к [этой части раздела Проблемы и их решения](troubleshooting#gw_fbi)
+
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>

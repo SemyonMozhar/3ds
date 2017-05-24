@@ -30,3 +30,8 @@ permalink: /donations.html
 Перевод делался для группы [VK:3ds_CFW](http://vk.com/3ds_cfw)
 {: .text-center}
 {: .notice--info}
+
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>

@@ -86,3 +86,8 @@ sidebar:
     + Если какие-либо игры работают некорректно, отключите эту опцию
 1. Вставьте SD-карту обратно в консоль
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
+
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>
