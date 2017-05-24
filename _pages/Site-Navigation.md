@@ -1,6 +1,5 @@
 ---
 title: "Карта сайта" #
-layout: single-no-ads
 sitemap: false
 permalink: /site-navigation.html
 ---

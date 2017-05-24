@@ -1,5 +1,4 @@
 ---
-layout: single-no-ads
 permalink: /
 title: "3DS Guide"
 sidebar:
