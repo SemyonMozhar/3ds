@@ -35,7 +35,7 @@ sidebar:
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
-* Свежая версия [DspDump](https://github.com/Cruel/DspDump/releases/latest)
+* Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest)
 * Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases)
 * **Только для Old 3DS и 2DS:** Old 3DS 11.2.0-35 [otherapp payload](https://smealum.github.io/3ds/#otherapp) для вашего региона
 
@@ -118,11 +118,8 @@ sidebar:
 
 ##### <a name="part4" />Часть IV - Интеграция FBI
 
-Обратите внимание, что в некоторых версиях Luma3DS, Luma3DS chainloader меню отображается только в том случае, если существует более чем одно приложение. Если существует только одно приложение, удержание (START) при включении консоли запустит GodMode9 напрямую.
-{: .notice--info}
 
-1. Перезагрузитесь, удерживая кнопку (START), чтобы запустить меню Luma3DS chainloader
-1. Запустите GodMode9, нажав кнопку (A)
+1. Перезагрузитесь, удерживая кнопку (START), чтобы запустить GodMode9
 1. Перейдите в `[0:] SDCARD` -> `cias`
 1. Нажмите (A) чтобы выбрать файл `FBI.cia`, затем выберите "CIA image options...", затем "Mount image to drive"
 1. Нажмите (A) чтобы выбрать файл `.app`, затем выберите "NCCH image options", затем "Inject to H&S"
@@ -141,12 +138,8 @@ sidebar:
 
 ##### <a name="part7" />Часть VI - DSP Dump
 
-1. Запустите Homebrew Launcher из меню HOME
- + Если Homebrew Launcher не запускается, убедитесь что у вас включен Wi-Fi, стоит свежая версия hblloader и luma3DS
- + Если вместо Homebrew Launcher запускается Загружаемая игра (Download play), отключите приставку, удерживая кнопку включения, и заново запустите Homebrew Launcher.
-1. Выберите "DSP Dump"
-1. После завершения нажмите (START) для выхода из DSP Dump
-1. Нажмите (START), чтобы открыть меню выхода из Homebrew Launcher
+1. Запустите DSP1
+1. После завершения работы программы, нажмите (B), чтобы автоматически удалить программу из меню HOME
 
 ##### <a name="part7" />Часть VII - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)
 
@@ -159,15 +152,8 @@ sidebar:
 
 ##### <a name="part8" />Часть VIII - CTRNAND Luma3DS
 
-1. Перезагрузитесь, удерживая кнопку (START), чтобы запустить меню Luma3DS chainloader
-1. Запустите GodMode9, нажав кнопку (A)
-1. Перейдите в `[0:] SDCARD` -> `luma` -> `payloads`
-1. Нажмите (X), выделив файл `start_SafeB9SInstaller.bin` чтобы удалить его
-1. Нажмите (A) для подтверждения
-1. Нажмите (B), чтобы вернуться к `[0:] SDCARD`
-1. Нажмите (Y), выделив файл `boot.firm` чтобы скопировать его
 1. Нажмите (B) для возврата в главное меню
-1. Перейдите в `[1:] SYSNAND CTRNAND`
+1. Перейдите в `[0:] SDCARD`
 1. Нажмите (Y), чтобы вставить копию `boot.firm`
 1. Выберите "Copy path(s)"
 1. Нажмите (A), чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
@@ -176,16 +162,11 @@ sidebar:
 1. Нажмите (Y) на папке `luma`, чтобы скопировать её
 1. Нажмите (B) для возврата в главное меню
 1. Перейдите в `[1:] SYSNAND CTRNAND` -> `rw`
-1. Нажмите (X) на существующей папке `luma`, чтобы удалить её
-  + Если у вас нет этой папки, просто следуйте инструкции дальше
-1. Нажмите (A) для подтверждения
 1. Нажмите (Y), чтобы вставить копию папки `luma` из вашей SD-карты
-1. Нажмите (START) для перезагрузки
 
 ##### <a name="nand_backup" />Часть IX - NAND Backup
 
-1. Включите консоль кнопкой питания, удерживая кнопку (START), чтобы запустить меню Luma3DS chainloader
-1. Запустите GodMode9, нажав кнопку (A)
+1. Дважды нажмите (B) для возврата в главное меню
 1. Нажмите кнопку (HOME) для вызова меню
 1. Выберите "More..."
 1. Выберите "Backup NAND"
