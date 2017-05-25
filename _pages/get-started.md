@@ -24,6 +24,9 @@ permalink: /get-started.html
 Если вы пользователь Windows, то перед началом работ убедитесь, что в вашей системе включено отображение расширений файлов. Если вы не знаете как это сделать, следуйте этой инструкции: [Расширения файлов (Windows)](file-extensions-windows)!
 {: .notice--info}
 
+Обратите внимание, что новый метод [установки boot9strap через hardmod](installing-boot9strap-hardmod) работает на *всех устройствах, любого региона и версий*! Включая устройства CHN- и TWN-регионов, которые раньше считались невзлымываемыми! Из соображения читабельности таблицы, хардмод оставлен лишь в там, где он является единственным возможным методом. *Но это не значит, что он работает только там! Хардмод актуален для всех версий прошивки.*
+{: .notice--success}
+
 | New 3DS | Old 3DS или 2DS |
 |:-:|:-:|
 | [![New 3DS](/images/new3ds.png)](get-started-new-3ds) <br><br> [![New 3DS XL](/images/new3dsxl.png)](get-started-new-3ds) | [![Old 3DS](/images/old3ds.png)](get-started-old-3ds) &nbsp;&nbsp; [![Old 3DS XL](/images/old3dsxl.png)](get-started-old-3ds) <br><br> [![2DS](/images/2ds.png)](get-started-old-3ds) |

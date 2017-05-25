@@ -133,7 +133,7 @@ sidebar:
 1. Запустите "Информация о здоровье и безопасности" (Health and Safety) (теперь это FBI)
 1. Перейдите в `SD` -> `cias`
 1. Выберите "\<current directory>"
-1. Выберите "Install all CIAs" и нажмите (A) для подтверждения
+1. Выберите "Install and delete all CIAs" и нажмите (A) для подтверждения
 1. Нажмите (HOME) для выхода из FBI
 
 ##### <a name="part7" />Часть VI - DSP Dump

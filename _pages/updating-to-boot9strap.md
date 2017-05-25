@@ -55,8 +55,8 @@ Note that the the following required file named `aeskeydb.bin` is *not* the same
 1. Скопируйте `SafeB9SInstaller.bin` из `.zip-архива` SafeB9SInstaller в папку `/luma/payloads/` на SD-карте
 1. Переименуйте`SafeB9SInstaller.bin` в папке `/luma/payloads/` на SD-карте в `start_SafeB9SInstaller.bin`
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива`boot9strap в папку `/boot9strap/` в корне SD-карты
-1. **Только для New 3DS:** Скопируйте `secret_sector.bin` в папку `/boot9strap/` на SD-карте
-1. **Только для пользователей "3DSafe":** Скопируйте `aeskeydb.bin` в папку `/boot9strap/` на SD-карте
+1. **Пользователи New 3DS:** Скопируйте `secret_sector.bin` в папку `/boot9strap/` на SD-карте
+1. **Пользователи "3DSafe":** Скопируйте `aeskeydb.bin` в папку `/boot9strap/` на SD-карте
   + **Обратите внимание, что этот файл решит проблему с ошибкой "OTP Crypto Fail", для всех у кого она возникает (не важно, установлен "3DSafe" или нет), например для пользователей PIN-кода в Luma3DS**
 
     ![]({{ base_path }}/images/screenshots/updating-to-b9s-file-layout.png)

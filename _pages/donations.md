@@ -6,11 +6,6 @@ permalink: /donations.html
 ## Если вам помогло или просто понравилось это руководство, то автор принимает пожертвования:
 {: .text-center}
 
-[![Donorbox]({{ base_path }}/images/donorbox.png){:height="55px" width="256px"}{: style="padding-bottom: .35em"}](https://donorbox.org/plailect){: .align-center}
-[https://donorbox.org/plailect](https://donorbox.org/plailect)
-{: .text-center}
-{: .notice--info}
-
 [![Bitcoin]({{ base_path }}/images/bitcoin.png){:height="73px" width="256px"}{: style="padding-bottom: .35em"}](bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety){: .align-center}
 [1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety](bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety)
 {: .text-center}

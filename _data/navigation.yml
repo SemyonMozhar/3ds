@@ -179,8 +179,6 @@ godmode9-usage:
         url: /godmode9-usage#restore_gba
       - title: "• Форматирование SD-карты"
         url: /godmode9-usage#format_sd
-      - title: "• Загрузка другого ARM9 приложения"
-        url: /godmode9-usage#payload_chain
       - title: "• Шифровка / Расшифровка файла .CIA"
         url: /godmode9-usage#crypt_cia
       - title: "• В начало раздела"
