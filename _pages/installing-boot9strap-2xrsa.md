@@ -12,7 +12,7 @@ sidebar:
 #### <a name="what_need" />Что понадобится
 
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest)
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартную версию boot9strap; файл, без суффикса `dev`-)* *(стандартную версию boot9strap; файл, без суффикса `dev`-)*
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
 #### <a name="instructions" />Инструкция
@@ -30,7 +30,7 @@ sidebar:
 
 ##### <a name="part2" />Часть II - Запуск SafeB9SInstaller
 
-1. Запустите браузер на консоли и перейдите по одной из следующих ссылок
+1. Запустите браузер на консоли и перейдите по ссылке:
   + `http://2xrsa.3ds.guide`
   + Если вы забыли включить Wi-Fi на 2DS или New 3DS, это можно сделать, вытащив батарею и отключив зарядное устройство на несколько секунд, а затем снова включить консоль
   + Если появляется ошибка "This service is not available in your region", поменяйте регион в Системных настройках (System Settings) на соответствующий тому, который был установлен при 2.1.0 CTRTransfer

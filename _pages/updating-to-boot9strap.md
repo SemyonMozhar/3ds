@@ -21,6 +21,21 @@ sidebar:
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
 {: .notice--success}
 
+{% capture notice-1 %}
+Сообщается о волне банов, выданных Nintendo пользователям CFW. Чтобы защитить себя, выполните следующие шаги перед началом этого руководства:
+
+1. Откройте Системные настройки (System settings), затем "Интернет-настройки" (Internet Settings), затем "SpotPass", затем "Отправка информации о системе" (Sending of System Information)
+1. Отключите опцию "Отправка информации о системе" (Sending of System Information)
+1. Закройте Системные настройки (System settings)
+1. Откройте Список друзей (Friend's List) (значок в виде лица на верхней строчке меню HOME, на нижнем экране)
+  + Если появляется ошибка и вас не пускают в меню, значит Список друзей уже отключен
+1. Перейдите в настройки Списка друзей, затем "Настройки сообщений друга" (Friend Notification Settings), затем "Показать друзьям, во что вы играете" (Show friends what you're playing)
+1. Отключите опцию "Показать друзьям, во что вы играете"
+1. Закройте Список друзей
+{% endcapture %}
+
+<div class="notice--danger">{{ notice-1 | markdownify }}</div>
+
 #### <a name="what_need" />Что понадобится
 
 Обратите внимание, что на New 3DS `secret_sector.bin` необходим для отката эксплойта arm9loaderhax, поэтому он не требуется для установки на не взломанную консоль. Если у вас не New 3DS, вам не нужен `secret_sector.bin`.
@@ -29,14 +44,12 @@ sidebar:
 Обратите внимание, что требуемый файл `aeskeydb.bin`, это *не* тот же самый файл, который использовался в руководстве ранее. Он необходим для удаления программы "3DSafe", что позволит SafeB9SInstaller получить уникальный для вашей приставки OTP-файл. Это руководство не предусматривает установку "3DSafe", так что если вы не уверены установлен ли он у вас, то, скорее всего, его у вас нет, значит и `aeskeydb.bin` вам не нужен.
 {: .notice--info}
 
-Note that the the following required file named `aeskeydb.bin` is *not* the same one that was previously used in this guide. It is required to remove the software "3DSafe" as it allows SafeB9SInstaller to retrieve your console unique OTP. This guide has never instructed you to install "3DSafe", so if you do not remember installing it, you most likely do not have it and do not need `aeskeydb.bin`.
-
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Используйте torrent-клиент для загрузки файла."></i> - **Только для пользователей "3DSafe":** [`aeskeydb.bin`](magnet:?xt=urn:btih:621f8af00638cb2b00d5bd0c6816543fa00b5fb1&dn=aeskeydb.bin&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce)
   + **Обратите внимание, что этот файл решит проблему с ошибкой "OTP Crypto Fail", для всех у кого она возникает (не важно, установлен "3DSafe" или нет), например для пользователей PIN-кода в Luma3DS**
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - **Только для пользователей New 3DS:** [`secret_sector.bin`](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl% 3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce)
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z-архив`)*
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest)
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартную версию boot9strap; файл, без суффикса `dev`-)*
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
 

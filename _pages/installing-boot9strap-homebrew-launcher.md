@@ -15,7 +15,7 @@ sidebar:
 #### <a name="what_need" />Что понадобится
 
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest)
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартную версию boot9strap; файл, без суффикса `dev`-)*
 * Свежая версия [safehax](https://github.com/TiniVi/safehax/releases/latest)
 * Свежая версия [udsploit](https://github.com/smealum/udsploit/releases/latest)
 
