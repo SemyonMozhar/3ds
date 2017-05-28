@@ -6,8 +6,8 @@ sidebar:
   nav: "installing-boot9strap-dsiware-game-injection-list"
 ---
 
-Это автоматически создаваемый список всех игр, совместимых с [Установка boot9strap (DSiWare)](installing-boot9strap-dsiware).
-{: .notice--primary}
+Это автоматически созданный список всех игр, совместимых с [установкой boot9strap с использованием DSiWare](installing-boot9strap-dsiware).
+{: .notice--success}
 
 Список отсортирован по регионам в следующем порядке: EUR, USA, JPN.
 {: .notice--info}
