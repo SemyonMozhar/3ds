@@ -15,15 +15,17 @@ sidebar:
 #### <a name="what_need" />Что понадобится
 
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартную версию boot9strap; файл, без суффикса `dev`-)*
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартную версию boot9strap; файл, без суффикса `dev`-)* 
 * Свежая версия [safehax](https://github.com/TiniVi/safehax/releases/latest)
 * Свежая версия [udsploit](https://github.com/smealum/udsploit/releases/latest)
+* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
 
 #### <a name="instructions" />Инструкция
 
 ##### <a name="part1" />Часть I - Подготовительные работы
 
 1. Не выходя из Homebrew Launcher, извлеките SD-карту и вставьте её в компьютер
+1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива`boot9strap в папку `/boot9strap/` в корне SD-карты
 1. Скопируйте `safehax.3dsx` в папку `/3ds/` на SD-карте
@@ -55,10 +57,24 @@ sidebar:
 1. Дождитесь окончания всех проверок безопасности
 1. При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap
 1. После завершения процесса, нажмите (A) для перезагрузки
-1. Ваша консоль загрузится в boot9strap, затем автоматически выключится, поскольку запускаемого файла еще нет
 
-Приставка не загрузится до тех пор, пока вы не выполните инструкции на следующей странице; без паники, так и должно быть
-{: .notice--warning}
+##### <a name="part4" />Часть IV - Настройка Luma3DS
+
+1. Устройство загрузится в меню настройки Luma3DS
+  + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)
+1. Нажимая (A) выберите следующие пункты:    
+  + **"Enable game patching"**
+  + **"Show NAND or user string in System Settings"**
+1. Если у вас **New 3DS**, вы *также* можете включить следующие опции:
+  + **"New 3DS CPU" выбрать значение "Clock+L2(x)"**
+    + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других
+    + Если какие-либо игры работают некорректно, отключите эту опцию
+	
+    ![]({{ base_path }}/images/screenshots/luma-settings.png)
+	{: .text-center}
+    {: .notice--info}
+	
+1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
 
 ___
 

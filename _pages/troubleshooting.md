@@ -162,36 +162,6 @@ sidebar:
 1. Попробуйте выполнить [9.2.0 CTRTransfer](9.2.0-ctrtransfer)
 1. Вы можете обратиться за поддержкой на канал [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) (англ.), или [группу 3DS_CFW вконтакте](http://vk.com/3ds_cfw) (рус.).
 
-## <a name="ts_transfer" />Ошибка во время SafeB9SInstaller
-
-Если во время процесса SafeB9SInstaller возникнет ошибка, вам будет предложено запустить стороннее приложение (payload) для того, чтобы восстановить вашу консоль.
-
-#### Что понадобится
-
-* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-
-#### Инструкция
-
-1. Выберите "Unmount SD card"
-1. Вставьте SD-карту в компьютер
-1. Скопируйте `GodMode9.bin` из `.zip-архива` GodMode9 в папку `/boot9strap/` на SD-карте и переименуйте `GodMode9.bin` внутри папки `/boot9strap/` в `payload.bin`
-1. Вставьте SD-карту обратно в консоль
-1. Выберите "Run 0:/CTRTransfer/payload.bin"
-1. В случае успеха запустится GodMode9
-1. Перейдите в `[0:] SDCARD` -> `boot9strap`
-1. Нажмите курок (L) на `firm0firm1.bak` и `sector0x96.bak`, чтобы пометить их
-1. Нажмите (Y), чтобы скопировать эти файлы
-1. Дважды нажмите (B) для возврата в главное меню
-1. Перейдите в `[S:] SYSNAND VIRTUAL`
-1. Нажмите (Y), чтобы вставить копию `firm0firm1.bak` и `sector0x96.bak`
-1. Нажмите (A) для подтверждения
-1. Нажмите (A), чтобы интегрировать эти файлы
-1. Нажмите (A), чтобы разрешить перезапись SysNAND
-1. Введите указанную комбинацию кнопок чтобы разрешить запись в SysNAND (lvl3)
-1. По завершению процесса, нажмите (A)
-1. Нажмите (START) для перезагрузки
-1. Сообщите об этой проблеме сюда [SafeB9SInstaller Issues Page](https://github.com/d0k3/SafeB9SInstaller/issues) (англ.)
-
 ## <a name="ts_sys_blue" />Голубой экран при загрузке (bootrom error)
 
 1. У вас брик

@@ -21,9 +21,10 @@ sidebar:
 #### <a name="what_need" />Что понадобится
 
 * Полученный с помощью [хардмода](https://gbatemp.net/threads/414498/) (англ.) образ NAND
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартную версию boot9strap; файл, без суффикса `dev`-)*
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартную версию boot9strap; файл, без суффикса `dev`-)* 
 * Свежая версия [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest)
   + Пользователи Windows могут воспользоваться скомпилированным `.exe-файлом`, когда как пользователям Mac и Linux нужно иметь в системе установленный [Python 3](https://www.python.org/downloads/) для запуска `.py-файлов`
+* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
 * `.firm`, соответствующий версии вашего устройства:
 
 | Версия(и) | Kernel | Old 3DS | New 3DS |
@@ -59,18 +60,40 @@ sidebar:
 
 #### <a name="instructions" />Инструкция
 
+##### <a name="part1" />Часть I - Подготовительные работы
+
+1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Скопируйте папку hardmod-b9s-installer из`.zip-архива` hardmod-b9s-installer на ваш компьютер
 1. Скопируйте загруженный `.firm` в папку hardmod-b9s-installer на вашем компьютере
 1. Переименуйте загруженный `.firm` в папке hardmod-b9s-installer в `current.firm`
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива`boot9strap в папку с hardmod-b9s-installer на вашем компьютере
 1. Скопируйте свой дамп NAND (который вы сделали с помощью хардмода) в папку hardmod-b9s-installer на вашем компьютере и переименуйте его в `NAND.bin`
+
+##### <a name="part2" />Часть II - Установка boot9strap
+
 1. Запустите hardmod-b9s-installer
   + Пользователи Windows: Запустите `install-b9s.exe`
   + Mac и Linux пользователей: запустите `install-b9s.py`
 1. Прошейте получившийся `NAND-patched.bin` обратно в ваше устройство, используя хардмод
+1. Перезагрузите устройство
 
-Приставка не загрузится до тех пор, пока вы не выполните инструкции на следующей странице; без паники, так и должно быть
-{: .notice--warning}
+##### <a name="part3" />Часть III - Настройка Luma3DS
+
+1. Устройство загрузится в меню настройки Luma3DS
+  + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)
+1. Нажимая (A) выберите следующие пункты:    
+  + **"Enable game patching"**
+  + **"Show NAND or user string in System Settings"**
+1. Если у вас **New 3DS**, вы *также* можете включить следующие опции:
+  + **"New 3DS CPU" выбрать значение "Clock+L2(x)"**
+    + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других
+    + Если какие-либо игры работают некорректно, отключите эту опцию
+	
+    ![]({{ base_path }}/images/screenshots/luma-settings.png)
+	{: .text-center}
+    {: .notice--info}
+	
+1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
 
 ___
 
