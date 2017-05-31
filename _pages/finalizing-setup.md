@@ -59,7 +59,6 @@ sidebar:
 	{: .text-center}
     {: .notice--info}
 
-1. Создайте папку `luma` в корне SD-карты
 1. Создайте папку `payloads` в папке `luma` на SD-карте
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. **Только для Old 3DS и 2DS:** Скопируйте Old 3DS 11.2.0-35 otherapp payload для вашего региона в папку `/hblauncherloader/` на SD-карте
@@ -132,7 +131,6 @@ sidebar:
 
 ##### <a name="part7" />Часть VII - CTRNAND Luma3DS
 
-1. Нажмите (B) для возврата в главное меню
 1. Перейдите в `[0:] SDCARD`
 1. Нажмите (Y) на файле `boot.firm`, чтобы скопировать его
 1. Нажмите (B) для возврата в главное меню
@@ -145,6 +143,7 @@ sidebar:
 1. Нажмите (B) для возврата в главное меню
 1. Перейдите в `[1:] SYSNAND CTRNAND` -> `rw`
 1. Нажмите (Y), чтобы вставить копию папки `luma` из вашей SD-карты
+1. Выберите "Copy path(s)"
 
 ##### <a name="nand_backup" />Часть VIII - NAND Backup
 
