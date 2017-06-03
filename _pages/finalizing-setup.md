@@ -30,12 +30,12 @@ sidebar:
 
 * Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(`.cia` файл)*
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
-* Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
-* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
-* Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
-* Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest)
-* Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases)
+* Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest) *(`.zip`-архив)*
+* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) *(`.zip`-архив)*
+* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest) *(`.cia` файл)*
+* Свежая версия [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(`.cia` файл)*
+* Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(`.cia` файл)*
+* Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases) *(`.cia` файл)*
 * **Только для Old 3DS и 2DS:** Old 3DS 11.2.0-35 [otherapp payload](https://smealum.github.io/3ds/#otherapp) для вашего региона
 
 #### <a name="instructions" />Инструкция
@@ -48,9 +48,9 @@ sidebar:
 1. Создайте папку `hblauncherloader` в корне SD-карты, если таковой нет
 1. Удалите папку `3ds` из корня SD-карты, если таковая существует
 1. Скопируйте _содержимое_ папки `starter` из архива `starter.zip` в корень вашей SD-карты
-1. Скопируйте `hblauncher_loader.cia` из архива hblauncher_loader в папку `/cias/` в корне SD-карты
-1. Скопируйте `lumaupdater.cia` из `.zip-архива` Luma3DS Updater в папку `/cias/` в корне SD-карты
-1. Скопируйте `FBI.cia` из архива FBI в папку `/cias/` в корне SD-карты
+1. Скопируйте `hblauncher_loader.cia` из `.zip` архива hblauncher_loader в папку `/cias/` в корне SD-карты
+1. Скопируйте `lumaupdater.cia` в папку `/cias/` в корне SD-карты
+1. Скопируйте `FBI.cia` в папку `/cias/` в корне SD-карты
 1. Скопируйте `Themely.cia` в папку `/cias/` в корне SD-карты
 1. Скопируйте `freeshop.cia` в папку `/cias/` в корне SD-карты
 1. Скопируйте `DSP1.cia` в папку `/cias/` в корне SD-карты
