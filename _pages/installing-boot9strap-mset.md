@@ -16,7 +16,7 @@ sidebar:
 #### <a name="what_need" />Что понадобится
 
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартную версию boot9strap; файл, без суффикса `dev`-)* 
+* Свежая стабильная версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартную версию boot9strap; файл, без суффикса `dev`-)* 
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Любой флешкартридж для DS, работающий на вашей версии прошивки
