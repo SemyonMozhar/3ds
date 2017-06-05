@@ -6,14 +6,14 @@ sidebar:
 ---
 
 #### <a name="what_need" />Что понадобится
-* Установленный и рабочий [b9s](updating-to-boot9strap)
-* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
+* Установленный и рабочий [b9s](updating-b9s) последней версии (*если уже делали, то повторно делать не нужно*)
+* Установленный и рабочий [FBI](fbi)
 * Свежая версия [BOOP](https://github.com/miltoncandelero/Boop/releases/latest)
-* Установленный [freeshop](finalizing-setup#part10)
+* Установленный [freeshop](finalizing-setup#freeshop)
 
 ##### <a name="instructions" />Инструкция
 
-Инструкция работает для любой прошитой консоли с a9lh на борту.        
+Инструкция работает для любой прошитой консоли с a9lh и b9s на борту.        
 Есть два основных способа установки игр. Оба способа работают с файлами формата CIA. Разберем каждый из способов по отдельности.
 {: .notice--info}
 

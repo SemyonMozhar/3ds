@@ -6,25 +6,34 @@ sidebar:
 ---
 #### <a name="what_need" />Что понадобится 
 
-+ Установленный a9lh с luma3ds и FBI. 
-+ Свежая версия [GYTB](https://github.com/MrCheeze/GYTB). Пролистайте чуть ниже, там будут ссылки на CIA-версию и 3DSX-версию. Берите 3DSX. 
-+ Пак с баджами. Можете взять [мой](https://goo.gl/KWHtCH), можете поискать [тут](https://badges.3dsthem.es/) или [тут](https://gbatemp.net/threads/nintendo-badge-arcade-badges-collection.405667/).
-* Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
+* Установленный и рабочий [b9s](updating-b9s) последней версии (*если уже делали, то повторно делать не нужно*)
+* Свежая версия [GYTB](https://github.com/MrCheeze/GYTB). Пролистайте чуть ниже, там будут ссылки на CIA-версию и 3DSX-версию. Берите 3DSX. 
+* Пак с баджами. Можете взять [мой](https://goo.gl/KWHtCH), можете поискать [тут](https://badges.3dsthem.es/) или [тут](https://gbatemp.net/threads/nintendo-badge-arcade-badges-collection.405667/).
+* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 
 #### <a name="instructions" />Инструкция
 
-#### <a name="part1" />Часть I - Установка freeshop и hblauncher loader
+#### <a name="part1" />Часть I - Интеграция hblauncher loader
 
-Пропустите эту часть, если у вас уже установлены данные программы.
+Пропустите эту часть, если у вас уже установлена эта программа.
 {: .notice--info}
 
-1. Скопируйте `hblauncher_loader.cia` из архива hblauncher_loader в папку `/cias/` в корне КП.
-1. Запустите FBI.
-1. Выберите "SD".
-1. Выберите "cias".
-1. Наведите курсор на `<current directory>`, нажмите (А) и выберите Install all CIAs.
-1. Установятся все приложения, находящиеся в этой папке. 
-1. Нажмите кнопку (HOME) для перехода на домашний экран. 
+1. Запустите приложение Загружаемая игра (Download Play)
+1. Нажмите (L) + (ВНИЗ) + (SELECT) одновременно чтобы открыть меню Rosalina
+1. Выберите "Process patches menu..."
+1. Выберите "Patch SM for the service checks"
+1. Нажмите (B), чтобы продолжить
+1. Выберите "Patch FS for the archive checks"
+1. Нажмите (B), чтобы продолжить
+1. Нажмите (B) для возврата в главное меню Rosalina
+1. Выберите "Miscellaneous options"
+1. Выберите "Switch the hb. title to the current app."
+1. Нажмите (B), чтобы продолжить
+1. Нажмите (B) для возврата в главное меню Rosalina
+1. Нажмите (B) для выхода из главного меню Rosalina
+1. Нажмите (HOME), затем закройте приложение Загружаемая игра (Download Play)
+1. Запустите приложение Загружаемая игра (Download Play)
+1. Консоль должна загрузиться в Homebrew Launcher
 
 #### <a name="part2" />Часть II - Установка жетонов
 

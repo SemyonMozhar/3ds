@@ -78,7 +78,7 @@ badges:
         url: /badges#what_need
       - title: "• Инструкция:"
         url: /badges#instructions
-      - title: "  - Часть I - Установка freeshop и hblauncher loader"
+      - title: "  - Часть I - Установка hblauncher loader"
         url: /badges#part1
       - title: "  - Часть II - Установка жетонов"
         url: /badges#part2
@@ -188,6 +188,18 @@ faq-3ds:
         url: /faq-3ds#lumalocaleswitcher
       - title: "• Как обновить Luma3DS? "
         url: /faq-3ds#luma_update
+      - title: "• Как мне перейти с a9lh на boot9strap? "
+        url: /faq-3ds#migrate_to_b9s
+      - title: "•  Как мне обновить boot9strap?"
+        url: /faq-3ds#b9s_update
+      - title: "• У меня rxtools/cakeCFW/etc, как мне перейти на b9s?  "
+        url: /faq-3ds#old_fws
+      - title: "• Что слышно по поводу #Gateway?  "
+        url: /faq-3ds#gateway_rumors
+      - title: "• Как разбанится? "
+        url: /faq-3ds#unban
+      - title: "• Где взять LocalFriendcodeSeed_B? "
+        url: /faq-3ds#lfsb
       - title: "• В начало раздела"
         url: /faq-3ds#start
        
@@ -666,9 +678,11 @@ updating-b9s:
         url: /updating-b9s#part2
       - title: "  - Часть III - Обновление Luma3DS"
         url: /updating-b9s#part3
-      - title: "  - Часть IV - CTRNAND Luma3DS"
-        url: /updating-b9s#part4
-      - title: "  - Часть V - Интеграция Homebrew Launcher"
+      - title: "  - Часть IV - Настройка Luma3DS"
+        url: /updating-b9s#lumasetup
+      - title: "  - Часть V - CTRNAND Luma3DS"
+        url: /updating-b9s#ctrnand
+      - title: "  - Часть VI - Интеграция Homebrew Launcher"
         url: /updating-b9s#hbl
       - title: "• Полезные ссылки"
         url: /updating-b9s#links
