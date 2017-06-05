@@ -43,6 +43,9 @@ sidebar:
 
 ##### <a name="part1" />Часть I - Подготовительные работы
 
+Используйте [save manager](https://github.com/J-D-K/JKSM/releases/latest) для того, чтобы сделать резервные копии всех важных сохранений на *целевой 3DS* (приставка будет отформатирована!)
+{: .notice--warning}
+
 1. Скопируйте `GodMode9.firm` (или `GodMode9.bin` для пользователей arm9loaderhax) из `.zip-архива`GodMode9 в папку `/luma/payloads/` на SD-карте **исходной 3DS**
 1. Скопируйте `public.sav` из папки `/dsiware/(8-ми значный ID)/` из `.zip-архива` 3ds_dsiwarehax_installer, в корень SD-карты **исходной 3DS**
   + **Fieldrunners USA Region**: `4b464445`
