@@ -17,9 +17,9 @@ sidebar:
 + [Установка и использование тем](themes)
 + [Установка и использование жетонов](badges)   
 + [Конвертация 3DS-ромов в CIA](godmode9-usage#convert_3ds)   
-+ Как включить русский язык в играх на приставке не европейского региона. [Использование LumaLocaleSwitcher](lumalocaleswitcher)
++ [Эмуляция языка и региона в Luma3DS"](lumalocales)
 + [Смена региона](region-changing)
-+ [Переход с a9lh на b9s](updating-to-boot9strap)
++ [Переход с a9lh на b9s](a9lh-to-b9s)
 
 <div id="vk_comments"></div>
 <script type="text/javascript">

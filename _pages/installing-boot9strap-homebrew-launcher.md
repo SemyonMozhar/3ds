@@ -12,7 +12,7 @@ sidebar:
 #### <a name="what_need" />Что понадобится
 
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* Свежая стабильная версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартную версию boot9strap; файл, без суффикса `dev`-)* 
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `dev-файл`, не `ntr-файл`)*
 * Свежая версия [safehax](https://github.com/TiniVi/safehax/releases/latest)
 * Свежая версия [udsploit](https://github.com/smealum/udsploit/releases/latest)
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*

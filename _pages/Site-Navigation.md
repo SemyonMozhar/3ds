@@ -11,6 +11,10 @@ permalink: /site-navigation.html
 + [Завершение установки](finalizing-setup)
 + [Использование SoundHax для запуска Hombrew Launcher](homebrew-launcher-soundhax)
 + [Установка boot9strap (Homebrew Launcher)](installing-boot9strap-homebrew-launcher)
++ [FAQ](faq)
++ [Интегрирование FBI](fbi)
++ [Переход с a9lh на boot9strap](a9lh-to-b9s)
++ [Обновление boot9strap](updating-b9s)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
@@ -39,9 +43,10 @@ permalink: /site-navigation.html
 + [Начнем (Old 3DS)](get-started-old-3ds)
 + [Начнем](get-started)
 + [Обновление Luma3DS](update-luma3ds)
-+ [Обновление до boot9strap](updating-to-boot9strap)
++ [Обновление boot9strap](updating-b9s)
 + [Обновление с помощью картриджа](cart-update)
 + [Перенос EmuNAND в SysNAND](move-emunand)
++ [Переход с a9lh на boot9strap](a9lh-to-b9s)
 + [Пожертвования](donations)
 + [Проблемы и их решения](troubleshooting)
 + [Расширения файлов (Windows)](file-extensions-windows)

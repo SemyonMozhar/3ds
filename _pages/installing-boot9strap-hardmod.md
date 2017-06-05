@@ -21,7 +21,7 @@ sidebar:
 #### <a name="what_need" />Что понадобится
 
 * Полученный с помощью [хардмода](https://gbatemp.net/threads/414498/) (англ.) образ NAND
-* Свежая стабильная версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартную версию boot9strap; файл, без суффикса `dev`-)* 
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `dev-файл`, не `ntr-файл`)*
 * Свежая версия [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest)
   + Пользователи Windows могут воспользоваться скомпилированным `.exe-файлом`, когда как пользователям Mac и Linux нужно иметь в системе установленный [Python 3](https://www.python.org/downloads/) для запуска `.py-файлов`
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
@@ -63,6 +63,7 @@ sidebar:
 ##### <a name="part1" />Часть I - Подготовительные работы
 
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
+1. Скопируйте _содержимое_ папки `starter` из архива `starter.zip` в корень SD-карты **целевой 3DS**
 1. Скопируйте папку hardmod-b9s-installer из`.zip-архива` hardmod-b9s-installer на ваш компьютер
 1. Скопируйте загруженный `.firm` в папку hardmod-b9s-installer на вашем компьютере
 1. Переименуйте загруженный `.firm` в папке hardmod-b9s-installer в `current.firm`

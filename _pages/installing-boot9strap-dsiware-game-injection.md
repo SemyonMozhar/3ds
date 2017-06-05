@@ -29,7 +29,7 @@ sidebar:
   + [`DSiWare_jpn_4swordshax_injection.zip`](magnet:?xt=urn:btih:1bcc90c93da91c9876671f6218084207def90db9&dn=DSiWare_jpn_4swordshax_injection.zip&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [b9sTool](https://github.com/Plailect/b9sTool/releases/latest)
-* Свежая стабильная версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартную версию boot9strap; файл, без суффикса `dev`-)* 
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `dev-файл`, не `ntr-файл`)*
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * 11.4.0 `.firm` соответствующий **целевой 3DS**
@@ -144,6 +144,7 @@ sidebar:
 
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Скопируйте `boot.nds` в корень SD-карты **целевой 3DS**
+1. Скопируйте _содержимое_ папки `starter` из архива `starter.zip` в корень SD-карты **целевой 3DS**
 1. Создайте папку `boot9strap` в корне SD-карты **целевой 3DS**
 1. Скопируйте `.firm` от 11.4, соответствующий **целевой 3DS** в папку `boot9strap`на SD-карте **целевой 3DS**
 1. Скопируйте `boot9strap.firm` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты

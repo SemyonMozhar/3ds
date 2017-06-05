@@ -21,6 +21,7 @@ sidebar:
 +  **Luma3DS Updater** *(Удобное обновление CFW)*
 +  **GodMode9** *(многофункциональная утилита для работы с NAND и картриджами)*
 +  **freeshop** *(open source клон eShop, облегчающий поиск игр)*
++  **Homebrew Launcher Loader** *(запускает Homebrew Launcher в качестве обычного приложения благодаря магии Rosalina)*
 
 {% endcapture %}
 
@@ -32,7 +33,8 @@ sidebar:
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest) *(`.zip`-архив)*
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) *(`.zip`-архив)*
-* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest) *(`.cia` файл)*
+* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest) *(`.cia-файл`и `.3dsx-файл`)*
+* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 * Свежая версия [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(`.cia` файл)*
 * Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(`.cia` файл)*
 * Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases) *(`.cia` файл)*
@@ -44,16 +46,16 @@ sidebar:
 
 1. Отключите приставку
 1. Вставьте SD-карту в компьютер
+1. Скопируйте `boot.3dsx` в корень SD-карты *(перезаписывайте существующие файлы)*
+1. Скопируйте `FBI.3dsx` в папку `/3ds/` на SD-карте
 1. Создайте папку `cias` в корне SD-карты
 1. Создайте папку `hblauncherloader` в корне SD-карты, если таковой нет
-1. Удалите папку `3ds` из корня SD-карты, если таковая существует
-1. Скопируйте _содержимое_ папки `starter` из архива `starter.zip` в корень вашей SD-карты
 1. Скопируйте `hblauncher_loader.cia` из `.zip` архива hblauncher_loader в папку `/cias/` в корне SD-карты
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` в корне SD-карты
-1. Скопируйте `FBI.cia` в папку `/cias/` в корне SD-карты
 1. Скопируйте `Themely.cia` в папку `/cias/` в корне SD-карты
 1. Скопируйте `freeshop.cia` в папку `/cias/` в корне SD-карты
 1. Скопируйте `DSP1.cia` в папку `/cias/` в корне SD-карты
+1. Скопируйте `FBI.cia` в папку `/cias/` в корне SD-карты
 
     ![]({{ base_path }}/images/screenshots/cias-file-layout.png)
 	{: .text-center}
@@ -61,12 +63,6 @@ sidebar:
 
 1. Создайте папку `payloads` в папке `luma` на SD-карте
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
-1. **Только для Old 3DS и 2DS:** Скопируйте Old 3DS 11.2.0-35 otherapp payload для вашего региона в папку `/hblauncherloader/` на SD-карте
-1. **Только для Old 3DS и 2DS:** Переименуйте файл Old 3DS 11.2.0-35 otherapp payload на SD-карте в один из указанных ниже, подходящий вашему региону:
-  + **EUR:** `OLD-11-4-0-37-EUR.bin`
-  + **JPN:** `OLD-11-4-0-37-JPN.bin`
-  + **KOR:** `OLD-11-4-0-37-KOR.bin`
-  + **USA:** `OLD-11-4-0-37-USA.bin`
 
     ![]({{ base_path }}/images/screenshots/finalizing-setup-file-layout.png)
 	{: .text-center}
@@ -96,43 +92,42 @@ sidebar:
   + При появлении ошибки, поставьте в настройках подключения, в настройках DNS "Получать DNS автоматически" в положение "Да"
   + Если вы все еще получаете ошибку и версия вашего NAND ниже 9.2.0, [выполните 9.2.0 CTRTransfer](9.2.0-ctrtransfer) и попробуйте обновиться еще раз
 
-##### <a name="part3" />Часть III - Интеграция FBI
+##### <a name="part3" />Часть III - Интеграция Homebrew Launcher
 
-1. Перезагрузитесь, удерживая кнопку (START), чтобы запустить GodMode9
-1. Перейдите в `[0:] SDCARD` -> `cias`
-1. Нажмите (A) чтобы выбрать файл `FBI.cia`, затем выберите "CIA image options...", затем "Mount image to drive"
-1. Нажмите (A) чтобы выбрать файл `.app`, затем выберите "NCCH image options", затем "Inject to H&S"
-1. Нажмите (A), чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
-1. Нажмите (A), чтобы продолжить
-1. Нажмите (START) для перезагрузки
-1. Если при запуске Health & Safety запускается не FBI и вы в прошлом понижали прошивку с помощью Gateway, обратитесь к [этой части раздела Проблемы и их решения](troubleshooting#gw_fbi)
+1. Запустите приложение Загружаемая игра (Download Play)
+1. Нажмите (L) + (ВНИЗ) + (SELECT) одновременно чтобы открыть меню Rosalina
+1. Выберите "Process patches menu..."
+1. Выберите "Patch SM for the service checks"
+1. Нажмите (B), чтобы продолжить
+1. Выберите "Patch FS for the archive checks"
+1. Нажмите (B), чтобы продолжить
+1. Нажмите (B) для возврата в главное меню Rosalina
+1. Выберите "Miscellaneous options"
+1. Выберите "Switch the hb. title to the current app."
+1. Нажмите (B), чтобы продолжить
+1. Нажмите (B) для возврата в главное меню Rosalina
+1. Нажмите (B) для выхода из главного меню Rosalina
+1. Нажмите (HOME), затем закройте приложение Загружаемая игра (Download Play)
+1. Запустите приложение Загружаемая игра (Download Play)
+1. Консоль должна загрузиться в Homebrew Launcher
 
-##### <a name="part4" />Часть IV - Установка CIA
+##### Часть IV - Установка CIA
 
-1. Запустите "Информация о здоровье и безопасности" (Health and Safety) (теперь это FBI)
+1. Выберите FBI в списке homebrew
 1. Перейдите в `SD` -> `cias`
 1. Выберите "\<current directory>"
 1. Выберите "Install and delete all CIAs" и нажмите (A) для подтверждения
-1. Нажмите (HOME) для выхода из FBI
+1. Нажмите (HOME), затем закройте приложение Загружаемая игра (Download Play)
 
 ##### <a name="part5" />Часть V - DSP Dump
 
-1. Запустите DSP1
+1. Запустите приложение DSP1
 1. После завершения работы программы, нажмите (B), чтобы автоматически удалить программу из меню HOME
 
-##### <a name="part6" />Часть VI - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)
+##### <a name="part6" />Часть VI - CTRNAND Luma3DS
 
 Обратите внимание, что в некоторых версиях Luma3DS, меню Luma3DS chainloader отображается только в том случае, если в папке payloader более одного приложения. Если установлено только одно приложение, удерживание (START) при включении консоли запустит GodMode9 напрямую.
 {: .notice--info}
-
-1. Перезагрузитесь, удерживая кнопку (START), чтобы запустить меню Luma3DS chainloader
-1. Запустите GodMode9, нажав кнопку (A)
-1. Нажмите кнопку (HOME) для вызова меню
-1. Выберите "More..."
-1. Выберите "Restore H&S"
-1. Нажмите (A), чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
-
-##### <a name="part7" />Часть VII - CTRNAND Luma3DS
 
 1. Перейдите в `[0:] SDCARD`
 1. Нажмите (Y) на файле `boot.firm`, чтобы скопировать его
@@ -140,6 +135,7 @@ sidebar:
 1. Перейдите в `[1:] SYSNAND CTRNAND`
 1. Нажмите (Y), чтобы вставить копию `boot.firm`
 1. Выберите "Copy path(s)"
+1. Нажмите (A), чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
 1. Нажмите (B) для возврата в главное меню
 1. Перейдите в `[0:] SDCARD`
 1. Нажмите (Y) на папке `luma`, чтобы скопировать её
@@ -148,7 +144,7 @@ sidebar:
 1. Нажмите (Y), чтобы вставить копию папки `luma` из вашей SD-карты
 1. Выберите "Copy path(s)"
 
-##### <a name="nand_backup" />Часть VIII - NAND Backup
+##### <a name="nand_backup" />Часть VII - NAND Backup
 
 1. Дважды нажмите (B) для возврата в главное меню
 1. Нажмите кнопку (HOME) для вызова меню
@@ -164,7 +160,7 @@ sidebar:
 1. Вставьте SD-карту обратно в консоль
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
 
-##### <a name="freeshop" />Часть IX - Настройка freeshop
+##### <a name="freeshop" />Часть VIII - Настройка freeshop
 
 Приложение работает только при включенном интернете!
 {: .notice--info}
@@ -209,6 +205,7 @@ ___
 Для запуска конфигуратора Luma3DS включите консоль с зажатой кнопкой (SELECT).    
 Теперь вы можете удерживать (START) при загрузке для запуска Luma3DS chainloader меню (обратите внимание, что Luma3DS chainloader меню отображается только если существует более одного приложения).
 Удерживайте (START) + (SELECT) + (X) при загрузке для сохранения копий ARM11 bootrom (`boot11.bin`), ARM9 bootrom (`boot9.bin`) и уникального OTP вашей консоли (`OTP.bin`) в папку `/boot9strap/` на SD-карте (весь процесс произойдет в фоне без какого-либо сообщения, или прогресс-бара).
+Теперь нажатие (L) + (ВНИЗ) + (SELECT) в запущенной системе открывает меню Rosalina, встроенное в Luma3DS. Полный список особенностей Rosalina, можно прочитать в [README Luma3DS](https://github.com/AuroraWright/Luma3DS/blob/master/README.md) (англ.)
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

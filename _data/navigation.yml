@@ -2,22 +2,22 @@
 main:
   - title: "<b>Выбрать<br>консоль</b>"
     url: http://customfw.xyz
-  - title: "FAQ"
-    url: /faq
-  - title: "Обновление<br>до b9s"
-    url: /updating-to-boot9strap
+  - title: "Переход с a9lh<br>на b9s"
+    url: /a9lh-to-b9s
+  - title: "Обновление<br>b9s"
+    url: /updating-b9s
   - title: "Инструкции,<br>полезные после прошивки"
     url: /addons
   - title: "Карта сайта"
     url: /site-navigation
+  - title: "FAQ"
+    url: /faq
   - title: "Проблемы и<br>их решения"
     url: /troubleshooting
   - title: "9.2.0<br>ctrtransfer"
     url: /9.2.0-ctrtransfer
-  - title: "Интегрирование<br>FBI"
+  - title: "Интеграция<br>FBI"
     url: /fbi
-  - title: "Обновление с<br>помощью картриджа"
-    url: /cart-update
   - title: "Смена региона"
     url: /region-changing
   - title: "Перенос EmuNAND"
@@ -27,9 +27,78 @@ main:
   - title: "Пожертвования"
     url: /donations
   - title: "Благодарности"
-    url: /credits
+    url: /credits               
+            
+9.2.0-ctrtransfer:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /9.2.0-ctrtransfer#what_need
+      - title: "• Инструкция:"
+        url: /9.2.0-ctrtransfer#instructions
+      - title: "  - Часть I - Подготовительные работы"
+        url: /9.2.0-ctrtransfer#part1
+      - title: "  - Часть II - CTRTransfer"
+        url: /9.2.0-ctrtransfer#part2
+      - title: "  - Часть III - Интеграция FBI"
+        url: /9.2.0-ctrtransfer#part3
+      - title: "  - Часть IV - Переустановка тикетов"
+        url: /9.2.0-ctrtransfer#part4
+      - title: "  - Часть V - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)"
+        url: /9.2.0-ctrtransfer#part5
+      - title: "  - Часть VI - Удаление образа CTRTransfer"
+        url: /9.2.0-ctrtransfer#part6
+      - title: "• В начало раздела"
+        url: /9.2.0-ctrtransfer#start
+        
+a9lh-to-b9s:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /a9lh-to-b9s#what_need
+      - title: "• Инструкция:"
+        url: /a9lh-to-b9s#instructions
+      - title: "  - Часть I - Подготовительные работы"
+        url: /a9lh-to-b9s#part1
+      - title: "  - Часть II - Установка boot9strap"
+        url: /a9lh-to-b9s#part2
+      - title: "  - Часть III - Настройка Luma3DS"
+        url: /a9lh-to-b9s#part3
+      - title: "  - Часть IV - CTRNAND Luma3DS"
+        url: /a9lh-to-b9s#part4
+      - title: "  - Часть V - Установка Luma3DS Updater"
+        url: /a9lh-to-b9s#part5
+      - title: "• В начало раздела"
+        url: /a9lh-to-b9s#start          
+        
+badges:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /badges#what_need
+      - title: "• Инструкция:"
+        url: /badges#instructions
+      - title: "  - Часть I - Установка freeshop и hblauncher loader"
+        url: /badges#part1
+      - title: "  - Часть II - Установка жетонов"
+        url: /badges#part2
+      - title: "  - Часть III - Завершение работы"
+        url: /badges#part3
+      - title: "• В начало раздела"
+        url: /badges#start
 
-          
+cart-update:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /cart-update#what_need
+      - title: "• Инструкция:"
+        url: /cart-update#instructions
+      - title: "• Владельцам Sky3DS"
+        url: /cart-update#sky3ds
+      - title: "• В начало раздела"
+        url: /cart-update#start
+        
 faq:
   - title: "Разделы"
     children:
@@ -121,6 +190,16 @@ faq-3ds:
         url: /faq-3ds#luma_update
       - title: "• В начало раздела"
         url: /faq-3ds#start
+       
+fbi:
+  - title: "Разделы"
+    children:
+      - title: "• Часть I - Подготовка"
+        url: /fbi#part1
+      - title: "• Часть II - Внедрение FBI"
+        url: /fbi#part2
+      - title: "• В начало раздела"
+        url: /fbi#start
         
 fbi:
   - title: "Разделы"
@@ -135,6 +214,36 @@ fbi:
         url: /fbi#part1
       - title: "• В начало раздела"
         url: /fbi#start
+
+finalizing-setup:
+  - title: "Разделы"
+    children:
+      - title: "• Описание шагов"
+        url: /finalizing-setup#steps
+      - title: "• Что понадобится"
+        url: /finalizing-setup#what_need
+      - title: "• Инструкция:"
+        url: /finalizing-setup#instructions
+      - title: "- Часть I - Подготовительные работы"
+        url: /finalizing-setup#part1
+      - title: "- Часть II - Обновление системы"
+        url: /finalizing-setup#part2
+      - title: "- Часть III - Интеграция Homebrew Launcher"
+        url: /finalizing-setup#part3
+      - title: "- Часть IV - Установка CIA"
+        url: /finalizing-setup#part4
+      - title: "- Часть V - DSP Dump"
+        url: /finalizing-setup#part5
+      - title: "- Часть VI - CTRNAND Luma3DS"
+        url: /finalizing-setup#part6
+      - title: "- Часть VII - NAND Backup"
+        url: /finalizing-setup#nand_backup
+      - title: "- Часть VIII - Настройка freeshop"
+        url: /finalizing-setup#freeshop
+      - title: "• Полезные ссылки"
+        url: /finalizing-setup#links
+      - title: "• В начало раздела"
+        url: /finalizing-setup#start
         
 games:
   - title: "Разделы"
@@ -183,7 +292,17 @@ godmode9-usage:
         url: /godmode9-usage#crypt_cia
       - title: "• В начало раздела"
         url: /godmode9-usage#start
-        
+               
+h2testw-windows:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /h2testw-windows#what_need
+      - title: "• Инструкция:"
+        url: /h2testw-windows#instructions
+      - title: "• В начало раздела"
+        url: /h2testw-windows#start
+
 home:
   - title: "Разделы"
     children:
@@ -199,109 +318,7 @@ home:
         url: /#what_know
       - title: "• В начало раздела"
         url: /#start
-       
-9.2.0-ctrtransfer:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /9.2.0-ctrtransfer#what_need
-      - title: "• Инструкция:"
-        url: /9.2.0-ctrtransfer#instructions
-      - title: "  - Часть I - Подготовительные работы"
-        url: /9.2.0-ctrtransfer#part1
-      - title: "  - Часть II - CTRTransfer"
-        url: /9.2.0-ctrtransfer#part2
-      - title: "  - Часть III - Интеграция FBI"
-        url: /9.2.0-ctrtransfer#part3
-      - title: "  - Часть IV - Переустановка тикетов"
-        url: /9.2.0-ctrtransfer#part4
-      - title: "  - Часть V - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)"
-        url: /9.2.0-ctrtransfer#part5
-      - title: "  - Часть VI - Удаление образа CTRTransfer"
-        url: /9.2.0-ctrtransfer#part6
-      - title: "• В начало раздела"
-        url: /9.2.0-ctrtransfer#start
         
-badges:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /badges#what_need
-      - title: "• Инструкция:"
-        url: /badges#instructions
-      - title: "  - Часть I - Установка freeshop и hblauncher loader"
-        url: /badges#part1
-      - title: "  - Часть II - Установка жетонов"
-        url: /badges#part2
-      - title: "  - Часть III - Завершение работы"
-        url: /badges#part3
-      - title: "• В начало раздела"
-        url: /badges#start
-
-cart-update:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /cart-update#what_need
-      - title: "• Инструкция:"
-        url: /cart-update#instructions
-      - title: "• Владельцам Sky3DS"
-        url: /cart-update#sky3ds
-      - title: "• В начало раздела"
-        url: /cart-update#start
-       
-fbi:
-  - title: "Разделы"
-    children:
-      - title: "• Часть I - Подготовка"
-        url: /fbi#part1
-      - title: "• Часть II - Внедрение FBI"
-        url: /fbi#part2
-      - title: "• В начало раздела"
-        url: /fbi#start
-
-finalizing-setup:
-  - title: "Разделы"
-    children:
-      - title: "• Описание шагов"
-        url: /finalizing-setup#steps
-      - title: "• Что понадобится"
-        url: /finalizing-setup#what_need
-      - title: "• Инструкция:"
-        url: /finalizing-setup#instructions
-      - title: "- Часть I - Подготовительные работы"
-        url: /finalizing-setup#part1
-      - title: "- Часть II - Обновление системы"
-        url: /finalizing-setup#part2
-      - title: "- Часть III - Интеграция FBI"
-        url: /finalizing-setup#part3
-      - title: "- Часть IV - Установка CIA"
-        url: /finalizing-setup#part4
-      - title: "- Часть V - DSP Dump"
-        url: /finalizing-setup#part5
-      - title: "- Часть VI - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)"
-        url: /finalizing-setup#part6
-      - title: "- Часть VII - CTRNAND Luma3DS"
-        url: /finalizing-setup#part7
-      - title: "- Часть VIII - NAND Backup"
-        url: /finalizing-setup#nand_backup
-      - title: "- Часть IX - Настройка freeshop"
-        url: /finalizing-setup#freeshop
-      - title: "• Полезные ссылки"
-        url: /finalizing-setup#links
-      - title: "• В начало раздела"
-        url: /finalizing-setup#start
-        
-h2testw-windows:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /h2testw-windows#what_need
-      - title: "• Инструкция:"
-        url: /h2testw-windows#instructions
-      - title: "• В начало раздела"
-        url: /h2testw-windows#start
-
 homebrew-launcher-alternatives:
   - title: "Разделы"
     children:
@@ -629,27 +646,31 @@ update-luma3ds:
         url: /update-luma3ds#lumaupdater
       - title: "  - Способ II - Обновление Luma вручную"
         url: /update-luma3ds#lumasd
-      - title: "  - Часть II - CTRNAND Luma3DS"
+      - title: "  - Часть II - Настройка Luma3DS"
+        url: /update-luma3ds#lumasetup
+      - title: "  - Часть III - CTRNAND Luma3DS"
         url: /update-luma3ds#lumactrnand
       - title: "• В начало раздела"
         url: /update-luma3ds#start
         
-updating-to-boot9strap:
+updating-b9s:
   - title: "Разделы"
     children:
       - title: "• Что понадобится"
-        url: /updating-to-boot9strap#what_need
+        url: /updating-b9s#what_need
       - title: "• Инструкция:"
-        url: /updating-to-boot9strap#instructions
+        url: /updating-b9s#instructions
       - title: "  - Часть I - Подготовительные работы"
-        url: /updating-to-boot9strap#part1
+        url: /updating-b9s#part1
       - title: "  - Часть II - Установка boot9strap"
-        url: /updating-to-boot9strap#part2
-      - title: "  - Часть III - Настройка Luma3DS"
-        url: /updating-to-boot9strap#part3
+        url: /updating-b9s#part2
+      - title: "  - Часть III - Обновление Luma3DS"
+        url: /updating-b9s#part3
       - title: "  - Часть IV - CTRNAND Luma3DS"
-        url: /updating-to-boot9strap#part4
-      - title: "  - Часть V - Установка Luma3DS Updater"
-        url: /updating-to-boot9strap#part5
+        url: /updating-b9s#part4
+      - title: "  - Часть V - Интеграция Homebrew Launcher"
+        url: /updating-b9s#hbl
+      - title: "• Полезные ссылки"
+        url: /updating-b9s#links
       - title: "• В начало раздела"
-        url: /updating-to-boot9strap#start
+        url: /updating-b9s#start

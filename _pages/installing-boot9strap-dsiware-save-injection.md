@@ -32,7 +32,7 @@ sidebar:
 * Свежая версия [3ds_dsiwarehax_installer](https://github.com/yellows8/3ds_dsiwarehax_installer/releases)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [b9sTool](https://github.com/Plailect/b9sTool/releases/latest)
-* Свежая стабильная версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартную версию boot9strap; файл, без суффикса `dev`-)* 
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `dev-файл`, не `ntr-файл`)*
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * 11.4.0 `.firm` соответствующий **целевой 3DS**
@@ -145,6 +145,7 @@ sidebar:
 
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Скопируйте `boot.nds` в корень SD-карты **целевой 3DS**
+1. Скопируйте _содержимое_ папки `starter` из архива `starter.zip` в корень SD-карты **целевой 3DS**
 1. Создайте папку `boot9strap` в корне SD-карты **целевой 3DS**
 1. Скопируйте `.firm` от 11.4, соответствующий **целевой 3DS** в папку `boot9strap`на SD-карте **целевой 3DS**
 1. Скопируйте `boot9strap.firm` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты
