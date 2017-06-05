@@ -680,8 +680,6 @@ updating-b9s:
         url: /updating-b9s#lumasetup
       - title: "  - Часть V - CTRNAND Luma3DS"
         url: /updating-b9s#ctrnand
-      - title: "  - Часть VI - Интеграция Homebrew Launcher"
-        url: /updating-b9s#hbl
       - title: "• Полезные ссылки"
         url: /updating-b9s#links
       - title: "• В начало раздела"
