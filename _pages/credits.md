@@ -12,7 +12,6 @@ permalink: /credits.html
 Если я кого-то забыл, свяжитесь со мной и я добавлю ваше имя.
 {: .notice}
 
-    + AHP_Person
     + Al3x_10m
     + aliaspider
     + AngelSL
@@ -61,7 +60,7 @@ permalink: /credits.html
     + stuckpixel
     + Syphurith
     + Tech0verlord
-    + TinVi
+    + TiniVi
     + TuxSH
     + Urbanshadow
     + Vappy

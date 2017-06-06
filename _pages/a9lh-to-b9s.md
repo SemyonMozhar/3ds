@@ -9,13 +9,10 @@ sidebar:
 Эта страница предназначена для пользователей arm9loaderhax, чтобы обновить их устройства до boot9strap.
 {: .notice--warning}
 
-Все будущие релизы Luma3DS будут только в формате «.firm», который будет совместим только с boot9strap и sighax. Это означает, что для того чтобы продолжать получать последние обновления Luma3DS, вы должны использовать эту страницу для обновления установки.
+Все будущие релизы Luma3DS будут только в формате `.firm`, который будет совместим только с boot9strap и sighax. Это означает, что для того, чтобы продолжать получать последние обновления Luma3DS, вы должны использовать эту страницу для обновления установки.
 {: .notice--info}
 
-Если в Luma3DS вы используете PIN-код, то при работе SafeB9SInstaller вы получите ошибку "OTP Crypto Fail". Для решения этой проблемы временно откажитесь от использования PIN-кода.
-{: .notice--warning}
-
-Если вы в настоящее время используете или использовали ранее программу "3dsafe", вы можете получить сообщение об ошибке "OTP Crypto Fail" при попытке запуска SafeB9SInstaller. Воспользуйтесь решением, предложенным [здесь](https://github.com/Plailect/Guide/issues/1094)
+Если в Luma3DS вы используете PIN-код, то при работе SafeB9SInstaller вы получите ошибку "OTP Crypto Fail". Для решения этой проблемы временно откажитесь от использования PIN-кода (вы сможете включить его обратно после обновления).
 {: .notice--warning}
 
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
@@ -28,6 +25,11 @@ sidebar:
 1. Отключите опцию "Отправка информации о системе" (Sending of System Information)
 1. Закройте Системные настройки (System settings)
 1. Откройте Список друзей (Friend's List) (значок в виде лица на верхней строчке меню HOME, на нижнем экране)
+
+    ![]({{ base_path }}/images/screenshots/friend-list.jpg)
+	{: .text-center}
+    {: .notice--info}
+
   + Если появляется ошибка и вас не пускают в меню, значит Список друзей уже отключен
 1. Перейдите в настройки Списка друзей, затем "Настройки сообщений друга" (Friend Notification Settings), затем "Показать друзьям, во что вы играете" (Show friends what you're playing)
 1. Отключите опцию "Показать друзьям, во что вы играете"
@@ -38,16 +40,16 @@ sidebar:
 
 #### <a name="what_need" />Что понадобится
 
-Обратите внимание, что на New 3DS `secret_sector.bin` необходим для отката эксплойта arm9loaderhax, поэтому он не требуется для установки на не взломанную консоль. Если у вас не New 3DS, вам не нужен `secret_sector.bin`.
+Обратите внимание, что требуемый ниже файл с именем `secret_sector.bin` это тот же, что присутствовал в различных версиях архива `data_input.zip`. Если у вас уже есть этот файл где-то на диске, вы можете использовать его, вместо загрузки файла ниже.
 {: .notice--info}
 
-Обратите внимание, что требуемый файл `aeskeydb.bin`, это *не* тот же самый файл, который использовался в руководстве ранее. Он необходим для удаления программы "3DSafe", что позволит SafeB9SInstaller получить уникальный для вашей приставки OTP-файл. Это руководство не предусматривает установку "3DSafe", так что если вы не уверены установлен ли он у вас, то, скорее всего, его у вас нет, значит и `aeskeydb.bin` вам не нужен.
+Обратите внимание, что на New 3DS `secret_sector.bin` необходим для отката эксплойта arm9loaderhax, поэтому он не требуется для установки на не взломанную консоль. Если у вас не New 3DS, вам не нужен `secret_sector.bin`.
 {: .notice--info}
 
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - **Только для пользователей New 3DS:** [`secret_sector.bin`](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl% 3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce)
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z-архив`)*
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `dev-файл`, не `ntr-файл`)*
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
@@ -82,13 +84,13 @@ sidebar:
 ##### <a name="part2" />Часть II - Установка boot9strap
 
 1. Включите консоль кнопкой питания, держа нажатой кнопку (START), чтобы запустить меню Luma3DS chainloader
-  + Некоторые версии Luma3DS будут напрямую запускать любое приложение начинающееся со `start_`
-  + Если ваша версия делает это, просто продолжайте следовать инструкциям
+  + Некоторые версии Luma3DS будут напрямую запускать любое приложение, начинающееся со `start_`. Если вместо меню chainloader запускается SafeB9SInstaller, просто следуйте инструкции.
 1. Запустите SafeB9SInstaller, нажав кнопку (A) на нём
   + При возникновении ошибки попробуйте использовать другую SD-карту, или отформатировать имеющуюся (предварительно сделав резервную копию всего её содержимого)
-1. Подождите окончания всех проверок безопасности
-  + Если вы получаете сообщение об ошибке "OTP Crypto Fail", скачайте <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [`aeskeydb.bin`](magnet:?xt=urn:btih:621f8af00638cb2b00d5bd0c6816543fa00b5fb1&dn=aeskeydb.bin&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce), поместите этот файл в папку `/boot9strap/` на SD-карте и попробуйте снова1. При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap
-1. После завершения процесса, нажмите (A) для перезагрузки
+1. Дождитесь окончания всех проверок безопасности
+  + Если вы получаете сообщение об ошибке "OTP Crypto Fail", скачайте <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [`aeskeydb.bin`](magnet:?xt=urn:btih:621f8af00638cb2b00d5bd0c6816543fa00b5fb1&dn=aeskeydb.bin&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce), поместите этот файл в папку `/boot9strap/` на SD-карте и попробуйте снова
+1. При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap
+1. После завершения процесса, нажмите (A) для перезагрузки.
   + Если ваше устройство выключается при загрузке, убедитесь что вы скопировали `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 
 ##### <a name="part3" />Часть III - Настройка Luma3DS
@@ -124,22 +126,23 @@ sidebar:
 1. Нажмите (X), выделив файл `start_SafeB9SInstaller.bin` чтобы удалить его
 1. Нажмите (A) для подтверждения
 1. Нажмите (B), чтобы вернуться к `[0:] SDCARD`
-1. + Нажмите (Y), выделив файл `boot.firm` чтобы скопировать его
+1. Нажмите (Y), выделив файл `boot.firm` чтобы скопировать его
 1. Нажмите (B) для возврата в главное меню
 1. Перейдите в `[1:] SYSNAND CTRNAND`
 1. Нажмите (Y), чтобы вставить копию `boot.firm`
 1. Выберите "Copy path(s)"
 1. Нажмите (A), чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
-1. Нажмите (X) на `arm9loaderhax.bin`, чтобы удалить его
+1. Нажмите (X), выделив файл `arm9loaderhax.bin`, чтобы удалить его
   + Если у вас нет этого файла, просто продолжайте следовать инструкциям
 1. Нажмите (A) для подтверждения
 1. Нажмите (B) для возврата в главное меню
 1. Перейдите в `[0:] SDCARD`
 1. Нажмите (Y) на папке `luma`, чтобы скопировать её
-  + Если у вас есть другие файлы или папки внутри папки `luma` *кроме тех*, что появились после выполнения предыдущей версии этого руководства (`config.bin` и `payloads`), например файлы LayeredFS, вам следует вместо этого скопировать только `config.bin` и `payloads`, отметив их с помощью (L) и нажав (Y) чтобы скопировать их1. Нажмите (B) для возврата в главное меню
+  + Если в папке `luma` остались файлы и/или папки (например, файлы LayeredFS) *помимо тех*, что были задействованы в прошлых версиях этого руководства (`config.bin` и `payloads`), вам следует скопировать только `config.bin` и `payloads`, выделив их с помощью (L) и нажав (Y) для копирования
+1. Нажмите (B) для возврата в главное меню
 1. Перейдите в `[1:] SYSNAND CTRNAND` -> `rw`
 1. Нажмите (X) на существующей папке `luma`, чтобы удалить её
-  + Если у вас нет этой папки, просто следуйте инструкции дальше
+  + Если у вас нет этой папки, просто продолжайте следовать инструкциям
 1. Нажмите (A) для подтверждения
 1. Нажмите (Y), чтобы вставить копию папки `luma` из вашей SD-карты
   + Если ранее вы скопировали только `config.bin` и `payloads`, вам будет нужно создать папку `luma` вручную (удерживая (R), нажмите (Y), введите имя `luma`, затем нажмите (A) для подтверждения), затем перейти в папку `luma` и нажать (Y), чтобы вставить `config.bin` и `payloads`

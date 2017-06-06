@@ -55,8 +55,8 @@ permalink: /get-started-new-3ds.html
       <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-dsiware">Установка boot9strap (DSiWare)</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">ВСЕ ВЕРСИИ<br><sub>(Придется паять!)</sub></td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">ВСЕ ВЕРСИИ</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-ntrboothax">Установка boot9strap (ntrboothax)</a><br><sub>(Необходим совместимый флеш-картридж)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">или</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a><br><sub>(Придется паять!)</sub></p></td>
     </tr>
   </tbody>
 </table>

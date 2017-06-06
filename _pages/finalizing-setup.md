@@ -30,15 +30,13 @@ sidebar:
 #### <a name="what_need" />Что понадобится
 
 * Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(`.cia` файл)*
-* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
-* Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest) *(`.zip`-архив)*
+* Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) *(`.zip`-архив)*
+* Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(`.cia` файл)*
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest) *(`.cia-файл`и `.3dsx-файл`)*
 * Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 * Свежая версия [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(`.cia` файл)*
-* Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(`.cia` файл)*
 * Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases) *(`.cia` файл)*
-* **Только для Old 3DS и 2DS:** Old 3DS 11.2.0-35 [otherapp payload](https://smealum.github.io/3ds/#otherapp) для вашего региона
 
 #### <a name="instructions" />Инструкция
 
@@ -48,14 +46,14 @@ sidebar:
 1. Вставьте SD-карту в компьютер
 1. Скопируйте `boot.3dsx` в корень SD-карты *(перезаписывайте существующие файлы)*
 1. Скопируйте `FBI.3dsx` в папку `/3ds/` на SD-карте
-1. Создайте папку `cias` в корне SD-карты
+1. Создайте папку `cias` в корне SD-карты, если таковой нет
 1. Создайте папку `hblauncherloader` в корне SD-карты, если таковой нет
 1. Скопируйте `hblauncher_loader.cia` из `.zip` архива hblauncher_loader в папку `/cias/` в корне SD-карты
-1. Скопируйте `lumaupdater.cia` в папку `/cias/` в корне SD-карты
-1. Скопируйте `Themely.cia` в папку `/cias/` в корне SD-карты
-1. Скопируйте `freeshop.cia` в папку `/cias/` в корне SD-карты
-1. Скопируйте `DSP1.cia` в папку `/cias/` в корне SD-карты
-1. Скопируйте `FBI.cia` в папку `/cias/` в корне SD-карты
+1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
+1. Скопируйте `Themely.cia` в папку `/cias/` на SD-карты
+1. Скопируйте `freeshop.cia` в папку `/cias/` на SD-карты
+1. Скопируйте `DSP1.cia` в папку `/cias/` на SD-карты
+1. Скопируйте `FBI.cia` в папку `/cias/` на SD-карты
 
     ![]({{ base_path }}/images/screenshots/cias-file-layout.png)
 	{: .text-center}
@@ -68,6 +66,10 @@ sidebar:
 	{: .text-center}
     {: .notice--info}
 
+1. Если ваше устройство использует прошивку версии ниже 9.0.0, консоль не запустится до тех пор, пока вы не установите альтернативную версию Luma3DS:
+  + Скачайте [альтернативную версию Luma3DS]({{ base_path }}/luma_legacy/cf0b05e/boot.firm)
+  + Скопируйте `boot.firm` в корень SD-карты *(перезаписывайте существующие файлы)*
+  + Замените этот `boot.firm` на файл из [свежей версии Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) после обновления системы далее по инструкции
 1. Если ваше устройство использует прошивку версии от 3.0.0 до 4.5.0, консоль не запустится до тех пор, пока вы вручную не скачаете нужные файлы прошивки:
   + Скачайте [этот файл](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) и переименуйте его в `firmware.bin`
   + Скачайте [этот файл](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
@@ -96,12 +98,6 @@ sidebar:
 
 1. Запустите приложение Загружаемая игра (Download Play)
 1. Нажмите (L) + (ВНИЗ) + (SELECT) одновременно чтобы открыть меню Rosalina
-1. Выберите "Process patches menu..."
-1. Выберите "Patch SM for the service checks"
-1. Нажмите (B), чтобы продолжить
-1. Выберите "Patch FS for the archive checks"
-1. Нажмите (B), чтобы продолжить
-1. Нажмите (B) для возврата в главное меню Rosalina
 1. Выберите "Miscellaneous options"
 1. Выберите "Switch the hb. title to the current app."
 1. Нажмите (B), чтобы продолжить
@@ -129,6 +125,7 @@ sidebar:
 Обратите внимание, что в некоторых версиях Luma3DS, меню Luma3DS chainloader отображается только в том случае, если в папке payloader более одного приложения. Если установлено только одно приложение, удерживание (START) при включении консоли запустит GodMode9 напрямую.
 {: .notice--info}
 
+1. Перезагрузитесь с зажатой кнопкой (START), чтобы запустить GodMode9
 1. Перейдите в `[0:] SDCARD`
 1. Нажмите (Y) на файле `boot.firm`, чтобы скопировать его
 1. Нажмите (B) для возврата в главное меню
@@ -189,9 +186,6 @@ sidebar:
 
 ___
 
-В случае проблем с работой DSi / DS (например, картриджи DS или DSiWare перестали работать), обратитесь к разделу [Проблемы и их решения](troubleshooting#twl_broken)
-{: .notice--warning}
-
 {% capture notice-10 %}
 Теперь вы можете использовать Luma3DS Updater для обновления кастомной прошивки. Запустите его и нажмите (А).     
 Это не тоже самое что Обновление системы (System Update). Это приложение обновляет только файлы Luma3DS.
@@ -204,8 +198,8 @@ ___
 Теперь по умолчанию будет запускаться Luma3DS CFW SysNAND.    
 Для запуска конфигуратора Luma3DS включите консоль с зажатой кнопкой (SELECT).    
 Теперь вы можете удерживать (START) при загрузке для запуска Luma3DS chainloader меню (обратите внимание, что Luma3DS chainloader меню отображается только если существует более одного приложения).
-Удерживайте (START) + (SELECT) + (X) при загрузке для сохранения копий ARM11 bootrom (`boot11.bin`), ARM9 bootrom (`boot9.bin`) и уникального OTP вашей консоли (`OTP.bin`) в папку `/boot9strap/` на SD-карте (весь процесс произойдет в фоне без какого-либо сообщения, или прогресс-бара).
-Теперь нажатие (L) + (ВНИЗ) + (SELECT) в запущенной системе открывает меню Rosalina, встроенное в Luma3DS. Полный список особенностей Rosalina, можно прочитать в [README Luma3DS](https://github.com/AuroraWright/Luma3DS/blob/master/README.md) (англ.)
+Теперь, с помощью зажатой комбинации клавиш (Start) + (Select) + (X) при включении консоли, вы сможете сохранить копии ARM11 bootrom (`boot11.bin`), ARM9 bootrom (`boot9.bin`) и уникального OTP вашей консоли (`OTP.bin`) в папку `/boot9strap/` на SD-карте (обратите внимание, что этот процесс не предусматривает отображения какого-либо оповещения).    
+Теперь нажатие (L) + (ВНИЗ) + (SELECT) в запущенной системе открывает меню Rosalina, встроенное в Luma3DS. Полный список функций Rosalina можно найти тут: [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0) (англ.) и немного вольный [перевод на русский](https://vk.com/3ds_cfw?w=wall-125012133_5360)
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

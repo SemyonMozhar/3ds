@@ -6,7 +6,7 @@ sidebar:
   nav: "installing-boot9strap-hardmod"
 ---
 
-Отличное руководство по пайке хардмода находится [здесь](https://gbatemp.net/threads/414498/) (англ.). Если у вас New 3DS, прочтите [это](https://github.com/Plailect/Guide/issues/681) (англ.) перед тем, как приступать.
+Отличное руководство по пайке хардмода находится [здесь](https://gbatemp.net/threads/414498/) (англ.). Если у вас New 3DS, прочтите [это](https://github.com/Plailect/Guide/issues/681) и [это](https://github.com/Plailect/Guide/issues/1185) перед тем, как начать.
 {: .notice--info}
 
 Это рабочая реализация "FIRM partitions known-plaintext"-эксплойта. Подробнее о нем [здесь](https://www.3dbrew.org/wiki/3DS_System_Flaws) (англ.).
@@ -21,11 +21,11 @@ sidebar:
 #### <a name="what_need" />Что понадобится
 
 * Полученный с помощью [хардмода](https://gbatemp.net/threads/414498/) (англ.) образ NAND
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `dev-файл`, не `ntr-файл`)*
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest)
   + Пользователи Windows могут воспользоваться скомпилированным `.exe-файлом`, когда как пользователям Mac и Linux нужно иметь в системе установленный [Python 3](https://www.python.org/downloads/) для запуска `.py-файлов`
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
-* `.firm`, соответствующий версии вашего устройства:
+* `.firm`, соответствующий версии вашего устройства и версии ПО:
 
 | Версия(и) | Kernel | Old 3DS | New 3DS |
 |-|-|:-:|:-:|
@@ -68,13 +68,13 @@ sidebar:
 1. Скопируйте загруженный `.firm` в папку hardmod-b9s-installer на вашем компьютере
 1. Переименуйте загруженный `.firm` в папке hardmod-b9s-installer в `current.firm`
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива`boot9strap в папку с hardmod-b9s-installer на вашем компьютере
-1. Скопируйте свой дамп NAND (который вы сделали с помощью хардмода) в папку hardmod-b9s-installer на вашем компьютере и переименуйте его в `NAND.bin`
+1. Скопируйте ваш дамп NAND (полученный при помощи хардмода) в папку hardmod-b9s-installer на вашем компьютере и назовите его `NAND.bin`
 
 ##### <a name="part2" />Часть II - Установка boot9strap
 
 1. Запустите hardmod-b9s-installer
   + Пользователи Windows: Запустите `install-b9s.exe`
-  + Mac и Linux пользователей: запустите `install-b9s.py`
+  + Пользователи Mac и Linux: Запустите `install-b9s.py`
 1. Прошейте получившийся `NAND-patched.bin` обратно в ваше устройство, используя хардмод
 1. Перезагрузите устройство
 
@@ -95,6 +95,7 @@ sidebar:
     {: .notice--info}
 	
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
+  + Если появляется ошибка, просто переходите к следующей странице
 
 ___
 

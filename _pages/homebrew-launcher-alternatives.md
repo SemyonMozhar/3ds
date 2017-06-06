@@ -19,7 +19,7 @@ Homebrew Launcher имеет множество точек входа, или м
 
 #### <a name="what_need" />Что понадобится: 
 
-* The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
+* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
 #### <a name="instructions" />Инструкция:
 
@@ -50,12 +50,6 @@ Homebrew Launcher имеет множество точек входа, или м
 	| <sub>[GenHax](https://github.com/svanheulen/genhax_proxy_installer) | <sub>[*Monster Hunter X*](http://amzn.to/2gsk6Tk) | <sub>eShop | <sub>New | <sub>JPN | <sub>Все | <sub>от 9.9.0-X до 11.2.0-X включительно |
     {: .notice--info}
 	
-1. Консоль должна загрузиться в Homebrew Launcher
-
-    ![]({{ base_path }}/images/screenshots/homebrew-launcher.png)
-	{: .text-center}
-    {: .notice--info}
-
 ___
 
 Следующий шаг: [Установка boot9strap](installing-boot9strap-homebrew-launcher)

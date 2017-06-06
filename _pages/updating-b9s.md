@@ -33,7 +33,7 @@ sidebar:
 
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z-архив`)*
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `dev-файл`, не `ntr-файл`)*
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 
@@ -44,11 +44,12 @@ sidebar:
 Для всех шагов в этой части перезаписывайте любые существующие файлы на SD-карте.
 {: .notice--info}
 
-**Не копируйте** в этой части boot.firm от Luma3DS! Если вы сделали это, скачайте предыдущую версию, которая поддерживает вашу версию b9s и скопируйте boot.firm от нее на SD-карту. Обновление Luma3DS до актуальной версии будет произведено в следующей части. 
+**Не копируйте** в этой части boot.firm от Luma3DS 8! Если вы сделали это, [скачайте Luma3DS 7.1](https://github.com/AuroraWright/Luma3DS/releases/tag/v7.1), и скопируйте boot.firm из архива с прошивкой на SD-карту, согласившись на замену. Обновление Luma3DS до актуальной версии будет произведено в следующей части. 
 {: .notice--danger}
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
+1. **Помните, что ещё не следует копировать boot.firm от Luma 8.0, мы сделаем это в следующей части**
 1. Скопируйте `boot.3dsx` в корень SD-карты
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
