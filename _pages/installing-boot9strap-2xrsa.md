@@ -6,9 +6,6 @@ sidebar:
   nav: "installing-boot9strap-2xrsa"
 ---
 
-Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--success}
-
 #### <a name="what_need" />Что понадобится
 
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
