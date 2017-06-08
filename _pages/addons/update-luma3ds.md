@@ -5,6 +5,9 @@ sidebar:
   nav: "update-luma3ds"
 ---
 
+Пошагово разберем как правильно обновить Luma3DS и что делать, если уже все пошло наперекосяк. 
+{: .notice--success}
+
 #### <a name="what_need" />Что понадобится
 
 * Установленный и рабочий [b9s](updating-b9s) последней версии (*если уже делали, то повторно делать не нужно*)
@@ -13,26 +16,42 @@ sidebar:
 * Свежая версия [Luma3ds Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) (`lumaupdater.cia`)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
-##### <a name="instructions" />Инструкция
+## <a name="detect" />Определение типа и версии взлома 
+
+Определить какая версия взлома стоит на вашей приставке достаточно просто: 
+
+1. Выключите приставку
+1. Зажмите кнопку (SELECT) и, удерживая её, включите консоль
+1. Запустится меню конфигурации Luma3DS
+
+    ![]({{ base_path }}/images/screenshots/luma.png)
+	{: .text-center}
+    {: .notice--info}
+
+1. Обратите внимание на версию Luma3DS и перейдите по ссылке, соответствующей вашей версии:
+	+ Если [Luma3DS меньше, или равна 7.0.5](a9lh-to-b9s), то у вас a9lh
+	+ Если [Luma3DS 7.1](updating-b9s), то у вас b9s 1.0 
+	+ Если Luma3DS 8 и выше, то b9s 1.2 и ничего обновлять не нужно.
+	
+{% comment %}
 
 ##### <a name="lumaupdater" />Способ I - Luma3ds Updater
-
+{: comment}
 1. Установите `lumaupdater.cia` через FBI (как это сделать описано [здесь](games))
 1. Запустите lumaupdater из меню Home
 1. Выберите "Install stable version" и нажмите (A)
 1. Нажмите (A) + (X) для установки Luma3DS на SD-карту и в CTRNAND
 1. При появлении надписи "Update complite", нажмите (START) для перезагрузки
-  + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_a9lh)   
+  + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)   
   + Если появилось окно-конфигуратора Luma3DS, то перейдите к разделу [Настройка Luma3DS](update-luma3ds#lumasetup)   
 
 ##### <a name="lumasd" />Способ II, Часть I - Обновление Luma вручную
-{: .notice--success}
 
 1. Вставьте SD-карту из приставки в ПК
 1. **Скопируйте `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты, соглашаясь на перезапись файлов**
 1. Вставляем SD-карту в приставку
 1. Включите 3DS
-  + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_a9lh)   
+  + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)   
 
 ##### <a name="lumasetup" />Способ II, Часть II - Настройка Luma3DS
 
@@ -71,6 +90,7 @@ sidebar:
 1. Перейдите в `[1:] SYSNAND CTRNAND` -> `rw`
 1. Нажмите (Y), чтобы вставить копию папки `luma` из вашей SD-карты
 1. Выберите "Copy path(s)"
+{% endcomment %}
 
 <div id="vk_comments"></div>
 <script type="text/javascript">
