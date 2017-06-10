@@ -34,7 +34,6 @@ sidebar:
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) *(`.zip`-архив)*
 * Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(`.cia` файл)*
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest) *(`.cia-файл`и `.3dsx-файл`)*
-* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 * Свежая версия [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(`.cia` файл)*
 * Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases) *(`.cia` файл)*
 
@@ -44,7 +43,6 @@ sidebar:
 
 1. Отключите приставку
 1. Вставьте SD-карту в компьютер
-1. Скопируйте `boot.3dsx` в корень SD-карты *(перезаписывайте существующие файлы)*
 1. Скопируйте `FBI.3dsx` в папку `/3ds/` на SD-карте
 1. Создайте папку `cias` в корне SD-карты, если таковой нет
 1. Создайте папку `hblauncherloader` в корне SD-карты, если таковой нет

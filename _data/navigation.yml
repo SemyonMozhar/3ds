@@ -6,6 +6,8 @@ main:
     url: /a9lh-to-b9s
   - title: "Обновление<br>b9s"
     url: /updating-b9s
+  - title: "Обновление<br>Luma3DS"
+    url: /update-luma3ds
   - title: "Инструкции,<br>полезные после прошивки"
     url: /addons
   - title: "Карта сайта"
