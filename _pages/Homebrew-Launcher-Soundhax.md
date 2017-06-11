@@ -28,7 +28,7 @@ SoundHax совместим с версиями прошивки от 9.0.0 до
 
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Последняя версия [SoundHax](http://soundhax.com/) *(для вашего устройства и региона)*
-* [otherapp payload](https://smealum.github.io/3ds/#otherapp) *(для вашей версии и региона)*
+* [otherapp payload](https://smealum.github.io/3ds/#otherapp) *(для вашей версии ПО и региона приставки; если версия вашего браузера меньше, чем -7, попробуйте использовать otherapp для версии -7)*
 
 #### <a name="instructions" />Инструкция
 
