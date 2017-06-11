@@ -4,6 +4,7 @@ permalink: /update-luma3ds.html
 sidebar:
   nav: "update-luma3ds"
 ---
+{% comment %}
 
 #### <a name="what_need" />Что понадобится
 
@@ -12,6 +13,8 @@ sidebar:
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
 * Свежая версия [Luma3ds Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) (`lumaupdater.cia`)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+
+{% endcomment %}
 
 ## <a name="detect" />Определение типа и версии взлома 
 
@@ -30,10 +33,13 @@ sidebar:
 	+ Если Luma3DS 7.1, то у вас b9s 1.0 и нужно [обновить его до версии 1.2](updating-b9s)
 	+ Если Luma3DS 8 и выше, то b9s 1.2 - ничего делать не нужно	
 	
+**Если вы обновили Luma3DS через Luma3DS Updater и теперь приставка не включается. Загорается синий диод и тухнет, обратитесь к [этой части руководства](http://3ds.customfw.xyz/troubleshooting#lumaupdater).**
+{: .notice--info}
+	
 {% comment %}
 
 ##### <a name="lumaupdater" />Способ I - Luma3ds Updater
-{: comment}
+
 1. Установите `lumaupdater.cia` через FBI (как это сделать описано [здесь](games))
 1. Запустите lumaupdater из меню Home
 1. Выберите "Install stable version" и нажмите (A)

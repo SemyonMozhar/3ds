@@ -2,12 +2,12 @@
 main:
   - title: "<b>Выбрать<br>консоль</b>"
     url: http://customfw.xyz
+  - title: "Обновление<br>Luma3DS"
+    url: /update-luma3ds
   - title: "Переход с a9lh<br>на b9s"
     url: /a9lh-to-b9s
   - title: "Обновление<br>b9s"
     url: /updating-b9s
-  - title: "Обновление<br>Luma3DS"
-    url: /update-luma3ds
   - title: "Инструкции,<br>полезные после прошивки"
     url: /addons
   - title: "Карта сайта"

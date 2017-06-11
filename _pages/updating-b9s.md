@@ -132,8 +132,31 @@ __
 Обратите внимание, что `.bak-файлы` в папке `/boot9strap/` на SD-карте необходимы только в случае неудачной установки boot9strap. После успешной установки вы можете удалить всю папку `boot9strap`.
 {: .notice--info}
 
-Теперь нажатие (L) + (ВНИЗ) + (SELECT) в запущенной системе открывает меню Rosalina, встроенное в Luma3DS. Полный список функций Rosalina можно найти тут: [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0) (англ.)
+{% capture notice-10 %}
+Теперь вы можете использовать Luma3DS Updater для обновления кастомной прошивки. Запустите его и нажмите (А).     
+Это не тоже самое что Обновление системы (System Update). Это приложение обновляет только файлы Luma3DS.
+Это обновит только те файлы Luma3DS, которые находятся на SD-карте. Если вы включите консоль без SD-карты, она загрузится используя Luma3DS из CTRNAND.    
+{% endcapture %}
+
+<div class="notice--info">{{ notice-10 | markdownify }}</div>
+
+{% capture notice-6 %}   
+Теперь нажатие (L) + (ВНИЗ) + (SELECT) в запущенной системе открывает меню Rosalina, встроенное в Luma3DS. Полный список функций Rosalina можно найти тут: [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0) (англ.) и немного вольный [перевод на русский](https://vk.com/3ds_cfw?w=wall-125012133_5360)
+{% endcapture %}
+
+<div class="notice--info">{{ notice-6 | markdownify }}</div>
+
+Для использования [NTR CFW](https://github.com/44670/BootNTR/), установите [BootNTR Selector](https://gbatemp.net/threads/432911/).
 {: .notice--info}
+
+{% capture notice-7 %}
+Удалите любые лишние файлы и папки из корня вашей SD-карты, которых *нет* на следующем изображении:
+<br><br>
+![]({{ base_path }}/images/screenshots/final-file-layout.png)
+{: .text-center}
+{% endcapture %}
+
+<div class="notice--info">{{ notice-7 | markdownify }}</div>
 
 Для получения информации по использованию различных функций GodMode9 обратитесь к разделу [Использование GodMode9](godmode9-usage).
 {: .notice--success}
@@ -144,3 +167,8 @@ __
 <a name="links" />
 Различные инструкции, не имеющие прямого отношения ко взлому, однако помогающие лучше изучить возможности 3DS на кастомной прошивке и эффективнее ей пользоваться находятся [здесь](addons).
 {: .notice--success}
+
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>
