@@ -104,7 +104,7 @@ permalink: /get-started-old-3ds.html
     <tr>
       <td style="text-align: center; font-weight: bold;">5.0.0</td>
       <td style="text-align: center; font-weight: bold;">5.1.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-alternatives">Альтернативный метод запуска HBL</a></td>
+      <td style="text-align: center; font-weight: bold;"></td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-browser">Установка boot9strap (Browser)</a></td>
     </tr>
     <tr>
@@ -116,7 +116,7 @@ permalink: /get-started-old-3ds.html
     <tr>
       <td style="text-align: center; font-weight: bold;">7.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-alternatives">Альтернативный метод запуска HBL</a></td>
+      <td style="text-align: center; font-weight: bold;"></td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-browser">Установка boot9strap (Browser)</a></td>
     </tr>
     <tr>
