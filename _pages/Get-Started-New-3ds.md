@@ -3,9 +3,6 @@ title: "Начнем (New 3DS)"
 permalink: /get-started-new-3ds.html
 ---
 
-Выберите подходящую для вашей версии консоли страницу из таблицы ниже.
-{: .notice--primary}
-
 Обратите внимание, что столбцы "С" и "По" обозначают границы диапазона. Это означает, к примеру, что диапазон "с 9.0.0 по 9.2.0" включает в себя 9.0.0, 9.1.0 и 9.2.0.
 {: .notice--info}
 
@@ -21,6 +18,9 @@ permalink: /get-started-new-3ds.html
 ![]({{ base_path }}/images/screenshots/system-version.png)
 {: .text-center}
 {: .notice--info}
+
+Выберите подходящую для вашей версии консоли страницу из таблицы ниже.
+{: .notice--primary}
 
 <table>
   <colgroup>
