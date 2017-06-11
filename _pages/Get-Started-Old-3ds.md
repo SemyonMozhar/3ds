@@ -2,12 +2,8 @@
 title: "Начнем (Old 3DS)"
 permalink: /get-started-old-3ds.html
 ---
-
-Выберите подходящую для вашей версии страницу из таблицы ниже.
-{: .notice--primary}
-
 {% capture notice-1 %}
-Два последних столбца относятся к последнему числу, указанному в версии прошивки вашего устройства (которое обозначает версию установленного браузера в системе). Если версия оканчивается на -0, значит, у вас отсутствует браузер, любое другое число больше 0 говорит о том, что браузер установлен.
+Последнее число вашей версии системы (после дефиса) относится к версии браузера. Если версия оканчивается на -0, значит, у вас отсутствует браузер, любое другое число говорит о том, что браузер установлен.
 <br><br>
 Столбцы "С" и "По" обозначают границы диапазона. Это означает, к примеру, что диапазон "с 9.0.0 по 9.2.0" включает в себя 9.0.0, 9.1.0 и 9.2.0.
 <br><br>
@@ -16,18 +12,36 @@ permalink: /get-started-old-3ds.html
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-Любую версию системного ПО можно обновить на более высокую из этой же колонки [с помощью картриджа](cart-update) и после этого продолжать выполнять инструкцию. Поэтому этот вариант не описывается в таблице. 
-{: .notice--info}
-
 {% capture notice-1 %}
-
-Заметьте, что обновление на картридже позволяет обновить только базовые функции консоли, такие как Системные настройки, меню HOME, и т. п. Приложение Звук Nintendo 3DS и сетевые функции, такие как Перенос системы, Интернет-браузер, Площадь StreetPass Mii или eShop с картриджа не обновляются.
+Любую версию системного ПО можно обновить на более высокую из этой же колонки [с помощью картриджа](cart-update) и после этого продолжать выполнять инструкцию. Однако, для Old3DS и 2DS существует ряд существенных ограничений: 
 <br><br>
-Это означает, что обновление картриджем с версии, содержащей старое приложение Звук Nintendo 3DS *(<7.0.0 для Old 3DS регионов EUR, JPN, Kили, и USA)*, до версии с новым приложением Звук Nintendo 3DS сделает невозможной работу [Soundhax](homebrew-launcher-(soundhax))! Вам понадобится [альтернативный метод](homebrew-launcher-(alternatives)) запуска Homebrew Launcher!
+Обновление на картридже позволяет обновить только базовые функции консоли, такие как Системные настройки, меню HOME, и т. п. Приложение Звук Nintendo 3DS и сетевые функции, такие как, Интернет-браузер (а так же Площадь StreetPass Mii, Перенос системы или eShop) с картриджа не обновляются.
+<br><br>
+Это означает, что обновление картриджем на Old3DS с версией ПО ниже, чем 7.0.0 (EUR, JPN, KOR, или USA), сделает невозможной работу [Soundhax](homebrew-launcher-soundhax)! Вам понадобится [альтернативный метод](homebrew-launcher-alternatives) запуска Homebrew Launcher!
+<br><br>
+Если вы обновились с помощью игрового картриджа, содержащего версию 9.9.0 или выше *(то есть ваша версия сейчас 9.9.0 или выше, однако версия браузера -25 или ниже, например - 10.2.0-24)*, браузер будет удалён из системы и в этом случае следует воспользоваться колонкой "Без браузера".
+<br><br>
+Помните так же, что обновляясь с помощью картриджа с версии ПО без браузера, вы повысите прошивку, однако так и не получите браузер, что исключит возможность работы [Soundhax](homebrew-launcher-soundhax) и [browserhax](installing-boot9strap-browser). Ровно в той же ситуации окажутся владельцы приставок с версией браузера НИЖЕ, чем -7, поскольку для них просто отсутствует payloader. 
 {% endcapture %}
 
-Если вы обновились с помощью игрового картриджа, содержащего версию 9.9.0 или выше *(то есть ваша версия сейчас 9.9.0 или выше, однако версия браузера -25 или ниже, например - 10.2.0-24)*, браузер был удалён из системы и в этом случае следует воспользоваться колонкой "Без браузера".
-{: .notice--warning}
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+{% capture notice-1 %}
+Хорошо заранее продумайте что и как вы будете делать, поскольку прошивка без дополнительных технических средств возможна только при стечении определенных обстоятельств: версия прошивки больше, чем 9.0.0 с браузером версии выше, чем 7.0, обновленная **НЕ через картридж**. Только в таком случае будет работать [Soundhax](homebrew-launcher-soundhax). 
+<br><br>
+Например, имея на руках консоль с версией ПО 11.3.0-35 вы просто используете [Soundhax](homebrew-launcher-soundhax).
+<br><br>
+С другой стороны приставка с прошивкой 1.0.0-0. Очевидно, что браузера на ней нет и обновление картриджем не позволит использовать ни [Soundhax](homebrew-launcher-soundhax), ни [browserhax](installing-boot9strap-browser), ни [2xrsa](installing-boot9strap-2xrsa). Остаются следующие возможности - использование [MSET](installing-boot9strap-mset), для чего понадобится флеш-картридж от Nintendo DS; использование [HBL через альтернативную точку входа](homebrew-launcher-alternatives); использование [Hardmode](installing-boot9strap-hardmod), что требует определенных навыков работы с паяльником. 
+<br><br>
+Для MSET можно обновиться картриджем до версии 4.0.0-4.5.0, 6.0.0-6.3.0; для HBL на прошивку, необходимую для запуска выбранного эксплойта. Помните, что для использования [альтернативной точки входа в HBL](homebrew-launcher-alternatives) вам в большинстве случаев понадобится вторая уже прошитая приставка (либо устройство [Powersaves](https://amzn.to/2fb3VY7)) для записи кода эксплойта в картридж с игрой, который тоже, ясное дело, должен у вас быть (допускается использование sky3ds). 
+<br><br>
+Например, вы остановили свой выбор на oothax. Для его работы следует обновить приставку до версии ПО от 9.0.0 до 11.3 с помощью картриджа и следовать инструкции на сайте эксплойта.
+{% endcapture %}
+
+<div class="notice--warning">{{ notice-1 | markdownify }}</div>
+
+Выберите подходящую для вашей версии ПО страницу из таблицы ниже.
+{: .notice--primary}
 
 Версия программного обеспечения вашего устройства отображается в правом нижнем углу верхнего экрана в приложении Системные настройки (System settings).
 {: .notice--success}
@@ -40,23 +54,41 @@ permalink: /get-started-old-3ds.html
   <colgroup>
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
-    <col span="1" style="width: 40%;">
+    <col span="1" style="width: 35%;">
+    <col span="1" style="width: 35%;">
+    <col span="1" style="width: 7%;">
   </colgroup>
   <thead>
     <tr>
       <th style="text-align: center; font-weight: bold;">С</th>
       <th style="text-align: center; font-weight: bold;">По</th>
-      <th style="text-align: center; font-weight: bold;" colspan="2"></th>
+      <th style="text-align: center; font-weight: bold;">Браузера нет</th>
+      <th style="text-align: center; font-weight: bold;">Браузер есть</th>
+      <th style="text-align: center; font-weight: bold;">Для всех версий</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">1.0.0</td>
       <td style="text-align: center; font-weight: bold;" colspan="2"></td>
-    </tr>
+      <td style="text-align: center; font-weight: bold;" rowspan="10">
+		<a href="installing-boot9strap-ntrboothax" title="Установка ntrboothax (необходим совместимый флеш-картридж)">
+			<img src="/images/ntrhax.png">
+		</a>
+		<br><br>
+		<a href="installing-boot9strap-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)">
+			<img src="/images/hardmode.png">
+		</a>
+		<br><br>
+		<a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой (подробнее по ссылке)">
+			<img src="/images/cart_update.png">
+		</a>
+	  </td>
+	</tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">2.1.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-2xrsa">Установка boot9strap (2xrsa)</a></td>
+      <td style="text-align: center; font-weight: bold;"></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-2xrsa">Установка boot9strap (2xrsa)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">2.2.0</td>
@@ -72,7 +104,8 @@ permalink: /get-started-old-3ds.html
     <tr>
       <td style="text-align: center; font-weight: bold;">5.0.0</td>
       <td style="text-align: center; font-weight: bold;">5.1.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-browser">Установка boot9strap (Browser)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-alternatives">Альтернативный метод запуска HBL</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-browser">Установка boot9strap (Browser)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">6.0.0</td>
@@ -83,22 +116,24 @@ permalink: /get-started-old-3ds.html
     <tr>
       <td style="text-align: center; font-weight: bold;">7.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-browser">Установка boot9strap (Browser)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-alternatives">Альтернативный метод запуска HBL</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-browser">Установка boot9strap (Browser)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>
       <td style="text-align: center; font-weight: bold;">11.3.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="homebrew-launcher-soundhax">Homebrew Launcher (Soundhax)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-alternatives">Альтернативный метод запуска HBL</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-soundhax">Homebrew Launcher (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">11.4.0</td>
       <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-dsiware">Установка boot9strap (DSiWare)</a></td>
     </tr>
-    <tr>
+<!--     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">ВСЕ ВЕРСИИ</td>
       <td style="text-align: center; font-weight: bold;" colspan="2"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-ntrboothax">Установка boot9strap (ntrboothax)</a><br><sub>(Необходим совместимый флеш-картридж)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">или</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a><br><sub>(Придется паять!)</sub></p></td>
     </tr>
-  </tbody>
+ -->  </tbody>
 </table>
 
 <div id="vk_comments"></div>

@@ -19,7 +19,7 @@ SoundHax совместим с версиями прошивки от 9.0.0 до
 
 Заметьте, что обновление на картридже позволяет обновить только базовые функции консоли, такие как Системные настройки, меню HOME, и т. п. Приложение Звук Nintendo 3DS и сетевые функции, такие как Перенос системы, Интернет-браузер, Площадь StreetPass Mii или eShop с картриджа не обновляются.
 <br><br>
-Это означает, что обновление картриджем с версии, содержащей старое приложение Звук Nintendo 3DS *(<7.0.0 для Old 3DS регионов EUR, JPN, KOR, и USA)*, до версии с новым приложением Звук Nintendo 3DS сделает невозможной работу [Soundhax](homebrew-launcher-soundhax)! Вам понадобится [альтернативный метод](homebrew-launcher-alternatives) запуска Homebrew Launcher!
+Помните, что обновление картриджем с версии, содержащей старое приложение Звук Nintendo 3DS *(<7.0.0 для Old 3DS регионов EUR, JPN, KOR, и USA)*, сделает невозможной работу [Soundhax](homebrew-launcher-soundhax)! Вам понадобится [альтернативный метод](homebrew-launcher-alternatives) запуска Homebrew Launcher!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
