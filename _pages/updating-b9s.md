@@ -35,7 +35,7 @@ sidebar:
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
+* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
 #### <a name="instructions" />Инструкция
 
@@ -51,7 +51,7 @@ sidebar:
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. **Помните, что ещё не следует копировать boot.firm от Luma 8.0, мы сделаем это в следующей части**
-1. Скопируйте `boot.3dsx` в корень SD-карты
+1. Скопируйте _содержимое_ папки `starter` из архива `starter.zip` в корень SD-карты **целевой 3DS**
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте `SafeB9SInstaller.firm` из `.zip-архива` SafeB9SInstaller в папку `/luma/payloads/` на SD-карте
