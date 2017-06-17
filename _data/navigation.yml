@@ -1,16 +1,18 @@
 # main links links
 main:
-  - title: "<b>Выбрать<br>консоль</b>"
+  - title: "<b>Прошивка<br>WiiU, PS Vita</b>"
     url: http://customfw.xyz
+  - title: "<i>Купить<br>прошитую</i>"
+    url: https://vk.com/market-125012133?section=album_2
   - title: "Обновление<br>Luma3DS"
     url: /update-luma3ds
-  - title: "Переход с a9lh<br>на b9s"
+  - title: "Переход с<br>a9lh на b9s"
     url: /a9lh-to-b9s
   - title: "Обновление<br>b9s"
     url: /updating-b9s
-  - title: "Инструкции,<br>полезные после прошивки"
+  - title: "Инструкции,<br>после прошивки"
     url: /addons
-  - title: "Карта сайта"
+  - title: "Карта<br>сайта"
     url: /site-navigation
   - title: "FAQ"
     url: /faq
@@ -320,6 +322,8 @@ h2testw-windows:
 home:
   - title: "Разделы"
     children:
+      - title: "• Я не хочу прошивать приставку сам"
+        url: /#specialists
       - title: "• Что такое Homebrew?"
         url: /#what_hombrw
       - title: "• Что такое кастомная прошивка (CFW)?"

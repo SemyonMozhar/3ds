@@ -51,7 +51,7 @@ sidebar:
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
+* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
 
 #### <a name="instructions" />Инструкция
@@ -64,7 +64,7 @@ sidebar:
 1. Перейдите в Системные настройки (System Settings), Управление данными (Data Managment), Nintendo 3DS, Программы (Software) и удалите Luma3DS Updater
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Скопируйте `boot.3dsx` в корень SD-карты
+1. Скопируйте _содержимое_ архива `starter.zip` в корень SD-карты
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Создайте папку `cias` в корне SD-карты
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте

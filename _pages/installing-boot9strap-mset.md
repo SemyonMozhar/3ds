@@ -25,6 +25,7 @@ sidebar:
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
+1. Скопируйте _содержимое_ архива `starter.zip` в корень SD-карты
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива`boot9strap в папку `/boot9strap/` в корне SD-карты
 1. Скопируйте `SafeB9SInstaller.dat` из `.zip-ахрива` SafeB9SInstaller в корень SD-карты
