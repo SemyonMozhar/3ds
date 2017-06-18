@@ -646,6 +646,10 @@ troubleshooting:
         url: /troubleshooting#ts_sys_down
       - title: "• Черный экран при загрузке SysNAND после установки b9s"
         url: /troubleshooting#ts_sys_b9s
+      - title: "• Не запускается ни один пейлоадер. Сразу запускается консоль"
+        url: /troubleshooting#payloaders_fault
+      - title: "• После обновления Luma3DS через Luma3DS Updater и теперь приставка не включается. Загорается синий диод и тухнет"
+        url: /troubleshooting#lumaupdater
       - title: "• Голубой экран при загрузке (bootrom error)"
         url: /troubleshooting#ts_sys_blue
       - title: "• В начало раздела"
