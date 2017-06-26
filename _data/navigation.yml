@@ -496,17 +496,13 @@ installing-boot9strap-hardmod:
 installing-boot9strap-homebrew-launcher:
   - title: "Разделы"
     children:
-      - title: "• Что понадобится"
-        url: /installing-boot9strap-homebrew-launcher#what_need
       - title: "• Инструкция:"
         url: /installing-boot9strap-homebrew-launcher#instructions
-      - title: "  - Часть I - Подготовительные работы"
-        url: /installing-boot9strap-homebrew-launcher#part1
-      - title: "  - Часть II -  Запуск SafeB9SInstaller"
+      - title: "  - Часть I - Запуск SafeB9SInstaller"
         url: /installing-boot9strap-homebrew-launcher#part2
-      - title: "  - Часть III - Установка boot9strap"
+      - title: "  - Часть II - Установка boot9strap"
         url: /installing-boot9strap-homebrew-launcher#part3
-      - title: "  - Часть IV - Настройка Luma3DS"
+      - title: "  - Часть III - Настройка Luma3DS"
         url: /installing-boot9strap-homebrew-launcher#part4
       - title: "• В начало раздела"
         url: /installing-boot9strap-homebrew-launcher#start

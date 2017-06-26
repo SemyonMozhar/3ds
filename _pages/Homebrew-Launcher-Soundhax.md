@@ -28,6 +28,11 @@ SoundHax совместим с версиями прошивки от 9.0.0 до
 
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Последняя версия [SoundHax](http://soundhax.com/) *(для вашего устройства и региона)*
+* Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `dev-файл`, не `ntr-файл`)*
+* Свежая версия [safehax](https://github.com/TiniVi/safehax/releases/latest)
+* Свежая версия [udsploit](https://github.com/smealum/udsploit/releases/latest)
+* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
 * [otherapp payload](https://smealum.github.io/3ds/#otherapp) *(для вашей версии ПО и региона приставки; если версия вашего браузера меньше, чем -7, попробуйте использовать otherapp для версии -7)*
 
 #### <a name="instructions" />Инструкция
@@ -37,8 +42,14 @@ SoundHax совместим с версиями прошивки от 9.0.0 до
 1. Скопируйте _содержимое_ архива `starter.zip` в корень SD-карты
 1. Скопируйте Soundhax `.m4a` в корень вашей SD-карты
 1. Скопируйте otherapp payload в корень вашей SD-карты и переименуйте его в `otherapp.bin`
+1. Скопируйте `boot.firm` из `.7z-архива` с Luma3DS в корень SD-карты
+1. Создайте папку `boot9strap` в корне вашей SD-карты
+1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` с boot9strap в папку `/boot9strap/` на вашей SD-карте
+1. Скопируйте `safehax.3dsx` в папку `/3ds/` на вашей SD-карте
+1. Скопируйте `udsploit.3dsx` в папку `/3ds/` на вашей SD-карте
+1. Скопируйте `SafeB9SInstaller.bin` из `.zip-архива` с SafeB9SInstaller в корень вашей SD-карты и переименуйте его в `safehaxpayload.bin`
 
-    ![]({{ base_path }}/images/screenshots/soundhax-file-layout.png)
+    ![]({{ base_path }}/images/screenshots/boot9strap-hb-file-layout.png)
 	{: .text-center}
     {: .notice--info}
 
