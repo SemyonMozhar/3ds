@@ -62,8 +62,6 @@ sidebar:
 1. Выберите "Install stable version" и нажмите (A)
 1. Нажмите (A) + (X) для установки Luma3DS на SD-карту и в CTRNAND
 1. При появлении надписи "Update complite", нажмите (START) для перезагрузки
-  + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)   
-  + Если появилось окно-конфигуратора Luma3DS, то перейдите к разделу [Настройка Luma3DS](update-luma3ds#lumasetup)   
 
 ##### <a name="lumasd" />Способ II - Обновление Luma3ds вручную
   
