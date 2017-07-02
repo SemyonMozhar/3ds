@@ -176,6 +176,15 @@ ___
 Теперь, с помощью зажатой комбинации клавиш (START) + (SELECT) + (X) при включении консоли, вы сможете сохранить копии ARM11 bootrom (`boot11.bin`), ARM9 bootrom (`boot9.bin`) и уникального [OTP](otp) вашей консоли (`OTP.bin`) в папку `/boot9strap/` на SD-карте (обратите внимание, что этот процесс не предусматривает отображения какого-либо оповещения).
 {% endcapture %}
 
+{% capture notice-7 %}
+Удалите любые лишние файлы и папки из корня вашей SD-карты, которых *нет* на следующем изображении (если у вас есть папка DCIM, можете её оставить - в ней находятся фото, сделанные на 3DS):
+<br><br>
+![]({{ base_path }}/images/screenshots/final-file-layout.png)
+{: .text-center}
+{% endcapture %}
+
+<div class="notice--info">{{ notice-7 | markdownify }}</div>
+
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
 <div id="vk_comments"></div>

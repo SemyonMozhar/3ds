@@ -35,6 +35,7 @@ sidebar:
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
 #### <a name="instructions" />Инструкция
@@ -56,6 +57,8 @@ sidebar:
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте `SafeB9SInstaller.firm` из `.zip-архива` SafeB9SInstaller в папку `/luma/payloads/` на SD-карте
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты
+1. Создайте папку `cias` в корне SD-карты
+1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
 1. Вставьте SD-карту обратно в консоль
 
 ##### <a name="part2" />Часть II - Установка boot9strap
@@ -126,6 +129,14 @@ sidebar:
 1. Нажмите (Y), чтобы вставить копию папки `luma` из вашей SD-карты
   + Если ранее вы скопировали только `config.bin` и `payloads`, вам будет нужно создать папку `luma` вручную (удерживая (R), нажмите (Y), введите имя `luma`, затем нажмите (A) для подтверждения), затем перейти в папку `luma` и нажать (Y), чтобы вставить `config.bin` и `payloads`
 1. Нажмите (START) для перезагрузки
+
+##### <a name="part6" />Часть VI - Установка Luma3DS Updater
+
+1. Запустите FBI
+1. Перейдите в `SD` -> `cias`
+1. Выберите `lumaupdater.cia`
+1. Выберите "Install CIA", затем нажмите (A) для подтверждения
+1. Нажмите (HOME) для выхода из FBI
 
 __
 
