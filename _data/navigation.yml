@@ -84,8 +84,10 @@ badges:
         url: /badges#instructions
       - title: "  - Часть I - Установка hblauncher loader"
         url: /badges#part1
-      - title: "  - Часть II - Установка жетонов"
-        url: /badges#part2
+      - title: "  - Часть II - Способ I: Установка жетонов через GTYB"
+        url: /badges#part2a
+      - title: "  - Часть II - Способ II: Для тех, у кого не работает GTYB"
+        url: /badges#part2b
       - title: "  - Часть III - Завершение работы"
         url: /badges#part3
       - title: "• В начало раздела"
@@ -618,8 +620,8 @@ themes:
         url: /themes#what_need_f
       - title: "- Инструкция"
         url: /themes#instructions_f
-      - title: "• CHMM2"
-        url: /themes#chmm2
+      - title: "• Themely"
+        url: /themes#themely
       - title: "- Что понадобится"
         url: /themes#what_need2
       - title: "- Инструкция"

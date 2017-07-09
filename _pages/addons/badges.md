@@ -7,17 +7,18 @@ sidebar:
 #### <a name="what_need" />Что понадобится 
 
 * Установленный и рабочий [b9s](updating-b9s) последней версии (*если уже делали, то повторно делать не нужно*)
-* Свежая версия [GYTB](https://github.com/MrCheeze/GYTB). Пролистайте чуть ниже, там будут ссылки на CIA-версию и 3DSX-версию. Берите 3DSX. 
+* Свежая версия [GYTB](https://github.com/MrCheeze/GYTB). (пролистайте чуть ниже: 3DSX format (Ninjhax etc.))
 * Пак с баджами. Можете взять [мой](https://goo.gl/KWHtCH), можете поискать [тут](https://badges.3dsthem.es/) или [тут](https://gbatemp.net/threads/nintendo-badge-arcade-badges-collection.405667/).
-* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
-
-#### <a name="instructions" />Инструкция
+* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
 #### <a name="part1" />Часть I - Интеграция hblauncher loader
 
-Пропустите эту часть, если у вас уже установлена эта программа.
+Запустите [hombrew launcher loader](https://github.com/yellows8/hblauncher_loader/releases/latest). , если он у вас установлен, вместо выполнения этой части. 
 {: .notice--info}
 
+1. Выключите приставку и вставьте SD-карту в ПК
+1. Скопируйте _содержимое_ архива `starter.zip` в корень SD-карты
+1. Вставьте SD-карту в приставку и включите 3DS
 1. Запустите приложение Загружаемая игра (Download Play)
 1. Нажмите (L) + (ВНИЗ) + (SELECT) одновременно чтобы открыть меню Rosalina
 1. Выберите "Process patches menu..."
@@ -35,7 +36,7 @@ sidebar:
 1. Запустите приложение Загружаемая игра (Download Play)
 1. Консоль должна загрузиться в Homebrew Launcher
 
-#### <a name="part2" />Часть II - Установка жетонов
+#### <a name="part2a" />Часть II - Способ I: Установка жетонов через GTYB
 
 1. Вставьте карту памяти приставки в ПК
 1. Скопируйте **содержимое** архива с GYTB в корень карты памяти и согласитесь с заменой
@@ -44,10 +45,28 @@ sidebar:
  + Если Homebrew Launcher не запускается, убедитесь что у вас включен Wi-Fi, стоит свежая версия hblloader и luma3DS
  + Если вместо Homebrew Launcher запускается Загружаемая игра (Download play), отключите приставку, удерживая кнопку включения, и заново запустите Homebrew Launcher
 1. Запустите GYTB
+	+ Если приложение показывает ошибку, воспользуйтесь [способом ниже](badges#part2b)
 1. Дождитесь окончания процесса создания мета-файлов. Это может занять много времени, если у вас много жетонов
 1. В конце процесса нажмите кнопку (START)
 1. В HBL нажмите (START), чтобы вызвать меню лаунчера
 1. Нажмите (А) для выхода из HBL
+
+#### <a name="part2b" />Часть II - Способ II: Для тех, у кого не работает GTYB
+
+Этот способ установит мой пак жетонов. После выполнения этого способа, GTYB снова будет работать и вы сможете добавить жетоны по вашему вкусу, используя [Способ I](badges#part2a)
+{: .notice--info}
+
+1. Скачайте архив с файлами жетонов с [Я.Диска](https://yadi.sk/d/2mwMKtaZ3Kt4Hm) или [MEGA](https://mega.nz/#!0h0B2TaQ!95bjmMWYN1VHomezFLvtN9ThJATJfgxDQKd4_gGMbNk)
+1. Распакуйте архив `Badges.zip`, скачанный выше, в корень SD-карты вашей приставки
+1. Вставьте SD-карту в приставку и запустите 3DS
+1. Запустите FBI
+1. Перейдите в `SD` -> `Badges`
+1. Выберите "\<current directory>"
+1. Выберите "Copy all content"
+1. Вернитесь на стартовый экран FBI, нажимая кнопку (B)
+1. Перейдите в `Ext Save Data` -> `00000000000014D1` -> `Browse User Save Data`
+1. Выберите "\<current directory>" -> `Paste`
+1. Закройте FBI 
 
 #### <a name="part3" />Часть III - Завершение работы
 
