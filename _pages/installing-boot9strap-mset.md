@@ -30,7 +30,7 @@ sidebar:
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива`boot9strap в папку `/boot9strap/` в корне SD-карты
 1. Скопируйте `SafeB9SInstaller.dat` из `.zip-ахрива` SafeB9SInstaller в корень SD-карты
 1. Вставьте SD-карту обратно в консоль
-1. Скопируйте `SafeB9SInstaller.dat` из `.zip-ахрива` SafeB9SInstaller в корень SD-карты
+1. Скопируйте `SafeB9SInstaller.nds` из `.zip-ахрива` SafeB9SInstaller на ваш DS-флешкартридж
 1. Включите консоль
 
 ##### <a name="part2" />Часть II - Запуск SafeB9SInstaller
