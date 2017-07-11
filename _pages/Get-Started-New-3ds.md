@@ -66,7 +66,7 @@ permalink: /get-started-new-3ds.html
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
-      <td style="text-align: center; font-weight: bold;">11.4.0</td>
+      <td style="text-align: center; font-weight: bold;">11.5.0</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-dsiware">Установка boot9strap (DSiWare)</a></td>
     </tr>
   </tbody>
