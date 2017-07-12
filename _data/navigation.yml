@@ -10,10 +10,14 @@ main:
     url: /a9lh-to-b9s
   - title: "Обновление<br>b9s"
     url: /updating-b9s
+  - title: "Удаление<br>CFW"
+    url: /uninstall-cfw
   - title: "Инструкции,<br>после прошивки"
     url: /addons
   - title: "Карта<br>сайта"
     url: /site-navigation
+  - title: "Завершение<br>установки"
+    url: /finalizing-setup
   - title: "FAQ"
     url: /faq
   - title: "Проблемы и<br>их решения"
@@ -648,12 +652,26 @@ troubleshooting:
         url: /troubleshooting#payloaders_fault
       - title: "• После обновления Luma3DS через Luma3DS Updater и теперь приставка не включается. Загорается синий диод и тухнет"
         url: /troubleshooting#lumaupdater
-      - title: "• После DSiWare-трансфера, взломанная игра не работает"
-        url: /troubleshooting#ts_dsiware
       - title: "• Голубой экран при загрузке (bootrom error)"
         url: /troubleshooting#ts_sys_blue
       - title: "• В начало раздела"
         url: /troubleshooting#start
+       
+uninstall-cfw:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /uninstall-cfw#what_need
+      - title: "• Инструкция"
+        url: /uninstall-cfw#instructions
+      - title: "— Часть I - Подготовительные работы"
+        url: /uninstall-cfw#part1
+      - title: "— Часть II - Удаление boot9strap"
+        url: /uninstall-cfw#part2
+      - title: "— Часть III - Удаление CTRNAND Luma3DS"
+        url: /uninstall-cfw#part3
+      - title: "— В начало раздела"
+        url: /uninstall-cfw#start
        
 update-luma3ds:
   - title: "Разделы"
