@@ -150,14 +150,12 @@ faq:
         url: /faq#faq_systransfer
       - title: "• Могу ли я обойтись без использования компьютера (например, использовать телефон на Android)?"
         url: /faq#faq_nopc
-      - title: "• Помогите! Что-то пошло не так, и консоль больше не запускается..."
+      - title: "• Как удалить взлом и вернуть приставку к заводскому состоянию?  "
         url: /faq#restore_to_orig_fw
-      - title: "• Как удалить a9lh и вернуть приставку к заводскому состоянию?"
-        url: /faq#restore_to_orig_fw_a9lh
-      - title: "• Как удалить bs9 и вернуть приставку к заводскому состоянию?"
-        url: /faq#restore_to_orig_fw_b9s
-      - title: "• В начало раздела"
+      - title: "• Помогите! Что-то пошло не так, и консоль больше не запускается..."
         url: /faq#faq_problem
+      - title: "• В начало раздела"
+        url: /faq#start
         
 faq-3ds:
   - title: "Разделы"
@@ -204,7 +202,7 @@ faq-3ds:
         url: /faq-3ds#b9s_update
       - title: "• У меня rxtools/cakeCFW/etc, как мне перейти на b9s?  "
         url: /faq-3ds#old_fws
-      - title: "• Что слышно по поводу #Gateway?  "
+      - title: "• Что слышно по поводу Gateway?  "
         url: /faq-3ds#gateway_rumors
       - title: "• Как разбанится? "
         url: /faq-3ds#unban
