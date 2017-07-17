@@ -130,12 +130,28 @@ permalink: /get-started-old-3ds.html
       <td style="text-align: center; font-weight: bold;">11.5.0</td>
       <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-dsiware">Установка boot9strap (DSiWare)</a></td>
     </tr>
-<!--     <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">ВСЕ ВЕРСИИ</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-ntrboothax">Установка boot9strap (ntrboothax)</a><br><sub>(Необходим совместимый флеш-картридж)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">или</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-hardmod">Установка boot9strap (Hardmod)</a><br><sub>(Придется паять!)</sub></p></td>
-    </tr>
- -->  </tbody>
+</tbody>
 </table>
+{% capture notice-7 %}
+
+**Легенда таблицы:**
+
+<a href="installing-boot9strap-ntrboothax" title="Установка ntrboothax (необходим совместимый флеш-картридж)">
+	<img src="/images/ntrhax.png" > - установка ntrboothax (необходим совместимый флеш-картридж)
+</a>
+<br>
+<a href="installing-boot9strap-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)">
+	<img src="/images/hardmode.png"> - установка через hardmode (необходимы навыки работы с паяльником)
+</a>
+<br>
+<a href="cart-update" title="Обновление прошивки с помощью картриджа с игрой (подробнее по ссылке)">
+	<img src="/images/cart_update.png"> - обновление прошивки с помощью картриджа с игрой (подробнее по ссылке)
+</a>
+
+{% endcapture %}
+		
+<div class="notice--info">{{ notice-7 | markdownify }}</div>
+
 
 <div id="vk_comments"></div>
 <script type="text/javascript">

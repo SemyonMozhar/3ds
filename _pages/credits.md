@@ -58,7 +58,6 @@ permalink: /credits.html
     + skiptirengu
     + smealum
     + stuckpixel
-    + Syphurith
     + Tech0verlord
     + TiniVi
     + TuxSH

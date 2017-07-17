@@ -4,7 +4,7 @@ permalink: /get-started.html
 ---
 
 Эта страница содержит инструкции по установке boot9strap на *не взломанную* 3DS или 2DS. Если у вас уже установлен arm9loaderhax, и вы хотите обновиться до boot9strap, следуйте инструкциям в разделе [Обновление до boot9strap](updating-to-boot9strap).
-{: .notice--warning}
+{: .notice--primary}
 
 Цвет вашего устройства может отличаться от представленного на картинках, вам стоит обратить внимание на расположение кнопок и особенности каждого типа устройства, чтобы сделать правильный выбор.
 {: .notice}
@@ -54,8 +54,8 @@ permalink: /get-started.html
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center">New 3DS or New 2DS</th>
-      <th style="text-align: center">Old 3DS or Old 2DS</th>
+      <th style="text-align: center">New 3DS или New 2DS</th>
+      <th style="text-align: center">Old 3DS или Old 2DS</th>
     </tr>
   </thead>
   <tbody>

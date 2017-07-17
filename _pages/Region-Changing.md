@@ -39,6 +39,7 @@ sidebar:
 
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest) (`.3dsx-файл`)
+* [`ctrtransfer_ticket_copy.gm9`]({{ base_path }}/gm9_scripts/ctrtransfer_ticket_copy.gm9)
 * Образ 9.2.0 ctrtransfer для вашего устройства и региона, на который вы хотите перейти
 	+ <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [New 3DS или New 2DS - 9.2.0 - EUR - CTRTransfer](magnet:?xt=urn:btih:fed7bfeec0e52b42a77467cfb6ffd3e9dd2d5a70&dn=9.2.0-20E%5FCTRTransfer%5Fn3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 	+ <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [New 3DS или New 2DS - 9.2.0 - JPN - CTRTransfer](magnet:?xt=urn:btih:b22d67fd02b3b0e30ac991e451db0f2d32e7beca&dn=9.2.0-20J%5FCTRTransfer%5Fn3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
@@ -55,10 +56,10 @@ sidebar:
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. Создайте папку `cias` в корне SD-карты
-1. Создайте папку `files9` в корне SD-карты, если таковой нет
 1. Скопируйте `GodMode9.firm` (или `GodMode9.bin` для пользователей arm9loaderhax) из `.zip-архива`GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
-1. Скопируйте файлы `.bin` и `.bin.sha` из `.zip-архива` с образом 9.2.0 CTRTransfer в папку `/gm9out/` на SD-карте
+1. Скопируйте `ctrtransfer_ticket_copy.gm9` в папку `/gm9/scripts/` на SD-карте
+1. Скопируйте файл `.bin` из `.zip-архива` с образом 9.2.0 CTRTransfer в папку `/gm9out/` на SD-карте
 1. Скопируйте `FBI.3dsx` в папку `/3ds/` в корне SD-карты
 1. Вставьте SD-карту обратно в консоль
 
@@ -69,7 +70,8 @@ sidebar:
 
 1. Перезагрузитесь, удерживая кнопку (START), чтобы запустить меню Luma3DS chainloader
 1. Запустите GodMode9, нажав кнопку (A)
-1. Если вам предложат создать бэкап важных файлов, нажмите кнопку (A) сделать это, затем нажмите (A) чтобы продолжить после завершения1. Перейдите в `[0:] SDCARD` -> `gm9out`
+1. Если вам предложат создать бэкап важных файлов, нажмите кнопку (A) сделать это, затем нажмите (A) чтобы продолжить после завершения
+1. Перейдите в `[0:] SDCARD` -> `gm9`
 1. Нажмите (A) чтобы выбрать файл `.bin` CTRTransfer
 1. Выберите "CTRNAND options..."
 1. Выберите "Transfer image to CTRNAND"
@@ -79,15 +81,14 @@ sidebar:
   + Этот процесс займет некоторое время
 1. По завершению процесса, нажмите (A)
 1. Нажмите (B), если появится запрос, чтобы не восстанавливать запрет на запись в раздел
-1. Дважды нажмите (B) для возврата в главное меню
-1. Перейдите в `[1:] SYSNAND CTRNAND` -> `dbs`
-1. Нажмите (A) чтобы выбрать файл `ticket.bak`, затем выберите "Ticket.db options...", а затем "Mount image to drive"
-1. Если такая папка есть, удерживая (R), нажмите (A) чтобы выбрать папку `eshop`, затем выберите "Copy to 0:/gm9/out"
-  + Этот процесс может занять некоторое время, если у вас много ticket-файлов
-  + Когда процесс завершится, нажмите (A) для продолжения
-1. Если такая папка есть, удерживая (R), нажмите (A) чтобы выбрать папку `unknown`, затем выберите "Copy to 0:/gm9/out"
-  + Этот процесс может занять некоторое время, если у вас много ticket-файлов
-  + Когда процесс завершится, нажмите (A) для продолжения
+1. Нажмите (Home), чтобы попасть в меню действий
+1. Выберите "More..."
+1. Выберите "Scripts..."
+1. Выберите "ctrtransfer_ticket_copy"
+1. Когда появится запрос, нажмите (A) для подтверждения
+1. Нажмите (A), чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
+1. Нажмите (A) чтобы продолжить
+1. Нажмите (A) чтобы вновь заблокировать права на запись
 1. Нажмите (START) для перезагрузки
 1. Обновите прошивку консоли, зайдя в Системные настройки (System Settings), затем "Прочие настройки" (Other Settings), затем листайте вправо до конца и выберите пункт "Обновление" (System Update)
   + Обновление консоли с установленным b9s + Luma (установлено у вас) безопасно
@@ -108,16 +109,15 @@ sidebar:
 
 ##### <a name="part4" />Часть IV - Переустановка тикетов
 
-Если ранее у вас не было папок `eshop` или `unknown`, пропустите эту часть.
+Если скрипт, запускавшийся выше, не нашел пользовательских тикетов на консоли, и предложил вам пропустить эту часть - так и поступите
 {: .notice--info}
 
-1. Запустите FBI, выбрав его из списка hombrew
+1. Выберите FBI в списке homebrew
 1. Перейдите в `SD` -> `cias`
-1. Выберите "FBI.cia"
-1. Выберите "Install", затем нажмите (A) для подтверждения
 1. Нажмите (B), чтобы вернуться в папку "SD"
 1. Выберите "gm9"
 1. Выберите "out"
+1. Выберите "ctrtransfer_tickets"
 1. Выполните шаги ниже либо для папки `eshop` либо для папки `unknown`, или для обоих
   + Перейдите в папку
   + Выберите "\<current directory>"
@@ -150,7 +150,7 @@ sidebar:
 	
 ##### <a name="part7" />Часть VII - Удаление образа CTRTransfer
 
-1. Перейдите в `[0:] SDCARD` -> `files9`
+1. Перейдите в `[0:] SDCARD` -> `gm9`
 1. Нажмите (X), выделив файл `.bin` CTRTransfer чтобы удалить его
 1. Нажмите (A) для подтверждения
 1. Нажмите (START) для перезагрузки

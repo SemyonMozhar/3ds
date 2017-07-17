@@ -48,7 +48,7 @@ main:
         url: /9.2.0-ctrtransfer#part1
       - title: "  - Часть II - CTRTransfer"
         url: /9.2.0-ctrtransfer#part2
-      - title: "  - Часть III - Интеграция FBI"
+      - title: "  - Часть III - Запуск FBI"
         url: /9.2.0-ctrtransfer#part3
       - title: "  - Часть IV - Переустановка тикетов"
         url: /9.2.0-ctrtransfer#part4
@@ -686,10 +686,10 @@ update-luma3ds:
         url: /update-luma3ds#part2
       - title: "— Часть III - Обновление Luma3DS удобным для вас способом"
         url: /update-luma3ds#part3
-      - title: "- Способ I - Обновление Luma3DS"
+      - title: "- Способ I - Luma3ds Updater"
         url: /update-luma3ds#lumaupdater
-      - title: "- Способ II - Обновление Luma3DS"
-        url: /update-luma3ds#lumaupdater
+      - title: "- Способ II - Обновление Luma3ds вручную"
+        url: /update-luma3ds#lumasd
       - title: "— Часть IV - Настройка Luma3DS"
         url: /update-luma3ds#part
       - title: "— Часть V - CTRNAND Luma3DS"
