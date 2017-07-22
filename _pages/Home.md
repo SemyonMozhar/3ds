@@ -9,7 +9,7 @@ header:
   cta_label: "Начнем!"
   cta_url: "/get-started"
   caption:
-excerpt: 'Полное руководство по прошивке 3DS, <br /> от начала до boot9strap.<br /><br />**Последнее изменение: <br />20 июля 2017<br /><br />**'
+excerpt: 'Полное руководство по прошивке 3DS, <br /> от начала до boot9strap.<br /><br />**Последнее изменение: <br />22 июля 2017<br /><br />**'
 ---
 <a name="start" />
 

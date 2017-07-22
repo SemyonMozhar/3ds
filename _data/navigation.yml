@@ -52,10 +52,8 @@ main:
         url: /9.2.0-ctrtransfer#part3
       - title: "  - Часть IV - Переустановка тикетов"
         url: /9.2.0-ctrtransfer#part4
-      - title: "  - Часть V - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)"
+      - title: "  - Часть V - Удаление образа CTRTransfer"
         url: /9.2.0-ctrtransfer#part5
-      - title: "  - Часть VI - Удаление образа CTRTransfer"
-        url: /9.2.0-ctrtransfer#part6
       - title: "• В начало раздела"
         url: /9.2.0-ctrtransfer#start
         
@@ -598,10 +596,8 @@ region-changing:
         url: /region-changing#part4
       - title: "  - Часть V - Региональные настройки"
         url: /region-changing#part5
-      - title: "  - Часть VI - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)"
+      - title: "  - Часть VI - Удаление образа CTRTransfer"
         url: /region-changing#part6
-      - title: "  - Часть VII - Удаление образа CTRTransfer"
-        url: /region-changing#part7
       - title: "• В начало раздела"
         url: /region-changing#start
         
