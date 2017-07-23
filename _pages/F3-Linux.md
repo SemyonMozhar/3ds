@@ -60,7 +60,3 @@ ___
 Вернитесь к [началу](get-started)
 {: .notice--success}
 
-<div id="vk_comments"></div>
-<script type="text/javascript">
-VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
-</script>

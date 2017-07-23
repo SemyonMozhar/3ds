@@ -73,7 +73,3 @@ sidebar:
 6. Выбираем понравившуюся тему и нажимаем (A) для установки. Если нужен предпросмотр - (X).
 7. Установив тему, нажимаем (START) и нажимаем Выключить приставку.
 
-<div id="vk_comments"></div>
-<script type="text/javascript">
-VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
-</script>

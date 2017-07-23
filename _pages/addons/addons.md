@@ -22,7 +22,3 @@ sidebar:
 + [Переход с a9lh на b9s](a9lh-to-b9s)
 + [Обновление b9s](updating-b9s)
 
-<div id="vk_comments"></div>
-<script type="text/javascript">
-VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
-</script>

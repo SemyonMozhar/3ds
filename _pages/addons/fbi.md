@@ -65,7 +65,3 @@ sidebar:
 1. Выберите "Install and delete all CIAs" и нажмите (A) для подтверждения
 1. Нажмите (HOME), затем закройте приложение Загружаемая игра (Download Play)
 
-<div id="vk_comments"></div>
-<script type="text/javascript">
-VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
-</script>

@@ -77,7 +77,3 @@ sidebar:
 Если вы запустите Nintendo Badge Arcade, то потеряете все жетоны. Рекомендую вообще удалить его из приставки через системные настройки, или через freeshop. 
 {: .notice--warning}
 
-<div id="vk_comments"></div>
-<script type="text/javascript">
-VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
-</script>

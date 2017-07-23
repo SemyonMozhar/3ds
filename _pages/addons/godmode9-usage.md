@@ -223,7 +223,3 @@ GodMode9 это полноценный файловый менеджер для 
     + **Decrypt inplace:** Заменить выбранный файл `.cia` его расшифрованной версией
 1. Ваш шифрованный / расшифрованный файл `.cia` будет помещен в выбранную папку
 
-<div id="vk_comments"></div>
-<script type="text/javascript">
-VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
-</script>

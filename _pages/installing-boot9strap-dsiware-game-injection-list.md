@@ -184,7 +184,3 @@ QR-коды можно отсканировать, нажав (L + R) на до�
 | ゴー!ゴー!ココポロ | 820円 | 4B33474A | JPN | ![qrcode](images/qrcodes/000480044B33474A.png)
 | X-RETURNS | 823円 | 4B44584A | JPN | ![qrcode](images/qrcodes/000480044B44584A.png)
 
-<div id="vk_comments"></div>
-<script type="text/javascript">
-VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
-</script>
