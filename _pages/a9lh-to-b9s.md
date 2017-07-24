@@ -2,9 +2,9 @@
 title: "Переход с a9lh на boot9strap" #
 lang: ru
 permalink: a9lh-to-b9s.html
-sidebar:
-  nav: "a9lh-to-b9s"
+author_profile: true
 ---
+{% include toc title="Разделы" %}
 
 Эта страница предназначена для пользователей arm9loaderhax, чтобы обновить их устройства до boot9strap.
 {: .notice--warning}
@@ -38,7 +38,8 @@ sidebar:
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-#### <a name="what_need" />Что понадобится
+## Что понадобится
+<a name="what_need" />
 
 Обратите внимание, что требуемый ниже файл с именем `secret_sector.bin` это тот же, что присутствовал в различных версиях архива `data_input.zip`. Если у вас уже есть этот файл где-то на диске, вы можете использовать его, вместо загрузки файла ниже.
 {: .notice--info}
@@ -55,9 +56,11 @@ sidebar:
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
 * [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9)
 
-#### <a name="instructions" />Инструкция
+## Инструкция
+<a name="instructions" />
 
-##### <a name="part1" />Часть I - Подготовительные работы
+#### Часть I - Подготовительные работы
+<a name="part1" />
 
 Для всех шагов в этой части перезаписывайте любые существующие файлы на SD-карте.
 {: .notice--info}
@@ -85,7 +88,8 @@ sidebar:
 
 1. Вставьте SD-карту обратно в консоль
 
-##### <a name="part2" />Часть II - Установка boot9strap
+#### Часть II - Установка boot9strap
+<a name="part2" />
 
 1. Включите консоль кнопкой питания, держа нажатой кнопку (START), чтобы запустить меню Luma3DS chainloader
   + Некоторые версии Luma3DS будут напрямую запускать любое приложение, начинающееся со `start_`. Если вместо меню chainloader запускается SafeB9SInstaller, просто следуйте инструкции.
@@ -97,7 +101,8 @@ sidebar:
 1. После завершения процесса, нажмите (A) для перезагрузки.
   + Если ваше устройство выключается при загрузке, убедитесь что вы скопировали `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 
-##### <a name="part3" />Часть III - Настройка Luma3DS
+#### Часть III - Настройка Luma3DS
+<a name="part3" />
 
 Этот раздел требуется только в том случае, если после перезагрузки появилось меню настроек Luma3DS.
 {: .notice--info}
@@ -116,7 +121,8 @@ sidebar:
 
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
 
-##### <a name="part4" />Часть IV - CTRNAND Luma3DS
+#### Часть IV - CTRNAND Luma3DS
+<a name="part4" />
 
 Обратите внимание, что в некоторых версиях Luma3DS, меню Luma3DS chainloader отображается только в том случае, если в папке payloader более одного приложения. Если установлено только одно приложение, удерживание (START) при включении консоли запустит GodMode9 напрямую. Если вместо chainloader запускается окно конфигурации Luma3DS, просто нажмите (START), чтобы сохранить настройки, и следуйте инструкции дальше.
 {: .notice--info}
@@ -137,7 +143,8 @@ sidebar:
 1. Нажмите (A) чтобы вновь заблокировать права на запись
 1. Нажмите (START) для перезагрузки
 
-##### <a name="part5" />Часть V - Установка Luma3DS Updater
+#### Часть V - Установка Luma3DS Updater
+<a name="part5" />
 
 1. Запустите FBI
 1. Перейдите в `SD` -> `cias`

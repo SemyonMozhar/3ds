@@ -1,9 +1,9 @@
 ---
 title: "Смена региона"
 permalink: /region-changing.html
-sidebar:
-  nav: "region-changing"
+author_profile: true
 ---
+{% include toc title="Разделы" %}
 
 Этот дополнительный раздел рассказывает о смене региона на вашей приставке с CFW, установленной в SysNAND. Это делается путем установки образа 9.2.0 CTRTransfer того региона, на который вы хотите перейти.
 {: .notice--primary}
@@ -32,7 +32,8 @@ sidebar:
 **Для продолжения, у вас уже ДОЛЖНА быть установлена Luma3DS и boot9strap или arm9loaderhax**
 {: .notice--danger}
 
-#### <a name="what_need" />Что понадобится 
+## Что понадобится
+<a name="what_need" /> 
 
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest) (`.3dsx-файл`)
@@ -46,9 +47,11 @@ sidebar:
 	+ <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [Old 3DS или Old 2DS - 9.2.0 - JPN - CTRTransfer](magnet:?xt=urn:btih:24ad2b85e67013ef1f91178dca7ad2e40663b9b2&dn=9.2.0-20J%5FCTRTransfer%5Fo3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 	+ <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [Old 3DS или Old 2DS - 9.2.0 - USA - CTRTransfer](magnet:?xt=urn:btih:1dc79a2a0babb45497961888f369423a93135e2b&dn=9.2.0-20U%5FCTRTransfer%5Fo3ds.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
  
-#### <a name="instructions" />Инструкция
+## Инструкция
+<a name="instructions" />
 
-##### <a name="part1" />Часть I - Подготовительные работы
+#### Часть I - Подготовительные работы
+<a name="part1" />
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
@@ -60,7 +63,8 @@ sidebar:
 1. Скопируйте `FBI.3dsx` в папку `/3ds/` в корне SD-карты
 1. Вставьте SD-карту обратно в консоль
 
-##### <a name="part2" />Часть II - CTRTransfer
+#### Часть II - CTRTransfer
+<a name="part2" />
 
 Обратите внимание, что в некоторых версиях Luma3DS, меню Luma3DS chainloader отображается только в том случае, если в папке payloader более одного приложения. Если установлено только одно приложение, удерживание (START) при включении консоли запустит GodMode9 напрямую. Если вместо chainloader запускается окно конфигурации Luma3DS, просто нажмите (START), чтобы сохранить настройки, и следуйте инструкции дальше.
 {: .notice--info}
@@ -91,7 +95,8 @@ sidebar:
   + Обновление консоли с установленным b9s + Luma (установлено у вас) безопасно
   + При появлении ошибки, поставьте в настройках подключения, в настройках DNS "Получать DNS автоматически" в положение "Да"
 
-##### <a name="part3" />Часть III - Запуск FBI
+#### Часть III - Запуск FBI
+<a name="part3" />
 
 1. Запустите приложение Загружаемая игра
 1. Нажмите (L) + (Вниз) + (SELECT) одновременно чтобы открыть меню Rosalina
@@ -104,7 +109,8 @@ sidebar:
 1. Запустите приложение Загружаемая игра
 1. Консоль должна загрузиться в Homebrew Launcher
 
-##### <a name="part4" />Часть IV - Переустановка тикетов
+#### Часть IV - Переустановка тикетов
+<a name="part4" />
 
 Если скрипт, запускавшийся выше, не нашел пользовательских тикетов на консоли, и предложил вам пропустить эту часть - так и поступите
 {: .notice--info}
@@ -124,7 +130,8 @@ sidebar:
   + Нажмите (B) для отмены установки тикетов из CDN.
 1. Нажмите (HOME) для выхода из FBI
 
-##### <a name="part5" />Часть V - Региональные настройки
+#### Часть V - Региональные настройки
+<a name="part5" />
 
 1. Откройте Системные настройки (System settings)
 1. Перейдите в "Прочие настройки" (Other Settings), затем "Профиль" (Profile), затем "Настройки региона" (Region Settings)
@@ -132,7 +139,8 @@ sidebar:
 1. При появлении запроса о штате указывать его не нужно
 1. Обновите SysNAND нового региона до последней версии
 
-##### <a name="part6" />Часть VI - Удаление образа CTRTransfer
+#### Часть VI - Удаление образа CTRTransfer
+<a name="part6" />
 
 Обратите внимание, что в некоторых версиях Luma3DS, меню Luma3DS chainloader отображается только в том случае, если в папке payloader более одного приложения. Если установлено только одно приложение, удерживание (START) при включении консоли запустит GodMode9 напрямую. Если вместо chainloader запускается окно конфигурации Luma3DS, просто нажмите (START), чтобы сохранить настройки, и следуйте инструкции дальше.
 {: .notice--info}

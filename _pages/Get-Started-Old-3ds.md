@@ -1,7 +1,11 @@
 ---
 title: "Начнем (Old 3DS и Old 2DS)"
 permalink: /get-started-old-3ds.html
+author_profile: true
 ---
+
+{% include toc title="Разделы" %}
+
 {% capture notice-1 %}
 Последнее число вашей версии системы (после дефиса) относится к версии браузера. Если версия оканчивается на -0, значит, у вас отсутствует браузер, любое другое число говорит о том, что браузер установлен.
 <br><br>
@@ -40,15 +44,14 @@ permalink: /get-started-old-3ds.html
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
-Выберите подходящую для вашей версии ПО страницу из таблицы ниже.
-{: .notice--primary}
-
 Версия программного обеспечения вашего устройства отображается в правом нижнем углу верхнего экрана в приложении Системные настройки (System settings).
 {: .notice--success}
 
 ![]({{ base_path }}/images/screenshots/system-version.png)
 {: .text-center}
 {: .notice--info}
+
+#### Выберите прошивку
 
 <table>
   <colgroup>
@@ -69,7 +72,8 @@ permalink: /get-started-old-3ds.html
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">1.0.0</td>
+      <td style="text-align: center; font-weight: bold;">1.0.0</td>
+	  <td style="text-align: center; font-weight: bold;">2.0.0</td>
       <td style="text-align: center; font-weight: bold;" colspan="2"></td>
       <td style="text-align: center; font-weight: bold;" rowspan="10">
 		<a href="installing-boot9strap-ntrboothax" title="Установка ntrboothax (необходим совместимый флеш-картридж)">

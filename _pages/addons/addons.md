@@ -1,24 +1,10 @@
 ---
 title: "Список полезных после прошивки инструкций"
 permalink: /addons.html
-sidebar:
-  nav: "addons"
+author_profile: true
 ---
 
 В этом разделе собраны ссылки на различные инструкции, не имеющие прямого отношения ко взлому, однако помогающие лучше изучить возможности 3DS на кастомной прошивке и эффективнее ей пользоваться.
 {: .notice--info}
 
-+ [Установка приложений и игр](games)
-+ [Дополнительный FAQ](faq-3ds), дающий ответы на вопросы, которые наверняка у вас возникнут после взлома
-+ Для справки об использовании различных функций Luma3DS обратитесь к её [вики](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage) (англ.).       
-+ [Обновление Luma3DS](update-luma3ds)
-+ [Использование GodMode9](godmode9-usage)
-+ [Создание, редактирование и восстанавление резервных копий](https://gbatemp.net/threads/release-jks-savemanager-Homebrew-cia-save-manager.413143/) сохранения игр (англ.).     
-+ [Установка и использование тем](themes)
-+ [Установка и использование жетонов](badges)   
-+ [Конвертация 3DS-ромов в CIA](godmode9-usage#convert_3ds)   
-+ [Эмуляция языка и региона в Luma3DS"](lumalocales)
-+ [Смена региона](region-changing)
-+ [Переход с a9lh на b9s](a9lh-to-b9s)
-+ [Обновление b9s](updating-b9s)
-
+{% include nav_list nav="addons" %}

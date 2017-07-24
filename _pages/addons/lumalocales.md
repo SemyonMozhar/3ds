@@ -1,18 +1,25 @@
 ---
 title: "Включение русского языка в играх на приставке не европейского региона"
 permalink: /lumalocales.html
-sidebar:
-  nav: "lumalocales"
+author_profile: true
 ---
+{% include toc title="Разделы" %}
 
-#### <a name="what_need" />Что понадобится
+## Что понадобится
+<a name="what_need" />
+
+Если вы купили приставку у меня (в [VK](https://vk.com/market-125012133) или на [OLX](https://www.olx.ua/list/user/1nlHd/)), то у вас уже b9d со всеми необходимыми программами. Ищите их в папке System
+{: .notice--info}
+
 * Установленный и рабочий [b9s](updating-to-boot9strap)
 * Установленный и рабочий [FBI](fbi)
 * Установленный и рабочий [LumaLocaleSwitcher](https://github.com/Possum/LumaLocaleSwitcher/releases) *(`.cia`-файл)* (NIGHTLY для luma3ds 7.0 и выше)
 
-##### <a name="instructions" />Инструкция
+## Инструкция
+<a name="instructions" />
 
-##### <a name="part1" />Luma3ds Updater
+#### LumaLocaleSwitcher
+<a name="part1" />
 
 1. Установите `LumaLocaleSwitcher` через FBI (как это сделать описано [здесь](games))
 	+ Если вы купили приставку у меня (в [VK](https://vk.com/market-125012133) или на [OLX](https://www.olx.ua/list/user/1nlHd/)), то программа уже установлена и находится в папке "System" 

@@ -1,16 +1,16 @@
 ---
 title: "Начнем"
 permalink: /get-started.html
+author_profile: true
 ---
+
+{% include toc title="Разделы" %}
 
 Эта страница содержит инструкции по установке boot9strap на *не взломанную* 3DS или 2DS. Если у вас уже установлен arm9loaderhax, и вы хотите обновиться до boot9strap, следуйте инструкциям в разделе [Обновление до boot9strap](updating-to-boot9strap).
 {: .notice--primary}
 
 Цвет вашего устройства может отличаться от представленного на картинках, вам стоит обратить внимание на расположение кнопок и особенности каждого типа устройства, чтобы сделать правильный выбор.
 {: .notice}
-
-Нажмите на изображение Вашего устройства, чтобы перейти на соответствующую страницу.
-{: .notice--primary}
 
 Разные модели, версии, и регионы устройств требуют различных действий для установки кастомной прошивки с boot9strap. Эта страница поможет вам понять, откуда именно следует начать.
 {: .notice--info}
@@ -47,6 +47,7 @@ permalink: /get-started.html
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
+#### Выберите устройство
 <table>
   <colgroup>
     <col span="1" style="width: 50%;">
@@ -85,5 +86,3 @@ permalink: /get-started.html
     </tr>
   </tbody>
 </table>
-
-<!-- Put this div tag to the place, where the Comments block will be -->

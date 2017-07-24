@@ -1,8 +1,7 @@
 ---
 title: "Проблемы и их решения"
 permalink: /troubleshooting.html
-sidebar:
-  nav: "troubleshooting"
+author_profile: true
 ---
 
 Если ваша консоль не загружается, найдите раздел, соответствующий вашей проблеме, и следуйте его инструкциям. После решения возникшей проблемы, вернитесь к основному руководству
@@ -15,9 +14,13 @@ sidebar:
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
 {: .notice--success}
 
-## <a name="twl_broken" />DSi / DS игры не работают после завершения руководства
+{% include toc title="Разделы" %}
+&nbsp;
 
-#### Что понадобится:
+## DSi / DS игры не работают после завершения руководства
+<a name="twl_broken" />
+
+### Что понадобится:
 
 * TWL_FIRM `.cia`, соответствующие вашему устройству
     + <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [`New_3DS TWL_FIRM - v9936.cia`](magnet:?xt=urn:btih:eab8558c97b18b1f329a2bfcc3c899b84c082a27&dn=New%5F3DS%20TWL%5FFIRM%20-%20v9936.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
@@ -27,9 +30,9 @@ sidebar:
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [`DS Download Play - v1024.cia`](magnet:?xt=urn:btih:b581d3c5d98f5e621fddfc1ce5704bb45bf05a8c&dn=DS%20Download%20Play%20-%20v1024.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [`Nintendo DS Cart Whitelist - v11264.cia`](magnet:?xt=urn:btih:7b90d506ad032a581a00035616eaa17a68c48eff&dn=Nintendo%20DS%20Cart%20Whitelist%20-%20v11264.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
  
-#### Инструкция
+### Инструкция
 
-##### Часть I - Подготовительные работы
+#### Часть I - Подготовительные работы
 
 1. Создайте папку `cias` в корне SD-карты, если таковой нет
 1. Скопируйте `TWL Version Data - v0.cia` в папку `/cias/` на SD-карте
@@ -38,7 +41,7 @@ sidebar:
 1. Скопируйте `Nintendo DS Cart Whitelist - v11264.cia` в папку `/cias/` на SD-карте
 1. Скопируйте `New_3DS TWL_FIRM - v9936.cia`  или `Old_3DS TWL_FIRM - v8817.cia` в папку `/cias/` на SD-карте
 
-##### Часть II - Установка
+#### Часть II - Установка
 
 1. Запустите FBI
 1. Перейдите в `SD` -> `cias`
@@ -46,7 +49,8 @@ sidebar:
 1. Выберите "Install and delete all CIAs"
 1. Нажмите (HOME) для выхода из FBI
 
-## <a name="rm_nnid" />Удаление NNID без форматирования устройства
+## Удаление NNID без форматирования устройства
+<a name="rm_nnid" />
 
 Обратите внимание, что в некоторых версиях Luma3DS, меню Luma3DS chainloader отображается только в том случае, если в папке payloader более одного приложения. Если установлено только одно приложение, удерживание (START) при включении консоли запустит GodMode9 напрямую. Если вместо chainloader запускается окно конфигурации Luma3DS, просто нажмите (START), чтобы сохранить настройки, и следуйте инструкции дальше.
 {: .notice--info}
@@ -61,7 +65,8 @@ sidebar:
 1. Вернитесь в главное меню
 1. Нажмите (START) для перезагрузки
 
-## <a name="gw_fbi" />Не работает интеграция в Health & Safety на устройстве с пониженной прошивкой при помощи Gateway
+## Не работает интеграция в Health & Safety на устройстве с пониженной прошивкой при помощи Gateway
+<a name="gw_fbi" />
 
 Это вызвано крайне некорректной процедурой понижения прошивки Gateway, которая дублирует каждое приложение в системе. Одно из них не используется, но это сбивает с толку систему интеграции в H&S, из-за чего она интегрирует FBI в неиспользуемый дубликат.
 
@@ -93,7 +98,8 @@ sidebar:
 1. Вернитесь к разделу [Завершение установки](finalizing-setup) и попробуйте интегрировать FBI еще раз
 1. Если это не помогло, верните файлы с расширением `.TMD` и `.APP` обратно в папку `content`, а файлы с расширением `.tmd` и `.app` переместите в папку `newdir`, затем попытайтесь интегрировать FBI еще раз
 
-## <a name="ts_browser" />Не работает эксплойт на основе браузера
+## Не работает эксплойт на основе браузера
+<a name="ts_browser" />
 
 Эксплойты, базирующиеся на браузере (например, browserhax или 2xrsa), нестабильны и часто не срабатывают, но в некоторых случаях это можно исправить, следуя рекомендациям ниже
 {: .notice--info}
@@ -103,7 +109,8 @@ sidebar:
 1. Прокрутите до конца вниз и выберите "Удалить сохр. данные" (Initialize Savedata/Clear All Save Data)
 1. Попробуйте запустить эксплойт еще раз
 
-## <a name="ts_sys_down" />Черный экран при загрузке SysNAND
+## Черный экран при загрузке SysNAND
+<a name="ts_sys_down" />
 
 1. Попробуйте загрузиться без SD-карты, а затем верните ее в консоль
     1. Выключите консоль
@@ -126,7 +133,8 @@ sidebar:
     1. Если вы вошли в режим восстановления, обновите консоль.
 1. Ваша консоль, скорее всего, превратилась в брик. Вы можете обратиться за поддержкой на канал [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) (англ.), [группу 3DS_CFW вконтакте](http://vk.com/3ds_cfw) (рус.)
 
-## <a name="ts_sys_b9s" />Черный экран при загрузке SysNAND после установки b9s
+## Черный экран при загрузке SysNAND после установки b9s
+<a name="ts_sys_b9s" />
 
 1. Убедитесь, что у вас установлен рабочий загрузчик
     1. Проверьте, есть ли в корне SD-карты файл `boot.firm`.
@@ -155,7 +163,8 @@ sidebar:
 1. Попробуйте выполнить [9.2.0 CTRTransfer](9.2.0-ctrtransfer)
 1. Вы можете обратиться за поддержкой на канал [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) (англ.), или [группу 3DS_CFW вконтакте](http://vk.com/3ds_cfw) (рус.).
 
-## <a name="payloaders_fault" />Не запускается ни один пейлоадер. Сразу запускается консоль
+## Не запускается ни один пейлоадер. Сразу запускается консоль
+<a name="payloaders_fault" />
 
 + Убедитесь, что зажали кнопку, соответствующую пейлоадеру до включения приставки.
 + Убедитесь, что на карте памяти лежит пейлоадер, соответствующий типу установленного взлома - .firm для b9s и .bin для a9lh
@@ -164,7 +173,8 @@ sidebar:
 + Попробуйте другую карту памяти
 {: .notice--info}
 
-## <a name="lumaupdater" />После обновления Luma3DS через Luma3DS Updater и теперь приставка не включается. Загорается синий диод и тухнет
+## После обновления Luma3DS через Luma3DS Updater и теперь приставка не включается. Загорается синий диод и тухнет
+<a name="lumaupdater" />
 
 Вы установили Luma3DS на не поддерживаемый boot. 
 {: .notice--warning}
@@ -172,7 +182,7 @@ sidebar:
 Сперва попробуем определить boot какой версии прошит в приставку.
 {: .notice--info}
 
-#### Способ I - CTRNAND
+### Способ I - CTRNAND
 
 Если прошивка выполнялась по этому гайду , то в CTRNAND приставки должны были быть скопированы файлы прошивки. Следовательно, вынув КП из приставки и запустив 3DS, вы сможете запустить Luma и увидеть её версию, из чего легко сделать вывод о том, какой загрузчик стоит в системе.
 {: .notice--info}
@@ -189,7 +199,7 @@ sidebar:
   + Если Luma3DS меньше, или равна 7.0.5, то у вас a9lh - [перейдите на b9s 1.2](a9lh-to-b9s)
   + Если Luma3DS 7.1, то у вас b9s 1.0 и нужно [обновить его до версии 1.2](updating-b9s)
 
-#### Способ II - Перебор
+### Способ II - Перебор
 
 Этот метод для тех, кто по каким-то причинам не стал устанавливать Luma3DS в CTRNAND, либо для тех, кто обновился до b9s 1.0 в момент его выхода и обновил Luma3DS через Luma3DS Updater
 {: .notice--info}
@@ -215,8 +225,10 @@ sidebar:
 1. Если сработало и приставка запустилась, то у вас b9s 1.2 и самая последняя версия Luma3DS
   + Если ничего не помогло, попробуйте выполнить [9.2.0 CTRTransfer](9.2.0-ctrtransfer)
 
-## <a name="ts_sys_blue" />Голубой экран при загрузке (bootrom error)
+## Голубой экран при загрузке (bootrom error)
+<a name="ts_sys_blue" />
 
 1. У вас брик
+	+ Если вы делали хардмод, попробуйте его отпаять полностью
 1. Для восстановления вам понадобится [хардмод](https://gbatemp.net/threads/414498/) (англ.) или ремонт / замена устройства
 

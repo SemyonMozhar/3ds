@@ -1,17 +1,24 @@
 ---
 title: "Установка и использование жетонов (badges)"
 permalink: /badges.html
-sidebar:
-  nav: "badges"
+author_profile: true
 ---
-#### <a name="what_need" />Что понадобится 
 
-* Установленный и рабочий [b9s](updating-b9s) последней версии (*если уже делали, то повторно делать не нужно*)
-* Свежая версия [GYTB](https://github.com/MrCheeze/GYTB). (пролистайте чуть ниже: 3DSX format (Ninjhax etc.))
-* Пак с баджами. Можете взять [мой](https://goo.gl/KWHtCH), можете поискать [тут](https://badges.3dsthem.es/) или [тут](https://gbatemp.net/threads/nintendo-badge-arcade-badges-collection.405667/).
+{% include toc title="Разделы" %}
+
+## Что понадобится
+<a name="what_need" /> 
+
+Если вы купили приставку у меня (в [VK](https://vk.com/market-125012133) или на [OLX](https://www.olx.ua/list/user/1nlHd/)), то у вас уже b9d со всеми необходимыми программами. Ищите их в папке Система (System)
+{: .notice--info}
+
+* Установленный и рабочий [b9s](updating-b9s) последней версии 
+* Свежая версия [GYTB](https://github.com/MrCheeze/GYTB) (пролистайте страницу программы чуть ниже: 3DSX format (Ninjhax etc.))
+* Пак с жетонами. Можете взять [мой](https://goo.gl/KWHtCH), можете поискать [тут](https://badges.3dsthem.es/) или [тут](https://gbatemp.net/threads/nintendo-badge-arcade-badges-collection.405667/).
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
-#### <a name="part1" />Часть I - Интеграция hblauncher loader
+## Часть I - Интеграция hblauncher loader
+<a name="part1" />
 
 Запустите [hombrew launcher loader](https://github.com/yellows8/hblauncher_loader/releases/latest). , если он у вас установлен, вместо выполнения этой части. 
 {: .notice--info}
@@ -36,7 +43,10 @@ sidebar:
 1. Запустите приложение Загружаемая игра (Download Play)
 1. Консоль должна загрузиться в Homebrew Launcher
 
-#### <a name="part2a" />Часть II - Способ I: Установка жетонов через GTYB
+## Часть II - Установка жетонов через GTYB
+
+#### Способ I: Установка жетонов через GTYB
+<a name="part2a" />
 
 1. Вставьте карту памяти приставки в ПК
 1. Скопируйте **содержимое** архива с GYTB в корень карты памяти и согласитесь с заменой
@@ -51,7 +61,8 @@ sidebar:
 1. В HBL нажмите (START), чтобы вызвать меню лаунчера
 1. Нажмите (А) для выхода из HBL
 
-#### <a name="part2b" />Часть II - Способ II: Для тех, у кого не работает GTYB
+#### Способ II: Для тех, у кого не работает GTYB
+ <a name="part2b" />
 
 Этот способ установит мой пак жетонов. После выполнения этого способа, GTYB снова будет работать и вы сможете добавить жетоны по вашему вкусу, используя [Способ I](badges#part2a)
 {: .notice--info}
@@ -68,7 +79,8 @@ sidebar:
 1. Выберите "\<current directory>" -> `Paste`
 1. Закройте FBI 
 
-#### <a name="part3" />Часть III - Завершение работы
+## Часть III - Завершение работы
+<a name="part3" />
 
 1. Для использования жетонов нажмите на иконку с домиков в верхнем правом углу нижнего экрана, находясь в на домашнем экране. 
 1. Нажмите "Прикрепить жетоны".

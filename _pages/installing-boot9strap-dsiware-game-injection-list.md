@@ -2,9 +2,9 @@
 title: "Установка boot9strap (Список уязвимых игр DSiWare)" #
 lang: ru
 permalink: installing-boot9strap-dsiware-game-injection-list.html
-sidebar:
-  nav: "installing-boot9strap-dsiware-game-injection-list"
+author_profile: true
 ---
+{% include toc title="Разделы" %}
 
 Это автоматически созданный список всех игр, совместимых с [установкой boot9strap с использованием DSiWare](installing-boot9strap-dsiware).
 {: .notice--success}
@@ -45,7 +45,7 @@ QR-коды можно отсканировать, нажав (L + R) на до�
 
 <div class="notice--primary">{{ notice-list | markdownify }}</div>
 
-<a name="eur" />
+## Европейские релизы
 
 | | Цена | 8-значный ID | Регион(ы) | QR код |
 |:-:|:-:|:-:|:-:|:-:|
@@ -105,7 +105,7 @@ QR-коды можно отсканировать, нажав (L + R) на до�
 | Rytmik Retrobits | 7,99€ | 4B595256 | EUR | ![qrcode](images/qrcodes/000480044B595256.png)
 | Rhythm Core Alpha 2™ | 9,99€ | 4B593456 | EUR | ![qrcode](images/qrcodes/000480044B593456.png)
 
-<a name="usa" />
+## Американские релизы
 
 | | Цена | 8-значный ID | Регион(ы) | QR код |
 |:-:|:-:|:-:|:-:|:-:|
@@ -170,7 +170,7 @@ QR-коды можно отсканировать, нажав (L + R) на до�
 | Rytmik Retrobits | $7.99 | 4B595245 | USA | ![qrcode](images/qrcodes/000480044B595245.png)
 | Rhythm Core Alpha 2™ | $9.99 | 4B593445 | USA | ![qrcode](images/qrcodes/000480044B593445.png)
 
-<a name="jap" />
+## Японские релизы
 
 | | Цена | 8-значный ID | Регион(ы) | QR код |
 |:-:|:-:|:-:|:-:|:-:|

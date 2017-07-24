@@ -1,9 +1,9 @@
 ---
 title: "H2testw (Windows)"
 permalink: /h2testw-windows.html
-sidebar:
-  nav: "h2testw-windows"
+author_profile: true
 ---
+{% include toc title="Разделы" %}
 
 Этот дополнительный раздел содержит информацию о проверке SD-карты на ошибки с помощью F3.
 {: .notice--info}
@@ -14,11 +14,13 @@ sidebar:
 Этот раздел предназначен для пользователей Windows. Если у вас не Windows, воспользуйтесь F3 (linux)](f3-linux) или [F3X (mac)](f3x-mac).
 {: .notice--info}
 
-#### <a name="what_need" />Что понадобится 
+## Что понадобится
+<a name="what_need" /> 
 
 * Свежая версия [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-#### <a name="instructions" />Инструкция
+## Инструкция
+<a name="instructions" />
 
 1. Скопируйте `h2testw.exe` из `.zip-архива` с h2testw на рабочий стол
 2. Вставьте SD-карту в компьютер

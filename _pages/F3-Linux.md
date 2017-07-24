@@ -1,7 +1,10 @@
 ---
 title: "F3 (Linux)"
 permalink: /f3-linux.html
+author_profile: true
 ---
+
+{% include toc title="Разделы" %}
 
 Этот дополнительный раздел содержит информацию о проверке SD-карты на ошибки с помощью F3.
 {: .notice--info}

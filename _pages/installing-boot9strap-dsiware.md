@@ -2,7 +2,9 @@
 title: "Установка boot9strap (DSiWare)" #
 lang: ru
 permalink: installing-boot9strap-dsiware.html
+author_profile: true
 ---
+{% include toc title="Разделы" %}
 
 Существует два различных способа установки boot9strap с помощью DSiWare на 11.5.0.
 {: .notice--info}
@@ -42,12 +44,10 @@ permalink: installing-boot9strap-dsiware.html
 Перенос системы можно делать лишь раз в неделю для одного NNID.
 {: .notice--danger}
 
-___
+## Инъекция boot9strap в сохранения DSiWare
 
 {% capture notice-1 %}
 
-[Установка boot9strap (Инъекция в сохранения DSiWare)](installing-boot9strap-dsiware-save-injection)
-<br><br>
 Этот метод требует, чтобы на исходной 3DS была установлена легальная копия одной из следующих игр:
     
     + "Fieldrunners"
@@ -55,21 +55,25 @@ ___
     + "Guitar Rock Tour"
     + "The Legend of Zelda: Four Swords"
     
-Пиратские копии игры *не* будут работать, как и все игры нелегально скаченные из eShop.
+Пиратские копии игры *не* будут работать, и все эти игры уже были отозваны из eShop.
+Если у вас нет легально купленных копий одной из этих игр, этот метод вам не подходит. 
+
+[Подробная инструкция по использованию этого метода](installing-boot9strap-dsiware-save-injection)
 
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
+## Инъекция boot9strap в игры DSiWare
+
 {% capture notice-1 %}
 
-[Установка boot9strap (Инъекция в игры DSiWare)](installing-boot9strap-dsiware-game-injection)
-<br><br>
 Этот метод требует, чтобы на исходной 3DS была установлена легальная копия игры, присутствующая в списке на странице [Установка boot9strap (Список уязвимых игр DSiWare)](installing-boot9strap-dsiware-game-injection-list).
 <br><br>
 Пиратская копия игры *не* будет работать.
 
+[Подробная инструкция по использованию этого метода](installing-boot9strap-dsiware-game-injection)
+
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
-

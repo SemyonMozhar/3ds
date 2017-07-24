@@ -2,15 +2,15 @@
 title: "Установка boot9strap (MSET)" #
 lang: ru
 permalink: installing-boot9strap-mset.html
-sidebar:
-  nav: "installing-boot9strap-mset"
-
+author_profile: true
 ---
+{% include toc title="Разделы" %}
 
 Если вы взламывали ваше устройство ранее и у вас установлена кастомная прошивка на основе EmuNAND, помните, что данное руководство работает только с SysNAND и вы должны выполнять вся шаги находясь в SysNAND. Помните, что RedNAND и EmuNAND - немного разные реализации [одного и того же](http://3dbrew.org/wiki/NAND_Redirection) (англ.).
 {: .notice--info}
 
-#### <a name="what_need" />Что понадобится
+## Что понадобится
+<a name="what_need" />
 
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
@@ -18,9 +18,11 @@ sidebar:
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Любой флешкартридж для DS, работающий на вашей версии прошивки
 
-#### <a name="instructions" />Инструкция
+## Инструкция
+<a name="instructions" />
 
-##### <a name="part1" />Часть I - Подготовительные работы
+#### Часть I - Подготовительные работы
+<a name="part1" />
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
@@ -37,7 +39,8 @@ sidebar:
 1. Скопируйте `SafeB9SInstaller.nds` из `.zip-ахрива` SafeB9SInstaller на ваш DS-флешкартридж
 1. Включите консоль
 
-##### <a name="part2" />Часть II - Запуск SafeB9SInstaller
+#### Часть II - Запуск SafeB9SInstaller
+<a name="part2" />
 
 1. Запустите флешкартридж DS
 1. Запустите `SafeB9SInstaller.nds`, используя флешкартридж
@@ -47,13 +50,15 @@ sidebar:
 1. Перезагрузите консоль, зайдите в "Системные настройки" (System Settings), затем "Прочие настройки" (Other Settings), затем "Профиль" (Profile), затем "Профиль Nintendo DS" (Nintendo DS Profile)
 1. Если эксплойт сработал, запустится SafeB9SInstaller
 
-##### <a name="part3" />Часть III - Установка boot9strap
+#### Часть III - Установка boot9strap
+<a name="part3" />
 
 1. Дождитесь окончания всех проверок безопасности
 1. При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap
 1. После завершения процесса, нажмите (A) для перезагрузки
 
-##### <a name="part4" />Часть IV - Настройка Luma3DS
+#### Часть IV - Настройка Luma3DS
+<a name="part4" />
 
 1. Устройство загрузится в меню настройки Luma3DS
   + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)

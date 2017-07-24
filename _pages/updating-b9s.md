@@ -1,11 +1,11 @@
 ---
 title: "Обновление boot9strap"
 permalink: updating-b9s.html
-sidebar:
-  nav: "updating-b9s"
+author_profile: true
 ---
+{% include toc title="Разделы" %}
 
-#### Самая свежая версия b9s - **_1.2_ от 05.06.2017**
+<h3>Самая свежая версия b9s - 1.2 от 05.06.2017</h3>
 
 Эта страница предназначена для пользователей boot9strap, чтобы они могли обновить установленный boot9strap до последней версии. Если у вас a9lh - перейдите на [b9s](a9lh-to-b9s). Если вы еще не прошили приставку, вернитесь в [начало гайда](/) и прошейте. 
 {: .notice--info}
@@ -29,7 +29,8 @@ sidebar:
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-#### <a name="what_need" />Что понадобится
+## Что понадобится
+<a name="what_need" />
 
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z-архив`)*
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
@@ -39,9 +40,11 @@ sidebar:
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9)
 
-#### <a name="instructions" />Инструкция
+## Инструкция
+<a name="instructions" />
 
-##### <a name="part1" />Часть I - Подготовительные работы
+#### Часть I - Подготовительные работы
+<a name="part1" />
 
 Для всех шагов в этой части перезаписывайте любые существующие файлы на SD-карте.
 {: .notice--info}
@@ -64,7 +67,8 @@ sidebar:
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
 1. Вставьте SD-карту обратно в консоль
 
-##### <a name="part2" />Часть II - Установка boot9strap
+#### Часть II - Установка boot9strap
+<a name="part2" />
 
 1. Включите приставку, удерживая кнопку (START), чтобы запустить меню Luma3DS chainloader
 1. Запустите SafeB9SInstaller, нажав кнопку (A)
@@ -74,14 +78,16 @@ sidebar:
 1. Выключите консоль, нажатием любой кнопки, **игнорируя ошибку**
   + Обратите внимание, что ошибка `Unsupported launcher (argc = 0)` будет появляться до тех пор, пока вы до конца не выполните инструкцию из этой страницы
 
-##### <a name="part3" />Часть III - Обновление Luma3DS
+#### Часть III - Обновление Luma3DS
+<a name="part3" />
 
 1. Вставьте SD-карту в компьютер
 1. Удалите файл `boot.firm` из корня SD-карты
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Вставьте SD-карту обратно в консоль
 
-##### <a name="lumasetup" />Часть IV - Настройка Luma3DS
+#### Часть IV - Настройка Luma3DS
+<a name="lumasetup" />
 
 1. Включите приставку
 1. Устройство загрузится в меню настройки Luma3DS
@@ -100,7 +106,8 @@ sidebar:
 	
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
 
-##### <a name="ctrnand" />Часть V - CTRNAND Luma3DS
+#### Часть V - CTRNAND Luma3DS
+<a name="ctrnand" />
 
 Обратите внимание, что в некоторых версиях Luma3DS, меню Luma3DS chainloader отображается только в том случае, если в папке payloader более одного приложения. Если установлено только одно приложение, удерживание (START) при включении консоли запустит GodMode9 напрямую. Если вместо chainloader запускается окно конфигурации Luma3DS, просто нажмите (START), чтобы сохранить настройки, и следуйте инструкции дальше.
 {: .notice--info}
@@ -117,7 +124,8 @@ sidebar:
 1. Нажмите (A) чтобы продолжить
 1. Нажмите (A) чтобы вновь заблокировать права на запись
 
-##### <a name="part6" />Часть VI - Установка Luma3DS Updater
+#### Часть VI - Установка Luma3DS Updater
+<a name="part6" />
 
 1. Запустите FBI
 1. Перейдите в `SD` -> `cias`

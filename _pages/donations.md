@@ -1,7 +1,6 @@
 ---
 title: "Пожертвования"
-permalink: /donations.html
----
+permalink: /donations.html---
 
 ## Если вам помогло или просто понравилось это руководство, то автор принимает пожертвования:
 {: .text-center}

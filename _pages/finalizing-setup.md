@@ -2,11 +2,13 @@
 title: "Завершение установки" #
 lang: ru
 permalink:  finalizing-setup.html
-sidebar:
-  nav: "finalizing-setup"
+author_profile: true
 ---
 
-#### <a name="steps" />Описание шагов
+{% include toc title="Разделы" %}
+
+## Описание шагов
+<a name="steps" />
 
 {% capture notice-2 %}
 
@@ -27,7 +29,8 @@ sidebar:
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-#### <a name="what_need" />Что понадобится
+## Что понадобится
+<a name="what_need" />
 
 * Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(`.cia` файл)*
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
@@ -38,9 +41,11 @@ sidebar:
 * Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases) *(`.cia` файл)*
 * [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9)
 
-#### <a name="instructions" />Инструкция
+## Инструкция
+<a name="instructions" />
 
-##### <a name="part1" />Часть I - Подготовительные работы
+#### Часть I - Подготовительные работы
+<a name="part1" />
 
 1. Отключите приставку
 1. Вставьте SD-карту в компьютер
@@ -70,7 +75,8 @@ sidebar:
 1. Вставьте SD-карту обратно в консоль
 1. Включите приставку
 
-##### <a name="part2" />Часть II - Обновление системы
+#### Часть II - Обновление системы
+<a name="part2" />
 
 Если прежде чем начать выполнять действия из этого руководства у вас уже был установлен EmuNAND и вы хотите перенести содержимое EmuNAND в SysNAND с кастомной прошивкой - сейчас самый подходящий момент. Выполните действия из раздела [перенос EmuNAND](move-emunand), перед выполнением этой части. Если EmuNAND у вас нет, или вы не знаете что это такое - просто следуйте руководству дальше. 
 {: .notice--info}
@@ -80,7 +86,8 @@ sidebar:
   + При появлении ошибки, поставьте в настройках подключения, в настройках DNS "Получать DNS автоматически" в положение "Да"
   + Если вы все еще получаете ошибку и версия вашего NAND ниже 9.2.0, [выполните 9.2.0 CTRTransfer](9.2.0-ctrtransfer) и попробуйте обновиться еще раз
 
-##### <a name="part3" />Часть III - Интеграция Homebrew Launcher
+#### Часть III - Интеграция Homebrew Launcher
+<a name="part3" />
 
 1. Запустите приложение Загружаемая игра (Download Play)
 1. Нажмите (L) + (ВНИЗ) + (SELECT) одновременно чтобы открыть меню Rosalina
@@ -93,7 +100,8 @@ sidebar:
 1. Запустите приложение Загружаемая игра (Download Play)
 1. Консоль должна загрузиться в Homebrew Launcher
 
-##### <a name="part4" />Часть IV - Установка CIA
+#### Часть IV - Установка CIA
+<a name="part4" />
 
 1. Выберите FBI в списке homebrew
 1. Перейдите в `SD` -> `cias`
@@ -101,12 +109,14 @@ sidebar:
 1. Выберите "Install and delete all CIAs" и нажмите (A) для подтверждения
 1. Нажмите (HOME), затем закройте приложение Загружаемая игра (Download Play)
 
-##### <a name="part5" />Часть V - DSP Dump
+#### Часть V - DSP Dump
+<a name="part5" />
 
 1. Запустите приложение DSP1
 1. После завершения работы программы, нажмите (B), чтобы автоматически удалить программу из меню HOME
 
-##### <a name="part6" />Часть VI - CTRNAND Luma3DS
+#### Часть VI - CTRNAND Luma3DS
+<a name="part6" />
 
 Обратите внимание, что в некоторых версиях Luma3DS, меню Luma3DS chainloader отображается только в том случае, если в папке payloader более одного приложения. Если установлено только одно приложение, удерживание (START) при включении консоли запустит GodMode9 напрямую. Если вместо chainloader запускается окно конфигурации Luma3DS, просто нажмите (START), чтобы сохранить настройки, и следуйте инструкции дальше.
 {: .notice--info}
@@ -123,7 +133,8 @@ sidebar:
 1. Нажмите (A) чтобы продолжить
 1. Нажмите (A) чтобы вновь заблокировать права на запись
 
-##### <a name="nand_backup" />Часть VII - Резервное копирование SysNAND
+#### Часть VII - Резервное копирование SysNAND
+<a name="nand_backup" />
 
 1. Дважды нажмите (B) для возврата в главное меню
 1. Нажмите кнопку (HOME) для вызова меню
@@ -142,7 +153,8 @@ sidebar:
 1. Вставьте SD-карту обратно в консоль
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
 
-##### <a name="freeshop" />Часть VIII - Настройка freeshop
+#### Часть VIII - Настройка freeshop
+<a name="freeshop" />
 
 Приложение работает только при включенном интернете!
 {: .notice--info}

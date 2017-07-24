@@ -2,16 +2,18 @@
 title: "Установка boot9strap (Homebrew Launcher)" #
 lang: ru
 permalink: installing-boot9strap-homebrew-launcher.html
-sidebar:
-  nav: "installing-boot9strap-homebrew-launcher"
+author_profile: true
 ---
+{% include toc title="Разделы" %}
 
 Если вы взламывали ваше устройство ранее и у вас установлена кастомная прошивка на основе EmuNAND, помните, что данное руководство работает только с SysNAND и вы должны выполнять вся шаги находясь в SysNAND. Помните, что RedNAND и EmuNAND - немного разные реализации [одного и того же](http://3dbrew.org/wiki/NAND_Redirection) (англ.).
 {: .notice--info}
 
-#### <a name="instructions" />Инструкция
+#### Инструкция
+<a name="instructions" />
 
-##### <a name="part1" />Часть I - Запуск SafeB9SInstaller
+##### Часть I - Запуск SafeB9SInstaller
+<a name="part1" />
 
 1. Выберите udsploit в списке homebrew
   + Вам может потребоваться пролистать список вниз, чтобы увидеть нужный пункт
@@ -25,13 +27,15 @@ sidebar:
   + При зависании отключите питание консоли, зажав кнопку питания, и попробуйте снова
 1. Если эксплойт сработал, запустится SafeB9SInstaller
 
-##### <a name="part3" />Часть II - Установка boot9strap
+##### Часть II - Установка boot9strap
+<a name="part2" />
 
 1. Дождитесь окончания всех проверок безопасности
 1. При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap
 1. После завершения процесса, нажмите (A) для перезагрузки
 
-##### <a name="part4" />Часть III - Настройка Luma3DS
+##### Часть III - Настройка Luma3DS
+<a name="part3" />
 
 1. Устройство загрузится в меню настройки Luma3DS
   + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)

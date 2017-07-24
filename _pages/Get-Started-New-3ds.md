@@ -1,7 +1,10 @@
 ---
 title: "Начнем (New 3DS и New 2DS)"
 permalink: /get-started-new-3ds.html
+author_profile: true
 ---
+
+{% include toc title="Разделы" %}
 
 Обратите внимание, что столбцы "С" и "По" обозначают границы диапазона. Это означает, к примеру, что диапазон "с 9.0.0 по 9.2.0" включает в себя 9.0.0, 9.1.0 и 9.2.0.
 {: .notice--info}
@@ -19,9 +22,7 @@ permalink: /get-started-new-3ds.html
 {: .text-center}
 {: .notice--info}
 
-Выберите подходящую для вашей версии консоли страницу из таблицы ниже.
-{: .notice--primary}
-
+#### Выберите прошивку
 <table>
   <colgroup>
     <col span="1" style="width: 10%;">

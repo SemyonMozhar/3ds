@@ -2,7 +2,7 @@
 title: "Карта сайта" #
 sitemap: false
 permalink: /site-navigation.html
----
+author_profile: true---
 
 
 {% capture notice-1 %}
@@ -34,9 +34,9 @@ permalink: /site-navigation.html
 + [Главная страница](/)
 + [Дополнительный FAQ](faq-3ds)
 + [Завершение установки](finalizing-setup)
++ [Запуск и установка FBI](fbi)
 + [Зачем реклама?](why-ads)
 + [Использование SoundHax для запуска Hombrew Launcher](homebrew-launcher-soundhax)
-+ [Интегрирование FBI](fbi)
 + [Информация об OTP](otp)
 + [Использование GodMode9](godmode9-usage)
 + [Начнем (New 3DS)](get-started-new-3ds)

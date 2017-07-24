@@ -2,24 +2,26 @@
 title: "Установка boot9strap (Браузер)" #
 lang: ru
 permalink: installing-boot9strap-browser.html
-sidebar:
-  nav: "installing-boot9strap-browser"
-
+author_profile: true
 ---
+{% include toc title="Разделы" %}
 
 Если вы взламывали ваше устройство ранее и у вас установлена кастомная прошивка на основе EmuNAND, помните, что данное руководство работает только с SysNAND и вы должны выполнять вся шаги находясь в SysNAND. Помните, что RedNAND и EmuNAND - немного разные реализации [одного и того же](http://3dbrew.org/wiki/NAND_Redirection) (англ.).
 {: .notice--info}
 
-#### <a name="what_need" />Что понадобится
+## Что понадобится
+<a name="what_need" />
 
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `dev-файл`, не `ntr-файл`)*
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
-#### <a name="instructions" />Инструкция
+## Инструкция
+<a name="instructions" />
 
-##### <a name="part1" />Часть I - Подготовительные работы
+#### Часть I - Подготовительные работы
+<a name="part1" />
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
@@ -35,7 +37,8 @@ sidebar:
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
-##### <a name="part2" />Часть II - Запуск SafeB9SInstaller
+#### Часть II - Запуск SafeB9SInstaller
+<a name="part2" />
 
 1. Запустите браузер на консоли и перейдите по одной из следующих ссылок
   + `https://goo.gl/Pk5IZs` или `https://dukesrg.github.io/?SafeB9SInstaller.dat`
@@ -57,13 +60,15 @@ sidebar:
   + При возникновении ошибки, обратитесь к разделу [Проблемы и их решения](troubleshooting#ts_browser)
 1. Если эксплойт сработал, запустится SafeB9SInstaller
 
-##### <a name="part3" />Часть III - Установка boot9strap
+#### Часть III - Установка boot9strap
+<a name="part3" />
 
 1. Подождите окончания всех проверок безопастности
 1. При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap
 1. После завершения процесса, нажмите (A) для перезагрузки
 
-##### <a name="part4" />Часть IV - Настройка Luma3DS
+#### Часть IV - Настройка Luma3DS
+<a name="part4" />
 
 1. Устройство загрузится в меню настройки Luma3DS
   + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)

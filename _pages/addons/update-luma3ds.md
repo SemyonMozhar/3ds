@@ -1,11 +1,12 @@
 ---
 title: "Обновление Luma3DS"
 permalink: /update-luma3ds.html
-sidebar:
-  nav: "update-luma3ds"
+author_profile: true
 ---
+{% include toc title="Разделы" %}
 
-#### <a name="what_need" />Что понадобится
+## Что понадобится
+<a name="what_need" />
 
 * Установленный и рабочий [b9s](updating-b9s) последней версии (*если уже делали, то повторно делать не нужно*)
 * Установленный и рабочий [FBI](fbi)
@@ -13,8 +14,10 @@ sidebar:
 * Свежая версия [Luma3ds Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) (`lumaupdater.cia`)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
-## <a name="detect" />Определение типа и версии взлома 
+## Определение типа и версии взлома 
+<a name="detect" />
 
+{% capture notice-2 %}
 Определить какая версия взлома стоит на вашей приставке достаточно просто: 
 
 1. Выключите приставку
@@ -30,12 +33,15 @@ sidebar:
 	+ Если Luma3DS 7.1, то у вас b9s 1.0 и нужно [обновить его до версии 1.2](updating-b9s)
 	+ Если Luma3DS 8 и выше, то b9s 1.2 - обновите Luma3DS по инструкции ниже, одним из удобных для вас способов
 	
-**Если вы обновили Luma3DS через Luma3DS Updater и теперь приставка не включается. Загорается синий диод и тухнет, обратитесь к [этой части руководства](http://3ds.customfw.xyz/troubleshooting#lumaupdater).**
-{: .notice--info}
-	
-## <a name="update-luma3ds" />Обновление Luma3DS
+{% endcapture %}
 
-## <a name="part1" />Часть I - Подготовительные работы
+<div class="notice--info">{{ notice-2 | markdownify }}</div>
+	
+**Если вы обновили Luma3DS через Luma3DS Updater и теперь приставка не включается. Загорается синий диод и тухнет, обратитесь к [этой части руководства](http://3ds.customfw.xyz/troubleshooting#lumaupdater).**
+{: .notice--warning}
+	
+## Часть I - Подготовительные работы
+<a name="part1" />
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
@@ -44,7 +50,8 @@ sidebar:
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Включите консоль
 
-## <a name="part2" />Часть II - Установка Luma3DS Updater
+## Часть II - Установка Luma3DS Updater
+<a name="part2" />
 
 1. Перейдите в Системные настройки (System Settings), Управление данными (Data Managment), Nintendo 3DS, Программы (Software) и удалите Luma3DS Updater
 1. Закройте настройки и вернитесь в меню HOME
@@ -54,16 +61,19 @@ sidebar:
 1. Выберите "Install CIA", затем нажмите (A) для подтверждения
 1. Нажмите (HOME) для выхода из FBI
 
-## <a name="part3" />Часть III - Обновление Luma3DS удобным для вас способом
+## Часть III - Обновление Luma3DS удобным для вас способом
+<a name="part3" />
 
-##### <a name="lumaupdater" />Способ I - Luma3ds Updater
+#### Способ I - Luma3ds Updater
+<a name="lumaupdater" />
 
 1. Запустите lumaupdater из меню Home
 1. Выберите "Install stable version" и нажмите (A)
 1. Нажмите (A) + (X) для установки Luma3DS на SD-карту и в CTRNAND
 1. При появлении надписи "Update complite", нажмите (START) для перезагрузки
 
-##### <a name="lumasd" />Способ II - Обновление Luma3ds вручную
+#### Способ II - Обновление Luma3ds вручную
+<a name="lumasd" />
   
 1. Вставьте SD-карту из приставки в ПК
 1. **Скопируйте `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты, соглашаясь на перезапись файлов**
@@ -71,7 +81,8 @@ sidebar:
 1. Включите 3DS
   + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)   
 
-## <a name="part4" />Часть IV - Настройка Luma3DS
+## Часть IV - Настройка Luma3DS
+<a name="part4" />
 
 1. Устройство загрузится
 	+ Если окно конфигуратора не появляется и приставка сразу запускается в меню HOME, переходите к следующей части
@@ -90,7 +101,8 @@ sidebar:
 	
 	+ Нажмите (START), чтобы сохранить настройки и перезагрузиться
 
-## <a name="part5" />Часть V - CTRNAND Luma3DS
+## Часть V - CTRNAND Luma3DS
+<a name="part5" />
 
 Обратите внимание, что в некоторых версиях Luma3DS, меню Luma3DS chainloader отображается только в том случае, если в папке payloader более одного приложения. Если установлено только одно приложение, удерживание (START) при включении консоли запустит GodMode9 напрямую. Если вместо chainloader запускается окно конфигурации Luma3DS, просто нажмите (START), чтобы сохранить настройки, и следуйте инструкции дальше.
 {: .notice--info}
@@ -109,5 +121,3 @@ sidebar:
 1. Перейдите в `[1:] SYSNAND CTRNAND` -> `rw`
 1. Нажмите (Y), чтобы вставить копию папки `luma` из вашей SD-карты
 1. Выберите "Copy path(s)"
-
-

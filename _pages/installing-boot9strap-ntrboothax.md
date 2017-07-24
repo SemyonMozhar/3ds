@@ -1,8 +1,7 @@
 ---
 title: "Установка boot9strap (ntrboothax)"
 permalink: installing-boot9strap-ntrboothax.html
-sidebar:
-  nav: "installing-boot9strap-ntrboothax"
+author_profile: true
 ---
 
 На этой странице будет размещена инструкция для эксплойта "ntrboothax".
