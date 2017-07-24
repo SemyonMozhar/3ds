@@ -14,8 +14,6 @@ main:
     url: /uninstall-cfw
   - title: "Полезные,<br>инструкции"
     url: /addons
-  - title: "Карта<br>сайта"
-    url: /site-navigation
   - title: "Завершение<br>установки"
     url: /finalizing-setup
   - title: "FAQ"
@@ -30,8 +28,8 @@ main:
     url: /region-changing
   - title: "Перенос EmuNAND"
     url: /move-emunand
-  - title: "OTP"
-    url: /otp
+  - title: "Карта<br>сайта"
+    url: /site-navigation
   - title: "Пожертвования"
     url: /donations
   - title: "Благодарности"
