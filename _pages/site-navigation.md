@@ -2,8 +2,8 @@
 title: "Карта сайта" #
 sitemap: false
 permalink: /site-navigation.html
-author_profile: true---
-
+author_profile: true
+---
 
 {% capture notice-1 %}
 **Популярные страницы**
@@ -68,4 +68,3 @@ author_profile: true---
 
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
-
