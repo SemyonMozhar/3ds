@@ -1,6 +1,7 @@
 ---
 title: "Благодарности"
-permalink: /credits.html---
+permalink: /credits.html
+---
 
 **Отдельное спасибо всем из [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) (англ.) за то, что они потрясающие!**
 {: .notice--primary}
@@ -94,4 +95,3 @@ permalink: /credits.html---
 {% endcapture %}
 
 <div class="notice--success">{{ notice-home | markdownify }}</div>
-
