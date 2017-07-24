@@ -1,6 +1,7 @@
 ---
 title: "Пожертвования"
-permalink: /donations.html---
+permalink: /donations.html
+---
 
 ## Если вам помогло или просто понравилось это руководство, то автор принимает пожертвования:
 {: .text-center}
@@ -23,4 +24,3 @@ permalink: /donations.html---
 Перевод делался для группы [VK:3ds_CFW](http://vk.com/3ds_cfw)
 {: .text-center}
 {: .notice--info}
-
