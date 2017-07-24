@@ -1,7 +1,8 @@
 ---
 title: "Администрирование виджета"
 sitemap: false
-permalink: /widget.html---
+permalink: /widget.html
+---
 
 <div id="vk_comments_browse"></div>
 <script type="text/javascript">
