@@ -73,3 +73,8 @@ author_profile: true
 Если около игры стоит желтый !, то для этой игры есть DLC. Если зеленый - обновление. Нажатие на соответствующую иконку, добавит выбранное дополнение в очередь загрузки
 {: .notice--info}
 
+## Где брать игры? 
+1. [freeshop](finalizing-setup#freeshop)
+2. [3dsisos](http://www.3dsiso.com/forumdisplay.php?261-CIA-Downloads)
+3. [Все игры на русском](https://yadi.sk/d/0dLuKpE53KHthy) от [VK: skotnikovnn](https://vk.com/skotnikovnn)
+4. [Конвертировать .3DS-ромы в .CIA](https://3ds.customfw.xyz/godmode9-usage#convert_3ds)

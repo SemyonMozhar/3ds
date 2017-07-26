@@ -32,7 +32,7 @@ author_profile: true
 ## Что понадобится
 <a name="what_need" />
 
-* Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(`.cia` файл)*
+* Свежая версия [Themely](https://github.com/ihaveamac/Themely/releases/latest) *(`.cia`-файл)*
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) *(`.zip`-архив)*
 * Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest) *(`.cia` файл)*
@@ -138,7 +138,7 @@ author_profile: true
 1. Дважды нажмите (B) для возврата в главное меню
 1. Нажмите кнопку (HOME) для вызова меню
 1. Выберите "More..."
-1. Выберите "Scripts"
+1. Выберите "Scripts..."
 1. Выберите "Backup SysNAND"
 1. Нажмите (A) для подтверждения
 	+ Этот процесс займет некоторое время
