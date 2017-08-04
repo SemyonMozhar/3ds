@@ -14,7 +14,7 @@ author_profile: true
 
 * Установленный и рабочий [b9s](updating-b9s) последней версии 
 * Свежая версия [GYTB](https://github.com/MrCheeze/GYTB) (пролистайте страницу программы чуть ниже: 3DSX format (Ninjhax etc.))
-* Пак с жетонами. Можете взять [мой](https://goo.gl/KWHtCH), можете поискать [тут](https://badges.3dsthem.es/) или [тут](https://gbatemp.net/threads/nintendo-badge-arcade-badges-collection.405667/).
+* Пак с жетонами. Можете взять [мой](https://goo.gl/KWHtCH), можете поискать [тут](https://badges.themeplaza.eu/) или [тут](https://gbatemp.net/threads/nintendo-badge-arcade-badges-collection.405667/).
 * Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
 ## Часть I - Интеграция hblauncher loader

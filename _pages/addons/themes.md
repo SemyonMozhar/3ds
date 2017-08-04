@@ -79,7 +79,7 @@ author_profile: true
 * Установленный и рабочий [b9s](updating-b9s) последней версии 
 * Установленный и рабочий [FBI](fbi)
 * Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(`.cia` файл)*
-+ Скачиваем необходимые темы с [этого сайта](https://3dsthem.es/)
++ Скачиваем необходимые темы с [этого сайта](https://themeplaza.eu/)
 
 #### Инструкция
 <a name="instructions2" />

@@ -28,7 +28,7 @@ main:
     url: /region-changing
   - title: "Перенос EmuNAND"
     url: /move-emunand
-  - title: "Карта<br>сайта"
+  - title: "Карта сайта"
     url: /site-navigation
   - title: "Пожертвования"
     url: /donations
