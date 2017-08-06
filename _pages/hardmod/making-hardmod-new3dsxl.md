@@ -6,7 +6,7 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-Это руководство для тех, кто хочет выполнить хардомд и снять дамп NAND с new3dsxl. Руководство по внедрению bootstrap в уже снятый дамп находится [здесь](installing-boot9strap-hardmod)
+Это руководство для тех, кто хочет выполнить хардмод и снять дамп NAND с new3dsxl. Руководство по внедрению bootstrap в уже снятый дамп находится [здесь](installing-boot9strap-hardmod)
 {: .notice--info}
 
 {% capture notice-1 %}   
