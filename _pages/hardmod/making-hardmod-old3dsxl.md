@@ -78,7 +78,7 @@ author_profile: true
 	{: .text-center}
     {: .notice--info}
 	
-1.	После этого вам необходимо вытащить батарею 3DS XL
+1.	После этого вам необходимо вытащить батарею из консоли
 
     ![]({{ base_path }}/images/ifixit/3dsxl/2.png)
 	{: .text-center}
