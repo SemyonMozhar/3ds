@@ -71,8 +71,7 @@ permalink: /credits.html
     • yifan_lu
     • zoogie
 
-{% capture notice-home %}
-**Люди, переводившие руководство:**      
+{% capture notice-1 %}**Люди, переводившие руководство:**        
 <br>
 	• [Zloebot](https://crowdin.com/profile/Aibot)   
 	• [Unrael](https://crowdin.com/profile/Unrael)   
@@ -84,14 +83,18 @@ permalink: /credits.html
 	• [Bullsquid](https://crowdin.com/profile/Bullsquid)   
 	• [mstrVLT](https://crowdin.com/profile/mstrVLT)   
 	• [Metalik](https://crowdin.com/profile/Metalik)   
-		• [jkcgs](https://crowdin.com/profile/jkcgs)   
+	• [jkcgs](https://crowdin.com/profile/jkcgs)   
 	• [xHR](https://crowdin.com/profile/rashevskyv)   
-
-**Отдельная благодарность**        
-<br>
-	• dimakuz26      
-	• Антон Вишневский
-	• Максим Терещенко за внимательность       
 {% endcapture %}
 
-<div class="notice--success">{{ notice-home | markdownify }}</div>
+<div class="notice--success">{{ notice-1 | markdownify }}</div>
+
+{% capture notice-2 %}**Отдельная благодарность**        
+<br>
+	• dimakuz26      
+	• [Антон Вишневский](https://vk.com/cr0ssfire)
+	• [Максим Терещенко](https://vk.com/jackhuman) за внимательность    
+	• [Сергей Кашин](https://vk.com/seresworld) за перевод инструкции по хардмоду, на основе которой была сделана таковая на сайте
+{% endcapture %}
+
+<div class="notice--success">{{ notice-2 | markdownify }}</div>

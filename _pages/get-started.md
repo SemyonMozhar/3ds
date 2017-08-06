@@ -24,7 +24,7 @@ author_profile: true
 Если вы пользователь Windows, то перед началом работ убедитесь, что в вашей системе включено отображение расширений файлов. Если вы не знаете как это сделать, следуйте этой инструкции: [Расширения файлов (Windows)](file-extensions-windows)!
 {: .notice--info}
 
-Обратите внимание, что новые методы [ntrboothax](installing-boot9strap-ntrboothax) и [hardmod](installing-boot9strap-hardmod) работают на *всех устройствах, регионах и версиях*! Включая устройства CHN- и TWN-регионов, которые раньше считались невзлымываемыми!*
+Обратите внимание, что новые методы [ntrboothax](installing-boot9strap-ntrboothax) и [hardmod](making-hardmod) работают на *всех устройствах, регионах и версиях*! Включая устройства CHN- и TWN-регионов, которые раньше считались невзлымываемыми!*
 {: .notice--success}
 
 {% capture notice-1 %}

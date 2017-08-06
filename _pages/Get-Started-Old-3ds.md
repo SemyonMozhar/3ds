@@ -35,7 +35,7 @@ author_profile: true
 <br><br>
 Например, имея на руках консоль с версией ПО 11.3.0-35 вы просто используете [Soundhax](homebrew-launcher-soundhax).
 <br><br>
-С другой стороны приставка с прошивкой 1.0.0-0. Очевидно, что браузера на ней нет и обновление картриджем не позволит использовать ни [Soundhax](homebrew-launcher-soundhax), ни [browserhax](installing-boot9strap-browser), ни [2xrsa](installing-boot9strap-2xrsa). Остаются следующие возможности - использование [MSET](installing-boot9strap-mset), для чего понадобится флеш-картридж от Nintendo DS; использование [HBL через альтернативную точку входа](homebrew-launcher-alternatives); использование [Hardmode](installing-boot9strap-hardmod), что требует определенных навыков работы с паяльником. 
+С другой стороны приставка с прошивкой 1.0.0-0. Очевидно, что браузера на ней нет и обновление картриджем не позволит использовать ни [Soundhax](homebrew-launcher-soundhax), ни [browserhax](installing-boot9strap-browser), ни [2xrsa](installing-boot9strap-2xrsa). Остаются следующие возможности - использование [MSET](installing-boot9strap-mset), для чего понадобится флеш-картридж от Nintendo DS; использование [HBL через альтернативную точку входа](homebrew-launcher-alternatives); использование [Hardmode](making-hardmod), что требует определенных навыков работы с паяльником. 
 <br><br>
 Для MSET можно обновиться картриджем до версии 4.0.0-4.5.0, 6.0.0-6.3.0; для HBL на прошивку, необходимую для запуска выбранного эксплойта. Помните, что для использования [альтернативной точки входа в HBL](homebrew-launcher-alternatives) вам в большинстве случаев понадобится вторая уже прошитая приставка (либо устройство [Powersaves](https://amzn.to/2fb3VY7)) для записи кода эксплойта в картридж с игрой, который тоже, ясное дело, должен у вас быть (допускается использование sky3ds). 
 <br><br>
@@ -80,7 +80,7 @@ author_profile: true
 			<img src="/images/ntrhax.png">
 		</a>
 		<br><br>
-		<a href="installing-boot9strap-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)">
+		<a href="making-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)">
 			<img src="/images/hardmode.png">
 		</a>
 		<br><br>
@@ -144,7 +144,7 @@ author_profile: true
 	<img src="/images/ntrhax.png" > - установка ntrboothax (необходим совместимый флеш-картридж)
 </a>
 <br>
-<a href="installing-boot9strap-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)">
+<a href="making-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)">
 	<img src="/images/hardmode.png"> - установка через hardmode (необходимы навыки работы с паяльником)
 </a>
 <br>

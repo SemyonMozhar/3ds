@@ -47,7 +47,7 @@ author_profile: true
 			<img src="/images/ntrhax.png">
 		</a>
 		<br><br>
-		<a href="installing-boot9strap-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)">
+		<a href="making-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)">
 			<img src="/images/hardmode.png">
 		</a>
 		<br><br>
@@ -83,7 +83,7 @@ author_profile: true
 	<img src="/images/ntrhax.png" > - установка ntrboothax (необходим совместимый флеш-картридж)
 </a>
 <br>
-<a href="installing-boot9strap-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)">
+<a href="making-hardmod" title="Установка через hardmode (необходимы навыки работы с паяльником)">
 	<img src="/images/hardmode.png"> - установка через hardmode (необходимы навыки работы с паяльником)
 </a>
 <br>

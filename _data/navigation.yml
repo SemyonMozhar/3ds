@@ -10,6 +10,8 @@ main:
     url: /a9lh-to-b9s
   - title: "Обновление<br>b9s"
     url: /updating-b9s
+  - title: "Хардмод"
+    url: /making-hardmod
   - title: "Удаление<br>CFW"
     url: /uninstall-cfw
   - title: "Полезные,<br>инструкции"
