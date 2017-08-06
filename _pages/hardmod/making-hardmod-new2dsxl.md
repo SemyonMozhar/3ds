@@ -71,7 +71,7 @@ author_profile: true
 1. Отключите все периферийные устройства (зарядку, SD-карту, прочее) от консоли и положите их в безопасное место.
 1. Разберите приставку, согласно видео ниже
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/WDXuX_iGTAI" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/WDXuX_iGTAI" frameborder="0"> </iframe>
 	
 #### Часть III - Впаиваем провода переходника в приставку 
 <a name="part3" />
@@ -114,7 +114,7 @@ author_profile: true
 Желательно снять несколько копий NAND, чтобы убедиться, что бекап сделан верно. Откройте 3DS NAND Checker и нажмите любую кнопку. Программа должна тут же закрыться и сгенерировать два папки в том же каталоге, которые называются `imgs` и `logs` Перекиньте ВСЕ сделанные вами NAND-файлы в папку `imgs`. Теперь, запустите программу снова и она сравнит размеры и хэши файлов, выведя результат в консоль или в файл лога (который должен появится в папке `logs`). Если они одинаковые, то данный файл можно использовать для инъекции b9s. Если контрольная сумма разная, проверьте пайку и делайте всё по новой.
 {: .notice--warning}
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=oH22HcUxHv0" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=oH22HcUxHv0" frameborder="0"> </iframe>
 ___
 
 Следующий шаг: [Установка boot9strap (Hardmod)](installing-boot9strap-hardmod)
