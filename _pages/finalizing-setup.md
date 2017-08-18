@@ -197,6 +197,9 @@ ___
 Теперь нажатие (L) + (ВНИЗ) + (SELECT) в запущенной системе открывает меню Rosalina, встроенное в Luma3DS. Полный список функций Rosalina можно найти тут: [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0) (англ.) и немного вольный [перевод на русский](https://vk.com/3ds_cfw?w=wall-125012133_5360)
 {% endcapture %}
 
+При желании вы можете перейти на [Luma3DS 7.1 Legacy](files/boot.firm). Она не имеет модуля Rosalina, в следствии чего расходует меньше батареи, а так же более стабильна в целом.
+{: .notice--info}
+
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
 Для использования [NTR CFW](https://github.com/44670/BootNTR/), установите [BootNTR Selector](https://gbatemp.net/threads/432911/).
