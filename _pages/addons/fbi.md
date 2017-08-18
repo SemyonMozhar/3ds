@@ -55,11 +55,11 @@ author_profile: true
 1. Нажмите (B) для выхода из главного меню Rosalina
 1. Нажмите (HOME), затем закройте приложение Загружаемая игра (Download Play)
 1. Запустите приложение Загружаемая игра (Download Play)
-1. Консоль должна загрузиться в HOMEbrew Launcher
+1. Консоль должна загрузиться в Homebrew Launcher
 
 #### Часть IV - Установка CIA
 
-1. Выберите FBI в списке HOMEbrew
+1. Выберите FBI в списке Homebrew
 1. Перейдите в `SD` -> `cias`
 1. Выберите "\<current directory>"
 1. Выберите "Install and delete all CIAs" и нажмите (A) для подтверждения

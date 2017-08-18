@@ -13,7 +13,7 @@ author_profile: true
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
-* HOMEbrew [STARTer Kit](http://smealum.github.io/ninjhax2/STARTer.zip)
+* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * Любой флешкартридж для DS, работающий на вашей версии прошивки
 
 ## Инструкция
@@ -23,7 +23,7 @@ author_profile: true
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
-1. Скопируйте _содержимое_ архива `STARTer.zip` в корень SD-карты
+1. Скопируйте _содержимое_ архива `starter.zip` в корень SD-карты
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива`boot9strap в папку `/boot9strap/` в корне SD-карты
 1. Скопируйте `SafeB9SInstaller.dat` из `.zip-ахрива` SafeB9SInstaller в корень SD-карты

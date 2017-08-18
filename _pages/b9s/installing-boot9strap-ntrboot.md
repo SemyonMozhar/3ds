@@ -12,7 +12,7 @@ author_profile: true
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл`)*
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z-архив`)*
-* HOMEbrew [STARTer Kit](http://smealum.github.io/ninjhax2/STARTer.zip)
+* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 
 ## Инструкция
 
@@ -21,7 +21,7 @@ author_profile: true
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. Скопируйте `SafeB9SInstaller.firm` в корень SD-карты и переименуйте его в `boot.firm`
-1. Скопируйте _содержимое_ `STARTer.zip` в корень вашей SD-карты
+1. Скопируйте _содержимое_ `starter.zip` в корень вашей SD-карты
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты
 
@@ -39,7 +39,7 @@ author_profile: true
 1. Вставьте ваш флешкартридж в консоль
 1. Поместите магнит на место, где срабатывает датчик режима ожидания
   + На консоли old 2DS вместо этого включите переключатель режима ожидания
-1. На несколько секунд зажмите кнопки (Power) + (START) + (Select) + (X), затем отпустите
+1. На несколько секунд зажмите кнопки (Power) + (START) + (SELECT) + (X), затем отпустите
   + Может потребоваться несколько попыток, поскольку позиционирование неудобное
 1. Если эксплойт сработал, запустится SafeB9SInstaller
 

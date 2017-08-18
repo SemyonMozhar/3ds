@@ -33,7 +33,7 @@ author_profile: true
 
 1. Установите `lumalocaleswitcher` через FBI (как это сделать описано [здесь](games))
 	+ Если вы купили приставку у меня (в [VK](https://vk.com/market-125012133) или на [OLX](https://www.olx.ua/list/user/1nlHd/)), то программа уже установлена и находится в папке "System" 
-1. Запустите `lumalocaleswitcher` из меню HOME
+1. Запустите `lumalocaleswitcher` из меню Home
 1. Перейдите в пункт меню "Choose Locales Directory ""
 1. Выберите `/luma/locales/titles/%s/locale.txt` и нажмите (A) для подтверждения выбора, а затем еще раз (A), чтобы вернуться на главный экран программы
 1. Перейдите в меню "Titles "

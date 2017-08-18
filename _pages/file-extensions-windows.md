@@ -27,7 +27,7 @@ author_profile: true
 1. Откройте меню Пуск, нажав на него, или с помощью клавиши Windows
 1. Введите в поле для поиска "Параметры папок" и выберите соответствующий результат
 
-    ![]({{ base_path }}/images/screenshots/windows-7-folder-options-START-menu.png)
+    ![]({{ base_path }}/images/screenshots/windows-7-folder-options-start-menu.png)
 	{: .text-center}
     {: .notice--info}
 
@@ -38,6 +38,6 @@ author_profile: true
 	{: .text-center}
     {: .notice--info}
 
-Вернитесь к [Началу](get-STARTed)
+Вернитесь к [Началу](get-started)
 {: .notice--success}
 

@@ -1,6 +1,6 @@
 ---
 title: "Начнем"
-permalink: /get-STARTed.html
+permalink: /get-started.html
 author_profile: true
 ---
 
@@ -27,7 +27,7 @@ author_profile: true
 1. Откройте Системные настройки (System settings), затем "Интернет-настройки" (Internet Settings), затем "SpotPass", затем "Отправка информации о системе" (Sending of System Information)
 1. Отключите опцию "Отправка информации о системе" (Sending of System Information)
 1. Закройте Системные настройки (System settings)
-1. Откройте Список друзей (Friend's List) (значок в виде лица на верхней строчке меню HOME, на нижнем экране)
+1. Откройте Список друзей (Friend's List) (значок в виде лица на верхней строчке меню Home, на нижнем экране)
 
     ![]({{ base_path }}/images/screenshots/friend-list.jpg)
 	{: .text-center}
@@ -56,24 +56,24 @@ author_profile: true
   <tbody>
     <tr>
       <td style="text-align: center">
-	    <a href="get-STARTed-new-3ds">
+	    <a href="get-started-new-3ds">
 	      <img src="{{ base_path }}/images/new3ds.png" style="padding: 0.5em;">
 		</a> 
-		<a href="get-STARTed-new-3ds">
+		<a href="get-started-new-3ds">
 		  <img src="{{ base_path }}/images/new3dsxl.png" style="padding: 0.5em;">
 		</a> 
-		<a href="get-STARTed-new-3ds">
+		<a href="get-started-new-3ds">
 		  <img src="{{ base_path }}/images/new2dsxl.png" style="padding: 0.5em;">
 		</a>
 	  </td>
       <td style="text-align: center">
-	    <a href="get-STARTed-old-3ds">
+	    <a href="get-started-old-3ds">
 		  <img src="{{ base_path }}/images/old3ds.png" style="padding: 0.5em;">
 		</a>
-		<a href="get-STARTed-old-3ds">
+		<a href="get-started-old-3ds">
 		  <img src="{{ base_path }}/images/old3dsxl.png" style="padding: 0.5em;">
 		</a>
-		<a href="get-STARTed-old-3ds">
+		<a href="get-started-old-3ds">
 		  <img src="{{ base_path }}/images/2ds.png" style="padding: 0.5em;">
 		</a>
 	  </td>

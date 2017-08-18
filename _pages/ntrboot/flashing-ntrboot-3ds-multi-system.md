@@ -35,7 +35,7 @@ author_profile: true
 
 #### Часть II - Прошивка ntrboot
 
-1. Запустите Luma3DS chainloader, держа нажатой кнопку (Start) во время загрузки на **исходной 3DS**
+1. Запустите Luma3DS chainloader, держа нажатой кнопку (START) во время загрузки на **исходной 3DS**
 1. Выберите "ntrboot_flasher"
 1. Выберите "Dump Flash"
 1. Дождитесь окончания проверки

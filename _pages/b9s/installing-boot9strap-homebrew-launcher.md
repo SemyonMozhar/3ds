@@ -1,7 +1,7 @@
 ---
-title: "Установка boot9strap (HOMEbrew Launcher)" #
+title: "Установка boot9strap (Homebrew Launcher)" #
 lang: ru
-permalink: installing-boot9strap-HOMEbrew-launcher.html
+permalink: installing-boot9strap-homebrew-launcher.html
 author_profile: true
 ---
 {% include toc title="Разделы" %}
@@ -12,12 +12,12 @@ author_profile: true
 
 ##### Часть I - Запуск SafeB9SInstaller
 
-1. Выберите udsploit в списке HOMEbrew
+1. Выберите udsploit в списке Homebrew
   + Вам может потребоваться пролистать список ВНИЗ, чтобы увидеть нужный пункт
 1. После завершения нажмите (START) для выхода из udsploit
   + Может потребоваться несколько попыток
   + При зависании отключите питание консоли, зажав кнопку питания, и попробуйте снова
-1. Выберите safehax в списке HOMEbrew
+1. Выберите safehax в списке Homebrew
   + Вам может потребоваться пролистать список ВНИЗ, чтобы увидеть нужный пункт
   + Если появляется ошибка "PM INIT FAILED", убедитесь, что используете udsploit со включенным WiFi
   + Если "PM INIT FAILED" *всё ещё* появляется, попробуйте использовать [safehax версии r19](https://github.com/TiniVi/safehax/releases/tag/r19)

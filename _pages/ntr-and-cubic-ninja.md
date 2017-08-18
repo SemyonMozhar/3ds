@@ -12,7 +12,7 @@ author_profile: true
 ## Что понадобится
 
 * [JPN Cubic Ninja](https://www.amazon.com/dp/B004QL7M0A)
-* HOMEbrew [STARTer Kit](http://smealum.github.io/ninjhax2/STARTer.zip)
+* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [`3ds-private-update-server.zip`](magnet:?xt=urn:btih:8623e580752f22940d96630ef723ce30a707b22e&dn=3ds-private-update-server.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.piratepublic.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.kicks-ass.net%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce)
 * [WAMPSERVER (PHP 5.5) 2.5](http://www.wampserver.com/en/#download-wrapper)
 * [`node.exe`](http://nodejs.org/dist/latest/win-x86/node.exe)
@@ -39,7 +39,7 @@ author_profile: true
 1. В Windows нажмите Win+R и в появившейся строке наберите "CMD".
 1. В командной строке выполните команду `ipconfig /all`, чтобы узнайте IPv4 адрес вашего компьютера, он вам скоро понадобится
 1. Скопируйте `ntr.bin` в корень SD-карты
-1. Скопируйте _содержимое_ архива `STARTer.zip` в корень вашей SD-карты
+1. Скопируйте _содержимое_ архива `starter.zip` в корень вашей SD-карты
 1. Вставьте SD-карту обратно в консоль
 
 #### Часть II - Обновление
@@ -50,7 +50,7 @@ author_profile: true
 1. Запустите Cubic Ninja (если у вас уже был установлен NinjHax, зажмите (L)+(R)+(X)+(Y), чтобы сбросить его)
 1. Выберите "Create", затем "QR Code", затем "Scan QR Code"
 1. Отсканируйте QR-код, содержащийся в `.zip-архиве` NTR CFW и соответствующий вашему региону
-1. В меню HOME нажмите одновременно (X) и (Y), чтобы открыть меню NTR
+1. В меню Home нажмите одновременно (X) и (Y), чтобы открыть меню NTR
 1. Включите отладчик (Enable the debugger) и закройте меню
 1. Используйте web-интерфейс своего маршрутизатора, чтобы узнать IP-адрес вашей консоли (если не знаете, как это сделать - воспользуйтесь google, так как все роутеры разные)
 1. Запустите NTR Debugger на компьютере
@@ -63,5 +63,5 @@ author_profile: true
 
 ___
 
-Следующий шаг: [Установка boot9strap (HOMEbrew Launcher)](installing-boot9strap-HOMEbrew-launcher)
+Следующий шаг: [Установка boot9strap (Homebrew Launcher)](installing-boot9strap-homebrew-launcher)
 {: .notice--success}

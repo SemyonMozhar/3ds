@@ -17,7 +17,7 @@ author_profile: true
 1. Откройте Системные настройки, затем "Интернет-настройки", затем "SpotPass", затем "Отправка информации о системе"
 1. Отключите опцию "Отправка информации о системе"
 1. Закройте Системные настройки
-1. Откройте Список друзей (значок в виде лица на верхней строчке меню HOME)
+1. Откройте Список друзей (значок в виде лица на верхней строчке меню Home)
   + Если появляется ошибка и вас не пускают в меню, значит Список друзей уже отключен
 1. Перейдите в настройки Списка друзей, затем "Настройки сообщений друга", затем "Показать друзьям, во что вы играете"
 1. Отключите опцию "Показать друзьям, во что вы играете"
@@ -34,7 +34,7 @@ author_profile: true
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
-* HOMEbrew [STARTer Kit](http://smealum.github.io/ninjhax2/STARTer.zip)
+* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9)
 
 ## Инструкция
@@ -51,7 +51,7 @@ author_profile: true
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. **Помните, что ещё не следует копировать boot.firm от Luma 8.0, мы сделаем это в следующей части**
-1. Скопируйте _содержимое_ архива `STARTer.zip` в корень SD-карты **целевой 3DS**
+1. Скопируйте _содержимое_ архива `starter.zip` в корень SD-карты **целевой 3DS**
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
