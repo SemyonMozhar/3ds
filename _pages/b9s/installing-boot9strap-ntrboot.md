@@ -67,7 +67,7 @@ author_profile: true
 ___
 
 Следующий шаг: [Завершение установки](finalizing-setup)
-{: .notice--primary}
+{: .notice--sucess}
 
 ___
 
