@@ -6,7 +6,6 @@ author_profile: true
 {% include toc title="Разделы" %}
 
 ## Что понадобится
-<a name="what_need" />
 
 * Установленный и рабочий [b9s](updating-b9s) последней версии (*если уже делали, то повторно делать не нужно*)
 * Установленный и рабочий [FBI](fbi)
@@ -15,7 +14,6 @@ author_profile: true
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
 ## Определение типа и версии взлома 
-<a name="detect" />
 
 {% capture notice-2 %}
 Определить какая версия взлома стоит на вашей приставке достаточно просто: 
@@ -41,7 +39,6 @@ author_profile: true
 {: .notice--warning}
 	
 ## Часть I - Подготовительные работы
-<a name="part1" />
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
@@ -51,7 +48,6 @@ author_profile: true
 1. Включите консоль
 
 ## Часть II - Установка Luma3DS Updater
-<a name="part2" />
 
 1. Перейдите в Системные настройки (System Settings), Управление данными (Data Managment), Nintendo 3DS, Программы (Software) и удалите Luma3DS Updater
 1. Закройте настройки и вернитесь в меню HOME
@@ -62,18 +58,15 @@ author_profile: true
 1. Нажмите (HOME) для выхода из FBI
 
 ## Часть III - Обновление Luma3DS удобным для вас способом
-<a name="part3" />
 
 #### Способ I - Luma3ds Updater
-<a name="lumaupdater" />
 
-1. Запустите lumaupdater из меню Home
+1. Запустите lumaupdater из меню HOME
 1. Выберите "Install stable version" и нажмите (A)
 1. Нажмите (A) + (X) для установки Luma3DS на SD-карту и в CTRNAND
 1. При появлении надписи "Update complite", нажмите (START) для перезагрузки
 
 #### Способ II - Обновление Luma3ds вручную
-<a name="lumasd" />
   
 1. Вставьте SD-карту из приставки в ПК
 1. **Скопируйте `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты, соглашаясь на перезапись файлов**
@@ -82,7 +75,6 @@ author_profile: true
   + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)   
 
 ## Часть IV - Настройка Luma3DS
-<a name="part4" />
 
 1. Устройство загрузится
 	+ Если окно конфигуратора не появляется и приставка сразу запускается в меню HOME, переходите к следующей части
@@ -102,7 +94,6 @@ author_profile: true
 	+ Нажмите (START), чтобы сохранить настройки и перезагрузиться
 
 ## Часть V - CTRNAND Luma3DS
-<a name="part5" />
 
 Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки (START) при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку (A) для выбора "GodMode9" при выполнении этих инструкций.
 {: .notice--info}

@@ -10,7 +10,6 @@ permalink: /credits.html
 {: .notice--primary}
 
 Если я кого-то забыл, свяжитесь со мной и я добавлю ваше имя.
-{: .notice}
 
     • Al3x_10m
     • aliaspider

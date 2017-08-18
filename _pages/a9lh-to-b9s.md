@@ -1,5 +1,5 @@
 ---
-title: "Переход с a9lh на boot9strap" #
+title: "Переход с A9LH на boot9strap" #
 lang: ru
 permalink: a9lh-to-b9s.html
 author_profile: true
@@ -7,10 +7,8 @@ author_profile: true
 {% include toc title="Разделы" %}
 
 Эта страница предназначена для пользователей arm9loaderhax, чтобы обновить их устройства до boot9strap.
-{: .notice--warning}
 
 Все будущие релизы Luma3DS будут только в формате `.firm`, который будет совместим только с boot9strap и sighax. Это означает, что для того, чтобы продолжать получать последние обновления Luma3DS, вы должны использовать эту страницу для обновления установки.
-{: .notice--info}
 
 Если в Luma3DS вы используете PIN-код, то при работе SafeB9SInstaller вы получите ошибку "OTP Crypto Fail". Для решения этой проблемы временно откажитесь от использования PIN-кода (вы сможете включить его обратно после обновления).
 {: .notice--warning}
@@ -39,7 +37,6 @@ author_profile: true
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ## Что понадобится
-<a name="what_need" />
 
 Обратите внимание, что требуемый ниже файл с именем `secret_sector.bin` это тот же, что присутствовал в различных версиях архива `data_input.zip`. Если у вас уже есть этот файл где-то на диске, вы можете использовать его, вместо загрузки файла ниже.
 {: .notice--info}
@@ -52,15 +49,13 @@ author_profile: true
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
+* HOMEbrew [STARTer Kit](http://smealum.github.io/ninjhax2/STARTer.zip)
 * Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
 * [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9)
 
 ## Инструкция
-<a name="instructions" />
 
 #### Часть I - Подготовительные работы
-<a name="part1" />
 
 Для всех шагов в этой части перезаписывайте любые существующие файлы на SD-карте.
 {: .notice--info}
@@ -68,7 +63,7 @@ author_profile: true
 1. Перейдите в Системные настройки (System Settings), Управление данными (Data Managment), Nintendo 3DS, Программы (Software) и удалите Luma3DS Updater
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Скопируйте _содержимое_ архива `starter.zip` в корень SD-карты
+1. Скопируйте _содержимое_ архива `STARTer.zip` в корень SD-карты
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Создайте папку `cias` в корне SD-карты
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
@@ -78,7 +73,7 @@ author_profile: true
 1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
 1. Скопируйте `setup_ctrnand_luma3ds.gm9` в папку `/gm9/scripts/` на SD-карте
 1. Скопируйте `SafeB9SInstaller.bin` из `.zip-архива` SafeB9SInstaller в папку `/luma/payloads/` на SD-карте
-1. Переименуйте`SafeB9SInstaller.bin` в папке `/luma/payloads/` на SD-карте в `start_SafeB9SInstaller.bin`
+1. Переименуйте`SafeB9SInstaller.bin` в папке `/luma/payloads/` на SD-карте в `START_SafeB9SInstaller.bin`
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива`boot9strap в папку `/boot9strap/` в корне SD-карты
 1. **Только для пользователей New 3DS:** Скопируйте `secret_sector.bin` в папку `/boot9strap/` на SD-карте
 
@@ -89,10 +84,9 @@ author_profile: true
 1. Вставьте SD-карту обратно в консоль
 
 #### Часть II - Установка boot9strap
-<a name="part2" />
 
 1. Включите консоль кнопкой питания, держа нажатой кнопку (START), чтобы запустить меню Luma3DS chainloader
-  + Некоторые версии Luma3DS будут напрямую запускать любое приложение, начинающееся со `start_`. Если вместо меню chainloader запускается SafeB9SInstaller, просто следуйте инструкции.
+  + Некоторые версии Luma3DS будут напрямую запускать любое приложение, начинающееся со `START_`. Если вместо меню chainloader запускается SafeB9SInstaller, просто следуйте инструкции.
 1. Запустите SafeB9SInstaller, нажав кнопку (A) на нём
   + При возникновении ошибки попробуйте использовать другую SD-карту, или отформатировать имеющуюся (предварительно сделав резервную копию всего её содержимого)
 1. Дождитесь окончания всех проверок безопасности
@@ -102,7 +96,6 @@ author_profile: true
   + Если ваше устройство выключается при загрузке, убедитесь что вы скопировали `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 
 #### Часть III - Настройка Luma3DS
-<a name="part3" />
 
 Этот раздел требуется только в том случае, если после перезагрузки появилось меню настроек Luma3DS.
 {: .notice--info}
@@ -122,7 +115,6 @@ author_profile: true
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
 
 #### Часть IV - CTRNAND Luma3DS
-<a name="part4" />
 
 Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки (START) при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку (A) для выбора "GodMode9" при выполнении этих инструкций.
 {: .notice--info}
@@ -132,7 +124,7 @@ author_profile: true
 
 1. Запустите GodMode9, удерживая (START) во время включения приставки
 1. Если вам предложат создать бэкап важных файлов, нажмите кнопку (A) чтобы сделать это, затем нажмите (A) чтобы продолжить после завершения
-1. Нажмите (Home), чтобы попасть в меню действий
+1. Нажмите (HOME), чтобы попасть в меню действий
 1. Выберите "More..."
 1. Выберите "Scripts..."
 1. Выберите "setup_ctrnand_luma3ds"
@@ -143,7 +135,6 @@ author_profile: true
 1. Нажмите (START) для перезагрузки
 
 #### Часть V - Установка Luma3DS Updater
-<a name="part5" />
 
 1. Запустите FBI
 1. Перейдите в `SD` -> `cias`

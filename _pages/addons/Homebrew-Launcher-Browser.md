@@ -1,33 +1,29 @@
 ---
-title: "Homebrew Launcher (используя браузер)"
-permalink: /homebrew-launcher-browser.html
+title: "HOMEbrew Launcher (используя браузер)"
+permalink: /HOMEbrew-launcher-browser.html
 author_profile: true
 ---
 {% include toc title="Разделы" %}
 
-**Это рудиментарная инструкция! В данный момент наиболее простым способом запуска Hombrew Launcher на прошивках от 9.0.0 до 11.3 включительно, является [Soundhax](homebrew-launcher-soundhax)**
+**Это рудиментарная инструкция! В данный момент наиболее простым способом запуска Hombrew Launcher на прошивках от 9.0.0 до 11.3 включительно, является [Soundhax](HOMEbrew-launcher-soundhax)**
 {: .notice--warning}
 
 **Browserhax работает для приставок следующих регионов:  EUR / JPN / USA / KOR.**
 {: .notice--warning}
 
 ## Что понадобится
-<a name="what_need" />
 
-+ The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
++ The HOMEbrew [STARTer Kit](http://smealum.github.io/ninjhax2/STARTer.zip)
 + Настроенное и рабочее интернет-соединение. 
 
 ## Инструкция
-<a name="instructions" />
 
 #### Подготовительные работы
-<a name="part1" />
 
-1. Скопируйте _содержимое_ папки starter из архива `starter.zip` в корень вашей карты памяти.   
+1. Скопируйте _содержимое_ папки STARTer из архива `STARTer.zip` в корень вашей карты памяти.   
 2. Вставьте карту памяти в приставку.
 
 #### Блокировка conntest.nintendowifi.net
-<a name="part2" />
 
 Эта часть полезна только для New 3DS с версией прошивки 10.7.0 и 11.0.0
 {: .notice--info}
@@ -63,7 +59,6 @@ author_profile: true
 1. Переименуйте скачанный файл в `browserhax_hblauncher_ropbin_payload.bin` и поместите его в корень карты памяти. 
 
 #### browserhax
-<a name="part3" />
 
 1. Перейдите по ссылке `http://yls8.mtheall.com/3dsbrowserhax_auto.php`, либо его сокращенной  версии - `https://goo.gl/d0YhK9`.
 
@@ -77,11 +72,11 @@ author_profile: true
     {: .notice--info}
 
 	+ Если выскочит ошибка, перейдите в раздел [проблемы и их решения](troubleshooting#ts_browser).
-1. Приставка должна загрузиться в Homebrew Launcher.
-	+ Если вы воспользовались способом из части III и заблокировали conntest.nintendowifi.net (или его IP), снимите блокировки сразу, как войдете в homebrew launcher.
+1. Приставка должна загрузиться в HOMEbrew Launcher.
+	+ Если вы воспользовались способом из части III и заблокировали conntest.nintendowifi.net (или его IP), снимите блокировки сразу, как войдете в HOMEbrew launcher.
 	
 ___
 
-Следующий шаг: [Установка boot9strap (Homebrew Launcher)](installing-boot9strap-homebrew-launcher)
+Следующий шаг: [Установка boot9strap (HOMEbrew Launcher)](installing-boot9strap-HOMEbrew-launcher)
 {: .notice--primary}
 

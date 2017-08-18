@@ -1,22 +1,18 @@
 ---
 title: "Начнем (New 3DS и New 2DS)"
-permalink: /get-started-new-3ds.html
+permalink: /get-STARTed-new-3ds.html
 author_profile: true
 ---
 
 {% include toc title="Разделы" %}
 
-Обратите внимание, что столбцы "С" и "По" обозначают границы диапазона. Это означает, к примеру, что диапазон "с 9.0.0 по 9.2.0" включает в себя 9.0.0, 9.1.0 и 9.2.0.
-{: .notice--info}
+Обратите внимание, что столбцы "С" и "По" обозначают границы диапазона. Это означает, к примеру, что диапазон "с 9.0.0 по 9.2.0" включает в себя 9.0.0, 9.1.0 и 9.2.0. 
 
 Последнее число в версии вашей системы (после дефиса) относится к версии браузера. В настоящее время для New 3DS и New 2DS версия браузера не имеет значения.
-{: .notice--info}
 
 Любую версию системного ПО можно обновить на более высокую из этой же колонки [с помощью картриджа](cart-update) и после этого продолжать выполнять инструкцию. 
-{: .notice--info}
 
 Версия программного обеспечения вашего устройства отображается в правом нижнем углу верхнего экрана в приложении Системные настройки (System settings).
-{: .notice--success}
 
 ![]({{ base_path }}/images/screenshots/system-version.png)
 {: .text-center}
@@ -63,7 +59,7 @@ author_profile: true
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>
       <td style="text-align: center; font-weight: bold;">11.3.0</td>
-        <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-soundhax">Homebrew Launcher (Soundhax)</a></td>
+        <td style="text-align: center; font-weight: bold;"><a href="HOMEbrew-launcher-soundhax">HOMEbrew Launcher (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>

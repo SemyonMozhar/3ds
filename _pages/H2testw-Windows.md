@@ -6,13 +6,10 @@ author_profile: true
 {% include toc title="Разделы" %}
 
 Этот дополнительный раздел содержит информацию о проверке SD-карты на ошибки с помощью F3.
-{: .notice--info}
 
 В зависимости от размера SD-карты и скорости компьютера этот процесс может занять до нескольких часов!
-{: .notice--info}
 
 Этот раздел предназначен для пользователей Windows. Если у вас не Windows, воспользуйтесь F3 (linux)](f3-linux) или [F3X (mac)](f3x-mac).
-{: .notice--info}
 
 ## Что понадобится
 <a name="what_need" /> 
@@ -20,7 +17,6 @@ author_profile: true
 * Свежая версия [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
 ## Инструкция
-<a name="instructions" />
 
 1. Скопируйте `h2testw.exe` из `.zip-архива` с h2testw на рабочий стол
 2. Вставьте SD-карту в компьютер
@@ -40,6 +36,6 @@ ___
 При любом другом результате SD-карта скорее всего повреждена и её стоит заменить!
 {: .notice--danger}
 
-Вернуться к [Началу](get-started)
+Вернуться к [Началу](get-STARTed)
 {: .notice--success}
 

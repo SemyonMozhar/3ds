@@ -7,26 +7,21 @@ author_profile: true
 {% include toc title="Разделы" %}
 
 Это руководство для тех, кто хочет внедрить b9s в уже снятый дамп. Руководство по изготовлению хардмода и снятию дампа находится [здесь](making-hardmod)
-{: .notice--info}
 
-Это рабочая реализация "FIRM partitions known-plaintext"-эксплойта. Подробнее о нем [здесь](https://www.3dbrew.org/wiki/3DS_System_Flaws) (англ.).
-{: .notice--info}
+Это рабочая реализация "FIRM partitions known-plaintext"-эксплойта. Подробнее о нем [здесь](https://www.3dbrew.org/wiki/3DS_System_Flaws) (англ.)
 
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--success}
 
-Этот метод совместим со всеми устройствами (New 3DS, New 2DS, Old 3DS, и Old 2DS) *всех* версий, для которых у вас есть соответствующий `.firm`.
-{: .notice--success}
+Этот метод совместим со всеми устройствами семейства 3DS *всех* версий, для которых у вас есть соответствующий `.firm`.
 
 ## Что понадобится
-<a name="what_need" />
 
 * Полученный с помощью [хардмода](making-hardmod) образ NAND
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest)
   + Пользователи Windows могут воспользоваться скомпилированным `.exe-файлом`, когда как пользователям Mac и Linux нужно иметь в системе установленный [Python 3](https://www.python.org/downloads/) для запуска `.py-файлов`
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
-* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
+* HOMEbrew [STARTer Kit](http://smealum.github.io/ninjhax2/STARTer.zip)
 * `.firm`, соответствующий версии вашего устройства и версии ПО:
 
 | Версия(и) | Kernel | Old 3DS или Old 2DS | New 3DS или New 2DS|
@@ -61,13 +56,11 @@ author_profile: true
 | 11.4.0 - 11.5.0 | 2.54-0 | [`2.54-0_11.4_OLD.firm`](magnet:?xt=urn:btih:0dd89d42ad711f770da899af05ee162ede0d0070&dn=2.54-0_11.4_OLD.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce) | [`2.54-0_11.4_NEW.firm`](magnet:?xt=urn:btih:3b59dd43eec3edb133555f58d1180bfb196acbb4&dn=2.54-0_11.4_NEW.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce) |
 
 ## Инструкция
-<a name="instructions" />
 
 #### Часть I - Подготовительные работы
-<a name="part1" />
 
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
-1. Скопируйте _содержимое_ архива `starter.zip` в корень SD-карты
+1. Скопируйте _содержимое_ архива `STARTer.zip` в корень SD-карты
 1. Скопируйте папку hardmod-b9s-installer из`.zip-архива` hardmod-b9s-installer на ваш компьютер
 1. Скопируйте загруженный `.firm` в папку hardmod-b9s-installer на вашем компьютере
 1. Переименуйте загруженный `.firm` в папке hardmod-b9s-installer в `current.firm`
@@ -75,16 +68,32 @@ author_profile: true
 1. Скопируйте ваш дамп NAND (полученный при помощи хардмода) в папку hardmod-b9s-installer на вашем компьютере и назовите его `NAND.bin`
 
 #### Часть II - Установка boot9strap
-<a name="part2" />
 
 1. Запустите hardmod-b9s-installer
   + Пользователи Windows: Запустите `install-b9s.exe`
   + Пользователи Mac и Linux: Запустите `install-b9s.py`
-1. Прошейте получившийся `NAND-patched.bin` обратно в ваше устройство, используя хардмод
-1. Перезагрузите устройство
 
-#### Часть III - Настройка Luma3DS
-<a name="part3" />
+#### Часть III - Прошивка патченного образа в приставку
+
+1. Поставьте отключенную приставку на зарядку. 
+1. Вставьте припаянный переходник в кардридер и включите приставку. **КАРТРИДЕР ДОЛЖЕН БЫТЬ ОТКЛЮЧЕН ОТ КОМПЬЮТЕРА!!!**
+1. Оба экрана должны светиться синим
+
+    ![]({{ base_path }}/images/ifixit/bsod.jpg)
+	{: .text-center}
+    {: .notice--info}
+
+1. На этой стадии вы уже можете считывать/записывать NAND. **Не выключайте консоль и подключайте ридер в USB порт вашего компьютера.**
+1. На компьютере, кликните правой кнопкой мыши на значок `win32diskimage` и выберите «Запуск от имени администратора». Введите пароль администратора, если требуется, и программа запуститься.
+1. Перейдите в папку hardmod-b9s-installer и выберите файл `NAND-patched.bin`
+1. Нажмите кнопку "Write" и ожидайте окончания процесса записи пропатченного NAND в приставку
+1. После окончания записи, вытащите SD-карту хардмода из картридера и перезагрузите приставку с зажатым (SELECT)
+1. Должно появиться меню настройки Luma3DS
+	+ Если вместо меню вы видите синий экран - у вас замыкают провода хардмода, либо вы не вытащили SD-карту хардмода из картридера.
+	+ Если приставка не включается, а загорается синий диод и вы слышите характерный щелчок из динамика, у вас плохо вставлен какой-то из шлейфов, либо вы повредили его или коннектор
+	+ Если приставка не загружается, возможно вы прошили неверный firm. Переделывайте.
+	
+#### Часть IV - Настройка Luma3DS
 
 1. Устройство загрузится в меню настройки Luma3DS
   + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)
@@ -102,9 +111,11 @@ author_profile: true
 	
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
   + Если появляется ошибка, просто переходите к следующей странице
+  
+Только убедившись, что все работает и приставка успешно прошита, можете отпаивать провода и собирать устройство.
+{: .notice--success}
 
 ___
 
 Следующий шаг: [Завершение установки](finalizing-setup)
 {: .notice--success}
-

@@ -19,11 +19,11 @@ author_profile: true
 {: .notice--danger}
 
 ## Что понадобится
-<a name="what_need" />
 
-* Две консоли
+* Две приставки семейства 3DS
   + **Исходная 3DS**: 3DS с кастомной прошивкой (boot9strap или arm9loaderhax) *с последней версией системного ПО*
-  + **Целевая 3DS**: 3DS с официальной прошивкой *11.5.0*
+  + **Целевая 3DS**: 3DS с не взломаной прошивкой последней версии (если у вас 11.4.0 - обновите ее до последней версией системного ПО)
+  + Обе приставки должны быть одного региона и иметь доступ в eShop
 * Купленная DSiWare игра из списка ниже (пиратская копия **не** будет работать) на **исходной 3DS**
   + **Fieldrunners**
   + **Legends of Exidia**
@@ -34,16 +34,14 @@ author_profile: true
 * Свежая версия [b9sTool](https://github.com/Plailect/b9sTool/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
-* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
+* HOMEbrew [STARTer Kit](http://smealum.github.io/ninjhax2/STARTer.zip)
 * 11.5.0 `.firm` соответствующий **целевой 3DS** (они идентичны таковым от прошивки 11.4, пусть это вас не смущает)
-  + [`2.54-0_11.4_OLD.firm`](magnet:?xt=urn:btih:0dd89d42ad711f770da899af05ee162ede0d0070&dn=2.54-0_11.4_OLD.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-  + [`2.54-0_11.4_NEW.firm`](magnet:?xt=urn:btih:3b59dd43eec3edb133555f58d1180bfb196acbb4&dn=2.54-0_11.4_NEW.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+  + <i class="fa fa-magnet" aria-hidden="true" title="Это магнитная ссылка. Используйте торрент-клиент для работы с ней."></i> - [`2.54-0_11.4_OLD.firm`](magnet:?xt=urn:btih:0dd89d42ad711f770da899af05ee162ede0d0070&dn=2.54-0_11.4_OLD.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+  + <i class="fa fa-magnet" aria-hidden="true" title="Это магнитная ссылка. Используйте торрент-клиент для работы с ней."></i> - [`2.54-0_11.4_NEW.firm`](magnet:?xt=urn:btih:3b59dd43eec3edb133555f58d1180bfb196acbb4&dn=2.54-0_11.4_NEW.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 
 ## Инструкция
-<a name="instructions" />
 
 #### Часть I - Подготовительные работы
-<a name="part1" />
 
 Используйте [save manager](https://github.com/J-D-K/JKSM/releases/latest) для того, чтобы сделать резервные копии всех важных сохранений на *целевой 3DS* (приставка будет отформатирована!)
 {: .notice--warning}
@@ -77,7 +75,6 @@ author_profile: true
 1. Нажмите (START) на **исходной 3DS** для перезагрузки
 
 #### Часть II - Установка сохранения
-<a name="part2" />
 
 1. Включите **исходную 3DS** кнопкой питания, держа нажатой кнопку (START), чтобы запустить GodMode9
 1. Перейдите в `[0:] SDCARD`
@@ -106,14 +103,13 @@ author_profile: true
 1. Проверьте, работает ли сохранение
   + **Fieldrunners**: коснитесь кнопки 'Scores' в главном меню
   + **Legends of Exidia**: после того, как нажмёте (A) или (START) и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue)
-  + **Guitar Rock Tour**: листайте вниз и перейдите в High-Scores -> Drums -> Easy    
+  + **Guitar Rock Tour**: листайте ВНИЗ и перейдите в High-Scores -> Drums -> Easy    
   + **The Legend of Zelda: Four Swords**: Просто начните игру
   + Если игра завершается с ошибкой о `boot.nds`, либо просто появляется белый экран, **значит эксплойт сработал успешно!**
   + Если игра работает нормально безо всяких ошибок, значит вам следует остановится и выяснить на каком этапе вы допустили оплошность
   + Если появляется черный экран, обратитесь к разделу с [проблемами и их решениями](troubleshooting#twl_broken)
 
 #### Часть III - Перенос системы
-<a name="part3" />
 
 1. **Сохраните файлы с обеих SD-карт в разные папки на компьютере (назовите папки таким образом, чтобы понимать какие файлы откуда!)**
 1. Вставьте SD-карты обратно в соответствующие 3DS
@@ -132,7 +128,6 @@ author_profile: true
 1. Перейдите по [этой ссылке](http://www.nintendo.ru/-/Nintendo-2DS-Nintendo-3DS/-Nintendo-3DS-Nintendo-3DS-XL-/-Nintendo-3DS-Nintendo-3DS-XL/-Nintendo-3DS-Nintendo-3DS-XL-592201.html) ([та же информация, но на английском](http://en-americas-support.nintendo.com/app/answers/detail/a_id/227/)) и следуйте официальным инструкциям от nintendo, держа в голове то, что вы прочитали чуть выше
 
 #### Часть IV - Восстановление исходной 3DS
-<a name="part4" />
 
 Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки (START) при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку (A) для выбора "GodMode9" при выполнении этих инструкций.
 {: .notice--info}
@@ -154,11 +149,10 @@ author_profile: true
 1. Нажмите (A) чтобы восстановить запрет на запись, если появится запрос1. Нажмите (START) для того, чтобы перезагрузить **исходную 3DS**
 
 #### Часть V - Резервное копирование FIRM целевой 3DS
-<a name="part5" />
 
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
-1. Скопируйте `boot.nds` в корень SD-карты **целевой 3DS**
-1. Скопируйте _содержимое_ архива `starter.zip` в корень SD-карты
+1. Скопируйте `boot.nds` (B9STool) в корень SD-карты **целевой 3DS**
+1. Скопируйте _содержимое_ архива `STARTer.zip` в корень SD-карты
 1. Создайте папку `boot9strap` в корне SD-карты **целевой 3DS**
 1. Скопируйте `.firm` от 11.5, соответствующий **целевой 3DS** в папку `boot9strap`на SD-карте **целевой 3DS**
 1. Скопируйте `boot9strap.firm` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты
@@ -166,16 +160,15 @@ author_profile: true
 1. Запустите b9sTool, используя инфицированную DSiWare-игру
   + **Fieldrunners**: коснитесь кнопки 'Scores' в главном меню
   + **Legends of Exidia**: после того, как нажмёте (A) или (START) и пропустите два игровых экрана, выберите первый слот сохранения и нажмите продолжить (continue)
-  + **Guitar Rock Tour**: листайте вниз и перейдите в High-Scores -> Drums -> Easy
+  + **Guitar Rock Tour**: листайте ВНИЗ и перейдите в High-Scores -> Drums -> Easy
   + **The Legend of Zelda: Four Swords**: Просто начните игру
 1. Выберите "Dump f0f1", чтобы сделать резервную копию FIRM **целевой 3DS**
 1. Закройте b9sTool
   + При необходимости выключите приставку, удерживая кнопку питания
-1. Вставьте SD-карту в компьютер и скопируйте `F0F1_N3DS.bin` или `F0F1_O3DS.bin`(в зависимости от типа вашего устройства) из папки `bot9strap` в безопасное место; сделайте их резервные копии в нескольких местах; эти файлы помогут вам восстановить приставку в случае брика, если что-то пойдет не так
+1. Вставьте SD-карту в компьютер и скопируйте `F0F1_NEW3DS.bin` или `F0F1_OLD3DS.bin`(в зависимости от типа вашего устройства) из папки `bot9strap` в безопасное место; сделайте их резервные копии в нескольких местах; эти файлы помогут вам восстановить приставку в случае брика, если что-то пойдет не так
 1. Вставьте SD-карту обратно в *целевую 3DS*
 
 #### Часть VI - Прошивка FIRM целевой 3DS
-<a name="part6" />
 
 **Используйте b9sTool ТОЛЬКО на целевой приставке. Использование этой программы на консоли с arm9loaderhax приведет к БРИКУ!**
 {: .notice--danger}
@@ -184,7 +177,7 @@ author_profile: true
 1. Запустите b9sTool, используя DSiWare игру
   + **Fieldrunners**: коснитесь кнопки 'Scores' в главном меню
   + **Legends of Exidia**: После нажатия (A), либо (START) на двух первых экранах, выберите первый слот и нажмите "continue"
-  + **Guitar Rock Tour**: пролистайте вниз и перейдите в High-Scores -> Drums -> Easy
+  + **Guitar Rock Tour**: пролистайте ВНИЗ и перейдите в High-Scores -> Drums -> Easy
   + **The Legend of Zelda: Four Swords**: Просто начните игру
 1. Выберите "Install boot9strap" и подтвердите выбор
 1. Закройте b9sTool, затем выключите консоль
@@ -192,7 +185,6 @@ author_profile: true
 1. Включите приставку
 
 #### Часть VII - Настройка Luma3DS
-<a name="part7" />
 
 1. Устройство загрузится в меню настройки Luma3DS
   + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)

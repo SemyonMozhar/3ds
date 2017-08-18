@@ -7,23 +7,20 @@ author_profile: true
 {% include toc title="Разделы" %}
 
 ## Что понадобится
-<a name="what_need" />
 
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(стандартный boot9strap; не `devkit-файл`, не `ntr-файл` и не `devkit-ntr-файл`)*
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
-* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
+* HOMEbrew [STARTer Kit](http://smealum.github.io/ninjhax2/STARTer.zip)
 
 ## Инструкция
-<a name="instructions" />
 
 #### Часть I - Подготовительные работы
-<a name="part1" />
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
-1. Скопируйте _содержимое_ архива `starter.zip` в корень SD-карты
+1. Скопируйте _содержимое_ архива `STARTer.zip` в корень SD-карты
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты
 1. Скопируйте `arm9.bin` и `arm11.bin` из `.zip-архива` SafeB9SInstaller в корень SD-карты
@@ -35,7 +32,6 @@ author_profile: true
 1. Включите консоль
 
 #### Часть II - Запуск SafeB9SInstaller
-<a name="part2" />
 
 1. Запустите браузер на консоли и перейдите по ссылке:
   + `http://2xrsa.3ds.guide`
@@ -46,14 +42,12 @@ author_profile: true
 1. Если эксплойт сработал, запустится SafeB9SInstaller
 
 #### Часть III - Установка boot9strap
-<a name="part3" />
 
 1. Дождитесь окончания всех проверок безопасности
 1. При появлении запроса, введите указанную комбинацию кнопок для установки boot9strap
 1. После завершения процесса, нажмите (A) для перезагрузки
 
 #### Часть IV - Настройка Luma3DS
-<a name="part4" />
 
 1. Устройство загрузится в меню настройки Luma3DS
   + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)

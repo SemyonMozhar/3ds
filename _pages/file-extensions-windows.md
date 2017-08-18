@@ -7,16 +7,12 @@ author_profile: true
 {% include toc title="Разделы" %}
 
 Это дополнительный раздел поможет включить в Windows отображение скрытых файлов, что поможет вам отыскать необходимые файлы в других частях руководства.
-{: .notice--info}
 
 Это упростит вам поиск файлов в других частях руководства.
-{: .notice--info}
 
 #### Инструкция
-<a name="instructions" />
 
 ## Windows 10 / 8.1 / 8
-<a name="win10" />
 
 1. Запустите Проводник, открыв любую папку, например папку вашей SD-карты
 1. Нажмите кнопку "Вид" в меню 
@@ -27,12 +23,11 @@ author_profile: true
     {: .notice--info}
 
 ## Windows 7
-<a name="win7" />
 
 1. Откройте меню Пуск, нажав на него, или с помощью клавиши Windows
 1. Введите в поле для поиска "Параметры папок" и выберите соответствующий результат
 
-    ![]({{ base_path }}/images/screenshots/windows-7-folder-options-start-menu.png)
+    ![]({{ base_path }}/images/screenshots/windows-7-folder-options-START-menu.png)
 	{: .text-center}
     {: .notice--info}
 
@@ -43,6 +38,6 @@ author_profile: true
 	{: .text-center}
     {: .notice--info}
 
-Вернитесь к [Началу](get-started)
+Вернитесь к [Началу](get-STARTed)
 {: .notice--success}
 

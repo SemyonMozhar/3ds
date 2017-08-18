@@ -6,16 +6,13 @@ author_profile: true
 {% include toc title="Разделы" %}
 
 Для использования [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme)-ссылок в этом руководстве необходим torrent-клиент, например [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--success}
 
-**Этот метод работает ТОЛЬКО на японских New 3DS!**
-{: .notice--warning}
+Этот метод работает ТОЛЬКО на японских New 3DS!
 
 ## Что понадобится
-<a name="what_need" />
 
 * [JPN Cubic Ninja](https://www.amazon.com/dp/B004QL7M0A)
-* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
+* HOMEbrew [STARTer Kit](http://smealum.github.io/ninjhax2/STARTer.zip)
 * <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [`3ds-private-update-server.zip`](magnet:?xt=urn:btih:8623e580752f22940d96630ef723ce30a707b22e&dn=3ds-private-update-server.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.piratepublic.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.kicks-ass.net%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce)
 * [WAMPSERVER (PHP 5.5) 2.5](http://www.wampserver.com/en/#download-wrapper)
 * [`node.exe`](http://nodejs.org/dist/latest/win-x86/node.exe)
@@ -26,10 +23,8 @@ author_profile: true
  +    <i class="fa fa-magnet" aria-hidden="true" title="Это magnet-ссылка. Воспользуйтесь торрент-клиентом, чтобы скачать этот файл."></i> - [New 3DS 9.2.0 - JPN](magnet:?xt=urn:btih:c8630ed31b53637b9023bd4dc1ce38362bb8ecd9&dn=9.2.0-20J%28Full%29%5Fn3DS.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.piratepublic.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.kicks-ass.net%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.kicks-ass.net%2Fannounce)     
 
 ## Инструкция
-<a name="instructions" />
 
 #### Часть I - Подготовительные работы
-<a name="part1" />
 
 1. Установите WAMP в папку по умолчанию
 1. Скопируйте содержимое `3ds-private-update-server.zip` в папку `C:\wamp\www\` *(согласитесь на перезапись всех файлов)*
@@ -44,7 +39,7 @@ author_profile: true
 1. В Windows нажмите Win+R и в появившейся строке наберите "CMD".
 1. В командной строке выполните команду `ipconfig /all`, чтобы узнайте IPv4 адрес вашего компьютера, он вам скоро понадобится
 1. Скопируйте `ntr.bin` в корень SD-карты
-1. Скопируйте _содержимое_ архива `starter.zip` в корень вашей SD-карты
+1. Скопируйте _содержимое_ архива `STARTer.zip` в корень вашей SD-карты
 1. Вставьте SD-карту обратно в консоль
 
 #### Часть II - Обновление
@@ -64,10 +59,9 @@ author_profile: true
     + `write(0x15E424, tuple(map(ord, "http://YYY.YYY.YYY.YYY/update.php\0")), pid=0x25)`
     + `write(0x15E0EC, tuple(map(ord, "http://YYY.YYY.YYY.YYY/update.php\0")), pid=0x25)`
     + `write(0x15E463, tuple(map(ord, "http://YYY.YYY.YYY.YYY/update.php\0")), pid=0x25)`
-1. Обновите прошивку консоли, зайдя в Системные настройки (System Settings), затем "Прочие настройки" (Other Settings), затем листайте вправо до конца и выберите пункт "Обновление" (System Update)
+1. Обновите прошивку консоли, зайдя в Системные настройки (System Settings), затем "Прочие настройки" (Other Settings), затем листайте ВПРАВО до конца и выберите пункт "Обновление" (System Update)
 
 ___
 
-Следующий шаг: [Установка boot9strap (Homebrew Launcher)](installing-boot9strap-homebrew-launcher)
+Следующий шаг: [Установка boot9strap (HOMEbrew Launcher)](installing-boot9strap-HOMEbrew-launcher)
 {: .notice--success}
-

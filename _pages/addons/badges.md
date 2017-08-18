@@ -15,16 +15,15 @@ author_profile: true
 * Установленный и рабочий [b9s](updating-b9s) последней версии 
 * Свежая версия [GYTB](https://github.com/MrCheeze/GYTB) (пролистайте страницу программы чуть ниже: 3DSX format (Ninjhax etc.))
 * Пак с жетонами. Можете взять [мой](https://goo.gl/KWHtCH), можете поискать [тут](https://badges.themeplaza.eu/) или [тут](https://gbatemp.net/threads/nintendo-badge-arcade-badges-collection.405667/).
-* Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
+* HOMEbrew [STARTer Kit](http://smealum.github.io/ninjhax2/STARTer.zip)
 
 ## Часть I - Интеграция hblauncher loader
-<a name="part1" />
 
 Запустите [hombrew launcher loader](https://github.com/yellows8/hblauncher_loader/releases/latest). , если он у вас установлен, вместо выполнения этой части. 
 {: .notice--info}
 
 1. Выключите приставку и вставьте SD-карту в ПК
-1. Скопируйте _содержимое_ архива `starter.zip` в корень SD-карты
+1. Скопируйте _содержимое_ архива `STARTer.zip` в корень SD-карты
 1. Вставьте SD-карту в приставку и включите 3DS
 1. Запустите приложение Загружаемая игра (Download Play)
 1. Нажмите (L) + (ВНИЗ) + (SELECT) одновременно чтобы открыть меню Rosalina
@@ -41,19 +40,18 @@ author_profile: true
 1. Нажмите (B) для выхода из главного меню Rosalina
 1. Нажмите (HOME), затем закройте приложение Загружаемая игра (Download Play)
 1. Запустите приложение Загружаемая игра (Download Play)
-1. Консоль должна загрузиться в Homebrew Launcher
+1. Консоль должна загрузиться в HOMEbrew Launcher
 
 ## Часть II - Установка жетонов через GTYB
 
 #### Способ I: Установка жетонов через GTYB
-<a name="part2a" />
 
 1. Вставьте карту памяти приставки в ПК
 1. Скопируйте **содержимое** архива с GYTB в корень карты памяти и согласитесь с заменой
 1. Скопируйте скачанные жетоны в папку `\3ds\GYTB\badges` таким образом, чтобы файлы жетонов (картинки в формате `.png`) находились в папке `badges`
 1. Запустите hblauncher loader
- + Если Homebrew Launcher не запускается, убедитесь что у вас включен Wi-Fi, стоит свежая версия hblloader и luma3DS
- + Если вместо Homebrew Launcher запускается Загружаемая игра (Download play), отключите приставку, удерживая кнопку включения, и заново запустите Homebrew Launcher
+ + Если HOMEbrew Launcher не запускается, убедитесь что у вас включен Wi-Fi, стоит свежая версия hblloader и luma3DS
+ + Если вместо HOMEbrew Launcher запускается Загружаемая игра (Download play), отключите приставку, удерживая кнопку включения, и заново запустите HOMEbrew Launcher
 1. Запустите GYTB
 	+ Если приложение показывает ошибку, воспользуйтесь [способом ниже](badges#part2b)
 1. Дождитесь окончания процесса создания мета-файлов. Это может занять много времени, если у вас много жетонов
@@ -67,7 +65,7 @@ author_profile: true
 Этот способ установит мой пак жетонов. После выполнения этого способа, GTYB снова будет работать и вы сможете добавить жетоны по вашему вкусу, используя [Способ I](badges#part2a)
 {: .notice--info}
 
-1. Скачайте архив с файлами жетонов с [Я.Диска](https://yadi.sk/d/2mwMKtaZ3Kt4Hm) или [MEGA](https://mega.nz/#!0h0B2TaQ!95bjmMWYN1VHomezFLvtN9ThJATJfgxDQKd4_gGMbNk)
+1. Скачайте архив с файлами жетонов с [Я.Диска](https://yadi.sk/d/2mwMKtaZ3Kt4Hm) или [MEGA](https://mega.nz/#!0h0B2TaQ!95bjmMWYN1VHOMEzFLvtN9ThJATJfgxDQKd4_gGMbNk)
 1. Распакуйте архив `Badges.zip`, скачанный выше, в корень SD-карты вашей приставки
 1. Вставьте SD-карту в приставку и запустите 3DS
 1. Запустите FBI
@@ -80,7 +78,6 @@ author_profile: true
 1. Закройте FBI 
 
 ## Часть III - Завершение работы
-<a name="part3" />
 
 1. Для использования жетонов нажмите на иконку с домиков в верхнем правом углу нижнего экрана, находясь в на домашнем экране. 
 1. Нажмите "Прикрепить жетоны".

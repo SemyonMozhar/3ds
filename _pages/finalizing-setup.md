@@ -8,14 +8,11 @@ author_profile: true
 {% include toc title="Разделы" %}
 
 ## Описание шагов
-<a name="steps" />
-
-{% capture notice-2 %}
 
 Файл `boot.firm` - это то, что boot9strap запускает после загрузки из NAND, и этот файл может быть любым arm9-приложением. Этот файл может быть заменён когда угодно, однако Luma3DS позволяет запускать другие arm9 приложения в FIRM формате, используя свой загрузчик.
-<br><br>
+
 Мы используем Luma3DS от [AuroraWright](https://github.com/AuroraWright/), чтобы запускать пропатченный SysNAND напрямую, поэтому необходимость в каком-либо виде EmuNAND полностью пропадает, что значительно упрощает использование взломанной 3DS и экономит место на SD-карте.
-<br><br>
+
 В процессе мы установим и настроим следующие программы:    
 
 +  **FBI** *(установщик приложений и игр в формате CIA)*
@@ -23,14 +20,9 @@ author_profile: true
 +  **Luma3DS Updater** *(Удобное обновление CFW)*
 +  **GodMode9** *(многофункциональная утилита для работы с NAND и картриджами)*
 +  **freeshop** *(open source клон eShop, облегчающий поиск игр)*
-+  **Homebrew Launcher Loader** *(запускает Homebrew Launcher в качестве обычного приложения благодаря магии Rosalina)*
-
-{% endcapture %}
-
-<div class="notice--info">{{ notice-2 | markdownify }}</div>
++  **HOMEbrew Launcher Loader** *(запускает HOMEbrew Launcher в качестве обычного приложения благодаря магии Rosalina)*
 
 ## Что понадобится
-<a name="what_need" />
 
 * Свежая версия [Themely](https://github.com/ihaveamac/Themely/releases/latest) *(`.cia`-файл)*
 * Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
@@ -40,18 +32,16 @@ author_profile: true
 * Свежая версия [Luma3DS Update](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(`.cia` файл)*
 * Свежая версия [freeshop](https://notabug.org/arc13/freeShop/releases) *(`.cia` файл)*
 * [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9)
+* [`cleanup_sd_card.gm9`]({{ base_path }}/gm9_scripts/cleanup_sd_card.gm9)
 
 ## Инструкция
-<a name="instructions" />
 
 #### Часть I - Подготовительные работы
-<a name="part1" />
 
 1. Отключите приставку
 1. Вставьте SD-карту в компьютер
 1. Скопируйте `FBI.3dsx` в папку `/3ds/` на SD-карте
 1. Создайте папку `cias` в корне SD-карты, если таковой нет
-1. Создайте папку `hblauncherloader` в корне SD-карты, если таковой нет
 1. Скопируйте `hblauncher_loader.cia` из `.zip` архива hblauncher_loader в папку `/cias/` в корне SD-карты
 1. Скопируйте `lumaupdater.cia` в папку `/cias/` на SD-карте
 1. Скопируйте `Themely.cia` в папку `/cias/` на SD-карты
@@ -63,10 +53,11 @@ author_profile: true
 	{: .text-center}
     {: .notice--info}
 
-1. Создайте папку `payloads` в папке `luma` на SD-карте
+1. Создайте папку `payloads` в папке `luma` на SD-карте, если таковой нет
 1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
 1. Скопируйте папку `gm9` из `.zip-архива` `GodMode9` в корень SD-карты
 1. Скопируйте `setup_ctrnand_luma3ds.gm9` в папку `/gm9/scripts/` на SD-карте
+1. Скопируйте `cleanup_sd_card.gm9` в папку `/gm9/scripts/` на SD-карте
 
     ![]({{ base_path }}/images/screenshots/finalizing-setup-file-layout.png)
 	{: .text-center}
@@ -76,18 +67,16 @@ author_profile: true
 1. Включите приставку
 
 #### Часть II - Обновление системы
-<a name="part2" />
 
 Если прежде чем начать выполнять действия из этого руководства у вас уже был установлен EmuNAND и вы хотите перенести содержимое EmuNAND в SysNAND с кастомной прошивкой - сейчас самый подходящий момент. Выполните действия из раздела [перенос EmuNAND](move-emunand), перед выполнением этой части. Если EmuNAND у вас нет, или вы не знаете что это такое - просто следуйте руководству дальше. 
 {: .notice--info}
 
-1. Обновите прошивку консоли, зайдя в Системные настройки (System Settings), затем "Прочие настройки" (Other Settings), затем листайте вправо до конца и выберите пункт "Обновление" (System Update)
+1. Обновите прошивку консоли, зайдя в Системные настройки (System Settings), затем "Прочие настройки" (Other Settings), затем листайте ВПРАВО до конца и выберите пункт "Обновление" (System Update)
   + Обновление консоли с установленным B9S + Luma (установленых у вас) безопасно
   + При появлении ошибки, поставьте в настройках подключения, в настройках DNS "Получать DNS автоматически" в положение "Да"
   + Если вы все еще получаете ошибку и версия вашего NAND ниже 9.2.0, [выполните 9.2.0 CTRTransfer](9.2.0-ctrtransfer) и попробуйте обновиться еще раз
 
-#### Часть III - Интеграция Homebrew Launcher
-<a name="part3" />
+#### Часть III - Интеграция HOMEbrew Launcher
 
 1. Запустите приложение Загружаемая игра (Download Play)
 1. Нажмите (L) + (ВНИЗ) + (SELECT) одновременно чтобы открыть меню Rosalina
@@ -98,32 +87,29 @@ author_profile: true
 1. Нажмите (B) для выхода из главного меню Rosalina
 1. Нажмите (HOME), затем закройте приложение Загружаемая игра (Download Play)
 1. Запустите приложение Загружаемая игра (Download Play)
-1. Консоль должна загрузиться в Homebrew Launcher
+1. Консоль должна загрузиться в HOMEbrew Launcher
 
 #### Часть IV - Установка CIA
-<a name="part4" />
 
-1. Выберите FBI в списке homebrew
+1. Выберите FBI в списке HOMEbrew
 1. Перейдите в `SD` -> `cias`
 1. Выберите "\<current directory>"
 1. Выберите "Install and delete all CIAs" и нажмите (A) для подтверждения
 1. Нажмите (HOME), затем закройте приложение Загружаемая игра (Download Play)
 
 #### Часть V - DSP Dump
-<a name="part5" />
 
 1. Запустите приложение DSP1
 1. После завершения работы программы, нажмите (B), чтобы автоматически удалить программу из меню HOME
 
 #### Часть VI - CTRNAND Luma3DS
-<a name="part6" />
 
 Обратите внимание, что если у вас имеются другие файлы помимо `GodMode9.firm` в папке `/luma/payloads/` на SD-карте, удержание кнопки (START) при загрузке будет запускать "chainloader menu", где вам нужно будет использовать D-Pad и кнопку (A) для выбора "GodMode9" при выполнении этих инструкций.
 {: .notice--info}
 
 1. Запустите GodMode9, удерживая (START) во время включения приставки
 1. Если вам предложат создать бэкап важных файлов, нажмите кнопку (A) чтобы сделать это, затем нажмите (A) чтобы продолжить после завершения
-1. Нажмите (Home), чтобы попасть в меню действий
+1. Нажмите (HOME), чтобы попасть в меню действий
 1. Выберите "More..."
 1. Выберите "Scripts..."
 1. Выберите "setup_ctrnand_luma3ds"
@@ -133,7 +119,6 @@ author_profile: true
 1. Нажмите (A) чтобы вновь заблокировать права на запись
 
 #### Часть VII - Резервное копирование SysNAND
-<a name="nand_backup" />
 
 1. Дважды нажмите (B) для возврата в главное меню
 1. Нажмите кнопку (HOME) для вызова меню
@@ -153,13 +138,12 @@ author_profile: true
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
 
 #### Часть VIII - Настройка freeshop
-<a name="freeshop" />
 
 Приложение работает только при включенном интернете!
 {: .notice--info}
 
 1. Запустите консоль
-1. Запустите приложение freeshop из меню Home
+1. Запустите приложение freeshop из меню HOME
 1. Дождитесь пока программа обновится
 1. Перейдите в настройки программы. Для этого на нижнем экране нажмите вторую справа иконку в верхнем правом углу (в форме шестеренки)
 1. Перейдите во вкладку "Обновление"
@@ -178,7 +162,21 @@ author_profile: true
 {: .notice--warning}
 
 Установка приложений из freeshop происходит с помощью кнопки (X)
-{: .notice--info}
+
+##### Часть IX - Очистка SD-карты
+
+1. Нажмите кнопку (HOME) для вызова меню
+1. Выберите "More..."
+1. Выберите "Scripts..."
+1. Выберите "cleanup_sd_card"
+1. При появлении запроса, нажмите (A) для продолжения
+1. Нажмите (A), чтобы продолжить
+1. Нажмите (START) для перезагрузки
+
+После работы скрипта корень SD-карты будет выглядеть следующим образом: 
+
+![]({{ base_path }}/images/screenshots/final-file-layout.png)
+{: .text-center}
 
 ___
 
@@ -203,13 +201,6 @@ ___
 Для использования [NTR CFW](https://github.com/44670/BootNTR/), установите [BootNTR Selector](https://gbatemp.net/threads/432911/).
 {: .notice--info}
 
-{% capture notice-7 %}
-Удалите любые лишние файлы и папки из корня вашей SD-карты, которых *нет* на следующем изображении (если у вас есть папка DCIM, можете её оставить - в ней находятся фото, сделанные на 3DS):
-<br><br>
-![]({{ base_path }}/images/screenshots/final-file-layout.png)
-{: .text-center}
-{% endcapture %}
-
 <div class="notice--info">{{ notice-7 | markdownify }}</div>
 
 Чтобы узнать, как сменить регион своей консоли, обратитесь к разделу [Смена региона](region-changing).
@@ -221,7 +212,6 @@ ___
 Для справки об использовании различных функций Luma3DS обратитесь к её [вики](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage) (англ.).
 {: .notice--success}
 
-<a name="links" />
 Различные инструкции, не имеющие прямого отношения ко взлому, однако помогающие лучше изучить возможности 3DS на кастомной прошивке и эффективнее ей пользоваться находятся [здесь](addons).
 {: .notice--success}
 
