@@ -187,9 +187,9 @@ author_profile: true
     + Это увеличит частоту кадров в множестве игр, но может отразиться на стабильности других
     + Если какие-либо игры работают некорректно, отключите эту опцию
 	
-    ![]({{ base_path }}/images/screenshots/luma-settings.png)
-	  {: .text-center}
-    {: .notice--info}
+  ![]({{ base_path }}/images/screenshots/luma-settings.png)
+  {: .text-center}
+  {: .notice--info}
 	
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
   + Если появляется ошибка, просто переходите к следующей странице
