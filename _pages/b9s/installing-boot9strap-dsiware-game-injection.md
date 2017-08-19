@@ -188,7 +188,7 @@ author_profile: true
     + Если какие-либо игры работают некорректно, отключите эту опцию
 	
     ![]({{ base_path }}/images/screenshots/luma-settings.png)
-	{: .text-center}
+	  {: .text-center}
     {: .notice--info}
 	
 1. Нажмите (START), чтобы сохранить настройки и перезагрузиться
